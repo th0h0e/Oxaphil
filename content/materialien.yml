@@ -1,0 +1,21 @@
+title: Materialien
+description: Informationen zu POx als Plattform und den möglichen Anwendungen.
+seo:
+  title: Materialien
+  description: Informationen zu POx als Plattform und den möglichen Anwendungen.
+platform:
+  title: POx als Plattform
+  description: POx als vielseitige Materialplattform.
+  image:
+    src: /img/materialien-schema.png
+    alt: Chemisches Schema von POx als Materialplattform
+  content: |
+    Hier finden Sie ausführliche Informationen zu POx als Plattform.
+anwendungen:
+  title: Anwendungen
+  description: Mögliche Anwendungsfelder von POx.
+  image:
+    src: /img/materialien-anwendungen.png
+    alt: Übersicht der Anwendungsfelder von POx
+  content: |
+    Hier finden Sie ausführliche Informationen zu den Anwendungen.

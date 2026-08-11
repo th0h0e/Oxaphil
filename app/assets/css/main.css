@@ -10,6 +10,7 @@
 
 :root {
   --ui-container: var(--container-4xl);
+  --ui-radius: 0.125rem;
 
   ::selection {
     color: #282a30;
@@ -23,3 +24,4 @@
     background-color: #474747;
   }
 }
+

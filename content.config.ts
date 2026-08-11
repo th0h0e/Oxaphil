@@ -126,6 +126,101 @@ export default defineContentConfig({
         content: z.object({}),
         images: z.array(createImageSchema())
       })
+    }),
+    landing: defineCollection({
+      type: 'page',
+      source: 'landing.yml',
+      schema: z.object({
+        links: z.array(createButtonSchema())
+      })
+    }),
+    neuigkeiten: defineCollection({
+      type: 'page',
+      source: 'neuigkeiten.yml',
+      schema: z.object({
+        about: z.object({
+          title: z.string(),
+          logo: createImageSchema(),
+          content: z.string()
+        }),
+        items: z.array(z.object({
+          title: z.string(),
+          date: z.date(),
+          description: z.string(),
+          images: z.array(createImageSchema()),
+          to: z.string().optional()
+        }))
+      })
+    }),
+    materialien: defineCollection({
+      type: 'page',
+      source: 'materialien.yml',
+      schema: z.object({
+        platform: createBaseSchema().extend({
+          content: z.object({}),
+          image: createImageSchema()
+        }),
+        anwendungen: createBaseSchema().extend({
+          content: z.object({}),
+          image: createImageSchema()
+        })
+      })
+    }),
+    bestellung: defineCollection({
+      type: 'page',
+      source: 'bestellung.yml',
+      schema: z.object({
+        content: z.object({}),
+        product: z.object({
+          title: z.string(),
+          image: createImageSchema()
+        }),
+        contact: z.object({
+          name: z.string(),
+          role: z.string().optional(),
+          photo: createImageSchema()
+        }),
+        links: z.array(createButtonSchema())
+      })
+    }),
+    impressum: defineCollection({
+      type: 'page',
+      source: 'impressum-de.yml',
+      schema: z.object({
+        content: z.object({})
+      })
+    }),
+    datenschutz: defineCollection({
+      type: 'page',
+      source: 'datenschutzerklaerung-2.yml',
+      schema: z.object({
+        content: z.object({})
+      })
+    }),
+    kontakt: defineCollection({
+      type: 'page',
+      source: 'kontakt.yml',
+      schema: z.object({
+        content: z.object({}),
+        email: z.string().optional(),
+        phone: z.string().optional()
+      })
+    }),
+    wir: defineCollection({
+      type: 'page',
+      source: 'wir.yml',
+      schema: z.object({
+        technology: createBaseSchema().extend({
+          content: z.object({})
+        }),
+        team: createBaseSchema(),
+        members: z.array(z.object({
+          name: z.string(),
+          role: z.string(),
+          description: z.string().optional(),
+          avatar: createImageSchema().optional()
+        }))
+      })
     })
   }
 })

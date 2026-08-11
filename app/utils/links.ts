@@ -20,4 +20,28 @@ export const navLinks: NavigationMenuItem[] = [{
   label: 'About',
   icon: 'i-lucide-user',
   to: '/about'
+}, {
+  label: 'Wir',
+  icon: 'i-lucide-users',
+  to: '/wir'
+}, {
+  label: 'Willkommen',
+  icon: 'i-lucide-house',
+  to: '/landing'
+}, {
+  label: 'Neuigkeiten',
+  icon: 'i-lucide-newspaper',
+  to: '/neuigkeiten'
+}, {
+  label: 'Materialien',
+  icon: 'i-lucide-layers',
+  to: '/materialien'
+}, {
+  label: 'Bestellen',
+  icon: 'i-lucide-shopping-cart',
+  to: '/bestellung'
+}, {
+  label: 'Kontakt',
+  icon: 'i-lucide-mail',
+  to: '/kontakt'
 }]

@@ -1,0 +1,46 @@
+title: Über uns
+description: Die Technologie und die Menschen hinter Oxaphil.
+seo:
+  title: Über uns
+  description: Die Technologie und die Menschen hinter Oxaphil.
+technology:
+  title: Die Technologie hinter Oxaphil
+  description: Warum wir auf Poly(2-oxazolin)e statt auf PEG setzen.
+  content: |
+    Kunststoffe und Polymere umgeben uns überall – in Verpackungen, Medizinprodukten und unzähligen Alltagsgegenständen. Auch in der Medizin und Pharmazie spielen Polymere eine zentrale Rolle, etwa als Löslichkeitsvermittler für Wirkstoffe. Der heute am weitesten verbreitete Vertreter ist Polyethylenglykol (PEG). PEG hat sich über Jahrzehnte bewährt, zeigt jedoch zunehmend Grenzen: Insbesondere im Zusammenhang mit Antikörpern und anderen Biologika kann PEG unerwünschte Immunreaktionen auslösen, welche die Wirksamkeit von Therapien einschränken können.
+
+    Oxaphil setzt genau hier an: Wir entwickeln und produzieren Poly(2-oxazolin)e (POx) als leistungsfähige Alternative zu PEG. POx bietet eine bessere Biokompatibilität, eine größere Vielfalt an funktionellen chemischen Gruppen für gezielte Anpassungen sowie eine verbesserte Löslichkeit. Nach Jahren der Forschung ist es uns gelungen, POx nun auch im industriellen Maßstab herzustellen – ein entscheidender Schritt, um diese Materialklasse breit verfügbar zu machen.
+team:
+  title: Die Menschen hinter Oxaphil
+  description: Wissenschaftliche Exzellenz trifft auf den Willen, neue Materialien in die Anwendung zu bringen. Unser Team vereint Expertise aus Chemie, Regulatorik, Produktentwicklung und Unternehmensführung, um POx vom Labor in die Anwendung zu bringen – Oxaphil steht dafür, neuartige Materialien nicht nur denkbar, sondern tatsächlich anwendbar zu machen.
+members:
+  - name: Dr. Erik Wegener
+    role: CEO
+    description: Sales, Strategische Führung
+    avatar:
+      src: /img/team-erik-wegener.jpg
+      alt: Dr. Erik Wegener
+  - name: David Bonnaire
+    role: CFO
+    description: Finanzplanung, Business Cases
+    avatar:
+      src: /img/team-david-bonnaire.jpg
+      alt: David Bonnaire
+  - name: Dr. Laura Fietzke
+    role: CSO
+    description: Regulatorik, Projektsteuerung
+    avatar:
+      src: /img/team-laura-fietzke.jpg
+      alt: Dr. Laura Fietzke
+  - name: Leonardo Matassini
+    role: CTO
+    description: Entwicklungen, Materialtests
+    avatar:
+      src: /img/team-leonardo-matassini.jpg
+      alt: Leonardo Matassini
+  - name: Dr. Jonas Schubert
+    role: CMO
+    description: Marketingstrategie, Formulierungen
+    avatar:
+      src: /img/team-jonas-schubert.png
+      alt: Dr. Jonas Schubert

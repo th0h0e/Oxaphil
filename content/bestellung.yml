@@ -1,0 +1,22 @@
+title: Bestellen
+description: Informationen zur Bestellung.
+seo:
+  title: Bestellen
+  description: Informationen zur Bestellung.
+content: |
+  Hier finden Sie Informationen dazu, wie Sie bei uns bestellen können.
+product:
+  title: HydroPOx40-OH
+  image:
+    src: /img/product-hydropox-oh.png
+    alt: Produktbild HydroPOx40-OH
+contact:
+  name: Dr. Erik Wegener
+  role: Ansprechpartner für Bestellungen
+  photo:
+    src: /img/erik-wegener-bestellung.jpg
+    alt: Dr. Erik Wegener
+links:
+  - label: Jetzt anfragen
+    to: /kontakt
+    color: primary

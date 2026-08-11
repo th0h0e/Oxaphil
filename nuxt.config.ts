@@ -22,6 +22,14 @@ export default defineNuxtConfig({
     }
   },
 
+  ui: {
+    theme: {
+      defaultVariants: {
+        size: 'sm'
+      }
+    }
+  },
+
   compatibilityDate: '2026-06-30',
 
   nitro: {

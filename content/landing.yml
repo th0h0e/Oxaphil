@@ -1,0 +1,13 @@
+title: Willkommen
+description: Willkommen auf unserer Seite – hier finden Sie einen Überblick über unsere Themen und Angebote.
+seo:
+  title: Willkommen
+  description: Willkommen auf unserer Seite – hier finden Sie einen Überblick über unsere Themen und Angebote.
+links:
+  - label: Mehr erfahren
+    to: /materialien
+    color: primary
+  - label: Kontakt
+    to: /kontakt
+    color: neutral
+    variant: outline

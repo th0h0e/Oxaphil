@@ -11,7 +11,7 @@ export default defineAppConfig({
   },
   ui: {
     colors: {
-      primary: 'blue',
+      primary: 'emerald',
       neutral: 'neutral'
     },
     pageHero: {
@@ -23,23 +23,30 @@ export default defineAppConfig({
     }
   },
   footer: {
-    credits: `Built with Nuxt UI • © ${new Date().getFullYear()}`,
+    credits: `Built by Kontext ${new Date().getFullYear()}`,
     colorMode: false,
+    logos: [{
+      src: '/img/logo-exist.png',
+      alt: 'Supported by EXIST',
+      label: 'Supported by'
+    }, {
+      src: '/img/logo-tud.png',
+      alt: 'Founded from TUD',
+      label: 'Founded from'
+    }, {
+      src: '/img/logo-mitglied.png',
+      alt: 'Mitglied'
+    }],
     links: [{
-      'icon': 'i-simple-icons-discord',
-      'to': 'https://go.nuxt.com/discord',
-      'target': '_blank',
-      'aria-label': 'Nuxt on Discord'
-    }, {
       'icon': 'i-simple-icons-x',
-      'to': 'https://go.nuxt.com/x',
+      'to': 'https://de.linkedin.com/company/oxaphil',
       'target': '_blank',
-      'aria-label': 'Nuxt on X'
+      'aria-label': 'Oxaphil on X'
     }, {
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt/ui',
+      'icon': 'i-simple-icons-linkedin',
+      'to': 'https://de.linkedin.com/company/oxaphil',
       'target': '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
+      'aria-label': 'Oxaphil on Linkedin'
     }]
   }
 })

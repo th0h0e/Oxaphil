@@ -1,0 +1,47 @@
+title: Neuigkeiten
+description: Aktuelle Meldungen und Neuigkeiten von Oxaphil.
+seo:
+  title: Neuigkeiten
+  description: Aktuelle Meldungen und Neuigkeiten von Oxaphil.
+about:
+  title: Über Oxaphil
+  logo:
+    src: /img/news-oxaphil-logo.png
+    alt: Oxaphil Logo
+  content: |
+    Oxaphil entwickelt und produziert Poly(2-oxazolin)e (POx) als leistungsfähige Alternative zu PEG – mit besserer Biokompatibilität, größerer chemischer Vielfalt und verbesserter Löslichkeit.
+items:
+  - title: Oxaphil gewinnt den Sächsischen Gründerpreis
+    date: 2025-11-01
+    description: Wir freuen uns sehr, mit dem Sächsischen Gründerpreis ausgezeichnet worden zu sein.
+    images:
+      - src: /img/news-gruenderpreis-banner.jpg
+        alt: Banner zum Gewinn des Sächsischen Gründerpreises
+  - title: Oxaphil auf der Innovationskonferenz
+    date: 2025-09-15
+    description: Wir haben unsere Technologie auf der Innovationskonferenz vorgestellt und durften dort auch einen Preis entgegennehmen.
+    images:
+      - src: /img/news-innovationskonferenz-1.jpg
+        alt: Preisübergabe auf der Innovationskonferenz
+      - src: /img/news-innovationskonferenz-2.jpg
+        alt: Team von Oxaphil auf der Innovationskonferenz
+  - title: Partnerschaft mit DelAQUA Pharmaceuticals
+    date: 2025-07-01
+    description: Oxaphil geht eine Partnerschaft mit DelAQUA Pharmaceuticals ein, um POx gemeinsam für neue Anwendungen weiterzuentwickeln.
+    images:
+      - src: /img/news-delaqua-logo.png
+        alt: Logo von DelAQUA Pharmaceuticals
+  - title: Jahresende beim Team
+    date: 2025-12-20
+    description: Zum Jahresende hat sich unser Team zu einer gemeinsamen Wanderung getroffen, um auf ein erfolgreiches Jahr zurückzublicken.
+    images:
+      - src: /img/news-jahresende.jpeg
+        alt: Team von Oxaphil bei einer Wanderung zum Jahresende
+  - title: Oxaphil auf der in-cosmetics Global in Amsterdam
+    date: 2025-04-10
+    description: Wir waren auf der in-cosmetics Global in Amsterdam vertreten und haben dort spannende Gespräche zu neuen Anwendungen von POx geführt.
+    images:
+      - src: /img/news-incosmetics-1.jpg
+        alt: Oxaphil Stand auf der in-cosmetics Global Amsterdam
+      - src: /img/news-incosmetics-2.png
+        alt: Team von Oxaphil auf der in-cosmetics Global Amsterdam
