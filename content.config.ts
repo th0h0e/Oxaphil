@@ -131,7 +131,19 @@ export default defineContentConfig({
       type: 'page',
       source: 'landing.yml',
       schema: z.object({
-        links: z.array(createButtonSchema())
+        links: z.array(createButtonSchema()),
+        video: z.object({
+          title: z.string(),
+          description: z.string().optional(),
+          provider: z.enum(['file', 'youtube']),
+          src: z.string(),
+          poster: z.string().optional()
+        }),
+        valueProps: createBaseSchema().extend({
+          items: z.array(createBaseSchema().extend({
+            icon: z.string().optional().editor({ input: 'icon' })
+          }))
+        }).optional()
       })
     }),
     neuigkeiten: defineCollection({
@@ -146,7 +158,9 @@ export default defineContentConfig({
         items: z.array(z.object({
           title: z.string(),
           date: z.date(),
+          location: z.string().optional(),
           description: z.string(),
+          content: z.string().optional(),
           images: z.array(createImageSchema()),
           to: z.string().optional()
         }))
@@ -163,6 +177,17 @@ export default defineContentConfig({
         anwendungen: createBaseSchema().extend({
           content: z.object({}),
           image: createImageSchema()
+        }),
+        literature: createBaseSchema().extend({
+          references: z.array(z.object({
+            authors: z.string(),
+            title: z.string(),
+            journal: z.string().optional(),
+            year: z.number().optional(),
+            volume: z.string().optional(),
+            pages: z.string().optional(),
+            doi: z.string().optional()
+          }))
         })
       })
     }),
@@ -173,11 +198,21 @@ export default defineContentConfig({
         content: z.object({}),
         product: z.object({
           title: z.string(),
+          name: z.string(),
+          chemicalName: z.string(),
+          specs: z.array(z.object({
+            label: z.string(),
+            value: z.string()
+          })),
+          price: z.string(),
           image: createImageSchema()
         }),
         contact: z.object({
+          title: z.string().optional(),
           name: z.string(),
           role: z.string().optional(),
+          phone: z.string().optional(),
+          email: z.string().optional(),
           photo: createImageSchema()
         }),
         links: z.array(createButtonSchema())
@@ -215,9 +250,11 @@ export default defineContentConfig({
         }),
         team: createBaseSchema(),
         members: z.array(z.object({
+          id: z.string(),
           name: z.string(),
           role: z.string(),
           description: z.string().optional(),
+          tags: z.array(z.string()).optional(),
           avatar: createImageSchema().optional()
         }))
       })

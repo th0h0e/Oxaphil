@@ -44,7 +44,7 @@ defineOgImage('Portfolio', { title, description })
     >
       <MDC
         :value="page.platform.content"
-        unwrap="p"
+        class="prose prose-primary dark:prose-invert max-w-none"
       />
       <img
         :src="page.platform.image.src"
@@ -61,13 +61,20 @@ defineOgImage('Portfolio', { title, description })
     >
       <MDC
         :value="page.anwendungen.content"
-        unwrap="p"
+        class="prose prose-primary dark:prose-invert max-w-none"
       />
       <img
         :src="page.anwendungen.image.src"
         :alt="page.anwendungen.image.alt"
         class="rounded-lg w-full object-cover"
       >
+    </UPageSection>
+    <UPageSection
+      id="literatur"
+      :title="page.literature.title"
+      :description="page.literature.description"
+    >
+      <LiteratureList :references="page.literature.references" />
     </UPageSection>
   </UPage>
 </template>

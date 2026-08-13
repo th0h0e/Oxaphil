@@ -11,37 +11,120 @@ about:
   content: |
     Oxaphil entwickelt und produziert Poly(2-oxazolin)e (POx) als leistungsfähige Alternative zu PEG – mit besserer Biokompatibilität, größerer chemischer Vielfalt und verbesserter Löslichkeit.
 items:
-  - title: Oxaphil gewinnt den Sächsischen Gründerpreis
-    date: 2025-11-01
+  - title: Oxaphil gewinnt den Sächsischen Gründerpreis 2026
+    date: 2026-02-05
+    location: Dresden
     description: Wir freuen uns sehr, mit dem Sächsischen Gründerpreis ausgezeichnet worden zu sein.
+    content: |
+      Wir freuen uns sehr, mit dem Sächsischen Gründerpreis 2026 ausgezeichnet worden zu sein. Die Jury würdigte damit unseren Ansatz, Poly(2-oxazolin)e aus der Grundlagenforschung heraus in den industriellen Maßstab zu überführen.
+
+      > TODO: Zitat der Jury oder ein O-Ton aus dem Team einfügen.
+
+      TODO: Ausführlichen Fließtext zur Preisverleihung ergänzen – Ablauf, Mitbewerber, was die Auszeichnung für die nächsten Schritte bedeutet.
     images:
       - src: /img/news-gruenderpreis-banner.jpg
         alt: Banner zum Gewinn des Sächsischen Gründerpreises
-  - title: Oxaphil auf der Innovationskonferenz
+  - title: Partnerschaft mit DelAQUA Pharmaceuticals
+    date: 2025-11-12
+    location: Dresden
+    description: Oxaphil geht eine Partnerschaft mit DelAQUA Pharmaceuticals ein, um POx gemeinsam für neue Anwendungen weiterzuentwickeln.
+    content: |
+      Oxaphil und DelAQUA Pharmaceuticals bündeln ihre Kompetenzen, um POx-basierte Formulierungen für neue pharmazeutische Anwendungen zu entwickeln.
+
+      ### Gemeinsame Schwerpunkte
+
+      - TODO: Schwerpunkt 1 der Zusammenarbeit
+      - TODO: Schwerpunkt 2 der Zusammenarbeit
+      - TODO: Schwerpunkt 3 der Zusammenarbeit
+
+      TODO: Hintergrund zu DelAQUA Pharmaceuticals und zum geplanten Zeitrahmen ergänzen.
+    images:
+      - src: /img/news-delaqua-logo.png
+        alt: Logo von DelAQUA Pharmaceuticals
+  - title: Jahresende 2025 – ein Rückblick
+    date: 2025-12-20
+    location: Sächsische Schweiz
+    description: Zum Jahresende hat sich unser Team zu einer gemeinsamen Wanderung getroffen, um auf ein erfolgreiches Jahr zurückzublicken.
+    content: |
+      Zum Jahresabschluss hat sich das gesamte Team zu einer gemeinsamen Wanderung getroffen – ein guter Anlass, um auf zwölf ereignisreiche Monate zurückzublicken.
+
+      ### Was 2025 gebracht hat
+
+      - TODO: Meilenstein 1
+      - TODO: Meilenstein 2
+      - TODO: Meilenstein 3
+
+      TODO: Ausblick auf 2026 ergänzen.
+    images:
+      - src: /img/news-jahresende.jpeg
+        alt: Team von Oxaphil bei einer Wanderung zum Jahresende
+  - title: Messe-Rückblick – drei Veranstaltungen in einem Quartal
     date: 2025-09-15
-    description: Wir haben unsere Technologie auf der Innovationskonferenz vorgestellt und durften dort auch einen Preis entgegennehmen.
+    location: Dresden / Leipzig / Berlin
+    description: Innovationskonferenz, Fachmesse und Netzwerktreffen – ein dichtes Quartal mit vielen Gesprächen und einer Auszeichnung.
+    content: |
+      Gleich drei Veranstaltungen haben wir in diesem Quartal besucht und dabei unsere Technologie einem breiten Fachpublikum vorgestellt.
+
+      ### Innovationskonferenz
+
+      TODO: Beschreibung der Innovationskonferenz und der dort entgegengenommenen Auszeichnung.
+
+      ### TODO: Veranstaltung 2
+
+      TODO: Beschreibung ergänzen.
+
+      ### TODO: Veranstaltung 3
+
+      TODO: Beschreibung ergänzen.
     images:
       - src: /img/news-innovationskonferenz-1.jpg
         alt: Preisübergabe auf der Innovationskonferenz
       - src: /img/news-innovationskonferenz-2.jpg
         alt: Team von Oxaphil auf der Innovationskonferenz
-  - title: Partnerschaft mit DelAQUA Pharmaceuticals
-    date: 2025-07-01
-    description: Oxaphil geht eine Partnerschaft mit DelAQUA Pharmaceuticals ein, um POx gemeinsam für neue Anwendungen weiterzuentwickeln.
-    images:
-      - src: /img/news-delaqua-logo.png
-        alt: Logo von DelAQUA Pharmaceuticals
-  - title: Jahresende beim Team
-    date: 2025-12-20
-    description: Zum Jahresende hat sich unser Team zu einer gemeinsamen Wanderung getroffen, um auf ein erfolgreiches Jahr zurückzublicken.
-    images:
-      - src: /img/news-jahresende.jpeg
-        alt: Team von Oxaphil bei einer Wanderung zum Jahresende
+  - title: Erste POx-Proben ausgeliefert
+    date: 2025-06-18
+    location: Dresden
+    description: Die ersten Materialproben aus unserer Produktion sind an Partner und Interessenten verschickt worden.
+    content: |
+      Ein wichtiger Meilenstein: Die ersten POx-Proben aus unserer eigenen Produktion sind an Partner und Interessenten ausgeliefert worden.
+
+      TODO: Details zu Chargengröße, Qualifizierung und Rückmeldungen der Empfänger ergänzen.
+    images: []
   - title: Oxaphil auf der in-cosmetics Global in Amsterdam
     date: 2025-04-10
+    location: Amsterdam
     description: Wir waren auf der in-cosmetics Global in Amsterdam vertreten und haben dort spannende Gespräche zu neuen Anwendungen von POx geführt.
+    content: |
+      Die in-cosmetics Global in Amsterdam war für uns die erste große internationale Messe – mit vielen Gesprächen zu kosmetischen Anwendungen von POx.
+
+      TODO: Ausführlichen Rückblick ergänzen – Standkonzept, Resonanz, konkrete Anwendungsfragen aus der Branche.
     images:
       - src: /img/news-incosmetics-1.jpg
         alt: Oxaphil Stand auf der in-cosmetics Global Amsterdam
       - src: /img/news-incosmetics-2.png
         alt: Team von Oxaphil auf der in-cosmetics Global Amsterdam
+  - title: Förderung und Netzwerk – wichtige Meilensteine erreicht
+    date: 2025-02-20
+    location: Dresden
+    description: Mit der EXIST-Förderung und der Anbindung an die TU Dresden stehen wir auf einem tragfähigen Fundament.
+    content: |
+      Mit der EXIST-Förderung und der engen Anbindung an die TU Dresden konnten wir zentrale Weichen für den Aufbau von Oxaphil stellen.
+
+      ### Meilensteine
+
+      - TODO: Förderzusage – Details ergänzen
+      - TODO: Netzwerk-/Mitgliedschaftsmeilenstein – Details ergänzen
+
+      TODO: Was die Förderung konkret ermöglicht hat, ergänzen.
+    images: []
+  - title: POx als Alternative zu PEG – unser Startpunkt
+    date: 2024-10-01
+    location: Dresden
+    description: Warum wir Oxaphil gegründet haben und was POx gegenüber dem etablierten PEG auszeichnet.
+    content: |
+      PEG hat sich über Jahrzehnte bewährt, zeigt aber zunehmend Grenzen – insbesondere im Zusammenhang mit Antikörpern und anderen Biologika, wo es unerwünschte Immunreaktionen auslösen kann.
+
+      Genau hier setzt Oxaphil an: Poly(2-oxazolin)e bieten eine bessere Biokompatibilität, eine größere Vielfalt funktioneller chemischer Gruppen und eine verbesserte Löslichkeit.
+
+      TODO: Gründungsgeschichte und wissenschaftlichen Hintergrund ausführlicher darstellen.
+    images: []

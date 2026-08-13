@@ -37,7 +37,6 @@ defineOgImage('Portfolio', { title, description })
     />
     <UPageSection
       :title="page.product.title"
-      orientation="horizontal"
       :ui="{
         container: 'pt-0!'
       }"
@@ -45,14 +44,45 @@ defineOgImage('Portfolio', { title, description })
       <MDC
         :value="page.content"
         unwrap="p"
+        class="mb-8 text-muted"
       />
-      <img
-        :src="page.product.image.src"
-        :alt="page.product.image.alt"
-        class="rounded-lg w-full object-cover"
+
+      <UPageCard
+        :title="page.product.name"
+        :description="page.product.chemicalName"
+        variant="subtle"
+        orientation="horizontal"
+        :ui="{ title: 'text-xl' }"
       >
+        <template #leading>
+          <img
+            :src="page.product.image.src"
+            :alt="page.product.image.alt"
+            class="rounded-lg w-full object-cover"
+          >
+        </template>
+
+        <dl class="grid grid-cols-2 gap-x-6 gap-y-3 text-sm">
+          <template
+            v-for="spec in page.product.specs"
+            :key="spec.label"
+          >
+            <dt class="text-muted">
+              {{ spec.label }}
+            </dt>
+            <dd class="text-default font-medium">
+              {{ spec.value }}
+            </dd>
+          </template>
+        </dl>
+
+        <p class="mt-6 text-lg font-semibold text-primary">
+          {{ page.product.price }}
+        </p>
+      </UPageCard>
     </UPageSection>
     <UPageSection
+      :title="page.contact.title"
       :ui="{
         container: 'pt-0!'
       }"
@@ -64,6 +94,26 @@ defineOgImage('Portfolio', { title, description })
           :avatar="{ src: page.contact.photo.src, alt: page.contact.photo.alt }"
           size="xl"
         />
+        <div class="flex flex-wrap gap-3 mt-4">
+          <UButton
+            v-if="page.contact.phone"
+            :label="page.contact.phone"
+            :to="`tel:${page.contact.phone.replace(/\s/g, '')}`"
+            icon="i-lucide-phone"
+            color="neutral"
+            variant="subtle"
+            size="sm"
+          />
+          <UButton
+            v-if="page.contact.email"
+            :label="page.contact.email"
+            :to="`mailto:${page.contact.email}`"
+            icon="i-lucide-mail"
+            color="neutral"
+            variant="subtle"
+            size="sm"
+          />
+        </div>
       </UPageCard>
     </UPageSection>
   </UPage>

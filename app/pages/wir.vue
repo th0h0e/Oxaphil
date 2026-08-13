@@ -52,15 +52,30 @@ defineOgImage('Portfolio', { title, description })
       <UPageColumns>
         <UPageCard
           v-for="(member, index) in page.members"
+          :id="member.id"
           :key="index"
           variant="subtle"
+          class="scroll-mt-24"
         >
           <UUser
             :name="member.name"
-            :description="[member.role, member.description].filter(Boolean).join(' — ')"
+            :description="member.role"
             :avatar="member.avatar"
             size="xl"
           />
+          <div
+            v-if="member.tags?.length"
+            class="flex flex-wrap gap-2 mt-4"
+          >
+            <UBadge
+              v-for="tag in member.tags"
+              :key="tag"
+              :label="tag"
+              color="neutral"
+              variant="subtle"
+              size="sm"
+            />
+          </div>
         </UPageCard>
       </UPageColumns>
     </UPageSection>

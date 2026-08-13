@@ -30,8 +30,8 @@ const formatDate = (dateString: string) => {
   })
 }
 
-const firstItems = computed(() => page.value?.items.slice(0, 3) ?? [])
-const laterItems = computed(() => page.value?.items.slice(3) ?? [])
+// The "Über Oxaphil" card is inserted into the list after the third article.
+const aboutCardIndex = 3
 </script>
 
 <template>
@@ -50,83 +50,68 @@ const laterItems = computed(() => page.value?.items.slice(3) ?? [])
       }"
     >
       <div class="flex flex-col gap-6">
-        <Motion
-          v-for="(item, index) in firstItems"
+        <template
+          v-for="(item, index) in page.items"
           :key="item.title"
-          :initial="{ opacity: 0, transform: 'translateY(10px)' }"
-          :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
-          :transition="{ delay: 0.2 * index }"
-          :in-view-options="{ once: true }"
         >
           <UPageCard
-            :title="item.title"
-            :description="item.description"
-            :to="item.to"
+            v-if="index === aboutCardIndex"
+            :title="page.about.title"
+            variant="subtle"
+            orientation="horizontal"
           >
+            <MDC
+              :value="page.about.content"
+              unwrap="p"
+            />
             <template #leading>
-              <span class="text-sm text-muted">
-                {{ formatDate(item.date) }}
-              </span>
-            </template>
-            <div class="flex flex-wrap gap-4 mt-4">
               <img
-                v-for="(image, imageIndex) in item.images"
-                :key="imageIndex"
-                :src="image.src"
-                :alt="image.alt"
-                class="rounded-lg h-48 object-cover"
+                :src="page.about.logo.src"
+                :alt="page.about.logo.alt"
+                class="h-12 w-auto object-contain"
               >
-            </div>
+            </template>
           </UPageCard>
-        </Motion>
 
-        <UPageCard
-          :title="page.about.title"
-          variant="subtle"
-          orientation="horizontal"
-        >
-          <MDC
-            :value="page.about.content"
-            unwrap="p"
-          />
-          <template #leading>
-            <img
-              :src="page.about.logo.src"
-              :alt="page.about.logo.alt"
-              class="h-12 w-auto object-contain"
+          <Motion
+            :initial="{ opacity: 0, transform: 'translateY(10px)' }"
+            :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
+            :transition="{ delay: 0.1 * index }"
+            :in-view-options="{ once: true }"
+          >
+            <UPageCard
+              :title="item.title"
+              :description="item.description"
+              :to="item.to"
+              :ui="{ title: 'text-xl' }"
             >
-          </template>
-        </UPageCard>
+              <template #leading>
+                <span class="text-sm text-muted">
+                  {{ [formatDate(item.date), item.location].filter(Boolean).join(' · ') }}
+                </span>
+              </template>
 
-        <Motion
-          v-for="(item, index) in laterItems"
-          :key="item.title"
-          :initial="{ opacity: 0, transform: 'translateY(10px)' }"
-          :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
-          :transition="{ delay: 0.2 * index }"
-          :in-view-options="{ once: true }"
-        >
-          <UPageCard
-            :title="item.title"
-            :description="item.description"
-            :to="item.to"
-          >
-            <template #leading>
-              <span class="text-sm text-muted">
-                {{ formatDate(item.date) }}
-              </span>
-            </template>
-            <div class="flex flex-wrap gap-4 mt-4">
-              <img
-                v-for="(image, imageIndex) in item.images"
-                :key="imageIndex"
-                :src="image.src"
-                :alt="image.alt"
-                class="rounded-lg h-48 object-cover"
+              <MDC
+                v-if="item.content"
+                :value="item.content"
+                class="mt-4"
+              />
+
+              <div
+                v-if="item.images?.length"
+                class="flex flex-wrap gap-4 mt-4"
               >
-            </div>
-          </UPageCard>
-        </Motion>
+                <img
+                  v-for="(image, imageIndex) in item.images"
+                  :key="imageIndex"
+                  :src="image.src"
+                  :alt="image.alt"
+                  class="rounded-lg h-48 object-cover"
+                >
+              </div>
+            </UPageCard>
+          </Motion>
+        </template>
       </div>
     </UPageSection>
   </UPage>
