@@ -42,25 +42,12 @@ defineOgImage('Portfolio', { title, description })
         container: 'pt-0!'
       }"
     >
-      <div class="aspect-video overflow-hidden rounded-lg ring ring-default bg-elevated">
-        <iframe
-          v-if="page.video.provider === 'youtube'"
-          :src="`https://www.youtube-nocookie.com/embed/${page.video.src}`"
-          :title="page.video.title"
-          class="size-full"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        />
-        <video
-          v-else
-          :src="page.video.src"
-          :poster="page.video.poster"
-          class="size-full object-cover"
-          controls
-          playsinline
-        />
-      </div>
+      <VideoEmbed
+        :title="page.video.title"
+        :provider="page.video.provider"
+        :src="page.video.src"
+        :poster="page.video.poster"
+      />
     </UPageSection>
     <UPageSection
       v-if="page.valueProps"

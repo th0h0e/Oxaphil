@@ -27,12 +27,12 @@ contact:
   name: Dr. Erik Wegener
   role: CEO – Ansprechpartner für Bestellungen
   phone: 'TODO: +49 ...'
-  email: 'TODO: erik.wegener@oxaphil.de'
+  email: erik@oxaphil.com
   photo:
     src: /img/erik-wegener-bestellung.jpg
     alt: Dr. Erik Wegener
 links:
   - label: Jetzt anfragen
-    to: /kontakt
+    to: 'mailto:erik@oxaphil.com'
     icon: i-lucide-mail
     color: primary

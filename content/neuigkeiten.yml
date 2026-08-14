@@ -58,51 +58,63 @@ items:
     images:
       - src: /img/news-jahresende.jpeg
         alt: Team von Oxaphil bei einer Wanderung zum Jahresende
-  - title: Messe-Rückblick – drei Veranstaltungen in einem Quartal
-    date: 2025-09-15
-    location: Dresden / Leipzig / Berlin
-    description: Innovationskonferenz, Fachmesse und Netzwerktreffen – ein dichtes Quartal mit vielen Gesprächen und einer Auszeichnung.
+  - title: 'Drei Veranstaltungen mit einem gemeinsamen Ziel: Anwendungen verstehen und Lösungen ermöglichen'
+    date: 2025-06-06
+    location: Berlin / München / Erfurt
+    description: In der ersten Juniwoche war Oxaphil auf drei richtungsweisenden Veranstaltungen präsent.
     content: |
-      Gleich drei Veranstaltungen haben wir in diesem Quartal besucht und dabei unsere Technologie einem breiten Fachpublikum vorgestellt.
+      In der ersten Juniwoche war Oxaphil auf drei richtungsweisenden Veranstaltungen präsent. Unser Ziel: herausfinden, welche Anforderungen Entwicklerinnen und Entwickler an neue Materialien stellen, und zeigen, wie POx genau dort neue Wege eröffnen können.
 
-      ### Innovationskonferenz
+      ### Neue Formulierungsansätze in Berlin
 
-      TODO: Beschreibung der Innovationskonferenz und der dort entgegengenommenen Auszeichnung.
+      Beim Drug Delivery & Formulation Summit 2025 in Berlin sprach Erik über das Potenzial von POx in der pharmazeutischen Formulierung. Im Mittelpunkt standen Eigenschaften wie Lösungsvermittlung, Biokompatibilität und strukturelle Präzision. Die Diskussionen zeigten deutlich, dass die Nachfrage nach neuen, anpassbaren Materialien steigt. Die Neuigkeit, dass POx nun verfügbar sind, wurde mit großem Interesse und durchweg positiv aufgenommen.
 
-      ### TODO: Veranstaltung 2
+      ### Konkrete Herausforderungen in München
 
-      TODO: Beschreibung ergänzen.
+      Zur gleichen Zeit war Laura bei der CosmeticBusiness in München im Gespräch mit Unternehmen der Kosmetikbranche. Ihr Fokus lag auf Anforderungen im Bereich Produktentwicklung, Emulsionsstabilisierung und funktionaler Inhaltsstoffe. Die Reaktionen waren klar und direkt. In vielen Gesprächen war die einhellige Aussage: „Immer her damit.“
 
-      ### TODO: Veranstaltung 3
+      ### Aufmerksamkeit für Anwendungen in Erfurt
 
-      TODO: Beschreibung ergänzen.
+      Auch Leonardo war in dieser Woche unterwegs – bei den Investor Days Thüringen in Erfurt. In seinem Pitch stellte er konkrete Anwendungen und Zielmärkte in den Mittelpunkt. Das technologische Potenzial wurde eingebettet in reale Marktbedarfe, Skalierbarkeit und Materialwirkung. Auch hier war das Feedback von Investorinnen und Investoren ausgesprochen positiv.
+
+      ### Unser Fazit
+
+      Ob Wirkstofftransport, Lösungsvermittlung oder Emulsionsstabilisierung – POx bieten konkrete Antworten auf reale Herausforderungen. Die drei Veranstaltungen haben erneut bestätigt, wie wichtig es ist, zuzuhören, Bedarfe zu verstehen und anwendungsorientiert zu denken. Genau das ist unser Weg bei Oxaphil.
     images:
       - src: /img/news-innovationskonferenz-1.jpg
         alt: Preisübergabe auf der Innovationskonferenz
       - src: /img/news-innovationskonferenz-2.jpg
         alt: Team von Oxaphil auf der Innovationskonferenz
-  - title: Erste POx-Proben ausgeliefert
+  - title: Erste POx-Proben ausgeliefert – Startschuss für Anwendungstests
     date: 2025-06-18
     location: Dresden
-    description: Die ersten Materialproben aus unserer Produktion sind an Partner und Interessenten verschickt worden.
+    description: Nur vier Monate nach Projektstart konnten wir die ersten Proben unserer Poly(2-oxazolin)e (POx) an unseren Kooperationspartner DermaPurge übergeben.
     content: |
-      Ein wichtiger Meilenstein: Die ersten POx-Proben aus unserer eigenen Produktion sind an Partner und Interessenten ausgeliefert worden.
+      Nur vier Monate nach Projektstart konnten wir die ersten Proben unserer Poly(2-oxazolin)e (POx) an unseren Kooperationspartner DermaPurge übergeben. Ein wichtiger Meilenstein, der den Übergang von der Technologieentwicklung hin zur praktischen Anwendung markiert.
 
-      TODO: Details zu Chargengröße, Qualifizierung und Rückmeldungen der Empfänger ergänzen.
+      Die Proben dienen der Formulierungserprobung in realen Anwendungsszenarien und ermöglichen uns wertvolle Rückmeldungen aus dem Feld. Gemeinsam mit DermaPurge wollen wir das Potenzial unserer biokompatiblen Polymerlösungen weiter erschließen – mit dem klaren Ziel, innovative und leistungsstarke Alternativen zu bestehenden Systemen zu schaffen.
+
+      Wir freuen uns auf die nächsten Schritte dieser Zusammenarbeit.
     images: []
-  - title: Oxaphil auf der in-cosmetics Global in Amsterdam
+  - title: Erfolgreicher Auftritt bei der in-cosmetics Global 2025
     date: 2025-04-10
     location: Amsterdam
-    description: Wir waren auf der in-cosmetics Global in Amsterdam vertreten und haben dort spannende Gespräche zu neuen Anwendungen von POx geführt.
+    description: Anfang April präsentierte Oxaphil auf der in-cosmetics Global in Amsterdam die Potenziale von Poly(2-oxazolin)en (POx) für moderne kosmetische Formulierungen.
     content: |
-      Die in-cosmetics Global in Amsterdam war für uns die erste große internationale Messe – mit vielen Gesprächen zu kosmetischen Anwendungen von POx.
+      Anfang April präsentierte Oxaphil auf der in-cosmetics Global in Amsterdam die Potenziale von Poly(2-oxazolin)en (POx) für moderne kosmetische Formulierungen. Die Messe bot eine bedeutende Plattform, um mit internationalen Partnern, Entwicklern und Innovatoren ins Gespräch zu kommen und aktuelle Trends der Branche aus erster Hand zu erleben.
 
-      TODO: Ausführlichen Rückblick ergänzen – Standkonzept, Resonanz, konkrete Anwendungsfragen aus der Branche.
-    images:
-      - src: /img/news-incosmetics-1.jpg
-        alt: Oxaphil Stand auf der in-cosmetics Global Amsterdam
-      - src: /img/news-incosmetics-2.png
-        alt: Team von Oxaphil auf der in-cosmetics Global Amsterdam
+      Im direkten Austausch wurde deutlich: Die Nachfrage nach funktionalen, biokompatiblen Inhaltsstoffen nimmt weiter zu. Eine Besucherumfrage bestätigte: Wahre Innovation in der Kosmetik beginnt bei den Inhaltsstoffen – ein klares Signal für die Relevanz neuer Materialien wie POx.
+
+      ### Zentrale Erkenntnisse aus Amsterdam
+
+      - **Nachhaltigkeit mit Substanz:** Besonders gefragt sind biobasierte Lösungen, etwa funktionelle Polymere auf Cellulosebasis, natürliche Emulgatoren aus Nebenprodukten der Lebensmittelindustrie sowie marine Rohstoffe wie Rotalgenextrakte oder Mikroalgenlösungen. Ressourcenschonung und hohe Funktionalität gehen dabei Hand in Hand.
+      - **Innovationsfreude bei Wirkstoffen:** Die Weiterentwicklung von Trägersystemen, stabileren Formulierungen und funktionellen Polymeren spielt eine zentrale Rolle für zukünftige Kosmetikprodukte.
+      - **Netzwerk und Austausch:** Die Gespräche mit Entwickler:innen und Ideengebern aus aller Welt waren ein zentraler Impulsgeber – für neue Kooperationen und für die Weiterentwicklung unserer eigenen Ansätze.
+
+      Parallel zur Messe haben erste Partner mit Anwendungstests von POx in kosmetischen Formulierungen begonnen. Diese Projekte bilden einen wichtigen Schritt, um neue Maßstäbe in der Formulierungstechnologie zu setzen.
+
+      Mit frischen Impulsen und neuen Perspektiven startet Oxaphil in die nächsten Entwicklungsschritte – gemeinsam mit Partnern, die nachhaltige Innovation aktiv gestalten wollen.
+    images: []
   - title: Förderung und Netzwerk – wichtige Meilensteine erreicht
     date: 2025-02-20
     location: Dresden

@@ -42,9 +42,16 @@ export default defineContentConfig({
       schema: z.object({
         hero: z.object({
           links: z.array(createButtonSchema()),
-          images: z.array(createImageSchema())
+          images: z.array(createImageSchema()).optional()
         }),
         about: createBaseSchema(),
+        video: z.object({
+          title: z.string(),
+          description: z.string().optional(),
+          provider: z.enum(['file', 'youtube']),
+          src: z.string(),
+          poster: z.string().optional()
+        }).optional(),
         experience: createBaseSchema().extend({
           items: z.array(z.object({
             date: z.date(),
@@ -117,14 +124,6 @@ export default defineContentConfig({
           location: z.string(),
           url: z.string().optional()
         }))
-      })
-    }),
-    about: defineCollection({
-      type: 'page',
-      source: 'about.yml',
-      schema: z.object({
-        content: z.object({}),
-        images: z.array(createImageSchema())
       })
     }),
     landing: defineCollection({
@@ -230,15 +229,6 @@ export default defineContentConfig({
       source: 'datenschutzerklaerung-2.yml',
       schema: z.object({
         content: z.object({})
-      })
-    }),
-    kontakt: defineCollection({
-      type: 'page',
-      source: 'kontakt.yml',
-      schema: z.object({
-        content: z.object({}),
-        email: z.string().optional(),
-        phone: z.string().optional()
       })
     }),
     wir: defineCollection({

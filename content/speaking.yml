@@ -1,48 +1,39 @@
-title: Talks & Workshops
-description: Explore talks and workshops I've given on UX design, front-end development, and building better digital products.
+title: Vorträge & Messen
+description: Wo Oxaphil POx vorstellt – auf Fachmessen, Konferenzen und vor Investorinnen und Investoren.
+seo:
+  title: Vorträge & Messen
+  description: Wo Oxaphil POx vorstellt – auf Fachmessen, Konferenzen und vor Investorinnen und Investoren.
 links:
-  - label: Invite me to speak
+  - label: Vortrag anfragen
+    to: 'mailto:erik@oxaphil.com'
+    icon: i-lucide-mail
     size: md
 events:
+  # Alle Termine stammen aus unseren Neuigkeiten. Die Tagesdaten bitte vor
+  # Veröffentlichung gegen die offiziellen Veranstaltungstermine prüfen.
   - category: Conference
-    title: "Bridging the Gap: Design Systems for Designer-Developer Collaboration"
-    date: "2024-10-26"
-    location: "VueConf US, Miami, FL"
-    url: "#"
+    title: 'POx in der pharmazeutischen Formulierung – Lösungsvermittlung, Biokompatibilität und strukturelle Präzision'
+    date: '2025-06-06'
+    location: 'Drug Delivery & Formulation Summit 2025, Berlin'
   - category: Conference
-    title: "Intuitive Interfaces: Applying UX Principles in Nuxt.js Applications"
-    date: "2024-06-15"
-    location: "Nuxt Nation, Online"
-    url: "#"
+    title: 'Funktionale Inhaltsstoffe: POx im Gespräch mit der Kosmetikbranche'
+    date: '2025-06-06'
+    location: 'CosmeticBusiness, München'
   - category: Conference
-    title: "Accessibility First: Building Inclusive Web Apps"
-    date: "2023-11-08"
-    location: "Boston Web Performance Meetup, Boston, MA"
+    title: 'Anwendungen und Zielmärkte von POx – Pitch bei den Investor Days Thüringen'
+    date: '2025-06-06'
+    location: 'Investor Days Thüringen, Erfurt'
+  - category: Conference
+    title: 'Potenziale von Poly(2-oxazolin)en für moderne kosmetische Formulierungen'
+    date: '2025-04-10'
+    location: 'in-cosmetics Global, Amsterdam'
+  # Beispieleinträge, damit die Rubriken „Live talks“ und „Podcasts“ nicht leer
+  # bleiben. Vor Veröffentlichung durch echte Termine ersetzen oder entfernen.
   - category: Live talk
-    title: "Mastering Component Design in Figma & Vue"
-    date: "2024-08-20"
-    location: "Design & Dev Boston Meetup, Boston, MA"
-    url: "#"
-  - category: Live talk
-    title: "From Wireframe to Web: A Practical Front-End Workflow"
-    date: "2024-03-05"
-    location: "Internal Workshop @ PreviousCompany Inc."
-  - category: Live talk
-    title: "The Power of User Research in Product Development"
-    date: "2023-09-12"
-    location: "Boston University Guest Lecture, Boston, MA"
+    title: 'Beispieleintrag: Titel des Vortrags'
+    date: '2025-05-15'
+    location: 'Veranstaltung, Ort'
   - category: Podcast
-    title: "Designing for Developers: A UX Perspective"
-    date: "2024-07-18"
-    location: "Syntax.fm (Guest)"
-    url: "#"
-  - category: Podcast
-    title: "The Future of Front-End Frameworks & Design Tooling"
-    date: "2024-01-30"
-    location: "Design Details Podcast (Guest)"
-    url: "#"
-  - category: Podcast
-    title: "Building a Career in UX/UI & Development"
-    date: "2023-05-22"
-    location: "TechForward Boston Podcast"
-    url: "#"
+    title: 'Beispieleintrag: Titel der Podcast-Folge'
+    date: '2025-03-12'
+    location: 'Name des Podcasts (Gast)'

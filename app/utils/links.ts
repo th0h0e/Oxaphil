@@ -17,10 +17,6 @@ export const navLinks: NavigationMenuItem[] = [{
   icon: 'i-lucide-mic',
   to: '/speaking'
 }, {
-  label: 'About',
-  icon: 'i-lucide-user',
-  to: '/about'
-}, {
   label: 'Wir',
   icon: 'i-lucide-users',
   to: '/wir'
@@ -40,8 +36,4 @@ export const navLinks: NavigationMenuItem[] = [{
   label: 'Bestellen',
   icon: 'i-lucide-shopping-cart',
   to: '/bestellung'
-}, {
-  label: 'Kontakt',
-  icon: 'i-lucide-mail',
-  to: '/kontakt'
 }]

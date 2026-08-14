@@ -1,37 +1,23 @@
 seo:
-  title: "Emma Thompson - UX/UI Designer"
-  description: "Welcome to my portfolio! I'm Emma Thompson, a UX/UI designer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "Hey, I'm Emma Thompson UX/UI Designer"
-description: "I craft intuitive digital experiences where design meets functionality. Based in Boston, bringing ideas to life through code and creativity."
+  title: "Poly(2-oxazolin)e als Alternative zu PEG"
+  description: "Oxaphil entwickelt und produziert Poly(2-oxazolin)e (POx) im industriellen Maßstab – die biokompatible Alternative zu PEG für Pharma, Biotech und Kosmetik."
+title: "Poly(2-oxazolin)e für Pharma, Biotech und Kosmetik"
+description: "Oxaphil entwickelt und produziert POx als biokompatible Alternative zu PEG – nach Jahren der Forschung jetzt im industriellen Maßstab verfügbar."
 hero:
   links:
-    - label: "Use this template"
-      to: https://github.com/nuxt-ui-templates/portfolio
+    - label: "Kontakt aufnehmen"
+      icon: i-lucide-mail
       color: "neutral"
-  images:
-    - src: /hero/random-1.avif
-      alt: Random Image 1
-    - src: /hero/random-2.avif
-      alt: Random Image 2
-    - src: /hero/random-3.avif
-      alt: Random Image 3
-    - src: /hero/random-4.avif
-      alt: Random Image 4
-    - src: /hero/random-5.avif
-      alt: Random Image 5
-    - src: /hero/random-6.avif
-      alt: Random Image 6
-    - src: /hero/random-7.avif
-      alt: Random Image 7
-    - src: /hero/random-8.avif
-      alt: Random Image 8
-    - src: /hero/random-9.avif
-      alt: Random Image 9
 about:
   title: "About Me"
   description: |
     As a UX/UI designer and front-end developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
     My approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
+video:
+  title: Oxaphil im Video
+  description: Ein kurzer Überblick über POx als Alternative zu PEG.
+  provider: youtube
+  src: JvMkTvXtqBQ
 experience:
   title: Work Experience
   items:
@@ -57,64 +43,66 @@ experience:
         url: "https://linear.app"
         color: "#5E6AD2"
 testimonials:
-  - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
+  # Platzhalter. Vor Veröffentlichung durch echte, freigegebene Zitate ersetzen –
+  # Name, Rolle und Unternehmen müssen der Person gehören, die das Zitat gegeben hat.
+  - quote: 'Hier steht das freigegebene Zitat eines Anwendungspartners zur Erprobung von POx in eigenen Formulierungen.'
     author:
-      name: 'Sarah Chen'
-      description: 'Product Director at Bloom Finance'
+      name: 'Name der Person'
+      description: 'Rolle, Unternehmen'
       avatar:
-        src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Working with Emma was the best decision we made for our startup. She didn't just deliver designs—she challenged our assumptions, conducted thorough user research, and created an experience that truly resonated with our audience. Her technical knowledge of front-end development meant the handoff to our engineering team was seamless."
+        src: /img/team-laura-fietzke.jpg
+        alt: Platzhalterbild
+  - quote: 'Hier steht das freigegebene Zitat aus dem Bereich pharmazeutische Formulierung – etwa zu Lösungsvermittlung, Biokompatibilität oder dem Ersatz von PEG.'
     author:
-      name: 'Michael Rodriguez'
-      description: 'Co-founder of Wavelength Music'
+      name: 'Name der Person'
+      description: 'Rolle, Unternehmen'
       avatar:
-        src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Emma stands out in her ability to translate complex sustainability data into intuitive interfaces. Her work on EcoTrack wasn't just visually stunning—it fundamentally changed how our users interact with environmental information. She approaches each problem with both creativity and analytical rigor, which is exactly what we needed."
+        src: /img/team-erik-wegener.jpg
+        alt: Platzhalterbild
+  - quote: 'Hier steht das freigegebene Zitat aus der Kosmetikbranche – etwa zu funktionalen, biokompatiblen Inhaltsstoffen.'
     author:
-      name: 'Dr. Aisha Johnson'
-      description: 'Chief Innovation Officer at GreenTech Solutions'
+      name: 'Name der Person'
+      description: 'Rolle, Unternehmen'
       avatar:
-        src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-        srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+        src: /img/team-leonardo-matassini.jpg
+        alt: Platzhalterbild
 blog:
   title: "Latest Articles"
   description: "Some of my recent thoughts"
 faq:
-  title: Frequently Asked Questions
-  description: Answers to common questions about my process and services.
+  title: Häufige Fragen
+  description: Antworten auf die Fragen, die uns am häufigsten zu POx gestellt werden.
   categories:
-    - title: Services & Process
+    - title: Technologie & Material
       questions:
-        - label: What services do you offer?
+        - label: Was sind Poly(2-oxazolin)e (POx)?
           content: |
-            I specialize in UX/UI design and front-end development. This includes user research, wireframing, interactive prototyping, creating intuitive user interfaces, building responsive websites and web applications (especially with Vue.js/Nuxt.js), and developing design systems. My goal is to create seamless digital experiences from concept to deployment.
-        - label: What is your design process like?
+            POx sind eine Klasse synthetischer Polymere, die durch kationische ringöffnende Polymerisation von 2-Oxazolinen entstehen. Weil die Polymerisation lebend verläuft, lassen sich Kettenlänge und Endgruppen präzise steuern. Das Ergebnis ist keine einzelne Substanz, sondern eine modulare Materialplattform, die sich für sehr unterschiedliche Anforderungen maßschneidern lässt.
+        - label: Worin liegt der Vorteil gegenüber PEG?
           content: |
-            My process is collaborative and iterative, typically involving stages like Discovery & Research, Ideation & Prototyping, User Testing, Visual Design, and close collaboration with development teams during implementation. I tailor the process based on project needs, always focusing on user-centered solutions.
-        - label: Do you work with startups?
+            PEG hat sich über Jahrzehnte bewährt, zeigt jedoch zunehmend Grenzen: Insbesondere im Zusammenhang mit Antikörpern und anderen Biologika kann PEG unerwünschte Immunreaktionen auslösen, die die Wirksamkeit von Therapien einschränken können. POx bietet demgegenüber eine bessere Biokompatibilität, eine größere Vielfalt an funktionellen chemischen Gruppen für gezielte Anpassungen sowie eine verbesserte Löslichkeit.
+        - label: Für welche Anwendungen eignen sich POx?
           content: |
-            Absolutely! I enjoy working with startups to help shape their product vision and create user-friendly interfaces from the ground up. I can adapt my process to fit the fast-paced startup environment.
-    - title: Pricing & Timelines
+            Die Einsatzfelder reichen vom Medikamententransport über die Wirkstoffformulierung und die Stabilisierung von Lipid-Nanopartikeln bis zur Oberflächenmodifikation und zu kosmetischen Formulierungen. Einen ausführlichen Überblick mit Literaturangaben finden Sie auf unserer Seite [Materialien](/materialien).
+    - title: Bestellung & Muster
       questions:
-        - label: How much does a project typically cost?
+        - label: Kann ich Muster für eigene Tests erhalten?
           content: |
-            Project costs vary based on scope, complexity, features, and timeline. For comprehensive UX/UI design and front-end development projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, my day rate is $700.
-        - label: What are your payment terms?
+            Ja. Seit 2025 liefern wir Proben an Kooperationspartner aus, die POx in realen Anwendungsszenarien erproben – den Anfang machte unser Partner DermaPurge. Wenn Sie POx in Ihrer eigenen Formulierung testen möchten, sprechen Sie uns an.
+        - label: Wie bestelle ich POx bei Oxaphil?
           content: |
-            I generally require a 40% deposit to schedule the project and begin work, with the remaining 60% due upon successful project completion and delivery. I accept payments via bank transfer and Stripe.
-        - label: How long does a typical project take?
+            Eine Übersicht unseres Produkts mit den zugehörigen Spezifikationen finden Sie auf der Seite [Bestellen](/bestellung). Für ein konkretes Angebot wenden Sie sich direkt an unseren Ansprechpartner – wir klären Menge, Spezifikation und Lieferzeitpunkt individuell mit Ihnen.
+        - label: In welchen Mengen ist POx verfügbar?
           content: |
-            Timelines depend heavily on the project's scope and complexity. Smaller projects might take 3-4 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
-        - label: Do you offer retainers or ongoing support?
+            Nach Jahren der Forschung ist es uns gelungen, POx auch im industriellen Maßstab herzustellen. Damit sind sowohl kleine Mengen für erste Versuche als auch größere Liefermengen möglich. Die für Ihr Vorhaben passende Menge stimmen wir gern persönlich ab.
+        - label: Beraten Sie auch bei der Formulierung?
           content: |
-            Yes, for clients needing ongoing design support, feature development, or maintenance, I offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
-    - title: About Me
+            Ja. Aus den Gesprächen auf Fachmessen wie der in-cosmetics Global und dem Drug Delivery & Formulation Summit wissen wir, wie unterschiedlich die Anforderungen an neue Materialien sind. Wir hören zu, verstehen Ihren Bedarf und entwickeln gemeinsam mit Ihnen eine passende Lösung.
+    - title: Über Oxaphil
       questions:
-        - label: What do you enjoy most about your work?
+        - label: Wer steht hinter Oxaphil?
           content: |
-            I love the challenge of solving complex problems through design and technology. It's incredibly rewarding to see people interact with something I've created and find it genuinely useful and easy to navigate. Bridging the gap between user needs and technical possibilities is what truly excites me.
-        - label: What are your hobbies outside of work?
+            Unser Team vereint Expertise aus Chemie, Regulatorik, Produktentwicklung und Unternehmensführung. Wissenschaftliche Exzellenz trifft dabei auf den Willen, neue Materialien tatsächlich in die Anwendung zu bringen. Die einzelnen Köpfe und ihre Verantwortungsbereiche stellen wir auf der Seite [Über uns](/wir) vor.
+        - label: Wie ist Oxaphil entstanden?
           content: |
-            When I'm not designing or coding, I enjoy exploring Boston's neighborhoods, trying out new coffee shops, and hiking in the nearby reservations. I'm also passionate about photography and occasionally contribute to open-source projects.
+            Oxaphil ist aus der Forschung heraus entstanden und wird durch das EXIST-Programm gefördert; die Anbindung an die TU Dresden bildet dabei ein tragfähiges wissenschaftliches Fundament. Was uns antreibt, ist der Schritt vom Labor in die Anwendung – neuartige Materialien nicht nur denkbar, sondern anwendbar zu machen.

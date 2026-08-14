@@ -37,6 +37,7 @@ const ui = {
     <UTabs
       :items
       orientation="horizontal"
+      :unmount-on-hide="false"
       :ui
     >
       <template #content="{ item }">

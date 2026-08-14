@@ -99,14 +99,15 @@ const aboutCardIndex = 3
 
               <div
                 v-if="item.images?.length"
-                class="flex flex-wrap gap-4 mt-4"
+                class="grid gap-4 mt-4"
+                :class="item.images.length > 1 ? 'sm:grid-cols-2' : 'grid-cols-1'"
               >
                 <img
                   v-for="(image, imageIndex) in item.images"
                   :key="imageIndex"
                   :src="image.src"
                   :alt="image.alt"
-                  class="rounded-lg h-48 object-cover"
+                  class="rounded-lg w-full max-h-[32rem] object-cover"
                 >
               </div>
             </UPageCard>

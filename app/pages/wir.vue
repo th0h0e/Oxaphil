@@ -54,28 +54,35 @@ defineOgImage('Portfolio', { title, description })
           v-for="(member, index) in page.members"
           :id="member.id"
           :key="index"
+          :title="member.name"
+          :description="member.role"
           variant="subtle"
+          orientation="vertical"
+          reverse
           class="scroll-mt-24"
         >
-          <UUser
-            :name="member.name"
-            :description="member.role"
-            :avatar="member.avatar"
-            size="xl"
-          />
-          <div
-            v-if="member.tags?.length"
-            class="flex flex-wrap gap-2 mt-4"
+          <img
+            v-if="member.avatar"
+            :src="member.avatar.src"
+            :alt="member.avatar.alt"
+            class="w-full rounded-lg aspect-square object-cover"
           >
-            <UBadge
-              v-for="tag in member.tags"
-              :key="tag"
-              :label="tag"
-              color="neutral"
-              variant="subtle"
-              size="sm"
-            />
-          </div>
+
+          <template #footer>
+            <div
+              v-if="member.tags?.length"
+              class="flex flex-wrap gap-2"
+            >
+              <UBadge
+                v-for="tag in member.tags"
+                :key="tag"
+                :label="tag"
+                color="neutral"
+                variant="subtle"
+                size="sm"
+              />
+            </div>
+          </template>
         </UPageCard>
       </UPageColumns>
     </UPageSection>
