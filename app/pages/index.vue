@@ -35,6 +35,12 @@ useSeoMeta({
         :poster="page.video.poster"
       />
     </UPageSection>
+    <UPageSection
+      v-if="page.valueProps"
+      :title="page.valueProps.title"
+      :description="page.valueProps.description"
+      :features="page.valueProps.items"
+    />
     <LandingFAQ :page />
     <LandingTestimonials :page />
     <LandingBlog :page />

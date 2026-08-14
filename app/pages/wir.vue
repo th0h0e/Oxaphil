@@ -42,7 +42,7 @@ defineOgImage('Portfolio', { title, description })
     >
       <MDC
         :value="page.technology.content"
-        unwrap="p"
+        class="prose prose-primary dark:prose-invert max-w-none"
       />
     </UPageSection>
     <UPageSection

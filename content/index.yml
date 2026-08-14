@@ -8,40 +8,24 @@ hero:
     - label: "Kontakt aufnehmen"
       icon: i-lucide-mail
       color: "neutral"
-about:
-  title: "About Me"
-  description: |
-    As a UX/UI designer and front-end developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
-    My approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
 video:
   title: Oxaphil im Video
   description: Ein kurzer Überblick über POx als Alternative zu PEG.
   provider: youtube
   src: JvMkTvXtqBQ
-experience:
-  title: Work Experience
+valueProps:
+  title: Warum POx
+  description: Was Poly(2-oxazolin)e gegenüber PEG auszeichnet.
   items:
-    - position: "Brand Designer at"
-      date: "2023 - Present"
-      company:
-        name: Nuxt
-        logo: "i-simple-icons-nuxtdotjs"
-        url: "https://nuxt.com"
-        color: "#00DC82"
-    - position: "Assets Designer at"
-      date: "2022 - 2023"
-      company:
-        name: Raycast
-        logo: "i-simple-icons-raycast"
-        url: "https://raycast.com"
-        color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
-      date: "2020 - 2021"
-      company:
-        name: Linear
-        logo: "i-simple-icons-linear"
-        url: "https://linear.app"
-        color: "#5E6AD2"
+    - title: Bessere Biokompatibilität
+      description: POx zeigt im Vergleich zu PEG ein deutlich geringeres Risiko unerwünschter Immunreaktionen – ein entscheidender Vorteil bei Biologika.
+      icon: i-lucide-heart-pulse
+    - title: Chemische Vielfalt
+      description: Über die Seitenketten lassen sich Löslichkeit, Ladung und Funktionalität gezielt einstellen – ein Baukasten statt eines einzelnen Materials.
+      icon: i-lucide-flask-conical
+    - title: Industriell verfügbar
+      description: Nach Jahren der Forschung stellen wir POx im industriellen Maßstab her und machen die Materialklasse damit breit zugänglich.
+      icon: i-lucide-factory
 testimonials:
   # Platzhalter. Vor Veröffentlichung durch echte, freigegebene Zitate ersetzen –
   # Name, Rolle und Unternehmen müssen der Person gehören, die das Zitat gegeben hat.
@@ -67,8 +51,8 @@ testimonials:
         src: /img/team-leonardo-matassini.jpg
         alt: Platzhalterbild
 blog:
-  title: "Latest Articles"
-  description: "Some of my recent thoughts"
+  title: "Fachbeiträge"
+  description: "Hintergründe zu Poly(2-oxazolin)en, zur Formulierung und zu dem, was uns in Gesprächen mit Anwendern begegnet."
 faq:
   title: Häufige Fragen
   description: Antworten auf die Fragen, die uns am häufigsten zu POx gestellt werden.

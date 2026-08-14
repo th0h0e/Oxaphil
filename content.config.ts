@@ -44,7 +44,6 @@ export default defineContentConfig({
           links: z.array(createButtonSchema()),
           images: z.array(createImageSchema()).optional()
         }),
-        about: createBaseSchema(),
         video: z.object({
           title: z.string(),
           description: z.string().optional(),
@@ -52,18 +51,11 @@ export default defineContentConfig({
           src: z.string(),
           poster: z.string().optional()
         }).optional(),
-        experience: createBaseSchema().extend({
-          items: z.array(z.object({
-            date: z.date(),
-            position: z.string(),
-            company: z.object({
-              name: z.string(),
-              url: z.string(),
-              logo: z.string().editor({ input: 'icon' }),
-              color: z.string()
-            })
+        valueProps: createBaseSchema().extend({
+          items: z.array(createBaseSchema().extend({
+            icon: z.string().optional().editor({ input: 'icon' })
           }))
-        }),
+        }).optional(),
         testimonials: z.array(createTestimonialSchema()),
         blog: createBaseSchema(),
         faq: createBaseSchema().extend({
@@ -80,21 +72,9 @@ export default defineContentConfig({
         })
       })
     }),
-    projects: defineCollection({
-      type: 'data',
-      source: 'projects/*.yml',
-      schema: z.object({
-        title: z.string().nonempty(),
-        description: z.string().nonempty(),
-        image: z.string().nonempty().editor({ input: 'media' }),
-        url: z.string().nonempty(),
-        tags: z.array(z.string()),
-        date: z.date()
-      })
-    }),
-    blog: defineCollection({
+    press: defineCollection({
       type: 'page',
-      source: 'blog/*.md',
+      source: 'press/*.md',
       schema: z.object({
         minRead: z.number(),
         date: z.date(),
@@ -105,8 +85,7 @@ export default defineContentConfig({
     pages: defineCollection({
       type: 'page',
       source: [
-        { include: 'projects.yml' },
-        { include: 'blog.yml' }
+        { include: 'press.yml' }
       ],
       schema: z.object({
         links: z.array(createButtonSchema())
@@ -124,25 +103,6 @@ export default defineContentConfig({
           location: z.string(),
           url: z.string().optional()
         }))
-      })
-    }),
-    landing: defineCollection({
-      type: 'page',
-      source: 'landing.yml',
-      schema: z.object({
-        links: z.array(createButtonSchema()),
-        video: z.object({
-          title: z.string(),
-          description: z.string().optional(),
-          provider: z.enum(['file', 'youtube']),
-          src: z.string(),
-          poster: z.string().optional()
-        }),
-        valueProps: createBaseSchema().extend({
-          items: z.array(createBaseSchema().extend({
-            icon: z.string().optional().editor({ input: 'icon' })
-          }))
-        }).optional()
       })
     }),
     neuigkeiten: defineCollection({
