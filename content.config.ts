@@ -198,15 +198,19 @@ export default defineContentConfig({
         technology: createBaseSchema().extend({
           content: z.object({})
         }),
-        team: createBaseSchema(),
-        members: z.array(z.object({
-          id: z.string(),
-          name: z.string(),
-          role: z.string(),
-          description: z.string().optional(),
-          tags: z.array(z.string()).optional(),
-          avatar: createImageSchema().optional()
-        }))
+        team: createBaseSchema()
+      })
+    }),
+    team: defineCollection({
+      type: 'data',
+      source: 'team/*.yml',
+      schema: z.object({
+        id: z.string(),
+        name: z.string(),
+        role: z.string(),
+        description: z.string().optional(),
+        tags: z.array(z.string()).optional(),
+        avatar: createImageSchema().optional()
       })
     })
   }

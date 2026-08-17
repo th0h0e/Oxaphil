@@ -2,6 +2,9 @@
 const { data: page } = await useAsyncData('wir', () => {
   return queryCollection('wir').first()
 })
+const { data: members } = await useAsyncData('team', () => {
+  return queryCollection('team').all()
+})
 if (!page.value) {
   throw createError({
     statusCode: 404,
@@ -51,9 +54,9 @@ defineOgImage('Portfolio', { title, description })
     >
       <UPageColumns>
         <UPageCard
-          v-for="(member, index) in page.members"
+          v-for="member in members"
           :id="member.id"
-          :key="index"
+          :key="member.id"
           :title="member.name"
           :description="member.role"
           variant="subtle"
