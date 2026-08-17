@@ -12,7 +12,7 @@ defineProps<{
   <UPageHero
     :ui="{
       headline: 'flex items-center justify-center',
-      title: 'text-shadow-md max-w-lg mx-auto',
+      title: 'mx-auto',
       links: 'mt-4 flex-col justify-center items-center'
     }"
   >
@@ -33,12 +33,9 @@ defineProps<{
           delay: 0.1
         }"
       >
-        <UColorModeAvatar
-          class="size-18 ring ring-default ring-offset-3 ring-offset-bg"
-          :light="global.picture?.light!"
-          :dark="global.picture?.dark!"
-          :alt="global.picture?.alt!"
-        />
+        <div class="size-32 rounded-full ring ring-default ring-offset-3 ring-offset-bg flex items-center justify-center bg-default">
+          <ProductMolecule class="size-28 text-highlighted" />
+        </div>
       </Motion>
     </template>
 

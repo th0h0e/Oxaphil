@@ -16,6 +16,8 @@ links:
     to: mailto:erik@oxaphil.com
     icon: i-lucide-mail
     color: primary
+    size: sm
+    variant: subtle
 product:
   title: Unser Produkt
   name: HydroPOx40-OH
