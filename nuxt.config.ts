@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@vueuse/nuxt',
     'nuxt-og-image',
-    'motion-v/nuxt'
+    'motion-v/nuxt',
+    'nuxt-studio'
   ],
 
   devtools: {
@@ -29,6 +30,15 @@ export default defineNuxtConfig({
       }
     }
   },
+
+  studio: {
+      repository: {
+        provider: 'github', // 'github' or 'gitlab'
+        owner: 'th0h0e',
+        repo: 'Oxaphil',
+        branch: 'main'
+      }
+    },
 
   compatibilityDate: '2026-06-30',
 

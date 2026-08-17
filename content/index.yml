@@ -1,58 +1,8 @@
-seo:
-  title: "Poly(2-oxazolin)e als Alternative zu PEG"
-  description: "Oxaphil entwickelt und produziert Poly(2-oxazolin)e (POx) im industriellen Maßstab – die biokompatible Alternative zu PEG für Pharma, Biotech und Kosmetik."
-title: "Poly(2-oxazolin)e für Pharma, Biotech und Kosmetik"
-description: "Oxaphil entwickelt und produziert POx als biokompatible Alternative zu PEG – nach Jahren der Forschung jetzt im industriellen Maßstab verfügbar."
-hero:
-  links:
-    - label: "Kontakt aufnehmen"
-      icon: i-lucide-mail
-      color: "neutral"
-video:
-  title: Oxaphil im Video
-  description: Ein kurzer Überblick über POx als Alternative zu PEG.
-  provider: youtube
-  src: JvMkTvXtqBQ
-valueProps:
-  title: Warum POx
-  description: Was Poly(2-oxazolin)e gegenüber PEG auszeichnet.
-  items:
-    - title: Bessere Biokompatibilität
-      description: POx zeigt im Vergleich zu PEG ein deutlich geringeres Risiko unerwünschter Immunreaktionen – ein entscheidender Vorteil bei Biologika.
-      icon: i-lucide-heart-pulse
-    - title: Chemische Vielfalt
-      description: Über die Seitenketten lassen sich Löslichkeit, Ladung und Funktionalität gezielt einstellen – ein Baukasten statt eines einzelnen Materials.
-      icon: i-lucide-flask-conical
-    - title: Industriell verfügbar
-      description: Nach Jahren der Forschung stellen wir POx im industriellen Maßstab her und machen die Materialklasse damit breit zugänglich.
-      icon: i-lucide-factory
-testimonials:
-  # Platzhalter. Vor Veröffentlichung durch echte, freigegebene Zitate ersetzen –
-  # Name, Rolle und Unternehmen müssen der Person gehören, die das Zitat gegeben hat.
-  - quote: 'Hier steht das freigegebene Zitat eines Anwendungspartners zur Erprobung von POx in eigenen Formulierungen.'
-    author:
-      name: 'Name der Person'
-      description: 'Rolle, Unternehmen'
-      avatar:
-        src: /img/team-laura-fietzke.jpg
-        alt: Platzhalterbild
-  - quote: 'Hier steht das freigegebene Zitat aus dem Bereich pharmazeutische Formulierung – etwa zu Lösungsvermittlung, Biokompatibilität oder dem Ersatz von PEG.'
-    author:
-      name: 'Name der Person'
-      description: 'Rolle, Unternehmen'
-      avatar:
-        src: /img/team-erik-wegener.jpg
-        alt: Platzhalterbild
-  - quote: 'Hier steht das freigegebene Zitat aus der Kosmetikbranche – etwa zu funktionalen, biokompatiblen Inhaltsstoffen.'
-    author:
-      name: 'Name der Person'
-      description: 'Rolle, Unternehmen'
-      avatar:
-        src: /img/team-leonardo-matassini.jpg
-        alt: Platzhalterbild
+title: Poly(2-oxazolin)e für Pharma, Biotech und Kosmetik
 blog:
-  title: "Fachbeiträge"
-  description: "Hintergründe zu Poly(2-oxazolin)en, zur Formulierung und zu dem, was uns in Gesprächen mit Anwendern begegnet."
+  title: Fachbeiträge
+  description: Hintergründe zu Poly(2-oxazolin)en, zur Formulierung und zu dem, was uns in Gesprächen mit Anwendern begegnet.
+description: Oxaphil entwickelt und produziert POx als biokompatible Alternative zu PEG – nach Jahren der Forschung jetzt im industriellen Maßstab verfügbar.
 faq:
   title: Häufige Fragen
   description: Antworten auf die Fragen, die uns am häufigsten zu POx gestellt werden.
@@ -90,3 +40,52 @@ faq:
         - label: Wie ist Oxaphil entstanden?
           content: |
             Oxaphil ist aus der Forschung heraus entstanden und wird durch das EXIST-Programm gefördert; die Anbindung an die TU Dresden bildet dabei ein tragfähiges wissenschaftliches Fundament. Was uns antreibt, ist der Schritt vom Labor in die Anwendung – neuartige Materialien nicht nur denkbar, sondern anwendbar zu machen.
+hero:
+  links:
+    - label: Kontakt aufnehmen
+      icon: i-lucide-mail
+      color: neutral
+  images: []
+seo:
+  title: Poly(2-oxazolin)e als Alternative zu PEG
+  description: Oxaphil entwickelt und produziert Poly(2-oxazolin)e (POx) im industriellen Maßstab – die biokompatible Alternative zu PEG für Pharma, Biotech und Kosmetik.
+testimonials:
+  - quote: Hier steht das freigegebene Zitat eines Anwendungspartners zur Erprobung von POx in eigenen Formulierungen.
+    author:
+      name: Name der Person
+      description: Rolle, Unternehmen
+      avatar:
+        src: /img/team-laura-fietzke.jpg
+        alt: Platzhalterbild
+  - quote: Hier steht das freigegebene Zitat aus dem Bereich pharmazeutische Formulierung – etwa zu Lösungsvermittlung, Biokompatibilität oder dem Ersatz von PEG.
+    author:
+      name: Name der Person
+      description: Rolle, Unternehmen
+      avatar:
+        src: /img/team-erik-wegener.jpg
+        alt: Platzhalterbild
+  - quote: Hier steht das freigegebene Zitat aus der Kosmetikbranche – etwa zu funktionalen, biokompatiblen Inhaltsstoffen.
+    author:
+      name: Name der Person
+      description: Rolle, Unternehmen
+      avatar:
+        src: /img/team-leonardo-matassini.jpg
+        alt: Platzhalterbild
+valueProps:
+  title: Warum POx
+  description: Was Poly(2-oxazolin)e gegenüber PEG auszeichnet.
+  items:
+    - title: Bessere Biokompatibilität
+      description: POx zeigt im Vergleich zu PEG ein deutlich geringeres Risiko unerwünschter Immunreaktionen – ein entscheidender Vorteil bei Biologika.
+      icon: i-lucide-heart-pulse
+    - title: Chemische Vielfalt
+      description: Über die Seitenketten lassen sich Löslichkeit, Ladung und Funktionalität gezielt einstellen – ein Baukasten statt eines einzelnen Materials.
+      icon: i-lucide-flask-conical
+    - title: Industriell verfügbar
+      description: Nach Jahren der Forschung stellen wir POx im industriellen Maßstab her und machen die Materialklasse damit breit zugänglich.
+      icon: i-lucide-factory
+video:
+  title: Oxaphil im Video
+  description: Ein kurzer Überblick über POx als Alternative zu PEG.
+  provider: youtube
+  src: JvMkTvXtqBQ
