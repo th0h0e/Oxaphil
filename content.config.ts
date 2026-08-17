@@ -36,7 +36,7 @@ const createTestimonialSchema = () => z.object({
 
 const createFeatureSchema = () => z.object({
   title: z.string(),
-  description: z.string(),
+  description: z.string().editor({ input: 'textarea' }),
   icon: z.string().optional().editor({ input: 'icon' })
 })
 
@@ -148,29 +148,7 @@ export default defineContentConfig({
       type: 'page',
       source: 'materialien.yml',
       schema: z.object({
-        ...lockPageMeta(),
-        platform: createBaseSchema().extend({
-          content: z.object({}),
-          icon: z.string().optional().editor({ input: 'icon' }),
-          image: createImageSchema(),
-          features: z.array(createFeatureSchema())
-        }),
-        anwendungen: createBaseSchema().extend({
-          content: z.object({}),
-          icon: z.string().optional().editor({ input: 'icon' }),
-          image: createImageSchema(),
-          features: z.array(createFeatureSchema())
-        }),
-        literature: createBaseSchema().extend({
-          references: z.array(z.object({
-            authors: z.string(),
-            title: z.string(),
-            journal: z.string().optional(),
-            year: z.number().optional(),
-            volume: z.string().optional(),
-            pages: z.string().optional()
-          }))
-        })
+        ...lockPageMeta()
       })
     }),
     bestellung: defineCollection({
@@ -238,6 +216,32 @@ export default defineContentConfig({
         description: z.string().optional(),
         tags: z.array(z.string()).optional(),
         avatar: createImageSchema().optional()
+      })
+    }),
+    materialienSections: defineCollection({
+      type: 'data',
+      source: { include: 'materialien/*.yml', exclude: ['materialien/literatur.yml'] },
+      schema: z.object({
+        id: z.string(),
+        title: z.string(),
+        description: z.string().optional().editor({ input: 'textarea' }),
+        icon: z.string().optional().editor({ input: 'icon' }),
+        image: createImageSchema(),
+        features: z.array(createFeatureSchema())
+      })
+    }),
+    materialienLiteratur: defineCollection({
+      type: 'data',
+      source: 'materialien/literatur.yml',
+      schema: createBaseSchema().extend({
+        references: z.array(z.object({
+          authors: z.string(),
+          title: z.string(),
+          journal: z.string().optional(),
+          year: z.number().optional(),
+          volume: z.string().optional(),
+          pages: z.string().optional()
+        }))
       })
     })
   }

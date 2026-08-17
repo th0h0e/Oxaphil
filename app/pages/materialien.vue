@@ -2,6 +2,12 @@
 const { data: page } = await useAsyncData('materialien', () => {
   return queryCollection('materialien').first()
 })
+const { data: sections } = await useAsyncData('materialien-sections', () => {
+  return queryCollection('materialienSections').all()
+})
+const { data: literature } = await useAsyncData('materialien-literatur', () => {
+  return queryCollection('materialienLiteratur').first()
+})
 if (!page.value) {
   throw createError({
     statusCode: 404,
@@ -33,33 +39,25 @@ defineOgImage('Portfolio', { title, description })
         description: 'mx-0! text-left'
       }"
     />
-    <PageFeatureSection
-      id="pox-als-plattform"
-      :title="page.platform.title"
-      :description="page.platform.description"
-      :icon="page.platform.icon"
-      :image="page.platform.image"
-      :content="page.platform.content"
-      :features="page.platform.features"
-    />
-    <USeparator />
-    <PageFeatureSection
-      id="anwendungen"
-      :title="page.anwendungen.title"
-      :description="page.anwendungen.description"
-      :icon="page.anwendungen.icon"
-      :image="page.anwendungen.image"
-      :content="page.anwendungen.content"
-      :features="page.anwendungen.features"
-      reverse
-    />
-    <USeparator />
+    <template v-for="(section, index) in sections" :key="section.id">
+      <PageFeatureSection
+        :id="section.id"
+        :title="section.title"
+        :description="section.description"
+        :icon="section.icon"
+        :image="section.image"
+        :features="section.features"
+        :reverse="index % 2 === 1"
+      />
+      <USeparator />
+    </template>
     <UPageSection
+      v-if="literature"
       id="literatur"
-      :title="page.literature.title"
-      :description="page.literature.description"
+      :title="literature.title"
+      :description="literature.description"
     >
-      <LiteratureList :references="page.literature.references" />
+      <LiteratureList :references="literature.references" />
     </UPageSection>
   </UPage>
 </template>

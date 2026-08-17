@@ -16,7 +16,6 @@ const props = defineProps<{
   description?: string
   icon?: string
   image: ImageProp
-  content?: string
   features?: Feature[]
   reverse?: boolean
 }>()
@@ -36,7 +35,7 @@ const props = defineProps<{
         :ui="{ description: 'text-base' }"
       >
         <template #title>
-          <h2 class="text-2xl sm:text-3xl text-pretty tracking-tight font-bold text-highlighted">
+          <h2 class="text-2xl sm:text-3xl text-pretty tracking-tight font-bold text-highlighted py-4">
             {{ title }}
           </h2>
         </template>
@@ -45,7 +44,6 @@ const props = defineProps<{
       <UPageCard
         variant="naked"
         :class="reverse ? 'sm:order-1' : 'sm:order-2'"
-        :ui="{ container: 'justify-center' }"
       >
         <img
           :src="image.src"
@@ -54,24 +52,20 @@ const props = defineProps<{
         >
       </UPageCard>
 
-      <UPageCard
-        v-if="content"
-        variant="naked"
-        class="col-span-full sm:order-3"
-      >
-        <MDC
-          :value="content"
-          class="prose prose-primary dark:prose-invert max-w-none"
-        />
-      </UPageCard>
-
-      <UPageCard
+      <Motion
         v-for="(feature, index) in features"
         :key="index"
-        v-bind="feature"
-        variant="soft"
+        :initial="{ opacity: 0, transform: 'translateY(10px)' }"
+        :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
+        :transition="{ delay: 0.1 * index }"
+        :in-view-options="{ once: true }"
         class="col-span-full sm:order-4"
-      />
+      >
+        <UPageCard
+          v-bind="feature"
+          variant="outline"
+        />
+      </Motion>
     </UPageGrid>
   </section>
 </template>

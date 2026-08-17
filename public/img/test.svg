@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 340" width="100%" height="100%">
+    <!-- Poly(2-ethyl-2-oxazoline) - HydroPOx-OH Vector Molecule -->
+    <g font-family="Inter, sans-serif" fill="#0f172a" stroke="#0f172a">
+
+        <!-- Ethyl Group (Top Left) -->
+        <!-- Terminal CH3 to CH2 bond -->
+        <line x1="80" y1="45" x2="80" y2="105" stroke-width="4.5" stroke-linecap="round" />
+        <!-- CH2 to Carbonyl Carbon bond -->
+        <line x1="80" y1="105" x2="135" y2="137" stroke-width="4.5" stroke-linecap="round" />
+
+        <!-- Carbonyl C=O Double Bond -->
+        <!-- Upper line -->
+        <line x1="137" y1="130" x2="175" y2="108" stroke-width="4.5" stroke-linecap="round" />
+        <!-- Lower line -->
+        <line x1="131" y1="141" x2="169" y2="119" stroke-width="4.5" stroke-linecap="round" />
+
+        <!-- Oxygen Atom Label 'O' -->
+        <text x="188" y="113" font-size="28" font-weight="bold" text-anchor="middle" dominant-baseline="central" stroke="none">O</text>
+
+        <!-- Carbonyl Carbon to Nitrogen Bond -->
+        <line x1="135" y1="137" x2="135" y2="178" stroke-width="4.5" stroke-linecap="round" />
+
+        <!-- Polymer Initiator Bond (Left incoming line passing through bracket) -->
+        <line x1="55" y1="241" x2="120" y2="203" stroke-width="4.5" stroke-linecap="round" />
+
+        <!-- Nitrogen Atom Label 'N' -->
+        <text x="135" y="195" font-size="28" font-weight="bold" text-anchor="middle" dominant-baseline="central" stroke="none">N</text>
+
+        <!-- Polymer Backbone Bonds -->
+        <!-- N to CH2 vertex 1 -->
+        <line x1="150" y1="203" x2="205" y2="235" stroke-width="4.5" stroke-linecap="round" />
+        <!-- CH2 vertex 1 to CH2 vertex 2 -->
+        <line x1="205" y1="235" x2="265" y2="200" stroke-width="4.5" stroke-linecap="round" />
+        <!-- CH2 vertex 2 to terminal OH (passing through bracket) -->
+        <line x1="265" y1="200" x2="330" y2="238" stroke-width="4.5" stroke-linecap="round" />
+
+        <!-- Terminal Hydroxyl Group Label 'OH' -->
+        <text x="352" y="245" font-size="28" font-weight="bold" text-anchor="start" dominant-baseline="central" stroke="none">OH</text>
+
+        <!-- Polymer Repeating Unit Brackets -->
+        <!-- Left Bracket [ -->
+        <path d="M 98,145 H 86 V 255 H 98" fill="none" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter" />
+
+        <!-- Right Bracket ] -->
+        <path d="M 290,145 H 302 V 255 H 290" fill="none" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter" />
+
+        <!-- Repeat Count Subscript (e.g. 40 or n) -->
+        <text x="308" y="270" font-size="20" font-weight="600" text-anchor="start" dominant-baseline="central" stroke="none">n</text>
+
+    </g>
+</svg>

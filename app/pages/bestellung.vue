@@ -53,32 +53,33 @@ defineOgImage('Portfolio', { title, description })
         variant="subtle"
         orientation="horizontal"
         :ui="{ title: 'text-xl' }"
+        spotlight
+        spotlight-color="primary"
       >
-        <template #leading>
-          <img
-            :src="page.product.image.src"
-            :alt="page.product.image.alt"
-            class="rounded-lg w-full object-cover"
-          >
+        <template #footer>
+          <dl class="grid grid-cols-2 gap-x-6 gap-y-3 text-sm">
+            <template
+              v-for="spec in page.product.specs"
+              :key="spec.label"
+            >
+              <dt class="text-muted">
+                {{ spec.label }}
+              </dt>
+              <dd class="text-default font-medium">
+                {{ spec.value }}
+              </dd>
+            </template>
+          </dl>
+
+          <p class="mt-6 text-lg font-semibold text-primary">
+            {{ page.product.price }}
+          </p>
         </template>
 
-        <dl class="grid grid-cols-2 gap-x-6 gap-y-3 text-sm">
-          <template
-            v-for="spec in page.product.specs"
-            :key="spec.label"
-          >
-            <dt class="text-muted">
-              {{ spec.label }}
-            </dt>
-            <dd class="text-default font-medium">
-              {{ spec.value }}
-            </dd>
-          </template>
-        </dl>
-
-        <p class="mt-6 text-lg font-semibold text-primary">
-          {{ page.product.price }}
-        </p>
+        <ProductMolecule
+          :aria-label="page.product.image.alt"
+          class="w-full text-highlighted"
+        />
       </UPageCard>
     </UPageSection>
     <UPageSection

@@ -1,38 +1,35 @@
 title: Bestellen
-description: Unsere POx-Materialien direkt anfragen und bestellen.
-seo:
-  title: Bestellen
-  description: Unsere POx-Materialien direkt anfragen und bestellen.
-content: |
-  Sie möchten POx für Ihre Anwendung testen? Wir liefern Muster- und Produktionsmengen und beraten Sie zur passenden Spezifikation. Nehmen Sie einfach Kontakt mit uns auf – wir melden uns kurzfristig mit einem Angebot.
-product:
-  title: Unser Produkt
-  name: HydroPOx40-OH
-  chemicalName: Poly(2-ethyl-2-oxazolin), hydroxylterminiert
-  specs:
-    - label: Pn
-      value: '40'
-    - label: Mn
-      value: 'TODO: ca. 4.000 g/mol'
-    - label: CAS-Nummer
-      value: 'TODO: CAS-Nummer eintragen'
-    - label: Liefermenge
-      value: 'TODO: z. B. 1 g – 10 kg'
-  price: 'ab TODO €/g'
-  image:
-    src: /img/product-hydropox-oh.png
-    alt: Produktbild HydroPOx40-OH
 contact:
-  title: Ihr Ansprechpartner
+  title: Kontaktieren Sie uns
   name: Dr. Erik Wegener
-  role: CEO – Ansprechpartner für Bestellungen
-  phone: 'TODO: +49 ...'
+  role: Kontaktieren sie uns für diesen und weitere Artikel oder spezifische Synthesen und Entwicklung
+  phone: +49 155 65330061
   email: erik@oxaphil.com
   photo:
     src: /img/erik-wegener-bestellung.jpg
     alt: Dr. Erik Wegener
+content: |
+  Sie möchten POx für Ihre Anwendung testen? Wir liefern Muster- und Produktionsmengen und beraten Sie zur passenden Spezifikation. Nehmen Sie einfach Kontakt mit uns auf – wir melden uns kurzfristig mit einem Angebot.
+description: Unsere POx-Materialien direkt anfragen und bestellen.
 links:
   - label: Jetzt anfragen
-    to: 'mailto:erik@oxaphil.com'
+    to: mailto:erik@oxaphil.com
     icon: i-lucide-mail
     color: primary
+product:
+  title: Unser Produkt
+  name: HydroPOx40-OH
+  chemicalName: Poly(2-ethyl-2-oxazolin)
+  specs:
+    - label: Pn
+      value: "40"
+    - label: Mn
+      value: 4 kg/mol
+    - label: CAS-Nummer
+      value: 25805-17-8
+    - label: Liefermenge
+      value: von 10 g bis 10 kg
+  price: ab 3 €/g
+  image:
+    src: /img/test.svg
+    alt: Chemisches Schema von HydroPOx40-OH

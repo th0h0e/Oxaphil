@@ -32,6 +32,13 @@ export default defineNuxtConfig({
   },
 
   studio: {
+    route: '/admin',
+    i18n: {
+          defaultLocale: 'de'
+    },
+    editor: {
+          iconLibraries: ['lucide'],
+        },
       repository: {
         provider: 'github', // 'github' or 'gitlab'
         owner: 'th0h0e',
