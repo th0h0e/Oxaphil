@@ -39,7 +39,10 @@ defineOgImage('Portfolio', { title, description })
         description: 'mx-0! text-left'
       }"
     />
-    <template v-for="(section, index) in sections" :key="section.id">
+    <template
+      v-for="(section, index) in sections"
+      :key="section.id"
+    >
       <PageFeatureSection
         :id="section.id"
         :title="section.title"

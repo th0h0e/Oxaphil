@@ -31,22 +31,6 @@ export default defineNuxtConfig({
     }
   },
 
-  studio: {
-    route: '/admin',
-    i18n: {
-          defaultLocale: 'de'
-    },
-    editor: {
-          iconLibraries: ['lucide'],
-        },
-      repository: {
-        provider: 'github', // 'github' or 'gitlab'
-        owner: 'th0h0e',
-        repo: 'Oxaphil',
-        branch: 'main'
-      }
-    },
-
   compatibilityDate: '2026-06-30',
 
   nitro: {
@@ -69,5 +53,21 @@ export default defineNuxtConfig({
 
   ogImage: {
     zeroRuntime: true
+  },
+
+  studio: {
+    route: '/admin',
+    i18n: {
+      defaultLocale: 'de'
+    },
+    editor: {
+      iconLibraries: ['lucide']
+    },
+    repository: {
+      provider: 'github', // 'github' or 'gitlab'
+      owner: 'th0h0e',
+      repo: 'Oxaphil',
+      branch: 'main'
+    }
   }
 })
