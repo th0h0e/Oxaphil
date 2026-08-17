@@ -1,2 +1,8 @@
 title: Fachbeiträge
 description: Hintergründe zu Poly(2-oxazolin)en, zur Formulierung und zu dem, was uns in Gesprächen mit Anwendern begegnet.
+links:
+  - label: "Link "
+    icon: i-solar:home-line-duotone
+    size: sm
+    variant: subtle
+    target: _blank

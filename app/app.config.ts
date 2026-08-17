@@ -20,6 +20,12 @@ export default defineAppConfig({
         title: 'mx-auto max-w-xl text-pretty text-3xl sm:text-4xl lg:text-5xl',
         description: 'mt-2 text-md mx-auto max-w-2xl text-pretty sm:text-md text-muted'
       }
+    },
+    pageSection: {
+      slots: {
+        container: 'px-2 sm:px-3 lg:px-4',
+        title: 'text-2xl sm:text-3xl lg:text-4xl text-pretty tracking-tight font-bold text-highlighted'
+      }
     }
   },
   footer: {

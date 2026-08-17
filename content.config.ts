@@ -34,12 +34,27 @@ const createTestimonialSchema = () => z.object({
   author: createAuthorSchema()
 })
 
+const createFeatureSchema = () => z.object({
+  title: z.string(),
+  description: z.string(),
+  icon: z.string().optional().editor({ input: 'icon' })
+})
+
+// Locks down the fields Nuxt Content auto-adds to `page` collections (seo, navigation)
+// so Studio can't expose them for editing. `seo` always falls back to title/description
+// (see app/pages/*.vue), and navigation stays fixed to its default (`true`).
+const lockPageMeta = () => ({
+  seo: z.object({}).optional().default({}).editor({ hidden: true }),
+  navigation: z.boolean().default(true).editor({ hidden: true })
+})
+
 export default defineContentConfig({
   collections: {
     index: defineCollection({
       type: 'page',
       source: 'index.yml',
       schema: z.object({
+        ...lockPageMeta(),
         hero: z.object({
           links: z.array(createButtonSchema()),
           images: z.array(createImageSchema()).optional()
@@ -76,6 +91,7 @@ export default defineContentConfig({
       type: 'page',
       source: 'press/*.md',
       schema: z.object({
+        ...lockPageMeta(),
         minRead: z.number(),
         date: z.date(),
         image: z.string().nonempty().editor({ input: 'media' }),
@@ -88,6 +104,7 @@ export default defineContentConfig({
         { include: 'press.yml' }
       ],
       schema: z.object({
+        ...lockPageMeta(),
         links: z.array(createButtonSchema())
       })
     }),
@@ -95,6 +112,7 @@ export default defineContentConfig({
       type: 'page',
       source: 'speaking.yml',
       schema: z.object({
+        ...lockPageMeta(),
         links: z.array(createButtonSchema()),
         events: z.array(z.object({
           category: z.enum(['Live talk', 'Podcast', 'Conference']),
@@ -109,6 +127,7 @@ export default defineContentConfig({
       type: 'page',
       source: 'neuigkeiten.yml',
       schema: z.object({
+        ...lockPageMeta(),
         about: z.object({
           title: z.string(),
           logo: createImageSchema(),
@@ -129,13 +148,18 @@ export default defineContentConfig({
       type: 'page',
       source: 'materialien.yml',
       schema: z.object({
+        ...lockPageMeta(),
         platform: createBaseSchema().extend({
           content: z.object({}),
-          image: createImageSchema()
+          icon: z.string().optional().editor({ input: 'icon' }),
+          image: createImageSchema(),
+          features: z.array(createFeatureSchema())
         }),
         anwendungen: createBaseSchema().extend({
           content: z.object({}),
-          image: createImageSchema()
+          icon: z.string().optional().editor({ input: 'icon' }),
+          image: createImageSchema(),
+          features: z.array(createFeatureSchema())
         }),
         literature: createBaseSchema().extend({
           references: z.array(z.object({
@@ -144,8 +168,7 @@ export default defineContentConfig({
             journal: z.string().optional(),
             year: z.number().optional(),
             volume: z.string().optional(),
-            pages: z.string().optional(),
-            doi: z.string().optional()
+            pages: z.string().optional()
           }))
         })
       })
@@ -154,6 +177,7 @@ export default defineContentConfig({
       type: 'page',
       source: 'bestellung.yml',
       schema: z.object({
+        ...lockPageMeta(),
         content: z.object({}),
         product: z.object({
           title: z.string(),
@@ -181,6 +205,7 @@ export default defineContentConfig({
       type: 'page',
       source: 'impressum-de.yml',
       schema: z.object({
+        ...lockPageMeta(),
         content: z.object({})
       })
     }),
@@ -188,6 +213,7 @@ export default defineContentConfig({
       type: 'page',
       source: 'datenschutzerklaerung-2.yml',
       schema: z.object({
+        ...lockPageMeta(),
         content: z.object({})
       })
     }),
@@ -195,6 +221,7 @@ export default defineContentConfig({
       type: 'page',
       source: 'wir.yml',
       schema: z.object({
+        ...lockPageMeta(),
         technology: createBaseSchema().extend({
           content: z.object({})
         }),

@@ -44,11 +44,10 @@ hero:
   links:
     - label: Kontakt aufnehmen
       icon: i-lucide-mail
-      color: neutral
+      color: primary
+      size: lg
+      variant: subtle
   images: []
-seo:
-  title: Poly(2-oxazolin)e als Alternative zu PEG
-  description: Oxaphil entwickelt und produziert Poly(2-oxazolin)e (POx) im industriellen Maßstab – die biokompatible Alternative zu PEG für Pharma, Biotech und Kosmetik.
 testimonials:
   - quote: Hier steht das freigegebene Zitat eines Anwendungspartners zur Erprobung von POx in eigenen Formulierungen.
     author:
@@ -88,4 +87,5 @@ video:
   title: Oxaphil im Video
   description: Ein kurzer Überblick über POx als Alternative zu PEG.
   provider: youtube
-  src: JvMkTvXtqBQ
+  src: /img/news-innovationskonferenz-1.jpg
+  poster: /img/news-innovationskonferenz-1.jpg

@@ -1,8 +1,4 @@
 title: Neuigkeiten
-description: Aktuelle Meldungen und Neuigkeiten von Oxaphil.
-seo:
-  title: Neuigkeiten
-  description: Aktuelle Meldungen und Neuigkeiten von Oxaphil.
 about:
   title: Über Oxaphil
   logo:
@@ -10,6 +6,7 @@ about:
     alt: Oxaphil Logo
   content: |
     Oxaphil entwickelt und produziert Poly(2-oxazolin)e (POx) als leistungsfähige Alternative zu PEG – mit besserer Biokompatibilität, größerer chemischer Vielfalt und verbesserter Löslichkeit.
+description: Aktuelle Meldungen und Neuigkeiten von Oxaphil.
 items:
   - title: Oxaphil gewinnt den Sächsischen Gründerpreis 2026
     date: 2026-02-05
@@ -58,7 +55,7 @@ items:
     images:
       - src: /img/news-jahresende.jpeg
         alt: Team von Oxaphil bei einer Wanderung zum Jahresende
-  - title: 'Drei Veranstaltungen mit einem gemeinsamen Ziel: Anwendungen verstehen und Lösungen ermöglichen'
+  - title: "Drei Veranstaltungen mit einem gemeinsamen Ziel: Anwendungen verstehen und Lösungen ermöglichen"
     date: 2025-06-06
     location: Berlin / München / Erfurt
     description: In der ersten Juniwoche war Oxaphil auf drei richtungsweisenden Veranstaltungen präsent.
@@ -140,3 +137,11 @@ items:
 
       TODO: Gründungsgeschichte und wissenschaftlichen Hintergrund ausführlicher darstellen.
     images: []
+  - title: POx als Alternative zu PEG - unser Startpunkt
+    date: 2026-08-05
+    location: Amsterdam
+    description: "PEG hat sich über Jahrzehnte bewährt, zeigt aber zunehmend Grenzen – insbesondere im Zusammenhang mit Antikörpern und anderen Biologika, wo es unerwünschte Immunreaktionen auslösen kann.  Genau hier setzt Oxaphil an: Poly(2-oxazolin)e bieten eine bessere Biokompatibilität, eine größere Vielfalt funktioneller chemischer Gruppen und eine verbesserte Löslichkeit.  TODO: Gründungsgeschichte und wissenschaftlichen Hintergrund ausführlicher darstellen."
+    content: "PEG hat sich über Jahrzehnte bewährt, zeigt aber zunehmend Grenzen – insbesondere im Zusammenhang mit Antikörpern und anderen Biologika, wo es unerwünschte Immunreaktionen auslösen kann.  Genau hier setzt Oxaphil an: Poly(2-oxazolin)e bieten eine bessere Biokompatibilität, eine größere Vielfalt funktioneller chemischer Gruppen und eine verbesserte Löslichkeit.  TODO: Gründungsgeschichte und wissenschaftlichen Hintergrund ausführlicher darstellen."
+    images:
+      - src: /favicon.ico
+        alt: gg

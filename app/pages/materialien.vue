@@ -33,42 +33,27 @@ defineOgImage('Portfolio', { title, description })
         description: 'mx-0! text-left'
       }"
     />
-    <UPageSection
+    <PageFeatureSection
       id="pox-als-plattform"
       :title="page.platform.title"
       :description="page.platform.description"
-      orientation="horizontal"
-      :ui="{
-        container: 'pt-0!'
-      }"
-    >
-      <MDC
-        :value="page.platform.content"
-        class="prose prose-primary dark:prose-invert max-w-none"
-      />
-      <img
-        :src="page.platform.image.src"
-        :alt="page.platform.image.alt"
-        class="rounded-lg w-full object-cover"
-      >
-    </UPageSection>
-    <UPageSection
+      :icon="page.platform.icon"
+      :image="page.platform.image"
+      :content="page.platform.content"
+      :features="page.platform.features"
+    />
+    <USeparator />
+    <PageFeatureSection
       id="anwendungen"
       :title="page.anwendungen.title"
       :description="page.anwendungen.description"
-      orientation="horizontal"
+      :icon="page.anwendungen.icon"
+      :image="page.anwendungen.image"
+      :content="page.anwendungen.content"
+      :features="page.anwendungen.features"
       reverse
-    >
-      <MDC
-        :value="page.anwendungen.content"
-        class="prose prose-primary dark:prose-invert max-w-none"
-      />
-      <img
-        :src="page.anwendungen.image.src"
-        :alt="page.anwendungen.image.alt"
-        class="rounded-lg w-full object-cover"
-      >
-    </UPageSection>
+    />
+    <USeparator />
     <UPageSection
       id="literatur"
       :title="page.literature.title"

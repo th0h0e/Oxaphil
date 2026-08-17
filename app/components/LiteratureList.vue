@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import type { TableColumn } from '@nuxt/ui'
+
 interface Reference {
   authors: string
   title: string
@@ -9,29 +11,88 @@ interface Reference {
   doi?: string
 }
 
-defineProps<{
+const props = defineProps<{
   references: Reference[]
 }>()
+
+const container = useTemplateRef('container')
+const getScrollElement = () => container.value
+
+const columns: TableColumn<Reference>[] = [
+  {
+    accessorKey: 'authors',
+    header: 'Autoren',
+    meta: {
+      class: {
+        th: 'w-28',
+        td: 'w-28 text-xs whitespace-normal break-words'
+      }
+    }
+  },
+  {
+    accessorKey: 'title',
+    header: 'Titel',
+    meta: {
+      class: {
+        th: 'w-52',
+        td: 'w-52 text-xs whitespace-normal break-words'
+      }
+    }
+  },
+  {
+    accessorKey: 'journal',
+    header: 'Journal',
+    meta: {
+      class: {
+        th: 'w-20',
+        td: 'w-20 text-xs whitespace-normal break-words'
+      }
+    }
+  },
+  {
+    accessorKey: 'year',
+    header: 'Jahr',
+    meta: {
+      class: {
+        th: 'w-12 text-right',
+        td: 'w-12 text-right text-xs whitespace-normal break-words'
+      }
+    }
+  },
+  {
+    accessorKey: 'volume',
+    header: 'Band',
+    meta: {
+      class: {
+        th: 'w-12',
+        td: 'w-12 text-xs whitespace-normal break-words'
+      }
+    }
+  },
+  {
+    accessorKey: 'pages',
+    header: 'Seiten',
+    meta: {
+      class: {
+        th: 'w-16',
+        td: 'w-16 text-xs whitespace-normal break-words'
+      }
+    }
+  }
+]
 </script>
 
 <template>
-  <ol class="flex flex-col gap-3 list-decimal ps-5 text-sm text-muted">
-    <li
-      v-for="(reference, index) in references"
-      :key="index"
-    >
-      <span>{{ reference.authors }}</span>
-      <span class="text-default"> {{ reference.title }}.</span>
-      <em v-if="reference.journal"> {{ reference.journal }}</em>
-      <span v-if="reference.year"> {{ reference.year }}</span><span v-if="reference.volume">, <strong>{{ reference.volume }}</strong></span><span v-if="reference.pages">, {{ reference.pages }}</span>.
-      <ULink
-        v-if="reference.doi"
-        :to="`https://doi.org/${reference.doi}`"
-        target="_blank"
-        class="text-primary"
-      >
-        doi:{{ reference.doi }}
-      </ULink>
-    </li>
-  </ol>
+  <div
+    ref="container"
+    class="w-full max-h-125 overflow-auto ring ring-default"
+  >
+    <UTable
+      sticky
+      :data="props.references"
+      :columns="columns"
+      :virtualize="{ getScrollElement }"
+      :ui="{ base: 'min-w-[100%] table-fixed', th: 'text-xs whitespace-normal break-words' }"
+    />
+  </div>
 </template>

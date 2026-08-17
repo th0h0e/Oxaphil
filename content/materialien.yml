@@ -1,167 +1,152 @@
 title: Materialien
-description: Informationen zu POx als Plattform und den möglichen Anwendungen.
-seo:
-  title: Materialien
-  description: Informationen zu POx als Plattform und den möglichen Anwendungen.
-platform:
-  title: POx als Plattform
-  description: Poly(2-oxazolin)e sind kein einzelnes Material, sondern ein modularer Baukasten.
-  image:
-    src: /img/materialien-schema.png
-    alt: Chemisches Schema von POx als Materialplattform
-  content: |
-    Poly(2-oxazolin)e entstehen durch kationische ringöffnende Polymerisation von 2-Oxazolinen. Das Verfahren ist lebend, das heißt Kettenlänge und Endgruppen lassen sich präzise steuern. Daraus ergibt sich eine Materialplattform, die sich für sehr unterschiedliche Anforderungen maßschneidern lässt.
-
-    ### Chemische Vielfalt
-
-    TODO: Beschreiben, wie über die 2-Position der Seitenkette (Methyl, Ethyl, Propyl, funktionalisierte Reste) Hydrophilie, Ladung und Reaktivität eingestellt werden.
-
-    ### Selbstorganisation
-
-    TODO: Beschreiben, wie amphiphile POx-Blockcopolymere Mizellen und Vesikel bilden und welche Größenbereiche dabei erreichbar sind.
-
-    ### Biokompatibilität
-
-    TODO: Beschreiben, warum POx im Vergleich zu PEG geringere Immunogenität zeigt und welche Studienlage dazu vorliegt.
-
-    ### Stimuli-responsive Eigenschaften
-
-    TODO: Beschreiben, wie POx auf Temperatur, pH-Wert oder Redoxbedingungen reagieren kann und wofür das genutzt wird.
-
-    ### Modularität und Skalierbarkeit
-
-    TODO: Beschreiben, wie sich Blockstrukturen kombinieren lassen und wie die Synthese in den industriellen Maßstab überführt wurde.
-
-    ### Fazit
-
-    TODO: Kurze Zusammenfassung der Plattformeigenschaften.
 anwendungen:
-  title: Anwendungen
-  description: Von der Wirkstoffformulierung bis zur Oberflächenmodifikation.
+  title: POx, Anwendungen als Materialien mit Wirkung
+  description: Nach der Übersicht über die chemischen Grundlagen und Eigenschaften folgt nun ein Blick auf konkrete Anwendungen der Materialien. Die besonderen Eigenschaften von POx entfalten ihre volle Relevanz erst in der praktischen Nutzung. Die Materialien verbinden funktionale Vielfalt mit hoher Biokompatibilität, Stabilität und Formulierungseffizienz. In der biomedizinischen Forschung sind sie längst als leistungsfähige Materialklasse etabliert. Mit Oxaphil können sie nun auch in der industriellen Entwicklung klare Vorteile bringen.
   image:
     src: /img/materialien-anwendungen.png
     alt: Übersicht der Anwendungsfelder von POx
   content: |
     Die Eigenschaften der POx-Plattform übersetzen sich in eine Reihe konkreter Anwendungsfelder – in der Pharmazie, der Biotechnologie und der Kosmetik.
-
-    ### Medikamententransport
-
-    TODO: Beschreiben, wie POx-Mizellen schwer lösliche Wirkstoffe transportieren und welche Beladungskapazitäten erreicht werden.
-
-    ### Wirkstoffformulierung
-
-    TODO: Beschreiben, wie POx als Löslichkeitsvermittler in Formulierungen eingesetzt wird.
-
-    ### Stabilisierung von LNPs
-
-    TODO: Beschreiben, wie POx PEG in Lipid-Nanopartikeln ersetzen kann und welche Vorteile sich daraus ergeben.
-
-    ### Oberflächenmodifikation
-
-    TODO: Beschreiben, wie POx-Beschichtungen unspezifische Proteinadsorption verringern.
-
-    ### Kosmetische Anwendungen
-
-    TODO: Beschreiben, welche Rolle POx in kosmetischen Formulierungen spielt.
-
-    ### Ausblick
-
-    TODO: Kurzer Ausblick auf weitere Anwendungsfelder in Entwicklung.
+  features:
+    - title: Medikamententransport im Körper
+      description: Eine der ersten und meistuntersuchten Anwendungen von POx liegt im gezielten Transport von Wirkstoffen. Wie bereits in Teil 1 dargestellt, werden die Materialien vom Immunsystem kaum erkannt (siehe „Stealth“ Effekt) und können sich selbst zu Strukturen wie Mizellen, Nanogelen oder Vesikeln organisieren. Amphiphile POx eignen sich daher ideal als Trägersysteme. Sowohl hydrophile als auch hydrophobe Wirkstoffe lassen sich über POx basierte Systeme effizient einkapseln und freisetzen. In vivo Studien belegen verlängerte Blutverweilzeiten und das Ausbleiben von Immunreaktionen im Vergleich zu herkömmlichen Trägersystemen. Die Funktionalisierbarkeit der Endgruppen eröffnet zusätzlich Optionen für gezieltes Targeting.
+    - title: Wirkstoffformulierung und Lösungsvermittlung
+      description: Ein verbreitetes Problem in der pharmazeutischen Entwicklung ist die schlechte Wasserlöslichkeit vieler Wirkstoffe. POx adressieren dieses Problem und ermöglichen stabile Formulierungen. Ihre Fähigkeit, in wässrigen Systemen gleichzeitig als Lösungsvermittler, Stabilisator und Trägersubstanz zu wirken, macht die Materialien zu vielseitigen Hilfen in der Formulierung. Durch gezielte Wahl der Seitenketten können hydrophobe oder amphiphile Polymere erzeugt werden, die schwer lösliche Wirkstoffe effektiv solubilisieren. Dies eröffnet für verschiedene Applikationsformen neue Möglichkeiten.
+    - title: Stabilisierung von Liposomen und Lipid Nanopartikeln (LNPs)
+      description: Mit der Entwicklung von mRNA basierten Therapeutika ist die Stabilisierung von LNPs zu einem zentralen Thema geworden. Auch hier zeigen POx vielversprechende Eigenschaften. Erste Studien demonstrieren, dass POx beschichtete Liposomen eine vergleichbare oder sogar höhere Stabilität aufweisen als PEGylierte Systeme. Gleichzeitig wird die Bildung von Antikörperreaktionen reduziert. In der präklinischen Entwicklung werden die Materialien zunehmend als Alternative zu PEG für die Stabilisierung von Liposomen und LNPs geprüft, insbesondere bei repetitiver Anwendung.
+    - title: Oberflächenmodifikation durch Adsorption
+      description: Die chemische Variation amphiphiler POx erlaubt ihre physikalische Adsorption auf verschiedenen Oberflächen, etwa auf Metallen, Kunststoffen oder Silikonen. Anders als kovalent gebundene Polymerbürsten, die schwer zu skalieren und selten als fertiges Produkt erhältlich sind, bieten adsorbierte POx Schichten eine pragmatische Lösung zur temporären Biofilmreduktion, zur Anti Fouling Beschichtung oder zur Verbesserung der Biokompatibilität. Die Anwendungen reichen von Implantatbeschichtungen über Analyseoberflächen bis hin zu temporären Schutzschichten.
+    - title: Kosmetische Anwendungen
+      description: In der Kosmetikbranche wächst das Interesse an Inhaltsstoffen, die biologisch verträglich, leistungsfähig und vielseitig einsetzbar sind. POx erfüllen diese Anforderungen in besonderer Weise. Als Lösungsvermittler, Feuchtigkeitsspender oder Strukturgeber lassen sich ihre Eigenschaften mit etablierten PEG Derivaten vergleichen, zugleich eröffnen sie durch ihre modulare Struktur neue Möglichkeiten. Aufgrund ihrer hohen Biokompatibilität bieten die Materialien das Potenzial für eine verbesserte Hautverträglichkeit und gezieltere Funktionalität. Ihre Eigenschaften erlauben die Stabilisierung von Emulsionen, Cremes und Gelen und können so Textur, Haltbarkeit und Sensorik entscheidend verbessern. Darüber hinaus ermöglichen sie eine kontrollierte Freisetzung kosmetisch aktiver Inhaltsstoffe und eignen sich für den Transport empfindlicher Wirkstoffe wie Vitamine, Peptide oder pflanzliche Extrakte. Erste Konzepte zeigen die Eignung auch in Sonnenschutzmitteln, Anti Aging Formulierungen oder Produkten für sensible Haut.  Ein Vergleich mit PEG, das seit Jahrzehnten in zahlreichen kosmetischen Produkten verwendet wird, verdeutlicht die Vorteile der POx Struktur. Während PEG eine lineare, wenig variierbare Kettenstruktur besitzt, lassen sich bei POx Seitenketten und Endgruppen gezielt austauschen und anpassen. Damit eröffnet sich ein großer Gestaltungsspielraum, um Löslichkeit, Viskosität, Interaktion mit Wirkstoffen oder sensorische Eigenschaften fein zu justieren. Diese strukturelle Modularität erlaubt es, Formulierungen zu entwickeln, die präzise auf die Bedürfnisse unterschiedlicher Produkte und Hauttypen abgestimmt sind und gleichzeitig regulatorische Anforderungen besser zu berücksichtigen. Es wird deutlich, dass POx nicht nur in pharmazeutischen Trägersystemen Stabilität und Wirksamkeit verbessern, sondern dass die gleiche Logik auch auf kosmetische Systeme übertragbar ist. Mizellenbildung, hohe Stabilität in komplexen Formulierungen und die Möglichkeit, Wirkstoffe gezielt verfügbar zu machen, sind Eigenschaften, die auch für Cremes, Seren und Lotionen einen erheblichen Mehrwert bieten. Damit zeigt sich, dass POx nicht nur als funktionale Alternative zu PEG gedacht werden können, sondern als vielseitige Plattform für innovative kosmetische Lösungen.
+    - title: Ausblick
+      description: Die Vielfalt bereits dokumentierter und vielversprechender Anwendungen zeigt, dass POx nicht nur als akademisches Konzept, sondern als konkrete Lösung für reale Herausforderungen relevant sind. In einem Umfeld, in dem biologische Verträglichkeit, regulatorische Sicherheit und funktionale Präzision immer wichtiger werden, bieten die Materialien eine neue Qualität für die Entwicklung anwendungsnaher Systeme.
+      icon: i-lucide:eye
+  icon: i-lucide:dna
+description: Informationen zu POx als Plattform und den möglichen Anwendungen.
 literature:
   title: Literatur
   description: Ausgewählte Publikationen zu Poly(2-oxazolin)en.
   references:
-    - authors: 'T. Lorson et al.'
-      title: 'Poly(2-oxazoline)s based biomaterials: A comprehensive and critical update'
-      journal: 'Biomaterials'
+    - authors: T. Lorson et al.
+      title: "Poly(2-oxazoline)s based biomaterials: A comprehensive and critical update"
+      journal: Biomaterials
       year: 2018
-      volume: '178'
-      pages: '204–280'
-    - authors: 'V. R. de la Rosa, A. van den Bulcke, R. Hoogenboom'
-      title: 'Poly(2-Oxazoline)s: The Versatile Polymer Platform for Biomedicine'
-      journal: 'Material Matters'
+      volume: "178"
+      pages: 204–280
+    - authors: V. R. de la Rosa, A. van den Bulcke, R. Hoogenboom
+      title: "Poly(2-Oxazoline)s: The Versatile Polymer Platform for Biomedicine"
+      journal: Material Matters
       year: 2016
-      volume: '11.3'
-    - authors: 'R. Luxenhofer, R. Jordan'
-      title: 'Poly(2-oxazoline)s (POx) in Biomedical Applications'
-      journal: 'Material Matters'
+      volume: "11.3"
+    - authors: R. Luxenhofer, R. Jordan
+      title: Poly(2-oxazoline)s (POx) in Biomedical Applications
+      journal: Material Matters
       year: 2016
-      volume: '8.3'
-    - authors: 'J. Ulbricht, R. Jordan, R. Luxenhofer'
-      title: 'On the biodegradability of polyethylene glycol, polypeptoids and poly(2-oxazoline)s'
-      journal: 'Biomaterials'
+      volume: "8.3"
+    - authors: J. Ulbricht, R. Jordan, R. Luxenhofer
+      title: On the biodegradability of polyethylene glycol, polypeptoids and poly(2-oxazoline)s
+      journal: Biomaterials
       year: 2014
-      volume: '35'
-      pages: '4848–4861'
-    - authors: 'M. Grube, M. N. Leiske, U. S. Schubert, I. Nischang'
-      title: 'POx as an Alternative to PEG? A Hydrodynamic and Light Scattering Study'
-      journal: 'Macromolecules'
+      volume: "35"
+      pages: 4848–4861
+    - authors: M. Grube, M. N. Leiske, U. S. Schubert, I. Nischang
+      title: POx as an Alternative to PEG? A Hydrodynamic and Light Scattering Study
+      journal: Macromolecules
       year: 2018
-      volume: '51'
-      pages: '1905–1916'
-    - authors: 'M. C. Woodle, C. M. Engbers, S. Zalipsky'
-      title: 'New Amphipatic Polymer-Lipid Conjugates Forming Long-Circulating Reticuloendothelial System-Evading Liposomes'
-      journal: 'Bioconjugate Chemistry'
+      volume: "51"
+      pages: 1905–1916
+    - authors: M. C. Woodle, C. M. Engbers, S. Zalipsky
+      title: New Amphipatic Polymer-Lipid Conjugates Forming Long-Circulating Reticuloendothelial System-Evading Liposomes
+      journal: Bioconjugate Chemistry
       year: 1994
-      volume: '5'
-      pages: '493–496'
-    - authors: 'R. Duncan'
-      title: 'The dawning era of polymer therapeutics'
-      journal: 'Nature Reviews Drug Discovery'
+      volume: "5"
+      pages: 493–496
+    - authors: R. Duncan
+      title: The dawning era of polymer therapeutics
+      journal: Nature Reviews Drug Discovery
       year: 2003
-      volume: '2'
-      pages: '347–360'
-    - authors: 'Gaertner et al.'
-      title: 'Synthesis, biodistribution and excretion of radiolabeled poly(2-alkyl-2-oxazoline)s'
-      journal: 'Journal of Controlled Release'
+      volume: "2"
+      pages: 347–360
+    - authors: Gaertner et al.
+      title: Synthesis, biodistribution and excretion of radiolabeled poly(2-alkyl-2-oxazoline)s
+      journal: Journal of Controlled Release
       year: 2007
-      volume: '119'
-      pages: '291–300'
-    - authors: 'Luxenhofer et al.'
-      title: 'Poly(2-oxazoline)s as Polymer Therapeutics'
-      journal: 'Macromolecular Rapid Communications'
+      volume: "119"
+      pages: 291–300
+    - authors: Luxenhofer et al.
+      title: Poly(2-oxazoline)s as Polymer Therapeutics
+      journal: Macromolecular Rapid Communications
       year: 2012
-      volume: '33'
-      pages: '1963–1969'
-    - authors: 'Hoogenboom'
-      title: 'The future of poly(2-oxazoline)s'
-      journal: 'European Polymer Journal'
+      volume: "33"
+      pages: 1963–1969
+    - authors: Hoogenboom
+      title: The future of poly(2-oxazoline)s
+      journal: European Polymer Journal
       year: 2022
-      volume: '179'
-      pages: '111521'
-    - authors: 'Zhang et al.'
-      title: 'Lipids and Lipid Derivatives for RNA Delivery'
-      journal: 'Chemical Reviews'
+      volume: "179"
+      pages: "111521"
+    - authors: Zhang et al.
+      title: Lipids and Lipid Derivatives for RNA Delivery
+      journal: Chemical Reviews
       year: 2021
-      volume: '121'
-      pages: '12181–12277'
-    - authors: 'Onugwu et al.'
-      title: 'Development and optimization of solid lipid nanoparticles coated with chitosan and poly(2-ethyl-2-oxazoline) for ocular drug delivery of ciprofloxacin'
-      journal: 'Journal of Drug Delivery Science and Technology'
+      volume: "121"
+      pages: 12181–12277
+    - authors: Onugwu et al.
+      title: Development and optimization of solid lipid nanoparticles coated with chitosan and poly(2-ethyl-2-oxazoline) for ocular drug delivery of ciprofloxacin
+      journal: Journal of Drug Delivery Science and Technology
       year: 2022
-      volume: '74'
-      pages: '103527'
-    - authors: 'Simon et al.'
-      title: 'Polyoxazolines based mixed micelles as PEG free formulations for an effective quercetin antioxidant topical delivery'
-      journal: 'International Journal of Pharmaceutics'
+      volume: "74"
+      pages: "103527"
+    - authors: Simon et al.
+      title: Polyoxazolines based mixed micelles as PEG free formulations for an effective quercetin antioxidant topical delivery
+      journal: International Journal of Pharmaceutics
       year: 2019
-      volume: '570'
-      pages: '118516'
-    - authors: 'Luxenhofer et al.'
-      title: 'Structure-property relationship in cytotoxicity and cell uptake of poly(2-oxazoline) amphiphiles'
-      journal: 'Journal of Controlled Release'
+      volume: "570"
+      pages: "118516"
+    - authors: Luxenhofer et al.
+      title: Structure-property relationship in cytotoxicity and cell uptake of poly(2-oxazoline) amphiphiles
+      journal: Journal of Controlled Release
       year: 2011
-      volume: '153'
-      pages: '73–82'
-    - authors: 'Tryba et al.'
-      title: 'Poly(L-lactide-co-glycolide) membranes modified with RGD-poly-(2-oxazoline) for biomedical application'
-      journal: 'Engineering of Biomaterials'
+      volume: "153"
+      pages: 73–82
+    - authors: Tryba et al.
+      title: Poly(L-lactide-co-glycolide) membranes modified with RGD-poly-(2-oxazoline) for biomedical application
+      journal: Engineering of Biomaterials
       year: 2021
-      volume: '24'
-      pages: '44'
-    - authors: 'Tryba et al.'
-      title: 'Surface Functionalization of Poly(l-lactide-co-glycolide) Membranes with RGD-Grafted Poly(2-oxazoline) for Periodontal Tissue Engineering'
-      journal: 'Journal of Functional Biomaterials'
+      volume: "24"
+      pages: "44"
+    - authors: Tryba et al.
+      title: Surface Functionalization of Poly(l-lactide-co-glycolide) Membranes with RGD-Grafted Poly(2-oxazoline) for Periodontal Tissue Engineering
+      journal: Journal of Functional Biomaterials
       year: 2022
-      volume: '13'
-      pages: '4'
+      volume: "13"
+      pages: "4"
+platform:
+  title: POx, eine Plattform statt ein Ersatzstoff
+  description: Ein Blick in die Chemie von Poly(2-oxazolin)en (POx) offenbart eine bemerkenswerte Vielseitigkeit, die weit über die Eigenschaften herkömmlicher Polymere wie Polyethylenglykol (PEG) hinausgeht. POx werden durch lebende kationische Ringöffnungs-Polymerisation (LCROP) hergestellt, die eine präzise Kontrolle über Struktur, Kettenlänge und Funktionalität ermöglicht. Diese Synthesemethode erlaubt eine gezielte Variation der Seitenketten, wodurch sich die hydrophile-hydrophobe Balance (HLB), thermoresponsive Eigenschaften, biologische Wechselwirkungen sowie die physikalischen und chemischen Eigenschaften präzise abstimmen lassen. Ein weiterer Vorteil der POx liegt in der Möglichkeit, die Polymerketten gezielt an den Enden zu modifizieren. Diese Endgruppen-Funktionalisierung erlaubt die Anbindung von Wirkstoffen, Markern oder Vernetzern.
+  image:
+    src: /img/materialien-schema.png
+    alt: Chemisches Schema von POx als Materialplattform
+  content: |
+    Ein Blick in die Chemie von Poly(2-oxazolin)en (POx) offenbart eine bemerkenswerte Vielseitigkeit, die weit über die Eigenschaften herkömmlicher Polymere wie Polyethylenglykol (PEG) hinausgeht. POx werden durch lebende kationische Ringöffnungs-Polymerisation (LCROP) hergestellt, die eine präzise Kontrolle über Struktur, Kettenlänge und Funktionalität ermöglicht. Diese Synthesemethode erlaubt eine gezielte Variation der Seitenketten, wodurch sich die hydrophile-hydrophobe Balance (HLB), thermoresponsive Eigenschaften, biologische Wechselwirkungen sowie die physikalischen und chemischen Eigenschaften präzise abstimmen lassen. Ein weiterer Vorteil der POx liegt in der Möglichkeit, die Polymerketten gezielt an den Enden zu modifizieren. Diese Endgruppen-Funktionalisierung erlaubt die Anbindung von Wirkstoffen, Markern oder Vernetzern.
+
+    ### Chemische Vielfalt
+
+    Die Auswahl der Monomere bestimmt die Eigenschaften des resultierenden Polymers:
+
+    Hydrophile Varianten wie Poly(2-methyl-2-oxazolin) (PMeOx) sind hoch wasserlöslich und PEG in vielen biomedizinischen Anwendungen überlegen.
+    Hydrophobe Derivate mit aliphatischen oder aromatischen Seitenketten eignen sich besonders für die Formulierung schwer löslicher Wirkstoffe.
+    Die Kombination zu amphiphilen POx ermöglicht somit schwerlösliche Wirkstoffe durch physikalische Bindung in wässrige Systeme zu bringen.
+  features:
+    - title: Selbstorganisation und Nanostrukturen
+      description: Amphiphile POx können sich in wässriger Lösung selbst zu Nanostrukturen wie Mizellen, Vesikeln oder Nanogelen organisieren. Diese Strukturen sind besonders relevant für pharmazeutische Anwendungen, da sie den Transport und die Freisetzung von Wirkstoffen gezielt steuern können. Die Konzepte basieren auf etablierten Prinzipien wie denen von Ruth Duncan, wonach eine Balance aus Stabilität, Freisetzung und biologischer Verfügbarkeit entscheidend für die Wirksamkeit ist.
+    - title: "Biokompatibilität: differenziert, aber überzeugend"
+      description: "POx, insbesondere PMeOx und Poly(2-ethyl-2-oxazolin), gelten als gut verträglich. Die Zytokompatibilität und Hämokompatibilität sind vielfach belegt, ebenso der sogenannte „Stealth“-Effekt, der eine Erkennung durch das Immunsystem vermindert. Wichtig ist jedoch: Biokompatibilität hängt immer von Struktur, Zusammensetzung und Endgruppen ab und muss daher für jede Anwendung einzeln geprüft werden. Aktuelle Studien liefern ein immer klareres Bild: Bisher gibt es keine wissenschaftlichen Veröffentlichungen, die systemische Toxizität oder Immunreaktionen bei POx mit relevanten Molmassen dokumentieren. Bei Molmassen unterhalb von 60 kDa werden POx renal ausgeschieden. Nach der Ausscheidung zeigen POx zudem eine bessere Bioabbaubarkeit als PEG – ein wichtiger Aspekt mit Hinblick auf Langzeitverträglichkeit und Umweltaspekte. Aber: Durch die Anpassbarkeit von POx können, wenn beabsichtig, auch antimikrobielle Eigenschaften erzeugt werden – eine interessante Perspektive für verschiedenste Anwendungen."
+    - title: Stimuli-responsive Eigenschaften
+      description: Bestimmte POx-Varianten reagieren auf äußere Reize wie Temperatur, pH-Wert oder Redoxbedingungen. Diese stimuli-responsiven Eigenschaften eröffnen neue Möglichkeiten für intelligente Materialien, etwa für die gezielte Wirkstofffreisetzung oder für adaptive Systeme in Diagnostik und Sensorik.
+    - title: Modularität und industrielle Skalierbarkeit
+      description: Durch die Kombination verschiedener Monomere, Initiatoren und Funktionalisierungen lassen sich maßgeschneiderte POx mit definierten Eigenschaften herstellen. Die Synthese ist nicht nur kontrolliert, sondern durch Oxaphil nun auch skalierbar. Dank innovativer Technologien, wie sie bei Oxaphil zum Einsatz kommen, sind POx inzwischen in industriell relevanten Mengen und Qualitäten verfügbar. Damit sind sie nicht nur für Forschung und Formulierungsentwicklung, sondern zukünftig auch für die GMP-konforme Produktion dieser Materialien geeignet.
+    - title: "Fazit: Poly(2-oxazoline) sind kein Ersatz – sie sind ein Upgrade."
+      description: Durch ihre chemische Modularität, biologische Verträglichkeit, physikalische Stabilität und funktionale Vielseitigkeit bieten POx eine Plattform für die Entwicklung zukunftsweisender Materialien. Ihr Potenzial reicht von Biomedizin über Diagnostik bis zur Kosmetik und ist bei Weitem noch nicht ausgeschöpft.
+      icon: i-lucide:arrow-down-wide-narrow
+  icon: i-lucide:bubbles

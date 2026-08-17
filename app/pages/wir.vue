@@ -40,17 +40,27 @@ defineOgImage('Portfolio', { title, description })
       :title="page.technology.title"
       :description="page.technology.description"
       :ui="{
-        container: 'pt-0!'
+        container: 'pt-0!',
+        headline: 'justify-start',
+        title: 'text-left',
+        description: 'text-left'
       }"
     >
+      <USeparator />
       <MDC
         :value="page.technology.content"
         class="prose prose-primary dark:prose-invert max-w-none"
       />
     </UPageSection>
+    <USeparator />
     <UPageSection
       :title="page.team.title"
       :description="page.team.description"
+      :ui="{
+        headline: 'justify-start',
+        title: 'text-left',
+        description: 'text-left'
+      }"
     >
       <UPageColumns>
         <UPageCard
@@ -63,12 +73,17 @@ defineOgImage('Portfolio', { title, description })
           orientation="vertical"
           reverse
           class="scroll-mt-24"
+          :ui="{
+            root: 'overflow-hidden',
+            container: 'p-0 sm:p-0 gap-y-4',
+            wrapper: 'px-4 sm:px-6 pb-4 sm:pb-6'
+          }"
         >
           <img
             v-if="member.avatar"
             :src="member.avatar.src"
             :alt="member.avatar.alt"
-            class="w-full rounded-lg aspect-square object-cover"
+            class="w-full aspect-4/5 object-cover"
           >
 
           <template #footer>
