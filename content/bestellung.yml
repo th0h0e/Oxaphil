@@ -1,13 +1,14 @@
 title: Bestellen
-contact:
-  title: Kontaktieren Sie uns
+contactCard:
   name: Dr. Erik Wegener
   role: Kontaktieren sie uns für diesen und weitere Artikel oder spezifische Synthesen und Entwicklung
+  photoSrc: /img/erik-wegener-bestellung.jpg
+  photoAlt: Dr. Erik Wegener
   phone: +49 155 65330061
   email: erik@oxaphil.com
-  photo:
-    src: /img/erik-wegener-bestellung.jpg
-    alt: Dr. Erik Wegener
+  buttonColor: primary
+  buttonVariant: subtle
+  cardVariant: subtle
 content: |
   Sie möchten POx für Ihre Anwendung testen? Wir liefern Muster- und Produktionsmengen und beraten Sie zur passenden Spezifikation. Nehmen Sie einfach Kontakt mit uns auf – wir melden uns kurzfristig mit einem Angebot.
 description: Unsere POx-Materialien direkt anfragen und bestellen.
@@ -17,7 +18,7 @@ links:
     icon: i-lucide-mail
     color: primary
     size: sm
-    variant: subtle
+    variant: soft
 product:
   title: Unser Produkt
   name: HydroPOx40-OH

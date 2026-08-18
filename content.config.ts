@@ -1,4 +1,4 @@
-import { defineCollection, defineContentConfig, z } from '@nuxt/content'
+import { defineCollection, defineContentConfig, property, z } from '@nuxt/content'
 
 const createBaseSchema = () => z.object({
   title: z.string(),
@@ -168,15 +168,10 @@ export default defineContentConfig({
           price: z.string(),
           image: createImageSchema()
         }),
-        contact: z.object({
-          title: z.string().optional(),
-          name: z.string(),
-          role: z.string().optional(),
-          phone: z.string().optional(),
-          email: z.string().optional(),
-          photo: createImageSchema()
-        }),
-        links: z.array(createButtonSchema())
+        links: z.array(createButtonSchema()),
+        // Shape is read from ContactCard.vue's props rather than declared here, so
+        // adding a prop to that component is enough to expose it in Studio.
+        contactCard: property(z.object({})).inherit('app/components/ContactCard.vue')
       })
     }),
     impressum: defineCollection({

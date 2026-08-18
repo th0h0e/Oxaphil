@@ -41,6 +41,15 @@ defineOgImage('Portfolio', { title, description })
         container: 'pt-0!'
       }"
     >
+      <UButton
+        icon="i-lucide-rocket"
+        size="md"
+        color="primary"
+        variant="solid"
+      >
+        Button
+      </UButton>
+
       <MDC
         :value="page.content"
         unwrap="p"
@@ -83,39 +92,14 @@ defineOgImage('Portfolio', { title, description })
       </UPageCard>
     </UPageSection>
     <UPageSection
-      :title="page.contact.title"
       :ui="{
         container: 'pt-0!'
       }"
     >
-      <UPageCard variant="subtle">
-        <UUser
-          :name="page.contact.name"
-          :description="page.contact.role"
-          :avatar="{ src: page.contact.photo.src, alt: page.contact.photo.alt }"
-          size="xl"
-        />
-        <div class="flex flex-wrap gap-3 mt-4">
-          <UButton
-            v-if="page.contact.phone"
-            :label="page.contact.phone"
-            :to="`tel:${page.contact.phone.replace(/\s/g, '')}`"
-            icon="i-lucide-phone"
-            color="neutral"
-            variant="subtle"
-            size="sm"
-          />
-          <UButton
-            v-if="page.contact.email"
-            :label="page.contact.email"
-            :to="`mailto:${page.contact.email}`"
-            icon="i-lucide-mail"
-            color="neutral"
-            variant="subtle"
-            size="sm"
-          />
-        </div>
-      </UPageCard>
+      <ContactCard
+        v-if="page.contactCard"
+        v-bind="page.contactCard"
+      />
     </UPageSection>
   </UPage>
 </template>

@@ -1,39 +1,34 @@
 title: Vorträge & Messen
 description: Wo Oxaphil POx vorstellt – auf Fachmessen, Konferenzen und vor Investorinnen und Investoren.
-seo:
-  title: Vorträge & Messen
-  description: Wo Oxaphil POx vorstellt – auf Fachmessen, Konferenzen und vor Investorinnen und Investoren.
+events:
+  - category: Conference
+    title: POx in der pharmazeutischen Formulierung – Lösungsvermittlung, Biokompatibilität und strukturelle Präzision
+    date: 2025-06-06
+    location: Drug Delivery & Formulation Summit 2025, Berlin
+  - category: Conference
+    title: "Funktionale Inhaltsstoffe: POx im Gespräch mit der Kosmetikbranche"
+    date: 2025-06-06
+    location: CosmeticBusiness, München
+  - category: Conference
+    title: Anwendungen und Zielmärkte von POx – Pitch bei den Investor Days Thüringen
+    date: 2025-06-06
+    location: Investor Days Thüringen, Erfurt
+  - category: Conference
+    title: Potenziale von Poly(2-oxazolin)en für moderne kosmetische Formulierungen
+    date: 2025-04-10
+    location: in-cosmetics Global, Amsterdam
+  - category: Live talk
+    title: "Beispieleintrag: Titel des Vortrags"
+    date: 2025-05-15
+    location: Veranstaltung, Ort
+  - category: Podcast
+    title: "Beispieleintrag: Titel der Podcast-Folge"
+    date: 2025-03-12
+    location: Name des Podcasts (Gast)
 links:
   - label: Vortrag anfragen
-    to: 'mailto:erik@oxaphil.com'
+    to: mailto:erik@oxaphil.com
     icon: i-lucide-mail
-    size: md
-events:
-  # Alle Termine stammen aus unseren Neuigkeiten. Die Tagesdaten bitte vor
-  # Veröffentlichung gegen die offiziellen Veranstaltungstermine prüfen.
-  - category: Conference
-    title: 'POx in der pharmazeutischen Formulierung – Lösungsvermittlung, Biokompatibilität und strukturelle Präzision'
-    date: '2025-06-06'
-    location: 'Drug Delivery & Formulation Summit 2025, Berlin'
-  - category: Conference
-    title: 'Funktionale Inhaltsstoffe: POx im Gespräch mit der Kosmetikbranche'
-    date: '2025-06-06'
-    location: 'CosmeticBusiness, München'
-  - category: Conference
-    title: 'Anwendungen und Zielmärkte von POx – Pitch bei den Investor Days Thüringen'
-    date: '2025-06-06'
-    location: 'Investor Days Thüringen, Erfurt'
-  - category: Conference
-    title: 'Potenziale von Poly(2-oxazolin)en für moderne kosmetische Formulierungen'
-    date: '2025-04-10'
-    location: 'in-cosmetics Global, Amsterdam'
-  # Beispieleinträge, damit die Rubriken „Live talks“ und „Podcasts“ nicht leer
-  # bleiben. Vor Veröffentlichung durch echte Termine ersetzen oder entfernen.
-  - category: Live talk
-    title: 'Beispieleintrag: Titel des Vortrags'
-    date: '2025-05-15'
-    location: 'Veranstaltung, Ort'
-  - category: Podcast
-    title: 'Beispieleintrag: Titel der Podcast-Folge'
-    date: '2025-03-12'
-    location: 'Name des Podcasts (Gast)'
+    size: sm
+    variant: subtle
+    color: neutral

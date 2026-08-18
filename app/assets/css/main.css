@@ -6,6 +6,18 @@
 @theme static {
   --font-sans: 'Public Sans', sans-serif;
   --font-serif: 'Instrument Serif', serif;
+
+  --color-green-50: #ecfff4;
+  --color-green-100: #d2ffe6;
+  --color-green-200: #a8ffcf;
+  --color-green-300: #65ffad;
+  --color-green-400: #1bff86;
+  --color-green-500: #00f975;
+  --color-green-600: #00d062;
+  --color-green-700: #00a24d;
+  --color-green-800: #007e3d;
+  --color-green-900: #006633;
+  --color-green-950: #003b1f;
 }
 
 :root {
