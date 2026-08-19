@@ -5,14 +5,6 @@ export const navLinks: NavigationMenuItem[] = [{
   icon: 'i-lucide-home',
   to: '/'
 }, {
-  label: 'Presse',
-  icon: 'i-lucide-newspaper',
-  to: '/press'
-}, {
-  label: 'Speaking',
-  icon: 'i-lucide-mic',
-  to: '/speaking'
-}, {
   label: 'Wir',
   icon: 'i-lucide-users',
   to: '/wir'
@@ -28,4 +20,12 @@ export const navLinks: NavigationMenuItem[] = [{
   label: 'Bestellen',
   icon: 'i-lucide-shopping-cart',
   to: '/bestellung'
+}, {
+  label: 'Presse',
+  icon: 'i-lucide-newspaper',
+  to: '/press'
+}, {
+  label: 'Speaking',
+  icon: 'i-lucide-mic',
+  to: '/speaking'
 }]

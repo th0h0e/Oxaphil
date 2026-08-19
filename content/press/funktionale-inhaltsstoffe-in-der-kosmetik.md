@@ -1,16 +1,16 @@
 ---
-title: Funktionale Inhaltsstoffe – was die Kosmetikbranche gerade sucht
-description: Aus den Gesprächen auf der in-cosmetics Global und der CosmeticBusiness
-  lässt sich ein Muster ablesen: Nachhaltigkeit wird konkreter, und Funktionalität
-  entscheidet sich zunehmend auf der Ebene der Inhaltsstoffe.
-date: 2025-11-14
-image: /img/news-oxaphil-logo.png
-minRead: 4
+title: POx in Lipid-Nanopartikeln – was sich ändert, wenn PEG ersetzt wird
+description: Lipid-Nanopartikel sind das Arbeitspferd der RNA-Therapeutika. Die
+  PEG-Lipid-Komponente ist dabei kleiner als ein Prozent der Formulierung – und
+  trotzdem einer der kritischsten Bestandteile.
+date: 2026-01-22
+image: /img/materialien-anwendungen.png
+minRead: 7
 author:
-  name: Jonas Schubert
+  name: Dr. Laura Fietzke
   avatar:
-    src: /img/team-jonas-schubert.png
-    alt: Jonas Schubert
+    src: /img/team-laura-fietzke.jpg
+    alt: Dr. Laura Fietzke
 ---
 
 Wer im Frühjahr auf der in-cosmetics Global in Amsterdam und wenige Wochen später auf der CosmeticBusiness in München unterwegs war, hat zwei sehr unterschiedliche Messen erlebt – und in den Gesprächen erstaunlich ähnliche Themen.

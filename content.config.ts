@@ -104,8 +104,7 @@ export default defineContentConfig({
         { include: 'press.yml' }
       ],
       schema: z.object({
-        ...lockPageMeta(),
-        links: z.array(createButtonSchema())
+        ...lockPageMeta()
       })
     }),
     speaking: defineCollection({

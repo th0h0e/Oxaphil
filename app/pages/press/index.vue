@@ -31,6 +31,21 @@ useSeoMeta({
 })
 
 defineOgImage('Portfolio', { title, description })
+
+const entry = {
+  initial: { opacity: 0, transform: 'translateY(10px)' },
+  whileInView: { opacity: 1, transform: 'translateY(0)' },
+  inViewOptions: { once: true }
+}
+
+const imageVariants = {
+  hovered: {
+    outlineColor: 'var(--ui-primary)',
+    transition: { ease: 'easeOut', duration: 1 }
+  }
+}
+
+const imageClass = 'rounded-lg outline-3 -outline-offset-3 outline-muted group-hover/blog-post:scale-100'
 </script>
 
 <template>
@@ -38,11 +53,9 @@ defineOgImage('Portfolio', { title, description })
     <UPageHero
       :title="page.title"
       :description="page.description"
-      :links="page.links"
       :ui="{
         title: 'mx-0! text-left',
-        description: 'mx-0! text-left',
-        links: 'justify-start'
+        description: 'mx-0! text-left'
       }"
     />
     <UPageSection
@@ -53,27 +66,31 @@ defineOgImage('Portfolio', { title, description })
       <UBlogPosts orientation="vertical">
         <Motion
           v-for="(post, index) in posts"
-          :key="index"
-          :initial="{ opacity: 0, transform: 'translateY(10px)' }"
-          :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
+          :key="post.path"
+          v-bind="entry"
           :transition="{ delay: 0.2 * index }"
-          :in-view-options="{ once: true }"
+          while-hover="hovered"
         >
           <UBlogPost
-            variant="naked"
+            variant="subtle"
             orientation="horizontal"
             :to="post.path"
             v-bind="post"
             :ui="{
-              root: 'md:grid md:grid-cols-2 group overflow-visible transition-all duration-300',
-              image:
-                'group-hover/blog-post:scale-105 rounded-lg shadow-lg border-4 border-muted ring-2 ring-default',
-              header:
-                index % 2 === 0
-                  ? 'sm:-rotate-1 overflow-visible'
-                  : 'sm:rotate-1 overflow-visible'
+              root: 'md:grid md:grid-cols-2 overflow-visible',
+              header: 'overflow-visible'
             }"
-          />
+          >
+            <template #header="{ ui }">
+              <Motion
+                as="img"
+                :src="post.image"
+                :alt="post.title"
+                :class="ui.image({ to: true, class: imageClass })"
+                :variants="imageVariants"
+              />
+            </template>
+          </UBlogPost>
         </Motion>
       </UBlogPosts>
     </UPageSection>

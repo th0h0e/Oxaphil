@@ -41,15 +41,6 @@ defineOgImage('Portfolio', { title, description })
         container: 'pt-0!'
       }"
     >
-      <UButton
-        icon="i-lucide-rocket"
-        size="md"
-        color="primary"
-        variant="solid"
-      >
-        Button
-      </UButton>
-
       <MDC
         :value="page.content"
         unwrap="p"
