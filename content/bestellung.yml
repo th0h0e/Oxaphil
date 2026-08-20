@@ -14,7 +14,7 @@ content: |
 description: Unsere POx-Materialien direkt anfragen und bestellen.
 links:
   - label: Jetzt anfragen
-    to: mailto:erik@oxaphil.com
+    email: erik@oxaphil.com
     icon: i-lucide-mail
     color: primary
     size: sm

@@ -3,23 +3,23 @@
 // `content.config.ts` derives it via `property(...).inherit('app/components/ContactCard.vue')`,
 // so adding a prop below is enough to expose it in Studio — no schema edit needed.
 withDefaults(defineProps<{
-  /** Contact person's full name */
+  /** Vollständiger Name der Kontaktperson */
   name: string
-  /** Short role or context line shown under the name */
+  /** Kurze Rolle oder Zusatzzeile unter dem Namen */
   role?: string
-  /** Avatar image source */
+  /** Profilbild */
   photoSrc?: string
-  /** Avatar alt text */
+  /** Alternativtext des Profilbilds */
   photoAlt?: string
-  /** Phone number, rendered as a tel: button when set */
+  /** Telefonnummer – erzeugt einen tel:-Button, wenn ausgefüllt */
   phone?: string
-  /** Email address, rendered as a mailto: button when set */
+  /** E-Mail-Adresse – erzeugt einen mailto:-Button, wenn ausgefüllt */
   email?: string
-  /** Color of the contact buttons */
+  /** Farbe der Kontakt-Buttons */
   buttonColor?: 'primary' | 'neutral'
-  /** Visual style of the contact buttons */
+  /** Darstellung der Kontakt-Buttons */
   buttonVariant?: 'solid' | 'outline' | 'subtle' | 'soft' | 'ghost' | 'link'
-  /** Visual style of the surrounding card */
+  /** Darstellung der umgebenden Karte */
   cardVariant?: 'solid' | 'outline' | 'soft' | 'subtle' | 'ghost' | 'naked'
 }>(), {
   buttonColor: 'neutral',

@@ -29,10 +29,7 @@ useSeoMeta({
       }"
     >
       <VideoEmbed
-        :title="page.video.title"
-        :provider="page.video.provider"
-        :src="page.video.src"
-        :poster="page.video.poster"
+        :link="page.video.link"
       />
     </UPageSection>
     <UPageSection
@@ -43,6 +40,6 @@ useSeoMeta({
     />
     <LandingFAQ :page />
     <LandingTestimonials :page />
-    <LandingBlog :page />
+    <LandingPress :page />
   </UPage>
 </template>

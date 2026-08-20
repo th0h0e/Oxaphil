@@ -10,7 +10,7 @@ interface ImageProp {
   alt: string
 }
 
-const props = defineProps<{
+defineProps<{
   id?: string
   title: string
   description?: string

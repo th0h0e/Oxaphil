@@ -103,8 +103,12 @@ defineProps<{
           class="flex items-center gap-2"
         >
           <UButton
-            v-bind="page.hero.links[0]"
-            :to="`mailto:${global.email}`"
+            :label="page.hero.links.label"
+            :icon="page.hero.links.icon"
+            :color="page.hero.links.color"
+            :size="page.hero.links.size"
+            :variant="page.hero.links.variant"
+            :to="`mailto:${page.hero.links.email || global.email}`"
           />
           <UButton
             :color="global.available ? 'success' : 'error'"

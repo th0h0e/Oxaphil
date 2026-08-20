@@ -10,6 +10,16 @@ if (!page.value) {
   })
 }
 
+const { global } = useAppConfig()
+
+// Editors fill in `email` rather than hand-writing a `mailto:` URL (see the
+// bestellung schema). A present-but-blank field falls back to the app-config
+// address; links without the key keep their own `to`.
+const links = computed(() => (page.value?.links ?? []).map(({ email, ...link }) => ({
+  ...link,
+  to: email === undefined ? link.to : `mailto:${email || global.email}`
+})))
+
 const title = page.value?.seo?.title || page.value?.title
 const description = page.value?.seo?.description || page.value?.description
 
@@ -28,7 +38,7 @@ defineOgImage('Portfolio', { title, description })
     <UPageHero
       :title="page.title"
       :description="page.description"
-      :links="page.links"
+      :links="links"
       :ui="{
         title: 'mx-0! text-left',
         description: 'mx-0! text-left',

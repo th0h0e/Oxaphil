@@ -1,43 +1,47 @@
 import { defineCollection, defineContentConfig, property, z } from '@nuxt/content'
 
+// Every field carries a German `label` so the Studio form matches the site's
+// editing language (see `studio.i18n.defaultLocale` in nuxt.config.ts).
+// Without it Studio falls back to the raw key, e.g. "chemicalName".
+
 const createBaseSchema = () => z.object({
-  title: z.string(),
-  description: z.string()
+  title: z.string().editor({ label: 'Titel' }),
+  description: z.string().editor({ label: 'Beschreibung' })
 })
 
 const createButtonSchema = () => z.object({
-  label: z.string(),
-  icon: z.string().optional(),
-  to: z.string().optional(),
-  color: z.enum(['primary', 'neutral', 'success', 'warning', 'error', 'info']).optional(),
-  size: z.enum(['xs', 'sm', 'md', 'lg', 'xl']).optional(),
-  variant: z.enum(['solid', 'outline', 'subtle', 'soft', 'ghost', 'link']).optional(),
-  target: z.enum(['_blank', '_self']).optional()
+  label: z.string().editor({ label: 'Beschriftung' }),
+  icon: z.string().optional().editor({ label: 'Symbol' }),
+  to: z.string().optional().editor({ label: 'Link-Ziel' }),
+  color: z.enum(['primary', 'neutral', 'success', 'warning', 'error', 'info']).optional().editor({ label: 'Farbe' }),
+  size: z.enum(['xs', 'sm', 'md', 'lg', 'xl']).optional().editor({ label: 'Größe' }),
+  variant: z.enum(['solid', 'outline', 'subtle', 'soft', 'ghost', 'link']).optional().editor({ label: 'Variante' }),
+  target: z.enum(['_blank', '_self']).optional().editor({ label: 'Öffnen in' })
 })
 
 const createImageSchema = () => z.object({
-  src: z.string().editor({ input: 'media' }),
-  alt: z.string()
+  src: z.string().editor({ input: 'media', label: 'Bilddatei' }),
+  alt: z.string().editor({ label: 'Alternativtext', tooltip: 'Bildbeschreibung für Screenreader und Suchmaschinen' })
 })
 
 const createAuthorSchema = () => z.object({
-  name: z.string(),
-  description: z.string().optional(),
-  username: z.string().optional(),
-  twitter: z.string().optional(),
-  to: z.string().optional(),
-  avatar: createImageSchema().optional()
+  name: z.string().editor({ label: 'Name' }),
+  description: z.string().optional().editor({ label: 'Beschreibung' }),
+  username: z.string().optional().editor({ label: 'Benutzername' }),
+  twitter: z.string().optional().editor({ label: 'Twitter' }),
+  to: z.string().optional().editor({ label: 'Profil-Link' }),
+  avatar: createImageSchema().optional().editor({ label: 'Profilbild' })
 })
 
 const createTestimonialSchema = () => z.object({
-  quote: z.string(),
-  author: createAuthorSchema()
+  quote: z.string().editor({ input: 'textarea', label: 'Zitat' }),
+  author: createAuthorSchema().editor({ label: 'Person' })
 })
 
 const createFeatureSchema = () => z.object({
-  title: z.string(),
-  description: z.string().editor({ input: 'textarea' }),
-  icon: z.string().optional().editor({ input: 'icon' })
+  title: z.string().editor({ label: 'Titel' }),
+  description: z.string().editor({ input: 'textarea', label: 'Beschreibung' }),
+  icon: z.string().optional().editor({ input: 'icon', label: 'Symbol' })
 })
 
 // Locks down the fields Nuxt Content auto-adds to `page` collections (seo, navigation)
@@ -56,35 +60,33 @@ export default defineContentConfig({
       schema: z.object({
         ...lockPageMeta(),
         hero: z.object({
-          links: z.array(createButtonSchema()),
-          images: z.array(createImageSchema()).optional()
-        }),
+          links: createButtonSchema()
+            .omit({ target: true })
+            .extend({ email: z.string().optional().editor({ label: 'E-Mail-Adresse' }) })
+            .editor({ label: 'Button' })
+        }).editor({ label: 'Hero-Bereich' }),
         video: z.object({
-          title: z.string(),
-          description: z.string().optional(),
-          provider: z.enum(['file', 'youtube']),
-          src: z.string(),
-          poster: z.string().optional()
-        }).optional(),
+          link: z.string().url().editor({ label: 'Video-Link' })
+        }).optional().editor({ label: 'Video' }),
         valueProps: createBaseSchema().extend({
           items: z.array(createBaseSchema().extend({
-            icon: z.string().optional().editor({ input: 'icon' })
-          }))
-        }).optional(),
-        testimonials: z.array(createTestimonialSchema()),
-        blog: createBaseSchema(),
+            icon: z.string().optional().editor({ input: 'icon', label: 'Symbol' })
+          })).editor({ label: 'Vorteile' })
+        }).optional().editor({ label: 'Value Proposition' }),
         faq: createBaseSchema().extend({
           categories: z.array(
             z.object({
-              title: z.string().nonempty(),
+              title: z.string().nonempty().editor({ label: 'Kategorie' }),
               questions: z.array(
                 z.object({
-                  label: z.string().nonempty(),
-                  content: z.string().nonempty()
+                  label: z.string().nonempty().editor({ label: 'Frage' }),
+                  content: z.string().nonempty().editor({ input: 'textarea', label: 'Antwort' })
                 })
-              )
-            }))
-        })
+              ).editor({ label: 'Fragen' })
+            })).editor({ label: 'Kategorien' })
+        }).editor({ label: 'Häufige Fragen' }),
+        testimonials: z.array(createTestimonialSchema()).editor({ label: 'Referenzen' }),
+        press: createBaseSchema().editor({ label: 'Fachbeiträge' })
       })
     }),
     press: defineCollection({
@@ -92,10 +94,10 @@ export default defineContentConfig({
       source: 'press/*.md',
       schema: z.object({
         ...lockPageMeta(),
-        minRead: z.number(),
-        date: z.date(),
-        image: z.string().nonempty().editor({ input: 'media' }),
-        author: createAuthorSchema()
+        minRead: z.number().editor({ label: 'Lesedauer', description: 'Geschätzte Lesedauer in Minuten' }),
+        date: z.date().editor({ label: 'Datum' }),
+        image: z.string().nonempty().editor({ input: 'media', label: 'Titelbild' }),
+        author: createAuthorSchema().editor({ label: 'Autor' })
       })
     }),
     pages: defineCollection({
@@ -112,14 +114,14 @@ export default defineContentConfig({
       source: 'speaking.yml',
       schema: z.object({
         ...lockPageMeta(),
-        links: z.array(createButtonSchema()),
+        links: z.array(createButtonSchema()).editor({ label: 'Buttons' }),
         events: z.array(z.object({
-          category: z.enum(['Live talk', 'Podcast', 'Conference']),
-          title: z.string(),
-          date: z.date(),
-          location: z.string(),
-          url: z.string().optional()
-        }))
+          category: z.enum(['Live talk', 'Podcast', 'Conference']).editor({ label: 'Kategorie' }),
+          title: z.string().editor({ label: 'Titel' }),
+          date: z.date().editor({ label: 'Datum' }),
+          location: z.string().editor({ label: 'Ort' }),
+          url: z.string().optional().editor({ label: 'Link' })
+        })).editor({ label: 'Veranstaltungen' })
       })
     }),
     neuigkeiten: defineCollection({
@@ -128,19 +130,19 @@ export default defineContentConfig({
       schema: z.object({
         ...lockPageMeta(),
         about: z.object({
-          title: z.string(),
-          logo: createImageSchema(),
-          content: z.string()
-        }),
+          title: z.string().editor({ label: 'Titel' }),
+          logo: createImageSchema().editor({ label: 'Logo' }),
+          content: z.string().editor({ input: 'textarea', label: 'Inhalt' })
+        }).editor({ label: 'Über Oxaphil' }),
         items: z.array(z.object({
-          title: z.string(),
-          date: z.date(),
-          location: z.string().optional(),
-          description: z.string(),
-          content: z.string().optional(),
-          images: z.array(createImageSchema()),
-          to: z.string().optional()
-        }))
+          title: z.string().editor({ label: 'Titel' }),
+          date: z.date().editor({ label: 'Datum' }),
+          location: z.string().optional().editor({ label: 'Ort' }),
+          description: z.string().editor({ input: 'textarea', label: 'Beschreibung' }),
+          content: z.string().optional().editor({ input: 'textarea', label: 'Inhalt' }),
+          images: z.array(createImageSchema()).editor({ label: 'Bilder' }),
+          to: z.string().optional().editor({ label: 'Link' })
+        })).editor({ label: 'Einträge' })
       })
     }),
     materialien: defineCollection({
@@ -155,21 +157,28 @@ export default defineContentConfig({
       source: 'bestellung.yml',
       schema: z.object({
         ...lockPageMeta(),
-        content: z.object({}),
+        content: z.object({}).editor({ label: 'Einleitungstext' }),
         product: z.object({
-          title: z.string(),
-          name: z.string(),
-          chemicalName: z.string(),
+          title: z.string().editor({ label: 'Abschnittstitel' }),
+          name: z.string().editor({ label: 'Produktname' }),
+          chemicalName: z.string().editor({ label: 'Chemische Bezeichnung' }),
           specs: z.array(z.object({
-            label: z.string(),
-            value: z.string()
-          })),
-          price: z.string(),
-          image: createImageSchema()
-        }),
-        links: z.array(createButtonSchema()),
+            label: z.string().editor({ label: 'Bezeichnung' }),
+            value: z.string().editor({ label: 'Wert' })
+          })).editor({ label: 'Technische Daten' }),
+          price: z.string().editor({ label: 'Preis' }),
+          image: createImageSchema().editor({ label: 'Produktbild' })
+        }).editor({ label: 'Produkt' }),
+        // `email` renders the button as a mailto: link (falling back to the
+        // app-config address when blank), mirroring the hero link on index.yml.
+        links: z.array(createButtonSchema().extend({
+          email: z.string().optional().editor({ label: 'E-Mail-Adresse', description: 'Statt eines Link-Ziels: erzeugt einen mailto:-Link' })
+        })).editor({ label: 'Buttons' }),
         // Shape is read from ContactCard.vue's props rather than declared here, so
         // adding a prop to that component is enough to expose it in Studio.
+        // `.inherit()` replaces the field's editor options, so this one field's
+        // label stays auto-generated; its German sub-labels come from the JSDoc
+        // comments on ContactCard.vue's props.
         contactCard: property(z.object({})).inherit('app/components/ContactCard.vue')
       })
     }),
@@ -178,7 +187,7 @@ export default defineContentConfig({
       source: 'impressum-de.yml',
       schema: z.object({
         ...lockPageMeta(),
-        content: z.object({})
+        content: z.object({}).editor({ label: 'Inhalt' })
       })
     }),
     datenschutz: defineCollection({
@@ -186,7 +195,7 @@ export default defineContentConfig({
       source: 'datenschutzerklaerung-2.yml',
       schema: z.object({
         ...lockPageMeta(),
-        content: z.object({})
+        content: z.object({}).editor({ label: 'Inhalt' })
       })
     }),
     wir: defineCollection({
@@ -195,33 +204,33 @@ export default defineContentConfig({
       schema: z.object({
         ...lockPageMeta(),
         technology: createBaseSchema().extend({
-          content: z.object({})
-        }),
-        team: createBaseSchema()
+          content: z.object({}).editor({ label: 'Inhalt' })
+        }).editor({ label: 'Technologie' }),
+        team: createBaseSchema().editor({ label: 'Team' })
       })
     }),
     team: defineCollection({
       type: 'data',
       source: 'team/*.yml',
       schema: z.object({
-        id: z.string(),
-        name: z.string(),
-        role: z.string(),
-        description: z.string().optional(),
-        tags: z.array(z.string()).optional(),
-        avatar: createImageSchema().optional()
+        id: z.string().editor({ label: 'ID', tooltip: 'Technische Kennung – nur ändern, wenn nötig' }),
+        name: z.string().editor({ label: 'Name' }),
+        role: z.string().editor({ label: 'Rolle' }),
+        description: z.string().optional().editor({ input: 'textarea', label: 'Beschreibung' }),
+        tags: z.array(z.string()).optional().editor({ label: 'Schlagworte' }),
+        avatar: createImageSchema().optional().editor({ label: 'Profilbild' })
       })
     }),
     materialienSections: defineCollection({
       type: 'data',
       source: { include: 'materialien/*.yml', exclude: ['materialien/literatur.yml'] },
       schema: z.object({
-        id: z.string(),
-        title: z.string(),
-        description: z.string().optional().editor({ input: 'textarea' }),
-        icon: z.string().optional().editor({ input: 'icon' }),
-        image: createImageSchema(),
-        features: z.array(createFeatureSchema())
+        id: z.string().editor({ label: 'ID', tooltip: 'Technische Kennung – nur ändern, wenn nötig' }),
+        title: z.string().editor({ label: 'Titel' }),
+        description: z.string().optional().editor({ input: 'textarea', label: 'Beschreibung' }),
+        icon: z.string().optional().editor({ input: 'icon', label: 'Symbol' }),
+        image: createImageSchema().editor({ label: 'Bild' }),
+        features: z.array(createFeatureSchema()).editor({ label: 'Merkmale' })
       })
     }),
     materialienLiteratur: defineCollection({
@@ -229,13 +238,13 @@ export default defineContentConfig({
       source: 'materialien/literatur.yml',
       schema: createBaseSchema().extend({
         references: z.array(z.object({
-          authors: z.string(),
-          title: z.string(),
-          journal: z.string().optional(),
-          year: z.number().optional(),
-          volume: z.string().optional(),
-          pages: z.string().optional()
-        }))
+          authors: z.string().editor({ label: 'Autoren' }),
+          title: z.string().editor({ label: 'Titel' }),
+          journal: z.string().optional().editor({ label: 'Zeitschrift' }),
+          year: z.number().optional().editor({ label: 'Jahr' }),
+          volume: z.string().optional().editor({ label: 'Band' }),
+          pages: z.string().optional().editor({ label: 'Seiten' })
+        })).editor({ label: 'Quellenangaben' })
       })
     })
   }

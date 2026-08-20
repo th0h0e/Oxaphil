@@ -5,18 +5,18 @@ defineProps<{
   page: IndexCollectionItem
 }>()
 
-const { data: posts } = await useAsyncData('index-blogs', () =>
+const { data: posts } = await useAsyncData('index-press', () =>
   queryCollection('press').order('date', 'DESC').limit(3).all()
 )
 if (!posts.value) {
-  throw createError({ statusCode: 404, statusMessage: 'blogs posts not found', fatal: true })
+  throw createError({ statusCode: 404, statusMessage: 'press posts not found', fatal: true })
 }
 </script>
 
 <template>
   <UPageSection
-    :title="page.blog.title"
-    :description="page.blog.description"
+    :title="page.press.title"
+    :description="page.press.description"
     :ui="{
       container: 'px-0 pt-0! sm:gap-6 lg:gap-8',
       title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',

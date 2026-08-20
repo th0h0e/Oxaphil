@@ -1,16 +1,14 @@
 ---
 title: Warum PEG an seine Grenzen stößt
-description: Polyethylenglykol ist seit Jahrzehnten der Standard in der pharmazeutischen
-  Formulierung. Ein Blick darauf, wo dieser Standard heute an Grenzen kommt – und
-  warum das für die Entwicklung von Biologika relevant ist.
-date: 2026-02-10
-image: /img/materialien-schema.png
-minRead: 6
 author:
   name: Dr. Erik Wegener
   avatar:
     src: /img/team-erik-wegener.jpg
     alt: Dr. Erik Wegener
+date: 2026-02-10
+description: Polyethylenglykol ist seit Jahrzehnten der Standard in der pharmazeutischen Formulierung. Ein Blick darauf, wo dieser Standard heute an Grenzen kommt – und warum das für die Entwicklung von Biologika relevant ist.
+image: /img/materialien-schema.png
+minRead: 6
 ---
 
 Kaum ein Hilfsstoff hat die pharmazeutische Formulierung so geprägt wie Polyethylenglykol. PEG verbessert die Löslichkeit schwer löslicher Wirkstoffe, verlängert die Zirkulationszeit von Nanopartikeln und gilt als gut charakterisiert. Es ist der Standard – und genau deshalb lohnt es sich, seine Grenzen genau anzusehen.
