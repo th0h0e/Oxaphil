@@ -1,16 +1,14 @@
 ---
 title: POx in Lipid-Nanopartikeln – was sich ändert, wenn PEG ersetzt wird
-description: Lipid-Nanopartikel sind das Arbeitspferd der RNA-Therapeutika. Die
-  PEG-Lipid-Komponente ist dabei kleiner als ein Prozent der Formulierung – und
-  trotzdem einer der kritischsten Bestandteile.
-date: 2026-01-22
-image: /img/materialien-anwendungen.png
-minRead: 7
 author:
   name: Dr. Laura Fietzke
   avatar:
     src: /img/team-laura-fietzke.jpg
     alt: Dr. Laura Fietzke
+date: 2026-01-22
+description: Lipid-Nanopartikel sind das Arbeitspferd der RNA-Therapeutika. Die PEG-Lipid-Komponente ist dabei kleiner als ein Prozent der Formulierung – und trotzdem einer der kritischsten Bestandteile.
+image: /img/materialien-anwendungen.png
+minRead: 7
 ---
 
 Wer im Frühjahr auf der in-cosmetics Global in Amsterdam und wenige Wochen später auf der CosmeticBusiness in München unterwegs war, hat zwei sehr unterschiedliche Messen erlebt – und in den Gesprächen erstaunlich ähnliche Themen.
