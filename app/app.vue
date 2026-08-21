@@ -18,7 +18,6 @@ useHead({
 })
 
 useSeoMeta({
-  title: 'Oxaphil',
   titleTemplate: '%s · Oxaphil',
   twitterCard: 'summary_large_image'
 })

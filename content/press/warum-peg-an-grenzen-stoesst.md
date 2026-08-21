@@ -42,3 +42,5 @@ Poly(2-oxazolin)e erfüllen diese Anforderungen aus unserer Sicht. Warum, und wa
 ## Kein Abgesang
 
 PEG wird nicht verschwinden – für viele Anwendungen ist es weiterhin die richtige Wahl. Interessant wird es dort, wo die genannten Grenzen tatsächlich zum Problem werden: bei Biologika, bei Lipid-Nanopartikeln, bei Formulierungen mit hohen Anforderungen an Reproduzierbarkeit und Verträglichkeit. Genau dort lohnt sich der Blick auf Alternativen.
+
+![news-innovationskonferenz-1](/img/news-innovationskonferenz-1.jpg)

@@ -18,6 +18,12 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  site: {
+    url: 'https://oxaphil.com',
+    name: 'Oxaphil',
+    env: process.env.NODE_ENV === 'production' ? 'production' : 'development'
+  },
+
   // Nuxt OG Image reads these to render the OG image in a non-`system` mode.
   colorMode: {
     preference: 'system',
@@ -56,14 +62,6 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
-  },
-
-  // `global: true` is mandatory for the OG Image renderer to buffer the font
-  // (see https://nuxtseo.com/docs/og-image/guides/custom-fonts).
-  fonts: {
-    families: [
-      { name: 'Public Sans', weights: [400, 500, 600, 700], global: true }
-    ]
   },
 
   ogImage: {

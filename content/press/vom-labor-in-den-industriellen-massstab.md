@@ -1,16 +1,14 @@
 ---
 title: Vom Labor in den industriellen Maßstab
-description: Zwischen einer funktionierenden Synthese im Kolben und einem Material,
-  das reproduzierbar in größeren Mengen verfügbar ist, liegt mehr als eine
-  Volumenangabe. Ein Blick auf die Fragen, die dabei zu klären sind.
-date: 2025-12-05
-image: /img/product-hydropox-oh.png
-minRead: 5
 author:
   name: Leonardo Matassini
   avatar:
     src: /img/team-leonardo-matassini.jpg
     alt: Leonardo Matassini
+date: 2025-12-05
+description: Zwischen einer funktionierenden Synthese im Kolben und einem Material, das reproduzierbar in größeren Mengen verfügbar ist, liegt mehr als eine Volumenangabe. Ein Blick auf die Fragen, die dabei zu klären sind.
+image: /img/product-hydropox-oh.png
+minRead: 5
 ---
 
 Poly(2-oxazolin)e sind seit den 1960er Jahren bekannt und seitdem gut erforscht. Wer die Literatur durchsieht, findet Hunderte Publikationen zu Synthese, Eigenschaften und Anwendungen. Was lange fehlte, war etwas anderes: Verfügbarkeit.
