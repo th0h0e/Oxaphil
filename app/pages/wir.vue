@@ -5,6 +5,9 @@ const { data: page } = await useAsyncData('wir', () => {
 const { data: members } = await useAsyncData('team', () => {
   return queryCollection('team').all()
 })
+const { data: technology } = await useAsyncData('wir-technology', () => {
+  return queryCollection('wirTechnology').first()
+})
 if (!page.value) {
   throw createError({
     statusCode: 404,
@@ -36,22 +39,12 @@ defineOgImage('Portfolio', { title, description })
         description: 'mx-0! text-left'
       }"
     />
-    <UPageSection
-      :title="page.technology.title"
-      :description="page.technology.description"
-      :ui="{
-        container: 'pt-0!',
-        headline: 'justify-start',
-        title: 'text-left',
-        description: 'text-left'
-      }"
-    >
-      <USeparator />
-      <MDC
-        :value="page.technology.content"
-        class="prose prose-primary dark:prose-invert max-w-none"
-      />
-    </UPageSection>
+    <TechnologySection
+      v-if="technology"
+      :title="technology.title"
+      :description="technology.description"
+      :content="technology.content"
+    />
     <USeparator />
     <UPageSection
       :title="page.team.title"

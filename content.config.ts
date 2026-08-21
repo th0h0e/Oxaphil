@@ -157,18 +157,7 @@ export default defineContentConfig({
       source: 'bestellung.yml',
       schema: z.object({
         ...lockPageMeta(),
-        content: z.object({}).editor({ label: 'Einleitungstext' }),
-        product: z.object({
-          title: z.string().editor({ label: 'Abschnittstitel' }),
-          name: z.string().editor({ label: 'Produktname' }),
-          chemicalName: z.string().editor({ label: 'Chemische Bezeichnung' }),
-          specs: z.array(z.object({
-            label: z.string().editor({ label: 'Bezeichnung' }),
-            value: z.string().editor({ label: 'Wert' })
-          })).editor({ label: 'Technische Daten' }),
-          price: z.string().editor({ label: 'Preis' }),
-          image: createImageSchema().editor({ label: 'Produktbild' })
-        }).editor({ label: 'Produkt' }),
+        content: z.string().editor({ input: 'textarea', label: 'Einleitungstext' }),
         // `email` renders the button as a mailto: link (falling back to the
         // app-config address when blank), mirroring the hero link on index.yml.
         links: z.array(createButtonSchema().extend({
@@ -182,20 +171,33 @@ export default defineContentConfig({
         contactCard: property(z.object({})).inherit('app/components/ContactCard.vue')
       })
     }),
+    bestellungProduct: defineCollection({
+      type: 'data',
+      source: 'bestellung/produkt.yml',
+      schema: z.object({
+        title: z.string().editor({ label: 'Abschnittstitel' }),
+        name: z.string().editor({ label: 'Produktname' }),
+        chemicalName: z.string().editor({ label: 'Chemische Bezeichnung' }),
+        specs: z.array(z.object({
+          label: z.string().editor({ label: 'Bezeichnung' }),
+          value: z.string().editor({ label: 'Wert' })
+        })).editor({ label: 'Technische Daten' }),
+        price: z.string().editor({ label: 'Preis' }),
+        image: createImageSchema().editor({ label: 'Produktbild' })
+      })
+    }),
     impressum: defineCollection({
       type: 'page',
-      source: 'impressum-de.yml',
+      source: 'impressum-de.md',
       schema: z.object({
-        ...lockPageMeta(),
-        content: z.object({}).editor({ label: 'Inhalt' })
+        ...lockPageMeta()
       })
     }),
     datenschutz: defineCollection({
       type: 'page',
-      source: 'datenschutzerklaerung-2.yml',
+      source: 'datenschutzerklaerung-2.md',
       schema: z.object({
-        ...lockPageMeta(),
-        content: z.object({}).editor({ label: 'Inhalt' })
+        ...lockPageMeta()
       })
     }),
     wir: defineCollection({
@@ -203,10 +205,14 @@ export default defineContentConfig({
       source: 'wir.yml',
       schema: z.object({
         ...lockPageMeta(),
-        technology: createBaseSchema().extend({
-          content: z.object({}).editor({ label: 'Inhalt' })
-        }).editor({ label: 'Technologie' }),
         team: createBaseSchema().editor({ label: 'Team' })
+      })
+    }),
+    wirTechnology: defineCollection({
+      type: 'data',
+      source: 'wir/technologie.yml',
+      schema: createBaseSchema().extend({
+        content: z.string().editor({ input: 'textarea', label: 'Inhalt' })
       })
     }),
     team: defineCollection({

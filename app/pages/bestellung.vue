@@ -2,6 +2,9 @@
 const { data: page } = await useAsyncData('bestellung', () => {
   return queryCollection('bestellung').first()
 })
+const { data: product } = await useAsyncData('bestellung-product', () => {
+  return queryCollection('bestellungProduct').first()
+})
 if (!page.value) {
   throw createError({
     statusCode: 404,
@@ -46,7 +49,8 @@ defineOgImage('Portfolio', { title, description })
       }"
     />
     <UPageSection
-      :title="page.product.title"
+      v-if="product"
+      :title="product.title"
       :ui="{
         container: 'pt-0!'
       }"
@@ -57,40 +61,13 @@ defineOgImage('Portfolio', { title, description })
         class="mb-8 text-muted"
       />
 
-      <UPageCard
-        :title="page.product.name"
-        :description="page.product.chemicalName"
-        variant="subtle"
-        orientation="horizontal"
-        :ui="{ title: 'text-xl' }"
-        spotlight
-        spotlight-color="primary"
-      >
-        <template #footer>
-          <dl class="grid grid-cols-2 gap-x-6 gap-y-3 text-sm">
-            <template
-              v-for="spec in page.product.specs"
-              :key="spec.label"
-            >
-              <dt class="text-muted">
-                {{ spec.label }}
-              </dt>
-              <dd class="text-default font-medium">
-                {{ spec.value }}
-              </dd>
-            </template>
-          </dl>
-
-          <p class="mt-6 text-lg font-semibold text-primary">
-            {{ page.product.price }}
-          </p>
-        </template>
-
-        <ProductMolecule
-          :aria-label="page.product.image.alt"
-          class="w-full text-highlighted"
-        />
-      </UPageCard>
+      <ProductCard
+        :name="product.name"
+        :chemical-name="product.chemicalName"
+        :specs="product.specs"
+        :price="product.price"
+        :image="product.image"
+      />
     </UPageSection>
     <UPageSection
       :ui="{

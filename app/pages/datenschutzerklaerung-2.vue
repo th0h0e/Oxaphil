@@ -38,9 +38,9 @@ defineOgImage('Portfolio', { title, description })
         container: 'pt-0!'
       }"
     >
-      <MDC
-        :value="page.content"
-        unwrap="p"
+      <ContentRenderer
+        v-if="page.body"
+        :value="page"
       />
     </UPageSection>
   </UPage>

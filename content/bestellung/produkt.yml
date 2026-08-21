@@ -1,0 +1,16 @@
+title: Unser Produkt
+name: HydroPOx40-OH
+chemicalName: Poly(2-ethyl-2-oxazolin)
+specs:
+  - label: Pn
+    value: "40"
+  - label: Mn
+    value: 4 kg/mol
+  - label: CAS-Nummer
+    value: 25805-17-8
+  - label: Liefermenge
+    value: von 10 g bis 10 kg
+price: ab 3 €/g
+image:
+  src: /img/test.svg
+  alt: Chemisches Schema von HydroPOx40-OH
