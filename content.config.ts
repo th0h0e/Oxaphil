@@ -48,7 +48,10 @@ const createFeatureSchema = () => z.object({
 // so Studio can't expose them for editing. `seo` always falls back to title/description
 // (see app/pages/*.vue), and navigation stays fixed to its default (`true`).
 const lockPageMeta = () => ({
-  seo: z.object({}).optional().default({}).editor({ hidden: true }),
+  seo: z.object({
+    title: z.string().optional(),
+    description: z.string().optional()
+  }).optional().default({}).editor({ hidden: true }),
   navigation: z.boolean().default(true).editor({ hidden: true })
 })
 

@@ -1,7 +1,4 @@
 title: Poly(2-oxazolin)e für Pharma, Biotech und Kosmetik
-press:
-  title: Fachbeiträge
-  description: Hintergründe zu Poly(2-oxazolin)en, zur Formulierung und zu dem, was uns in Gesprächen mit Anwendern begegnet.
 description: Oxaphil entwickelt und produziert POx als biokompatible Alternative zu PEG – nach Jahren der Forschung jetzt im industriellen Maßstab verfügbar.
 faq:
   title: Häufige Fragen
@@ -48,6 +45,9 @@ hero:
     size: md
     variant: subtle
     email: erik@oxaphil.com
+press:
+  title: Fachbeiträge
+  description: Hintergründe zu Poly(2-oxazolin)en, zur Formulierung und zu dem, was uns in Gesprächen mit Anwendern begegnet.
 testimonials:
   - quote: Hier steht das freigegebene Zitat eines Anwendungspartners zur Erprobung von POx in eigenen Formulierungen.
     author:
