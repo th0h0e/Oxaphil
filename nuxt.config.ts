@@ -18,6 +18,12 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  // Nuxt OG Image reads these to render the OG image in a non-`system` mode.
+  colorMode: {
+    preference: 'system',
+    fallback: 'light'
+  },
+
   content: {
     experimental: {
       sqliteConnector: 'native'
@@ -52,8 +58,17 @@ export default defineNuxtConfig({
     }
   },
 
+  // `global: true` is mandatory for the OG Image renderer to buffer the font
+  // (see https://nuxtseo.com/docs/og-image/guides/custom-fonts).
+  fonts: {
+    families: [
+      { name: 'Public Sans', weights: [400, 500, 600, 700], global: true }
+    ]
+  },
+
   ogImage: {
-    zeroRuntime: true
+    zeroRuntime: true,
+    buildCache: true
   },
 
   studio: {

@@ -11,25 +11,9 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () =>
   })
 )
 
-const title = page.value?.seo?.title || page.value?.title
-const description = page.value?.seo?.description || page.value?.description
-
-useSeoMeta({
-  title,
-  description,
-  ogDescription: description,
-  ogTitle: title
-})
-
-if (page.value.image) {
-  useSeoMeta({ ogImage: page.value.image })
-} else {
-  defineOgImage('Portfolio', {
-    title,
-    description,
-    headline: 'Blog'
-  })
-}
+usePageSeo(page, page.value?.image
+  ? { type: 'image', src: page.value.image }
+  : { type: 'template', props: { headline: 'Blog' } })
 
 const articleLink = computed(() => `${window?.location}`)
 

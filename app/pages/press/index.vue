@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('blog-page', () => {
-  return queryCollection('pages').path('/press').first()
+const { data: page } = await useAsyncData('press-index', () => {
+  return queryCollection('pressIndex').path('/press').first()
 })
 if (!page.value) {
   throw createError({
@@ -9,28 +9,18 @@ if (!page.value) {
     fatal: true
   })
 }
-const { data: posts } = await useAsyncData('blogs', () =>
+const { data: posts } = await useAsyncData('press-posts', () =>
   queryCollection('press').order('date', 'DESC').all()
 )
 if (!posts.value) {
   throw createError({
     statusCode: 404,
-    statusMessage: 'blogs posts not found',
+    statusMessage: 'press posts not found',
     fatal: true
   })
 }
 
-const title = page.value?.seo?.title || page.value?.title
-const description = page.value?.seo?.description || page.value?.description
-
-useSeoMeta({
-  title,
-  ogTitle: title,
-  description,
-  ogDescription: description
-})
-
-defineOgImage('Portfolio', { title, description })
+usePageSeo(page)
 
 const entry = {
   initial: { opacity: 0, transform: 'translateY(10px)' },

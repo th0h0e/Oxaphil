@@ -10,13 +10,7 @@ if (!page.value) {
   })
 }
 
-useSeoMeta({
-  title: page.value?.seo?.title || page.value?.title,
-  ogTitle: page.value?.seo?.title || page.value?.title,
-  description: page.value?.seo?.description || page.value?.description,
-  ogDescription: page.value?.seo?.description || page.value?.description,
-  ogImage: '/img/news-oxaphil-logo.png'
-})
+usePageSeo(page, { type: 'image', src: '/img/news-oxaphil-logo.png' })
 </script>
 
 <template>

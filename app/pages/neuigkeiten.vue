@@ -10,17 +10,7 @@ if (!page.value) {
   })
 }
 
-const title = page.value?.seo?.title || page.value?.title
-const description = page.value?.seo?.description || page.value?.description
-
-useSeoMeta({
-  title,
-  ogTitle: title,
-  description,
-  ogDescription: description
-})
-
-defineOgImage('Portfolio', { title, description })
+usePageSeo(page)
 
 const formatDate = (dateString: string) => {
   return new Date(dateString).toLocaleDateString('de-DE', {

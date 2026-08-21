@@ -23,17 +23,7 @@ const links = computed(() => (page.value?.links ?? []).map(({ email, ...link }) 
   to: email === undefined ? link.to : `mailto:${email || global.email}`
 })))
 
-const title = page.value?.seo?.title || page.value?.title
-const description = page.value?.seo?.description || page.value?.description
-
-useSeoMeta({
-  title,
-  ogTitle: title,
-  description,
-  ogDescription: description
-})
-
-defineOgImage('Portfolio', { title, description })
+usePageSeo(page)
 </script>
 
 <template>

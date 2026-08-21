@@ -103,11 +103,9 @@ export default defineContentConfig({
         author: createAuthorSchema().editor({ label: 'Autor' })
       })
     }),
-    pages: defineCollection({
+    pressIndex: defineCollection({
       type: 'page',
-      source: [
-        { include: 'press.yml' }
-      ],
+      source: 'press.yml',
       schema: z.object({
         ...lockPageMeta()
       })

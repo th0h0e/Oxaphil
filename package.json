@@ -29,6 +29,7 @@
     "@nuxt/hints": "^1.1.4",
     "eslint": "^10.8.1",
     "nuxt-studio": "^1.7.0",
+    "nuxtseo-layer-devtools": "^5.3.13",
     "typescript": "^6.0.3",
     "vue-tsc": "^3.3.9"
   },
