@@ -9,7 +9,7 @@ Five things touch the HTML `<head>`:
 1. **Nuxt Site Config** (`nuxt.config.ts` `site` block). Sets the site URL and name. The URL is `https://oxaphil.com`. Other modules read it to build absolute links, including OG image URLs.
 2. **`app/app.vue`**. Sets `titleTemplate: '%s · Oxaphil'` and `twitterCard: 'summary_large_image'`. Does not set a title itself. Every page title gets "· Oxaphil" appended here.
 3. **`app/composables/usePageSeo.ts`**. The composable each page calls. Reads `page.title` and `page.description` from the content collection and hands them to `useSeoMeta`. Also calls `defineOgImage` to produce the social share image.
-4. **`app/components/OgImage/Portfolio.takumi.vue`**. The OG image template. A Vue component rendered to a PNG by the Takumi renderer at build time. Receives `title`, `description`, and optional `headline` as props.
+4. **`app/components/OgImage/OgImageOxaphil.takumi.vue`**. The OG image template. A Vue component rendered to a PNG by the Takumi renderer at build time. Receives `title`, `description`, and optional `headline` as props.
 5. **`content.config.ts` `lockPageMeta()`**. Hides the built-in `seo` and `navigation` fields from every `page` collection so Studio editors never see them.
 
 ## The flow, start to finish
@@ -18,11 +18,11 @@ An editor types a title and description into a content file (say `content/wir.ym
 
 A visitor requests `/wir`. `app/pages/wir.vue` runs `queryCollection('wir').first()` and gets the page object. Then it calls `usePageSeo(page)`.
 
-The composable reads `page.title` ("Wir") and `page.description`. It calls `useSeoMeta` with those values for `title`, `ogTitle`, `description`, `ogDescription`. It also calls `defineOgImage('Portfolio', { title, description })`.
+The composable reads `page.title` ("Wir") and `page.description`. It calls `useSeoMeta` with those values for `title`, `ogTitle`, `description`, `ogDescription`. It also calls `defineOgImage('OgImageOxaphil', { title, description })`.
 
 `useSeoMeta` sets the `<title>` tag to "Wir". The `titleTemplate` in `app.vue` turns that into "Wir · Oxaphil" in the browser tab.
 
-`defineOgImage` tells the OG Image module to render `Portfolio.takumi.vue` with those props. Because `ogImage.zeroRuntime: true` is set in `nuxt.config.ts` and `nitro.prerender.crawlLinks: true` crawls every page from `/`, the module renders the PNG at build time. No server renders images in production. The module writes the `og:image` meta tag pointing at the generated PNG.
+`defineOgImage` tells the OG Image module to render `OgImageOxaphil.takumi.vue` with those props. Because `ogImage.zeroRuntime: true` is set in `nuxt.config.ts` and `nitro.prerender.crawlLinks: true` crawls every page from `/`, the module renders the PNG at build time. No server renders images in production. The module writes the `og:image` meta tag pointing at the generated PNG.
 
 The template receives `title` and `description` as props and lays them out on a light background with the green brand color, "oxaphil.com" in the footer. That PNG is what shows when someone shares the link on social platforms.
 
@@ -66,11 +66,11 @@ The header navigation is hardcoded in `app/utils/links.ts` as `navLinks`. It doe
 
 ## The two OG image overrides
 
-Most pages take the default Portfolio template. Two pages override it, both through the second argument to `usePageSeo`:
+Most pages take the default Oxaphil template. Two pages override it, both through the second argument to `usePageSeo`:
 
 **`app/pages/index.vue`** passes `{ type: 'image', src: '/img/news-oxaphil-logo.png' }`. The composable skips the template and sets `ogImage` directly to that static file.
 
-**`app/pages/press/[...slug].vue`** passes the article's own image when the frontmatter has one, otherwise falls back to the Portfolio template with `headline: 'Blog'`:
+**`app/pages/press/[...slug].vue`** passes the article's own image when the frontmatter has one, otherwise falls back to the Oxaphil template with `headline: 'Blog'`:
 
 ```ts
 usePageSeo(page, page.value?.image
@@ -120,7 +120,7 @@ This comes from `NUXT_PUBLIC_SITE_URL=http://localhost:3000` in `.env`, which ov
 | `nuxt.config.ts` `nitro.prerender` | Crawls pages from `/` so OG images generate at build time |
 | `app/app.vue` | `titleTemplate`, `twitterCard`, charset, favicon, lang |
 | `app/composables/usePageSeo.ts` | Sets title, description, OG image per page |
-| `app/components/OgImage/Portfolio.takumi.vue` | The OG image template |
+| `app/components/OgImage/OgImageOxaphil.takumi.vue` | The OG image template |
 | `app/utils/links.ts` | Hardcoded header nav |
 | `content.config.ts` `lockPageMeta()` | Hides `seo` and `navigation` from Studio |
 | `content.config.ts` collection schemas | Define the `title` and `description` fields Studio shows |

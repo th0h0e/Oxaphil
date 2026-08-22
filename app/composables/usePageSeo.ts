@@ -10,7 +10,7 @@ type OgImageOverride
 
 /**
  * Sets the HTML head meta tags from a page's title and description, plus an
- * OG image. Defaults to the Portfolio OG-image template. Pass `ogImage` to
+ * OG image. Defaults to the Oxaphil OG-image template. Pass `ogImage` to
  * override: a static image URL or a different template with extra props.
  *
  * Reads the content `title` and `description` fields directly. The content
@@ -30,6 +30,6 @@ export function usePageSeo<T extends PageMeta>(page: Ref<T | null | undefined>, 
   if (ogImage?.type === 'image') {
     useSeoMeta({ ogImage: ogImage.src })
   } else {
-    defineOgImage('Portfolio', { title, description, ...ogImage?.props })
+    defineOgImage('OgImageOxaphil', { title, description, ...ogImage?.props })
   }
 }
