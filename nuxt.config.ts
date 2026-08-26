@@ -20,7 +20,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   site: {
-    url: 'https://oxaphil.com',
+    url: 'https://th0h0e-oxaphil.th0h0e.workers.dev',
     name: 'Oxaphil',
     env: process.env.NODE_ENV === 'production' ? 'production' : 'development'
   },
@@ -29,17 +29,6 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'system',
     fallback: 'light'
-  },
-
-  hub: {
-    db: 'sqlite'
-  },
-
-  content: {
-    database: {
-      type: 'd1',
-      bindingName: 'DB'
-    },
   },
 
   ui: {
@@ -55,9 +44,7 @@ export default defineNuxtConfig({
   nitro: {
     preset: "cloudflare-module",
     prerender: {
-      routes: [
-        '/'
-      ],
+      routes: ['/'],
       crawlLinks: true
     }
   },

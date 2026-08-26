@@ -28,6 +28,7 @@ const [{ data: navigation }, { data: files }] = await Promise.all([
       queryCollectionNavigation('press')
     ])
   }, {
+    server: false,
     transform: data => data.flat()
   }),
   useLazyAsyncData('search', () => {
