@@ -9,7 +9,8 @@ export default defineNuxtConfig({
     'nuxt-og-image',
     'motion-v/nuxt',
     'nuxt-studio',
-    '@nuxt/hints'
+    '@nuxt/hints',
+    '@nuxthub/core'
   ],
 
   devtools: {
@@ -30,10 +31,15 @@ export default defineNuxtConfig({
     fallback: 'light'
   },
 
+  hub: {
+    db: 'sqlite'
+  },
+
   content: {
-    experimental: {
-      sqliteConnector: 'native'
-    }
+    database: {
+      type: 'd1',
+      bindingName: 'DB'
+    },
   },
 
   ui: {
@@ -47,6 +53,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2026-06-30',
 
   nitro: {
+    preset: "cloudflare-module",
     prerender: {
       routes: [
         '/'

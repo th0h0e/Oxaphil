@@ -5,3 +5,5 @@ allowBuilds:
   esbuild: false
   unrs-resolver: false
   vue-demi: false
+  better-sqlite3: true
+  workerd: set this to true or false
