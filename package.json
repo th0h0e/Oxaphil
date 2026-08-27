@@ -10,9 +10,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "typecheck": "nuxt typecheck",
-    "deploy:cloudflare": "wrangler --cwd .output/server deploy --keep-vars",
-    "deploy:migrate": "wrangler --cwd .output/server d1 migrations apply DB --remote",
-    "deploy:cloudflare:preview": "wrangler --cwd .output/server versions upload"
+    "deploy:cloudflare": "wrangler --cwd .output deploy --keep-vars"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.122",

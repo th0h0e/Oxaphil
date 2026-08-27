@@ -13,6 +13,9 @@ node_modules
 logs
 *.log
 
+# Wrangler local state
+.wrangler
+
 # Misc
 .DS_Store
 .fleet

@@ -1,0 +1,74 @@
+name: Deploy to Cloudflare
+
+# Deploys the `staging` branch via GitHub Actions. `main` is left to
+# Cloudflare Workers Builds (set up in the dashboard). Studio commits land
+# on `main`, so Workers Builds is what rebuilds after a content edit.
+on:
+  push:
+    # This workflow deploys a non-production branch, leaving `main` to
+    # Cloudflare Workers Builds. Studio commits land on `main`, so Workers
+    # Builds handles them; this workflow is for the `staging` branch.
+    branches: [staging]
+  workflow_dispatch:
+
+# Cancel a superseded run when a new commit lands mid-build.
+concurrency:
+  group: deploy-staging
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          version: 11
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # Nuxt Content ingests markdown into a local sqlite DB, then Nitro
+      # prerenders every route to static HTML in .output/public.
+      - name: Build
+        run: pnpm build
+
+      # The build writes .output/server/wrangler.json. Deploy from there.
+      # --keep-vars preserves runtime vars/secrets set in the dashboard.
+      # A staging Worker name must match the Worker this deploys to; see
+      # https://developers.cloudflare.com/workers/ci-cd/builds/troubleshoot/#workers-name-requirement
+      - name: Deploy to Cloudflare Workers (staging)
+        run: pnpm exec wrangler --cwd .output/server deploy --keep-vars
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      # ─────────────────────────────────────────────────────────────────
+      # ONLY NEEDED if you add routes that query content at runtime
+      # (i.e. routes NOT covered by nitro.prerender). Your current config
+      # prerenders everything, so the Worker never queries the DB.
+      #
+      # To enable runtime content queries you must:
+      # 1. Create a D1 database and add to nuxt.config.ts:
+      #      hub: { db: { dialect: 'sqlite', driver: 'd1',
+      #                   connection: { databaseId: '<id>' } } }
+      # 2. Add a secret CLOUDFLARE_D1_DATABASE_ID (not needed for wrangler path).
+      # 3. Insert this step BEFORE the deploy step above:
+      #
+      # - name: Apply D1 migrations
+      #   run: pnpm exec wrangler --cwd .output/server d1 migrations apply DB --remote
+      #   env:
+      #     CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      #     CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      #
+      # `wrangler deploy` does NOT apply D1 migrations automatically.
+      # ─────────────────────────────────────────────────────────────────
