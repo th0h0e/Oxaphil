@@ -127,23 +127,9 @@ export default defineContentConfig({
     }),
     neuigkeiten: defineCollection({
       type: 'page',
-      source: 'neuigkeiten.yml',
+      source: 'neuigkeiten.md',
       schema: z.object({
-        ...lockPageMeta(),
-        about: z.object({
-          title: z.string().editor({ label: 'Titel' }),
-          logo: createImageSchema().editor({ label: 'Logo' }),
-          content: z.string().editor({ input: 'textarea', label: 'Inhalt' })
-        }).editor({ label: 'Über Oxaphil' }),
-        items: z.array(z.object({
-          title: z.string().editor({ label: 'Titel' }),
-          date: z.date().editor({ label: 'Datum' }),
-          location: z.string().optional().editor({ label: 'Ort' }),
-          description: z.string().editor({ input: 'textarea', label: 'Beschreibung' }),
-          content: z.string().optional().editor({ input: 'textarea', label: 'Inhalt' }),
-          images: z.array(createImageSchema()).editor({ label: 'Bilder' }),
-          to: z.string().optional().editor({ label: 'Link' })
-        })).editor({ label: 'Einträge' })
+        ...lockPageMeta()
       })
     }),
     materialien: defineCollection({
