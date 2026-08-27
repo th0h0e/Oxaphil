@@ -17,6 +17,16 @@ TODO: Ausführlichen Fließtext zur Preisverleihung ergänzen – Ablauf, Mitbew
 
 ## Partnerschaft mit DelAQUA Pharmaceuticals
 
+
+::padded-image
+---
+src: /img/news-gruenderpreis-banner.jpg
+alt: Banner zum Gewinn des Sächsischen Gründerpreises
+---
+::
+
+
+
 *12. Nov 2025 · Dresden*
 
 Oxaphil und DelAQUA Pharmaceuticals bündeln ihre Kompetenzen, um POx-basierte Formulierungen für neue pharmazeutische Anwendungen zu entwickeln.

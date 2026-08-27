@@ -46,6 +46,26 @@ export default defineNuxtConfig({
     prerender: {
       routes: ['/'],
       crawlLinks: true
+    },
+    cloudflare: {
+      wrangler: {
+        observability: {
+          enabled: false,
+          head_sampling_rate: 1,
+          redact_query_string: false,
+          logs: {
+            enabled: true,
+            head_sampling_rate: 1,
+            persist: true,
+            invocation_logs: true
+          },
+          traces: {
+            enabled: true,
+            persist: true,
+            head_sampling_rate: 1
+          }
+        }
+      }
     }
   },
 
