@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-ui-template-portfolio",
+  "name": "oxaphil",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,7 +9,10 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "deploy:cloudflare": "wrangler --cwd .output/server deploy --keep-vars",
+    "deploy:migrate": "wrangler --cwd .output/server d1 migrations apply DB --remote",
+    "deploy:cloudflare:preview": "wrangler --cwd .output/server versions upload"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.122",
@@ -32,7 +35,6 @@
     "eslint": "^10.8.1",
     "nuxt-studio": "^1.7.0",
     "nuxtseo-layer-devtools": "^5.3.13",
-    "rolldown-plugin-dts": "^0.28.2",
     "typescript": "^6.0.3",
     "vue-tsc": "^3.3.9",
     "wrangler": "^4.126.0"
