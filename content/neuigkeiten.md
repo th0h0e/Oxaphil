@@ -5,15 +5,49 @@ description: Aktuelle Meldungen und Neuigkeiten von Oxaphil.
 
 ## Oxaphil gewinnt den Sächsischen Gründerpreis 2026
 
-*18. Jun 2026 · Dresden*
+*Dresden · 17. Jun 2026*
 
-Wir freuen uns sehr, mit dem Sächsischen Gründerpreis 2026 ausgezeichnet worden zu sein. Die Jury würdigte damit unseren Ansatz, Poly(2-oxazolin)e aus der Grundlagenforschung heraus in den industriellen Maßstab zu überführen.
+Wir haben es geschafft: Oxaphil gewinnt den Sächsischen Gründerpreis 2026 in der Kategorie „Newcomer of the Year“! Eine großartige Auszeichnung für unser junges Unternehmen und ein besonderer Moment für unser gesamtes Team.
 
-> TODO: Zitat der Jury oder ein O-Ton aus dem Team einfügen.
+![news-gruenderpreis-banner](/img/news-gruenderpreis-banner.jpg)
 
-TODO: Ausführlichen Fließtext zur Preisverleihung ergänzen – Ablauf, Mitbewerber, was die Auszeichnung für die nächsten Schritte bedeutet.
+Dabei konnten wir uns gegen 166 Mitbewerber aus ganz Sachsen durchsetzen. Die Auszeichnung ist für uns eine starke Bestätigung unserer Idee, unseres Geschäftsmodells und vor allem der Arbeit, die wir seit der Gründung von Oxaphil in den Aufbau unseres Unternehmens gesteckt haben.
 
-:padded-image{alt="Banner zum Gewinn des Sächsischen Gründerpreises" src="/img/news-gruenderpreis-banner.jpg"}
+Oxaphil entwickelt und produziert POx für Anwendungen in der Pharmazie und Kosmetik. Unser Ziel ist es, diese leistungsfähigen Materialien erstmals in größerem Maßstab verfügbar zu machen und damit neue Möglichkeiten für die Entwicklung moderner Produkte zu schaffen. POx bieten dabei eine vielseitige Alternative zu etablierten Polymermaterialien wie PEG.
+
+Ein wesentlicher Bestandteil unserer Technologie ist die von uns entwickelte kontinuierliche Produktion. Sie ermöglicht eine effizientere, skalierbare und reproduzierbare Herstellung von POx und schafft damit die Grundlage für eine zuverlässige industrielle Versorgung.
+
+![news-innovationskonferenz-1](/img/news-innovationskonferenz-1.jpg)
+
+Mit dem Sächsischen Gründerpreis erhalten wir nicht nur Anerkennung für unsere Technologie, sondern auch für den unternehmerischen Weg, den wir mit Oxaphil eingeschlagen haben. Für uns ist die Auszeichnung deshalb vor allem eines: Motivation, weiterzumachen und unsere Vision umzusetzen.
+
+Wir bedanken uns bei der Jury, den Organisatoren und allen Wegbegleitern, die uns auf unserem bisherigen Weg unterstützt haben. Und wir freuen uns auf das, was vor uns liegt: Wenn Sie das Potenzial von POx für Ihre pharmazeutischen oder kosmetischen Anwendungen kennenlernen möchten, [sprechen Sie uns gerne an](https://oxaphil.com/de/bestellung/ "Bestellung")[.]{style="color: rgb(0, 0, 0); font-family: &#x22;IBM Plex Sans&#x22;, sans-serif; font-size: 18.24px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"}
+
+![news-incosmetics-1](/img/news-incosmetics-1.jpg)
+
+## **DelAQUA Pharmaceuticals und Oxaphil kündigen strategische Zusammenarbeit an**
+
+### **DelAQUA Pharmaceuticals und Oxaphil geben strategische Zusammenarbeit bekannt, um den Einsatz von Polyoxazolinen für fortschrittliche Wirkstofftransportsysteme auszuweiten**
+
+*Dresden · 6. Feb 2026*
+
+Oxaphil kündig heute eine strategische Zusammenarbeit mit DelAQUA Pharmaceutical, Inc. an, um Oxaphils innovative und spezifische Polyoxazolin (POx) Syntheseexpertise zu nutzen, um DelAQUAs polymer-basierten Formulierungsansatz für Wirkstofftransportsysteme voran zu treiben. Die Partnerschaft vereint Oxaphils Fähigkeiten komplexe und definierte Polymere bereitzustellen mit DelAQUAs bahnbrechender Technologie zur Verbesserung der Löslichkeit, um Wirkstofftransportsysteme der nächsten Generation an pharmazeutische und biotechnologische Partner weltweit zu liefern.
+
+DelAQUAs polymere Mizellen-Plattform stellt einen signifikanten Fortschritt in der Bewältigung der Herausforderungen bei der Formulierung schwer löslicher und instabiler pharmazeutischer Wirkstoffe (APIs) dar. Die Technologie nutzt neuartige POx Polymere in geringen Konzentrationen um die API Löslichkeit dramatisch zu verbessern, während weiterhin hohe Wirkstoffbeladungen durch POx Polymere erreichbar sind. Durch die auf diese Weise erhöhte Löslichkeit wird die Komplexität parenteraler und oraler Formulierungen zum Vorteil des Patienten verringert. Dieser Ansatz hat sich als vielversprechend erwiesen, um die therapeutische Wirksamkeit und die orale Bioverfügbarkeit zu verbessern und gleichzeitig die Nebenwirkungen zu minimieren, die mit den hohen Mengen an Hilfsstoffen in herkömmlichen Wirkstofftransportsystemen verbunden sind.
+
+> *Da DelAQUA sein Hauptaugenmerk auf Wirkstofftransportanwendungen für eine breite Palette von Produkten richtet, haben wir das Oxaphil-Team sofort als idealen Entwicklungspartner identifiziert. Das Team verfügt nicht nur über herausragende technische Fähigkeiten in der Synthese von Polyoxazolinen, sondern auch über die Agilität und Kreativität, die für den Erfolg unserer fortschrittlichen Wirkstofftransportkonzepte in der Entwicklung erforderlich sind. Darüber hinaus sind wir der Meinung, dass diese Zusammenarbeit als offene Einladung an das gesamte POx-Ökosystem verstanden werden kann, gemeinsam die Herausforderungen anzugehen, denen die Branche in den kommenden Jahren gegenüberstehen wird.*
+>
+> *Bruce L. Frank, PhD, Präsident und Chief Scientific Officer, DelAQUA Pharmaceuticals (aus dem Englischen übersetzt)*
+
+Die Zusammenarbeit zielt auf einen kritischen Bedarf der Branche an hochreinen und wohldefinierten POx für fortschrittliche Formulierungsansätze ab, mit denen die Bioverfügbarkeit, Sicherheit und Stabilität neuer Arzneimittel verbessert werden kann. Durch die Integration der Fähigkeit von Oxaphil, komplexe und wohldefinierte Polymere herzustellen, mit der hochgradig anpassbaren und flexiblen Transportplattform von DelAQUA wird die Partnerschaft eine beschleunigte Entwicklung von Formulierungen ermöglichen, die genau auf die Zielproduktprofile von DelAQUA und seinen Partnern abgestimmt sind.
+
+> *Wir freuen uns sehr, unsere Partnerschaft mit DelAQUA weiter zu vertiefen. Die Formulierungsplattform und das Anwendungs-Know-how des Unternehmens ergänzen die Kompetenzen von Oxaphil als Hersteller hochspezifischer POx-Materialien perfekt. Gemeinsam sehen wir ein erhebliches Potenzial, fortschrittliche Polymerkonzepte in zukunftsfähige Materialien umzusetzen, die echte Herausforderungen bei der Arzneimittelverabreichung lösen und Patienten langfristig helfen können.*
+>
+> *Dr. Erik Wegener, Geschäftsführer, Oxaphil*
+
+> *POx-Materialien haben sich seit vielen Jahren in der Forschung bewährt, aber für eine breite Anwendung sind die richtigen Partner und der richtige Formulierungskontext erforderlich. Die enge Zusammenarbeit mit DelAQUA ermöglicht uns diese Materialien von validierten Konzepten zu realen pharmazeutischen Anwendungen zu bringen, bei denen ihre strukturelle Vielseitigkeit und Leistungsfähigkeit einen Unterschied machen können.*
+>
+> *Dr. Laura Fietzke, CSO, Oxaphil*
 
 ## Partnerschaft mit DelAQUA Pharmaceuticals
 
