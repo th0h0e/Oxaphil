@@ -17,15 +17,7 @@ TODO: Ausführlichen Fließtext zur Preisverleihung ergänzen – Ablauf, Mitbew
 
 ## Partnerschaft mit DelAQUA Pharmaceuticals
 
-
-::padded-image
----
-src: /img/news-gruenderpreis-banner.jpg
-alt: Banner zum Gewinn des Sächsischen Gründerpreises
----
-::
-
-
+:padded-image{alt="Banner zum Gewinn des Sächsischen Gründerpreises" src="/img/news-gruenderpreis-banner.jpg"}
 
 *12. Nov 2025 · Dresden*
 
