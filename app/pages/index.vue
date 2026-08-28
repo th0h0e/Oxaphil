@@ -15,7 +15,7 @@ usePageSeo(page, { type: 'image', src: '/img/news-oxaphil-logo.png' })
 
 <template>
   <UPage v-if="page">
-    <LandingHero :page />
+    <Hero :page />
     <UPageSection
       v-if="page.video"
       :ui="{
@@ -32,8 +32,8 @@ usePageSeo(page, { type: 'image', src: '/img/news-oxaphil-logo.png' })
       :description="page.valueProps.description"
       :features="page.valueProps.items"
     />
-    <LandingFAQ :page />
-    <LandingTestimonials :page />
-    <LandingPress :page />
+    <FAQ :page />
+    <Testimonials :page />
+    <Press :page />
   </UPage>
 </template>
