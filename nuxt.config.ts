@@ -86,6 +86,11 @@ export default defineNuxtConfig({
       owner: 'th0h0e',
       repo: 'Oxaphil',
       branch: 'main'
+    },
+    git: {
+      commit: {
+        messagePrefix: 'content:'
+      }
     }
   }
 })
