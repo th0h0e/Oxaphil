@@ -44,7 +44,8 @@ export default defineNuxtConfig({
       preset: 'cloudflare-pages',
       prerender: {
         routes: ['/'],
-        crawlLinks: true
+        crawlLinks: true,
+        autoSubfolderIndex: false
       },
       cloudflare: {
         deployConfig: true,
