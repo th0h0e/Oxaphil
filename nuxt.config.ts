@@ -46,9 +46,6 @@ export default defineNuxtConfig({
         routes: ['/'],
         crawlLinks: true
       },
-      rollupConfig: {
-        external: ['better-sqlite3']
-      },
       cloudflare: {
         deployConfig: true,
         nodeCompat: true,
@@ -70,6 +67,12 @@ export default defineNuxtConfig({
         commaDangle: 'never',
         braceStyle: '1tbs'
       }
+    }
+  },
+
+  content: {
+    experimental: {
+      sqliteConnector: 'native'
     }
   },
 
