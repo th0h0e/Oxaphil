@@ -9,8 +9,7 @@ export default defineNuxtConfig({
     'nuxt-og-image',
     'motion-v/nuxt',
     'nuxt-studio',
-    '@nuxt/hints',
-    '@nuxthub/core'
+    '@nuxt/hints'
   ],
 
   devtools: {
@@ -47,9 +46,12 @@ export default defineNuxtConfig({
         routes: ['/'],
         crawlLinks: true
       },
+      rollupConfig: {
+        external: ['better-sqlite3']
+      },
       cloudflare: {
         deployConfig: true,
-        nodeCompat:true,
+        nodeCompat: true,
         wrangler: {
           d1_databases: [
             {
@@ -58,8 +60,8 @@ export default defineNuxtConfig({
               database_id: 'dad64145-1aa2-42b0-89de-dc4d7c948752'
             }
           ]
-        },
-      },
+        }
+      }
     },
 
   eslint: {
