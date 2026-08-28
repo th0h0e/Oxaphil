@@ -20,7 +20,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   site: {
-    url: 'https://th0h0e-oxaphil.th0h0e.workers.dev',
+    url: 'https://oxaphil.pages.dev',
     name: 'Oxaphil',
     env: process.env.NODE_ENV === 'production' ? 'production' : 'development'
   },
@@ -39,35 +39,28 @@ export default defineNuxtConfig({
     }
   },
 
-  compatibilityDate: '2026-06-30',
+  compatibilityDate: '2026-08-04',
 
   nitro: {
-    preset: 'cloudflare-module',
-    prerender: {
-      routes: ['/'],
-      crawlLinks: true
+      preset: 'cloudflare-pages',
+      prerender: {
+        routes: ['/'],
+        crawlLinks: true
+      },
+      cloudflare: {
+        deployConfig: true,
+        nodeCompat:true,
+        wrangler: {
+          d1_databases: [
+            {
+              binding: 'DB',
+              database_name: 'oxaphil',
+              database_id: 'dad64145-1aa2-42b0-89de-dc4d7c948752'
+            }
+          ]
+        },
+      },
     },
-    cloudflare: {
-      wrangler: {
-        observability: {
-          enabled: false,
-          head_sampling_rate: 1,
-          redact_query_string: false,
-          logs: {
-            enabled: true,
-            head_sampling_rate: 1,
-            persist: true,
-            invocation_logs: true
-          },
-          traces: {
-            enabled: true,
-            persist: true,
-            head_sampling_rate: 1
-          }
-        }
-      }
-    }
-  },
 
   eslint: {
     config: {
