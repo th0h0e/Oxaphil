@@ -48,16 +48,7 @@ export default defineNuxtConfig({
       },
       cloudflare: {
         deployConfig: true,
-        nodeCompat: true,
-        wrangler: {
-          d1_databases: [
-            {
-              binding: 'DB',
-              database_name: 'oxaphil',
-              database_id: 'dad64145-1aa2-42b0-89de-dc4d7c948752'
-            }
-          ]
-        }
+        nodeCompat: true
       }
     },
 

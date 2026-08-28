@@ -1,0 +1,12 @@
+{
+  // Bindings authored here; Nitro merges this into the generated
+  // .output/server/wrangler.json at build time. Nitro still sets
+  // pages_build_output_dir, name, and compatibility_date as overrides.
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "oxaphil",
+      "database_id": "dad64145-1aa2-42b0-89de-dc4d7c948752"
+    }
+  ]
+}
