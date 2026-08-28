@@ -67,19 +67,15 @@ TODO: Hintergrund zu DelAQUA Pharmaceuticals und zum geplanten Zeitrahmen ergän
 
 ![Logo von DelAQUA Pharmaceuticals](/img/news-delaqua-logo.png)
 
-## Jahresende 2025 – ein Rückblick
+## **Zum Jahresende**
 
-*20. Dez 2025 · Sächsische Schweiz*
+Das Jahr 2025 neigt sich dem Ende zu und wir möchten einen Moment innehalten und zurückblicken. Dieses Jahr war geprägt von intensiver Entwicklungsarbeit, konstruktiven Gesprächen mit Kunden und Partnern und vielen Schritten, die Oxaphil näher an reale Anwendungen in der Pharma- und Kosmetikindustrie gebracht haben.
 
-Zum Jahresabschluss hat sich das gesamte Team zu einer gemeinsamen Wanderung getroffen – ein guter Anlass, um auf zwölf ereignisreiche Monate zurückzublicken.
+Wir sind allen dankbar, die uns auf diesem Weg begleitet haben. Unseren Partnern für ihr Vertrauen und ihre Offenheit. Unseren Kunden für ihre konkreten Fragen und ihr ehrliches Feedback. Unseren Unterstützern und dem gesamten Ökosystem dafür, dass sie durch Dialog, Fachwissen und Ermutigung Fortschritte ermöglicht haben. Und ganz besonders unserem Team für das Engagement, die Verantwortung und die Klarheit, mit der es Tag für Tag Herausforderungen gemeistert hat.
 
-### Was 2025 gebracht hat
+Das Jahr gemeinsam auf den (vereisten) Wanderwegen der Sächsischen Schweiz ausklingen zu lassen, war genau das Richtige. Es spiegelt wider, was uns antreibt. Gemeinsamer Ehrgeiz, gegenseitiges Vertrauen und die Bereitschaft, Schritt für Schritt voranzukommen.
 
-- TODO: Meilenstein 1
-- TODO: Meilenstein 2
-- TODO: Meilenstein 3
-
-TODO: Ausblick auf 2026 ergänzen.
+Wir blicken mit Fokus, Zuversicht und einem klaren Ziel vor Augen auf das kommende Jahr.
 
 ![Team von Oxaphil bei einer Wanderung zum Jahresende](/img/news-jahresende.jpeg)
 
@@ -93,86 +89,68 @@ title: Über Oxaphil
 Oxaphil entwickelt und produziert Poly(2-oxazolin)e (POx) als leistungsfähige Alternative zu PEG – mit besserer Biokompatibilität, größerer chemischer Vielfalt und verbesserter Löslichkeit.
 ::
 
-## Drei Veranstaltungen mit einem gemeinsamen Ziel: Anwendungen verstehen und Lösungen ermöglichen
-
-*6. Jun 2025 · Berlin / München / Erfurt*
+## **Drei Veranstaltungen mit einem gemeinsamen Ziel: Anwendungen verstehen und Lösungen ermöglichen**
 
 In der ersten Juniwoche war Oxaphil auf drei richtungsweisenden Veranstaltungen präsent. Unser Ziel: herausfinden, welche Anforderungen Entwicklerinnen und Entwickler an neue Materialien stellen, und zeigen, wie POx genau dort neue Wege eröffnen können.
 
-### Neue Formulierungsansätze in Berlin
+### **Neue Formulierungsansätze in Berlin**
 
-Beim Drug Delivery & Formulation Summit 2025 in Berlin sprach Erik über das Potenzial von POx in der pharmazeutischen Formulierung. Im Mittelpunkt standen Eigenschaften wie Lösungsvermittlung, Biokompatibilität und strukturelle Präzision. Die Diskussionen zeigten deutlich, dass die Nachfrage nach neuen, anpassbaren Materialien steigt. Die Neuigkeit, dass POx nun verfügbar sind, wurde mit großem Interesse und durchweg positiv aufgenommen.
+Beim [Drug Delivery & Formulation Summit](https://ddfevent.com/) 2025 in Berlin sprach Erik über das Potenzial von POx in der pharmazeutischen Formulierung. Im Mittelpunkt standen Eigenschaften wie Lösungsvermittlung, Biokompatibilität und strukturelle Präzision. Die Diskussionen zeigten deutlich, dass die Nachfrage nach neuen, anpassbaren Materialien steigt. Die Neuigkeit, dass POx nun verfügbar sind, wurde mit großem Interesse und durchweg positiv aufgenommen.
 
-### Konkrete Herausforderungen in München
+### **Konkrete Herausforderungen in München**
 
-Zur gleichen Zeit war Laura bei der CosmeticBusiness in München im Gespräch mit Unternehmen der Kosmetikbranche. Ihr Fokus lag auf Anforderungen im Bereich Produktentwicklung, Emulsionsstabilisierung und funktionaler Inhaltsstoffe. Die Reaktionen waren klar und direkt. In vielen Gesprächen war die einhellige Aussage: „Immer her damit."
+Zur gleichen Zeit war Laura bei der [CosmeticBusiness](https://www.cosmetic-business.com/) in München im Gespräch mit Unternehmen der Kosmetikbranche. Ihr Fokus lag auf Anforderungen im Bereich Produktentwicklung, Emulsionsstabilisierung und funktionaler Inhaltsstoffe. Die Reaktionen waren klar und direkt. In vielen Gesprächen war die einhellige Aussage: „Immer her damit.“
 
-### Aufmerksamkeit für Anwendungen in Erfurt
+### **Aufmerksamkeit für Anwendungen in Erfurt**
 
-Auch Leonardo war in dieser Woche unterwegs – bei den Investor Days Thüringen in Erfurt. In seinem Pitch stellte er konkrete Anwendungen und Zielmärkte in den Mittelpunkt. Das technologische Potenzial wurde eingebettet in reale Marktbedarfe, Skalierbarkeit und Materialwirkung. Auch hier war das Feedback von Investorinnen und Investoren ausgesprochen positiv.
+Auch Leonardo war in dieser Woche unterwegs – bei den [Investor Days Thüringen](https://investordays-thueringen.de/) in Erfurt. In seinem Pitch stellte er konkrete Anwendungen und Zielmärkte in den Mittelpunkt. Das technologische Potenzial wurde eingebettet in reale Marktbedarfe, Skalierbarkeit und Materialwirkung. Auch hier war das Feedback von Investorinnen und Investoren ausgesprochen positiv.
 
-### Unser Fazit
+### **Unser Fazit**
 
 Ob Wirkstofftransport, Lösungsvermittlung oder Emulsionsstabilisierung – POx bieten konkrete Antworten auf reale Herausforderungen. Die drei Veranstaltungen haben erneut bestätigt, wie wichtig es ist, zuzuhören, Bedarfe zu verstehen und anwendungsorientiert zu denken. Genau das ist unser Weg bei Oxaphil.
 
-::image-pair
----
-left:
-  src: /img/news-innovationskonferenz-1.jpg
-  alt: Preisübergabe auf der Innovationskonferenz
-right:
-  src: /img/news-innovationskonferenz-2.jpg
-  alt: Team von Oxaphil auf der Innovationskonferenz
----
-::
+## **Erste POx-Proben ausgeliefert – Startschuss für Anwendungstests**
 
-## Erste POx-Proben ausgeliefert – Startschuss für Anwendungstests
-
-*18. Jun 2025 · Dresden*
-
-Nur vier Monate nach Projektstart konnten wir die ersten Proben unserer Poly(2-oxazolin)e (POx) an unseren Kooperationspartner DermaPurge übergeben. Ein wichtiger Meilenstein, der den Übergang von der Technologieentwicklung hin zur praktischen Anwendung markiert.
+Nur vier Monate nach Projektstart konnten wir die ersten Proben unserer Poly(2-oxazolin)e (POx) an unseren Kooperationspartner [DermaPurge](https://www.dermapurge.com/) übergeben. Ein wichtiger Meilenstein, der den Übergang von der Technologieentwicklung hin zur praktischen Anwendung markiert.
 
 Die Proben dienen der Formulierungserprobung in realen Anwendungsszenarien und ermöglichen uns wertvolle Rückmeldungen aus dem Feld. Gemeinsam mit DermaPurge wollen wir das Potenzial unserer biokompatiblen Polymerlösungen weiter erschließen – mit dem klaren Ziel, innovative und leistungsstarke Alternativen zu bestehenden Systemen zu schaffen.
 
 Wir freuen uns auf die nächsten Schritte dieser Zusammenarbeit.
 
-## Erfolgreicher Auftritt bei der in-cosmetics Global 2025
-
-*10. Apr 2025 · Amsterdam*
+## **Erfolgreicher Auftritt bei der in-cosmetics Global 2025**
 
 Anfang April präsentierte Oxaphil auf der in-cosmetics Global in Amsterdam die Potenziale von Poly(2-oxazolin)en (POx) für moderne kosmetische Formulierungen. Die Messe bot eine bedeutende Plattform, um mit internationalen Partnern, Entwicklern und Innovatoren ins Gespräch zu kommen und aktuelle Trends der Branche aus erster Hand zu erleben.
 
 Im direkten Austausch wurde deutlich: Die Nachfrage nach funktionalen, biokompatiblen Inhaltsstoffen nimmt weiter zu. Eine Besucherumfrage bestätigte: Wahre Innovation in der Kosmetik beginnt bei den Inhaltsstoffen – ein klares Signal für die Relevanz neuer Materialien wie POx.
 
-### Zentrale Erkenntnisse aus Amsterdam
+Zentrale Erkenntnisse aus Amsterdam:
 
-- **Nachhaltigkeit mit Substanz:** Besonders gefragt sind biobasierte Lösungen, etwa funktionelle Polymere auf Cellulosebasis, natürliche Emulgatoren aus Nebenprodukten der Lebensmittelindustrie sowie marine Rohstoffe wie Rotalgenextrakte oder Mikroalgenlösungen. Ressourcenschonung und hohe Funktionalität gehen dabei Hand in Hand.
-- **Innovationsfreude bei Wirkstoffen:** Die Weiterentwicklung von Trägersystemen, stabileren Formulierungen und funktionellen Polymeren spielt eine zentrale Rolle für zukünftige Kosmetikprodukte.
-- **Netzwerk und Austausch:** Die Gespräche mit Entwickler\:innen und Ideengebern aus aller Welt waren ein zentraler Impulsgeber – für neue Kooperationen und für die Weiterentwicklung unserer eigenen Ansätze.
+- Nachhaltigkeit mit Substanz: Besonders gefragt sind biobasierte Lösungen, etwa funktionelle Polymere auf Cellulosebasis, natürliche Emulgatoren aus Nebenprodukten der Lebensmittelindustrie sowie marine Rohstoffe wie Rotalgenextrakte oder Mikroalgenlösungen. Ressourcenschonung und hohe Funktionalität gehen dabei Hand in Hand.
+- Innovationsfreude bei Wirkstoffen: Die Weiterentwicklung von Trägersystemen, stabileren Formulierungen und funktionellen Polymeren spielt eine zentrale Rolle für zukünftige Kosmetikprodukte.
+- Netzwerk und Austausch: Die Gespräche mit Entwickler\:innen und Ideengebern aus aller Welt waren ein zentraler Impulsgeber – für neue Kooperationen und für die Weiterentwicklung unserer eigenen Ansätze.
 
 Parallel zur Messe haben erste Partner mit Anwendungstests von POx in kosmetischen Formulierungen begonnen. Diese Projekte bilden einen wichtigen Schritt, um neue Maßstäbe in der Formulierungstechnologie zu setzen.
 
 Mit frischen Impulsen und neuen Perspektiven startet Oxaphil in die nächsten Entwicklungsschritte – gemeinsam mit Partnern, die nachhaltige Innovation aktiv gestalten wollen.
 
-## Förderung und Netzwerk – wichtige Meilensteine erreicht
+![](https://oxaphil.de/wp-content/uploads/2025/04/Incos1.MP_-1024x576.jpg){.wp-image-141 height="" width=""}![](https://oxaphil.de/wp-content/uploads/2025/04/Incos2-1024x366.png){.wp-image-142 height="" width=""}
 
-*20. Feb 2025 · Dresden*
+## **Von der Forschung zur Anwendung – Förderung, Netzwerk und erste Meilensteine**
 
-Mit der EXIST-Förderung und der engen Anbindung an die TU Dresden konnten wir zentrale Weichen für den Aufbau von Oxaphil stellen.
+Oxaphil basiert auf einer engen Verbindung von Forschung und Anwendung. Der Ursprung unserer Technologie liegt am Lehrstuhl für Makromolekulare Chemie der TU Dresden. Über das Gründungsnetzwerk dresden|exists sowie TUD|excite erhielten wir gezielte Unterstützung beim Transfer in die Praxis.
 
-### Meilensteine
+Wichtige Meilensteine auf unserem Weg:
 
-- TODO: Förderzusage – Details ergänzen
-- TODO: Netzwerk-/Mitgliedschaftsmeilenstein – Details ergänzen
+- Mit einer Validierungsförderung des Sächsischen Staatsministeriums für Wirtschaft, Arbeit und Energie (SMWA) konnten wir unsere POx-Technologie auf Anwendungstauglichkeit prüfen.
+- Das EXIST-Gründungsstipendium des Bundesministeriums für Wirtschaft und Klimaschutz (BMWK), betreut durch den Projektträger Jülich (PTJ), ermöglichte den nächsten Schritt in Richtung Unternehmensgründung.
+- Weitere Impulse erhielten wir über das Netzwerk von futureSAX.
 
-TODO: Was die Förderung konkret ermöglicht hat, ergänzen.
+Parallel zum Aufbau von Oxaphil nehmen wir aktiv an Austauschformaten teil – unter anderem am PTJ-Seminar für EXIST-Stipendiaten. Dort standen Team-Entwicklung, Innovationsstrategien und Vernetzung im Fokus. Denn ein starkes, multidisziplinäres Team ist entscheidend, um aus Innovationen marktfähige Produkte entstehen zu lassen.
 
-## POx als Alternative zu PEG – unser Startpunkt
+## **Fortschritt in der Lösungsvermittlung – Poly(2-oxazolin)e als Alternative zu Poly(ethylenglykol)**
 
-*1. Okt 2024 · Dresden*
+Effiziente Lösungsvermittler sind unverzichtbar für die Entwicklung leistungsfähiger pharmazeutischer und kosmetischer Formulierungen. Bisher dominiert Polyethylenglykol (PEG) den Markt – trotz bekannter Einschränkungen, wie potenziellen Immunreaktionen.
 
-PEG hat sich über Jahrzehnte bewährt, zeigt aber zunehmend Grenzen – insbesondere im Zusammenhang mit Antikörpern und anderen Biologika, wo es unerwünschte Immunreaktionen auslösen kann.
+Oxaphil bietet mit Poly(2-oxazolin)en (POx) eine leistungsstarke Alternative. POx ermöglichen bessere Biokompatibilität, vielseitigere Funktionalisierungen und herausragende Löslichkeitseigenschaften. Während sie in der Forschung längst als vielversprechende Alternative etabliert sind, bringen wir sie nun in industrieller Qualität in die Anwendung.
 
-Genau hier setzt Oxaphil an: Poly(2-oxazolin)e bieten eine bessere Biokompatibilität, eine größere Vielfalt funktioneller chemischer Gruppen und eine verbesserte Löslichkeit.
-
-TODO: Gründungsgeschichte und wissenschaftlichen Hintergrund ausführlicher darstellen.
+Als Hersteller mit hoher Produktionskapazität entwickeln wir gemeinsam mit Partnern maßgeschneiderte Lösungen – insbesondere für die Pharma- und Kosmetikindustrie.
