@@ -9,7 +9,8 @@ export default defineNuxtConfig({
     'nuxt-og-image',
     'motion-v/nuxt',
     'nuxt-studio',
-    '@nuxt/hints'
+    '@nuxt/hints',
+    '@compodium/nuxt'
   ],
 
   devtools: {

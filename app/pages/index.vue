@@ -16,6 +16,7 @@ usePageSeo(page, { type: 'image', src: '/img/news-oxaphil-logo.png' })
 <template>
   <UPage v-if="page">
     <Hero :page />
+    <TestingColors />
     <UPageSection
       v-if="page.video"
       :ui="{

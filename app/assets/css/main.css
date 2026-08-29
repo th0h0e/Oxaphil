@@ -1,27 +1,64 @@
-@import "tailwindcss";
-@import "@nuxt/ui";
+@import 'tailwindcss';
+@import '@nuxt/ui';
 
 @source "../../../content/**/*";
-
+/* https://uicolors.app/generate/7650f6 */
 @theme static {
   --font-sans: 'Public Sans', sans-serif;
+  /* https://uicolors.app/generate/7650f6 */
+  --color-green-50: #effee7;
+  --color-green-100: #dbfbcc;
+  --color-green-200: #baf89e;
+  --color-green-300: #8ef066;
+  --color-green-400: #67e437;
+  --color-green-500: #46ca18;
+  --color-green-600: #32a10f;
+  --color-green-700: #287b10;
+  --color-green-800: #246113;
+  --color-green-900: #215215;
+  --color-green-950: #0b2905;
 
-  --color-green-50: #ecfff4;
-  --color-green-100: #d2ffe6;
-  --color-green-200: #a8ffcf;
-  --color-green-300: #65ffad;
-  --color-green-400: #1bff86;
-  --color-green-500: #00f975;
-  --color-green-600: #00d062;
-  --color-green-700: #00a24d;
-  --color-green-800: #007e3d;
-  --color-green-900: #006633;
-  --color-green-950: #003b1f;
+  --color-red-50: #ffeeee;
+  --color-red-100: #ffdada;
+  --color-red-200: #ffbbbb;
+  --color-red-300: #ff8b8b;
+  --color-red-400: #ff4949;
+  --color-red-500: #ff1111;
+  --color-red-600: #ff0000;
+  --color-red-700: #e70000;
+  --color-red-800: #be0000;
+  --color-red-900: #a30000;
+  --color-red-950: #560000;
+
+  --color-blue-50: #eefaff;
+  --color-blue-100: #d8f3ff;
+  --color-blue-200: #b9ebff;
+  --color-blue-300: #89e0ff;
+  --color-blue-400: #52cdff;
+  --color-blue-500: #2ab3ff;
+  --color-blue-600: #139afd;
+  --color-blue-700: #0c80e9;
+  --color-blue-800: #1166bc;
+  --color-blue-900: #145794;
+  --color-blue-950: #11355a;
+
+  --color-yellow-50: #feffe7;
+  --color-yellow-100: #fbffc2;
+  --color-yellow-200: #f8ff8a;
+  --color-yellow-300: #faff47;
+  --color-yellow-400: #ffff2e;
+  --color-yellow-500: #ece602;
+  --color-yellow-600: #c9b800;
+  --color-yellow-700: #9e8802;
+  --color-yellow-800: #816a0a;
+  --color-yellow-900: #6d580f;
+  --color-yellow-950: #403103;
 }
 
 :root {
   --ui-container: var(--container-6xl);
   --ui-radius: 0.125rem;
+  --ui-bg: oklch(94.4% 0.0035 205.7); /* between mist-100 and mist-200 */
 
   ::selection {
     color: #282a30;
@@ -30,6 +67,8 @@
 }
 
 .dark {
+  --ui-bg: var(--color-mist-900);
+
   ::selection {
     color: #ffffff;
     background-color: #474747;

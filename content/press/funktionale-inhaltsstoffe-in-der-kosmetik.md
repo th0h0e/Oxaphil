@@ -11,6 +11,36 @@ image: /img/materialien-anwendungen.png
 minRead: 7
 ---
 
+::tip
+---
+target: _blank
+to: https://ui.nuxt.com/getting-started/installation
+---
+Learn more on how to take the most out of Nuxt UI!
+::
+
+::badge
+**v3.0.0**
+::
+
+::div{.flex.flex-col.gap-4.w-full}
+    :::note{.w-full.my-0}
+    Here's some additional information for you.
+    :::
+
+    :::tip{.w-full.my-0}
+    Here's a helpful suggestion.
+    :::
+
+    :::warning{.w-full.my-0}
+    Be careful with this action as it might have unexpected results.
+    :::
+
+    :::caution{.w-full.my-0}
+    This action cannot be undone.
+    :::
+  ::
+
 Wer im Frühjahr auf der in-cosmetics Global in Amsterdam und wenige Wochen später auf der CosmeticBusiness in München unterwegs war, hat zwei sehr unterschiedliche Messen erlebt – und in den Gesprächen erstaunlich ähnliche Themen.
 
 ## Nachhaltigkeit wird spezifischer

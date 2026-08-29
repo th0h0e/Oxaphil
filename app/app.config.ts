@@ -28,7 +28,13 @@ export default defineAppConfig({
       }
     }
   },
+  container: {
+    base: 'w-full mx-auto px-0 sm:px-0 lg:px-0'
+      },
   footer: {
+    slots: {
+    container: 'py-0 lg:py-0 lg:flex lg:items-center lg:justify-between lg:gap-x-3'
+    },
     credits: `Built by Kontext ${new Date().getFullYear()}`,
     colorMode: false,
     logos: [{
