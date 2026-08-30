@@ -10,6 +10,7 @@ defineProps<{
 
 <template>
   <UPageHero
+    class="bg-(--ui-bg) rounded-lg"
     :ui="{
       headline: 'flex items-center justify-center',
       title: 'mx-auto',
@@ -158,6 +159,31 @@ defineProps<{
           />
         </Motion>
       </div>
+    </template>
+
+    <template
+      v-if="page.video"
+      #bottom
+    >
+      <Motion
+        class="block px-2 pb-2"
+        :initial="{
+          scale: 1.1,
+          opacity: 0,
+          filter: 'blur(20px)'
+        }"
+        :animate="{
+          scale: 1,
+          opacity: 1,
+          filter: 'blur(0px)'
+        }"
+        :transition="{
+          duration: 0.6,
+          delay: 0.7
+        }"
+      >
+        <VideoEmbed :link="page.video.link" />
+      </Motion>
     </template>
   </UPageHero>
 </template>

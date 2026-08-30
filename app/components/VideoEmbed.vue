@@ -24,7 +24,7 @@ const youtubeId = computed(() => {
 </script>
 
 <template>
-  <div class="bg-slate-100/50 dark:bg-slate-800/50 border border-default w-full rounded-lg p-4">
+  <div>
     <div class="aspect-video overflow-hidden rounded-lg ring ring-default bg-elevated">
       <iframe
         :src="`https://www.youtube-nocookie.com/embed/${youtubeId}`"

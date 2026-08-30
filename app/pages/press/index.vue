@@ -28,14 +28,7 @@ const entry = {
   inViewOptions: { once: true }
 }
 
-const imageVariants = {
-  hovered: {
-    outlineColor: 'var(--ui-primary)',
-    transition: { ease: 'easeOut', duration: 1 }
-  }
-}
-
-const imageClass = 'rounded-lg outline-3 -outline-offset-3 outline-muted group-hover/blog-post:scale-100'
+const imageClass = 'rounded-lg group-hover/blog-post:scale-100'
 </script>
 
 <template>
@@ -59,7 +52,6 @@ const imageClass = 'rounded-lg outline-3 -outline-offset-3 outline-muted group-h
           :key="post.path"
           v-bind="entry"
           :transition="{ delay: 0.2 * index }"
-          while-hover="hovered"
         >
           <UBlogPost
             variant="subtle"
@@ -67,7 +59,7 @@ const imageClass = 'rounded-lg outline-3 -outline-offset-3 outline-muted group-h
             :to="post.path"
             v-bind="post"
             :ui="{
-              root: 'md:grid md:grid-cols-2 overflow-visible',
+              root: 'md:grid md:grid-cols-2 overflow-visible rounded-xl bg-slate-100/50 dark:bg-slate-800/50 border border-white ring-0',
               header: 'overflow-visible'
             }"
           >
@@ -77,7 +69,6 @@ const imageClass = 'rounded-lg outline-3 -outline-offset-3 outline-muted group-h
                 :src="post.image"
                 :alt="post.title"
                 :class="ui.image({ to: true, class: imageClass })"
-                :variants="imageVariants"
               />
             </template>
           </UBlogPost>

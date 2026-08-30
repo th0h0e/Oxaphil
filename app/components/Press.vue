@@ -35,25 +35,16 @@ if (!posts.value) {
         v-bind="post"
         :to="post.path"
         :ui="{
-          root: 'group relative lg:items-start lg:flex ring-0 hover:ring-0',
-          body: 'px-0!',
+          root: 'group relative lg:items-start lg:flex ring-0 hover:ring-0 rounded-xl bg-slate-100/50 dark:bg-slate-800/50 border border-white',
+          body: 'px-4!',
           header: 'hidden'
         }"
       >
         <template #footer>
-          <UButton
-            size="xs"
-            variant="link"
-            class="px-0 gap-0"
-            label="Read Article"
-          >
-            <template #trailing>
-              <UIcon
-                name="i-lucide-arrow-right"
-                class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
-              />
-            </template>
-          </UButton>
+          <UIcon
+            name="i-lucide-arrow-up-right"
+            class="absolute top-4 right-4 size-3 text-muted transition-colors group-hover:text-primary"
+          />
         </template>
       </UBlogPost>
     </UBlogPosts>
