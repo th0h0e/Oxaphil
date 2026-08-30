@@ -17,6 +17,7 @@ Oxaphil entwickelt und produziert POx für Anwendungen in der Pharmazie und Kosm
 
 Ein wesentlicher Bestandteil unserer Technologie ist die von uns entwickelte kontinuierliche Produktion. Sie ermöglicht eine effizientere, skalierbare und reproduzierbare Herstellung von POx und schafft damit die Grundlage für eine zuverlässige industrielle Versorgung.
 
+\
 ![news-innovationskonferenz-1](/img/news-innovationskonferenz-1.jpg)
 
 Mit dem Sächsischen Gründerpreis erhalten wir nicht nur Anerkennung für unsere Technologie, sondern auch für den unternehmerischen Weg, den wir mit Oxaphil eingeschlagen haben. Für uns ist die Auszeichnung deshalb vor allem eines: Motivation, weiterzumachen und unsere Vision umzusetzen.

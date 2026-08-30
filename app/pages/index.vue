@@ -15,18 +15,24 @@ usePageSeo(page, { type: 'image', src: '/img/news-oxaphil-logo.png' })
 
 <template>
   <UPage v-if="page">
-    <Hero :page />
-    <TestingColors />
-    <UPageSection
-      v-if="page.video"
-      :ui="{
-        container: 'pt-0!'
-      }"
+    <HeroFrame
+      label="Poly(2-oxazolin) aus Dresden"
+      icon="i-lucide-sparkles"
+      class="mx-4 sm:mx-6 lg:mx-8"
     >
-      <VideoEmbed
-        :link="page.video.link"
-      />
-    </UPageSection>
+      <Hero :page />
+      <UPageSection
+        v-if="page.video"
+        :ui="{
+          container: 'pt-0!'
+        }"
+      >
+        <VideoEmbed
+          :link="page.video.link"
+        />
+      </UPageSection>
+    </HeroFrame>
+    <TestingColors />
     <UPageSection
       v-if="page.valueProps"
       :title="page.valueProps.title"

@@ -12,6 +12,12 @@ export default defineAppConfig({
   ui: {
     colors: {
       primary: 'green',
+      secondary: 'red',
+      tertiary: 'blue',
+      info: 'yellow',
+      success: 'green',
+      warning:'yellow',
+      error: 'red',
       neutral: 'mist'
     },
     pageHero: {

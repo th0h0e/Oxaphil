@@ -35,7 +35,16 @@ export default defineNuxtConfig({
     theme: {
       defaultVariants: {
         size: 'sm'
-      }
+      },
+      colors: [
+        'primary',
+        'secondary',
+        'tertiary',
+        'info',
+        'success',
+        'warning',
+        'error'
+      ]
     }
   },
 

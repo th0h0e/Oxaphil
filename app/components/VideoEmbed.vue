@@ -24,13 +24,15 @@ const youtubeId = computed(() => {
 </script>
 
 <template>
-  <div class="aspect-video overflow-hidden rounded-lg ring ring-default bg-elevated">
-    <iframe
-      :src="`https://www.youtube-nocookie.com/embed/${youtubeId}`"
-      class="size-full"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    />
+  <div class="bg-slate-100/50 dark:bg-slate-800/50 border border-default w-full rounded-lg p-4">
+    <div class="aspect-video overflow-hidden rounded-lg ring ring-default bg-elevated">
+      <iframe
+        :src="`https://www.youtube-nocookie.com/embed/${youtubeId}`"
+        class="size-full"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      />
+    </div>
   </div>
 </template>
