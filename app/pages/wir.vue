@@ -61,7 +61,7 @@ usePageSeo(page)
         description: 'text-left'
       }"
     >
-      <UPageColumns>
+      <UPageGrid>
         <UPageCard
           v-for="member in members"
           :id="member.id"
@@ -101,7 +101,7 @@ usePageSeo(page)
             </div>
           </template>
         </UPageCard>
-      </UPageColumns>
+      </UPageGrid>
     </UPageSection>
   </UPage>
 </template>

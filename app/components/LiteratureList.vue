@@ -25,7 +25,7 @@ const columns: TableColumn<Reference>[] = [
     meta: {
       class: {
         th: 'w-28',
-        td: 'w-28 text-xs whitespace-normal break-words'
+        td: 'w-28 whitespace-normal break-words'
       }
     }
   },
@@ -35,7 +35,7 @@ const columns: TableColumn<Reference>[] = [
     meta: {
       class: {
         th: 'w-52',
-        td: 'w-52 text-xs whitespace-normal break-words'
+        td: 'w-52 whitespace-normal break-words'
       }
     }
   },
@@ -45,7 +45,7 @@ const columns: TableColumn<Reference>[] = [
     meta: {
       class: {
         th: 'w-20',
-        td: 'w-20 text-xs whitespace-normal break-words'
+        td: 'w-20 whitespace-normal break-words'
       }
     }
   },
@@ -55,7 +55,7 @@ const columns: TableColumn<Reference>[] = [
     meta: {
       class: {
         th: 'w-12 text-right',
-        td: 'w-12 text-right text-xs whitespace-normal break-words'
+        td: 'w-12 text-right whitespace-normal break-words'
       }
     }
   },
@@ -65,7 +65,7 @@ const columns: TableColumn<Reference>[] = [
     meta: {
       class: {
         th: 'w-12',
-        td: 'w-12 text-xs whitespace-normal break-words'
+        td: 'w-12 whitespace-normal break-words'
       }
     }
   },
@@ -75,7 +75,7 @@ const columns: TableColumn<Reference>[] = [
     meta: {
       class: {
         th: 'w-16',
-        td: 'w-16 text-xs whitespace-normal break-words'
+        td: 'w-16 whitespace-normal break-words'
       }
     }
   }
@@ -92,7 +92,7 @@ const columns: TableColumn<Reference>[] = [
       :data="props.references"
       :columns="columns"
       :virtualize="{ getScrollElement }"
-      :ui="{ base: 'min-w-[100%] table-fixed', th: 'text-xs whitespace-normal break-words' }"
+      :ui="{ base: 'min-w-[100%] table-fixed', th: 'whitespace-normal break-words' }"
     />
   </div>
 </template>

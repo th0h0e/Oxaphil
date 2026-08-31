@@ -134,7 +134,8 @@ Parallel zur Messe haben erste Partner mit Anwendungstests von POx in kosmetisch
 
 Mit frischen Impulsen und neuen Perspektiven startet Oxaphil in die nächsten Entwicklungsschritte – gemeinsam mit Partnern, die nachhaltige Innovation aktiv gestalten wollen.
 
-![](https://oxaphil.de/wp-content/uploads/2025/04/Incos1.MP_-1024x576.jpg){.wp-image-141 height="" width=""}![](https://oxaphil.de/wp-content/uploads/2025/04/Incos2-1024x366.png){.wp-image-142 height="" width=""}
+![news-incosmetics-1](/img/news-incosmetics-1.jpg)
+![news-incosmetics-2](/img/news-incosmetics-2.png)
 
 ## **Von der Forschung zur Anwendung – Förderung, Netzwerk und erste Meilensteine**
 

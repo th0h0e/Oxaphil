@@ -24,19 +24,16 @@ export default defineAppConfig({
       slots: {
         container: 'py-12 sm:py-20 lg:py-28',
         title: 'mx-auto max-w-2xl text-pretty text-3xl sm:text-4xl lg:text-5xl',
-        description: 'mt-2 text-md mx-auto max-w-2xl text-pretty sm:text-md text-muted'
+        description: 'mt-2 mx-auto max-w-2xl text-pretty text-muted'
       }
     },
     pageSection: {
       slots: {
-        container: 'px-2 sm:px-3 lg:px-4',
+        container: 'px-0 sm:px-3 lg:px-4',
         title: 'text-2xl sm:text-3xl lg:text-4xl text-pretty tracking-tight font-bold text-highlighted'
       }
     }
   },
-  container: {
-    base: 'w-full mx-auto px-0 sm:px-0 lg:px-0'
-      },
   footer: {
     slots: {
     container: 'py-0 lg:py-0 lg:flex lg:items-center lg:justify-between lg:gap-x-3'

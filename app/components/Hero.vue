@@ -101,7 +101,7 @@ defineProps<{
       >
         <div
           v-if="page.hero.links"
-          class="flex items-center gap-2"
+          class="flex flex-col sm:flex-row items-center gap-2"
         >
           <UButton
             :label="page.hero.links.label"
@@ -115,7 +115,7 @@ defineProps<{
             :color="global.available ? 'success' : 'error'"
             variant="ghost"
             size="xl"
-            class="gap-2"
+            class="gap-2 max-w-full text-center"
             :to="global.available ? `mailto:${global.email}` : ''"
             :label="global.available ? 'Wir freuen uns, Sie kennenzulernen' : 'Nicht verfügbar im Moment'"
           >

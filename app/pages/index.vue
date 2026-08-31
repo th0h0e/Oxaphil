@@ -18,7 +18,6 @@ usePageSeo(page, { type: 'image', src: '/img/news-oxaphil-logo.png' })
     <HeroFrame
       label="Poly(2-oxazolin)"
       icon="i-lucide-sparkles"
-      class="mx-4 sm:mx-6 lg:mx-8"
     >
       <Hero :page />
     </HeroFrame>

@@ -33,9 +33,6 @@ export default defineNuxtConfig({
 
   ui: {
     theme: {
-      defaultVariants: {
-        size: 'md'
-      },
       colors: [
         'primary',
         'secondary',
@@ -45,7 +42,8 @@ export default defineNuxtConfig({
         'warning',
         'error'
       ]
-    }
+    },
+    prose: true,
   },
 
   compatibilityDate: '2026-08-04',

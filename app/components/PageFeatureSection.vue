@@ -64,6 +64,7 @@ defineProps<{
         <UPageCard
           v-bind="feature"
           variant="outline"
+          :ui="{ description: 'text-base' }"
         />
       </Motion>
     </UPageGrid>
