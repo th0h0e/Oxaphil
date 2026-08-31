@@ -35,7 +35,7 @@ if (!posts.value) {
         v-bind="post"
         :to="post.path"
         :ui="{
-          root: 'group relative lg:items-start lg:flex ring-0 hover:ring-0 rounded-xl bg-slate-100/50 dark:bg-slate-800/50 border border-white',
+          root: 'group relative lg:items-start lg:flex ring-0 hover:ring-0 rounded-xl bg-transparent border border-neutral-200/50 dark:bg-slate-800/50 dark:border border-white',
           body: 'px-4!',
           header: 'hidden'
         }"

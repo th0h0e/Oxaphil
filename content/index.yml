@@ -42,8 +42,8 @@ hero:
     label: Kontakt aufnehmen
     icon: i-lucide-mail
     color: primary
-    size: md
-    variant: subtle
+    size: lg
+    variant: solid
     email: erik@oxaphil.com
 press:
   title: Fachbeiträge

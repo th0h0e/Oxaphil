@@ -17,7 +17,7 @@ defineProps<{
             :label="label"
             :icon="icon"
             color="tertiary"
-            variant="subtle"
+            variant="soft"
           />
         </slot>
       </div>
