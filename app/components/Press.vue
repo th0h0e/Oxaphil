@@ -19,7 +19,7 @@ if (!posts.value) {
     :description="page.press.description"
     :ui="{
       container: 'px-0 pt-0! sm:gap-6 lg:gap-8',
-      title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
+      title: 'text-left text-xl sm:text-2xl text-pretty tracking-tight font-bold',
       description: 'text-left mt-2 text-sm sm:text-md lg:text-sm text-muted'
     }"
   >
@@ -54,6 +54,7 @@ if (!posts.value) {
       icon="i-lucide-arrow-right"
       color="primary"
       variant="soft"
+      size="md"
       to="/press"
       class="mt-2 w-fit"
     />

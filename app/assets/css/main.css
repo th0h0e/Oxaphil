@@ -6,17 +6,17 @@
 @theme static {
   --font-sans: 'Public Sans', sans-serif;
   /* https://uicolors.app/generate/7650f6 */
-  --color-green-50: #E0FAFF;
-  --color-green-100: #C7FFF8;
-  --color-green-200: #8FFFD1;
-  --color-green-300: #57FF8B;
-  --color-green-400: #21F826;
-  --color-green-500: #46CA18;
-  --color-green-600: #06B70A;
-  --color-green-700: #00992F;
+  --color-green-50: #e0faff;
+  --color-green-100: #c7fff8;
+  --color-green-200: #8fffd1;
+  --color-green-300: #57ff8b;
+  --color-green-400: #46ca18;
+  --color-green-500: #007545;
+  --color-green-600: #06b70a;
+  --color-green-700: #00992f;
   --color-green-800: #007545;
-  --color-green-900: #004D43;
-  --color-green-950: #00343D;
+  --color-green-900: #004d43;
+  --color-green-950: #00343d;
 
   --color-red-50: #ffe5e6;
   --color-red-100: #ffced1;
@@ -56,7 +56,7 @@
 }
 
 :root {
-  --ui-container: var(--container-8xl);
+  --ui-container: var(--container-6xl);
   --ui-radius: 0.125rem;
   --ui-bg: oklch(94.4% 0.0035 205.7); /* between mist-100 and mist-200 */
 

@@ -24,6 +24,7 @@ defineProps<{
     :description="chemicalName"
     variant="subtle"
     orientation="horizontal"
+    class="bg-(--ui-bg)"
     :ui="{ title: 'text-xl' }"
     spotlight
     spotlight-color="primary"

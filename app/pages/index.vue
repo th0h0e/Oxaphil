@@ -22,7 +22,7 @@ usePageSeo(page, { type: 'image', src: '/img/news-oxaphil-logo.png' })
     >
       <Hero :page />
     </HeroFrame>
-    <TestingColors />
+
     <UPageSection
       v-if="page.valueProps"
       :title="page.valueProps.title"

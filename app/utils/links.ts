@@ -20,8 +20,12 @@ export const navLinks: NavigationMenuItem[] = [{
   label: 'Bestellen',
   icon: 'i-lucide-shopping-cart',
   to: '/bestellung'
-}, {
-  label: 'Presse',
-  icon: 'i-lucide-newspaper',
-  to: '/press'
 }]
+
+// Temporarily hidden while we test whether /press can replace /neuigkeiten.
+// The route itself still works — only the nav entry is removed.
+// {
+//   label: 'Presse',
+//   icon: 'i-lucide-newspaper',
+//   to: '/press'
+// }
