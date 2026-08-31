@@ -6,7 +6,7 @@ type PageMeta = {
 
 type OgImageOverride
   = | { type: 'image', src: string }
-    | { type: 'template', props?: Record<string, any> }
+    | { type: 'template', props?: Record<string, unknown> }
 
 /**
  * Sets the HTML head meta tags from a page's title and description, plus an
@@ -30,6 +30,6 @@ export function usePageSeo<T extends PageMeta>(page: Ref<T | null | undefined>, 
   if (ogImage?.type === 'image') {
     useSeoMeta({ ogImage: ogImage.src })
   } else {
-    defineOgImage('OgImageOxaphil', { title, description, ...ogImage?.props })
+    defineOgImage('Oxaphil', { title, description, ...ogImage?.props })
   }
 }
