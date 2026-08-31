@@ -35,7 +35,7 @@ if (!posts.value) {
         v-bind="post"
         :to="post.path"
         :ui="{
-          root: 'group relative lg:items-start lg:flex ring-0 hover:ring-0 rounded-xl bg-transparent border border-neutral-200/50 dark:bg-slate-800/50 dark:border border-white',
+          root: 'group relative lg:items-start lg:flex rounded-xl bg-elevated/60 ring ring-default dark:bg-slate-800/50 dark:border border-white',
           body: 'px-4!',
           header: 'hidden'
         }"
@@ -48,5 +48,14 @@ if (!posts.value) {
         </template>
       </UBlogPost>
     </UBlogPosts>
+
+    <UButton
+      label="Alle Fachbeiträge"
+      icon="i-lucide-arrow-right"
+      color="primary"
+      variant="soft"
+      to="/press"
+      class="mt-2 w-fit"
+    />
   </UPageSection>
 </template>

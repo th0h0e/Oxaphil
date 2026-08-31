@@ -34,7 +34,7 @@ export default defineNuxtConfig({
   ui: {
     theme: {
       defaultVariants: {
-        size: 'sm'
+        size: 'md'
       },
       colors: [
         'primary',

@@ -4,7 +4,7 @@ const { footer } = useAppConfig()
 
 <template>
   <UFooter
-    class="z-10 rounded-xl bg-muted/20 backdrop-blur-sm shadow-lg shadow-neutral-950/5"
+    class="z-10 rounded-xl bg-muted/20 backdrop-blur-sm shadow-lg shadow-neutral-950/5 pb-10"
     :ui="{
       left: 'text-muted text-xs',
       top: 'px-4 sm:px-6 lg:px-8',

@@ -16,8 +16,8 @@ defineProps<{
           <UBadge
             :label="label"
             :icon="icon"
-            color="tertiary"
-            variant="soft"
+            color="neutral"
+            variant="subtle"
           />
         </slot>
       </div>

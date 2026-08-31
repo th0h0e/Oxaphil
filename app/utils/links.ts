@@ -24,8 +24,4 @@ export const navLinks: NavigationMenuItem[] = [{
   label: 'Presse',
   icon: 'i-lucide-newspaper',
   to: '/press'
-}, {
-  label: 'Speaking',
-  icon: 'i-lucide-mic',
-  to: '/speaking'
 }]

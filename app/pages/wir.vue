@@ -34,6 +34,22 @@ usePageSeo(page)
       :title="technology.title"
       :description="technology.description"
       :content="technology.content"
+      :links="[
+        {
+          label: 'Materialien ansehen',
+          to: '/materialien',
+          icon: 'i-lucide-arrow-right',
+          color: 'primary',
+          variant: 'solid'
+        },
+        {
+          label: 'Vorträge ansehen',
+          to: '/speaking',
+          icon: 'i-lucide-mic',
+          color: 'primary',
+          variant: 'outline'
+        }
+      ]"
     />
     <USeparator />
     <UPageSection

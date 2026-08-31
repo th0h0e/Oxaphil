@@ -30,6 +30,7 @@ usePageSeo(page, { type: 'image', src: '/img/news-oxaphil-logo.png' })
       :features="page.valueProps.items"
     />
     <FAQ :page />
+    <OrderPreview />
     <Testimonials :page />
     <Press :page />
   </UPage>

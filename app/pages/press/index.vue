@@ -59,7 +59,7 @@ const imageClass = 'rounded-lg group-hover/blog-post:scale-100'
             :to="post.path"
             v-bind="post"
             :ui="{
-              root: 'md:grid md:grid-cols-2 overflow-visible rounded-xl bg-muted/20 dark:bg-slate-800/50 border border-white ring-0',
+              root: 'md:grid md:grid-cols-2 overflow-visible rounded-xl bg-elevated/60 ring ring-default dark:bg-slate-800/50 dark:border border-white dark:ring-0',
               header: 'overflow-visible'
             }"
           >

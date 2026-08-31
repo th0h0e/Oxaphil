@@ -3,6 +3,13 @@ defineProps<{
   title: string
   description?: string
   content: string
+  links?: Array<{
+    label: string
+    to: string
+    icon?: string
+    color?: 'primary' | 'neutral' | 'success' | 'warning' | 'error' | 'info'
+    variant?: 'solid' | 'outline' | 'subtle' | 'soft' | 'ghost' | 'link'
+  }>
 }>()
 </script>
 
@@ -22,5 +29,20 @@ defineProps<{
       :value="content"
       class="prose prose-primary dark:prose-invert max-w-none"
     />
+
+    <div
+      v-if="links?.length"
+      class="mt-2 flex flex-wrap gap-3"
+    >
+      <UButton
+        v-for="(link, index) in links"
+        :key="index"
+        :label="link.label"
+        :to="link.to"
+        :icon="link.icon"
+        :color="link.color || 'primary'"
+        :variant="link.variant || 'solid'"
+      />
+    </div>
   </UPageSection>
 </template>

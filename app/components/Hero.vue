@@ -34,7 +34,7 @@ defineProps<{
           delay: 0.1
         }"
       >
-        <div class="size-32 rounded-full ring ring-default ring-offset-3 ring-offset-bg flex items-center justify-center bg-default">
+        <div class="size-32 rounded-full ring ring-default ring-offset-3 ring-offset-bg flex items-center justify-center bg-slate-100/50 dark:bg-slate-800/50">
           <ProductMolecule class="size-28 text-highlighted" />
         </div>
       </Motion>
@@ -107,13 +107,14 @@ defineProps<{
             :label="page.hero.links.label"
             :icon="page.hero.links.icon"
             :color="page.hero.links.color"
-            :size="page.hero.links.size"
+            size="xl"
             :variant="page.hero.links.variant"
             :to="`mailto:${page.hero.links.email || global.email}`"
           />
           <UButton
             :color="global.available ? 'success' : 'error'"
             variant="ghost"
+            size="xl"
             class="gap-2"
             :to="global.available ? `mailto:${global.email}` : ''"
             :label="global.available ? 'Wir freuen uns, Sie kennenzulernen' : 'Nicht verfügbar im Moment'"
