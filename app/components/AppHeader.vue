@@ -37,7 +37,10 @@ const pillClass = 'pointer-events-auto bg-muted/80 backdrop-blur-sm rounded-lg s
 -->
 <template>
   <Teleport to="body">
-    <div class="fixed inset-0 h-dvh z-5">
+    <!-- pointer-events-none: the frame spans the whole viewport at z-5 above the
+         page, so without it every click on the page lands here. Children that
+         should be clickable (pill, backdrop) set pointer-events-auto. -->
+    <div class="fixed inset-0 h-dvh z-5 pointer-events-none">
       <!-- Full-screen blur/dim below the custom backdrop. Lives in the same
          dvh frame so it blurs the page behind the backdrop (including the
          exposed side/bottom gaps) and tracks the URL-bar edge. z-0 keeps it
