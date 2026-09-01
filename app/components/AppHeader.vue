@@ -20,7 +20,7 @@ const items = computed<DropdownMenuItem[]>(() =>
   props.links.map(({ label, icon, to }) => ({ label, icon, to }))
 )
 
-const pillClass = 'pointer-events-auto bg-muted/80 backdrop-blur-sm rounded-full border border-muted/50 shadow-lg shadow-neutral-950/5'
+const pillClass = 'pointer-events-auto bg-muted/80 backdrop-blur-sm rounded-lg sm:rounded-full border border-muted/50 shadow-lg shadow-neutral-950/5'
 </script>
 
 <!--
@@ -31,70 +31,72 @@ const pillClass = 'pointer-events-auto bg-muted/80 backdrop-blur-sm rounded-full
   directly: backdrop z-5 < nav bar z-10 < dropdown content z-50.
 -->
 <template>
-  <Teleport to="body">
-    <!-- Backdrop/overlay for the open mobile menu.
+  <div class="fixed inset-0 h-dvh z-5">
+    <Teleport to="body">
+      <!-- Backdrop/overlay for the open mobile menu.
          Reka's modal outside-click handling closes the menu on backdrop click. -->
-    <Transition
-      enter-active-class="transition-opacity duration-150 ease-out"
-      leave-active-class="transition-opacity duration-100 ease-in"
-      enter-from-class="opacity-0"
-      leave-to-class="opacity-0"
-    >
-      <div
-        v-if="open"
-        class="sm:hidden fixed inset-4 z-[5] pointer-events-auto bg-slate-100 dark:bg-slate-800 border border-accented rounded-md"
-      />
-    </Transition>
+      <Transition
+        enter-active-class="transition-opacity duration-150 ease-out"
+        leave-active-class="transition-opacity duration-100 ease-in"
+        enter-from-class="opacity-0"
+        leave-to-class="opacity-0"
+      >
+        <div
+          v-if="open"
+          class="sm:hidden fixed inset-4 z-5 pointer-events-auto bg-slate-100 dark:bg-slate-800 border border-accented rounded-md"
+        />
+      </Transition>
 
-    <!-- Nav bar: pill + dropdown. Above the backdrop (z-10 > z-5).
+      <!-- Nav bar: pill + dropdown. Above the backdrop.
          Dropdown content is portaled separately by Reka with z-50, so it
          stacks above both the pill and the backdrop. -->
-    <div class="fixed inset-x-0 top-2 sm:top-4 z-10 w-full max-w-(--ui-container) mx-auto px-4 sm:px-6 lg:px-8 flex justify-center pointer-events-none">
-      <UNavigationMenu
-        :class="[pillClass, 'hidden sm:flex px-4']"
-        :items="links"
-        variant="link"
-        color="neutral"
-        :ui="{
-          link: 'px-2 py-1',
-          linkLeadingIcon: 'hidden'
-        }"
-      >
-        <template #list-trailing>
-          <ColorModeButton />
-        </template>
-      </UNavigationMenu>
+      <div class="fixed inset-x-0 top-6 sm:top-4 z-10 w-full max-w-(--ui-container) mx-auto px-6 sm:px-6 lg:px-8 flex justify-center pointer-events-none">
+        <UNavigationMenu
+          :class="[pillClass, 'hidden sm:flex px-4']"
+          :items="links"
+          variant="link"
+          color="neutral"
+          :ui="{
+            link: 'px-2 py-1',
+            linkLeadingIcon: 'hidden'
+          }"
+        >
+          <template #list-trailing>
+            <ColorModeButton />
+          </template>
+        </UNavigationMenu>
 
-      <UDropdownMenu
-        v-model:open="open"
-        :items="items"
-        color="neutral"
-        :content="{ align: 'end', side: 'bottom', sideOffset: 8 }"
-        :ui="{
-          // Stretch content to the trigger's width — Reka sets
-          // --reka-popper-anchor-width on the content; matching the Figma
-          // where the panel spans the full pill width (332px in the design).
-          // z-50 lifts the portaled content above the backdrop (z-5) and the
-          // pill (z-10); Reka reads the computed z-index and sets it inline.
-          content: 'z-50 w-[var(--reka-popper-anchor-width)] drop-shadow-lg',
-          itemLeadingIcon: 'hidden'
-        }"
-      >
-        <!-- The pill div is the trigger (DropdownMenuTrigger uses as-child),
+        <UDropdownMenu
+          v-model:open="open"
+          :items="items"
+          color="neutral"
+          :content="{ align: 'center', side: 'bottom', sideOffset: 8 }"
+          :ui="{
+            // Stretch content to the trigger's width — Reka sets
+            // --reka-popper-anchor-width on the content; matching the Figma
+            // where the panel spans the full pill width (332px in the design).
+            // z-50 lifts the portaled content above the backdrop (z-5) and the
+            // pill (z-10); Reka reads the computed z-index and sets it inline.
+            content: 'z-50 w-(--reka-dropdown-menu-trigger-width) drop-shadow-lg rounded-md',
+            itemLeadingIcon: 'hidden'
+          }"
+        >
+          <!-- The pill div is the trigger (DropdownMenuTrigger uses as-child),
              so the content anchors to the pill width, not the button. -->
-        <div :class="[pillClass, 'sm:hidden w-full flex items-center justify-between px-2 py-1']">
-          <!-- Stop propagation so toggling the color mode doesn't open the menu. -->
-          <ColorModeButton @click.stop />
-          <UButton
-            :icon="open ? 'i-lucide-x' : 'i-lucide-menu'"
-            color="neutral"
-            variant="ghost"
-            size="sm"
-            class="rounded-full"
-            :aria-label="open ? 'Menü schließen' : 'Menü öffnen'"
-          />
-        </div>
-      </UDropdownMenu>
-    </div>
-  </Teleport>
+          <div :class="[pillClass, 'sm:hidden w-full flex items-center justify-between px-2 py-1']">
+            <!-- Stop propagation so toggling the color mode doesn't open the menu. -->
+            <ColorModeButton @click.stop />
+            <UButton
+              :icon="open ? 'i-lucide-x' : 'i-lucide-menu'"
+              color="neutral"
+              variant="ghost"
+              size="sm"
+              class="rounded-full"
+              :aria-label="open ? 'Menü schließen' : 'Menü öffnen'"
+            />
+          </div>
+        </UDropdownMenu>
+      </div>
+    </Teleport>
+  </div>
 </template>
