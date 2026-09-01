@@ -46,7 +46,7 @@ const [{ data: navigation }, { data: files }] = await Promise.all([
   <UApp>
     <NuxtLayout>
       <UMain class="relative">
-        <NuxtPage />
+        <NuxtPage class="pt-20" />
       </UMain>
     </NuxtLayout>
 
