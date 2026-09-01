@@ -24,21 +24,33 @@ const pillClass = 'pointer-events-auto bg-muted/80 backdrop-blur-sm rounded-lg s
 </script>
 
 <!--
-  Teleport the whole nav bar to <body> so it lives in the root stacking
-  context. Previously the header sat inside the layout's UContainer, whose
-  own stacking context capped the header's z-10 below the teleported backdrop
-  (z-5 at root). Now both share the root context and z-index compares
-  directly: backdrop z-5 < nav bar z-10 < dropdown content z-50.
+  Teleport the whole dvh frame to <body> so the nav lives in the root
+  stacking context. Previously the header sat inside the layout's UContainer,
+  whose own stacking context capped the header's z-10 below the teleported
+  backdrop (z-5 at root). Teleporting the frame (not just its children) keeps
+  the blur layer, backdrop, nav bar, and dropdown content in one context so
+  all z-indices compare directly:
+    blur z-0 < backdrop z-5 < nav bar z-10 < dropdown content z-50.
+  The fixed inset-0 h-dvh frame tracks the mobile URL-bar edge; teleporting
+  it to <body> (whose only ancestors are html/body) means no layout ancestor
+  can reorder these layers.
 -->
 <template>
-  <div class="fixed inset-0 h-dvh z-5">
-    <div
-      v-if="open"
-      class="sm:hidden fixed inset-0 z-0 bg-elevated/75 backdrop-blur-md"
-    />
-    <Teleport to="body">
+  <Teleport to="body">
+    <div class="fixed inset-0 h-dvh z-5">
+      <!-- Full-screen blur/dim below the custom backdrop. Lives in the same
+         dvh frame so it blurs the page behind the backdrop (including the
+         exposed side/bottom gaps) and tracks the URL-bar edge. z-0 keeps it
+         below the backdrop (z-5). Clicks here bubble to Reka's document-level
+         outside-click listener, so clicking the blurred gaps closes the menu. -->
+      <div
+        v-if="open"
+        class="sm:hidden fixed inset-0 z-0 bg-elevated/75 backdrop-blur-md"
+      />
       <!-- Backdrop/overlay for the open mobile menu.
-         Reka's modal outside-click handling closes the menu on backdrop click. -->
+         Sits above the blur layer (z-0) and below the nav bar (z-10). Clicking
+         it bubbles to Reka's document-level outside-click listener, closing
+         the menu. -->
       <Transition
         enter-active-class="transition-opacity duration-150 ease-out"
         leave-active-class="transition-opacity duration-100 ease-in"
@@ -54,7 +66,10 @@ const pillClass = 'pointer-events-auto bg-muted/80 backdrop-blur-sm rounded-lg s
       <!-- Nav bar: pill + dropdown. Above the backdrop.
          Dropdown content is portaled separately by Reka with z-50, so it
          stacks above both the pill and the backdrop. -->
-      <div class="fixed inset-x-0 top-6 sm:top-4 z-10 w-full max-w-(--ui-container) mx-auto px-6 sm:px-6 lg:px-8 flex justify-center pointer-events-none">
+      <div
+        class="fixed inset-x-0 top-6 sm:top-4 z-10 w-full max-w-(--ui-container) mx-auto flex justify-center pointer-events-none transition-[padding] duration-200 ease-out"
+        :class="open ? 'px-6 sm:px-6 lg:px-8' : 'px-4 sm:px-6 lg:px-8'"
+      >
         <UNavigationMenu
           :class="[pillClass, 'hidden sm:flex px-4']"
           :items="links"
@@ -101,6 +116,6 @@ const pillClass = 'pointer-events-auto bg-muted/80 backdrop-blur-sm rounded-lg s
           </div>
         </UDropdownMenu>
       </div>
-    </Teleport>
-  </div>
+    </div>
+  </Teleport>
 </template>
