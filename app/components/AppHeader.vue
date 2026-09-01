@@ -32,6 +32,10 @@ const pillClass = 'pointer-events-auto bg-muted/80 backdrop-blur-sm rounded-lg s
 -->
 <template>
   <div class="fixed inset-0 h-dvh z-5">
+    <div
+      v-if="open"
+      class="sm:hidden fixed inset-0 z-0 bg-elevated/75 backdrop-blur-md"
+    />
     <Teleport to="body">
       <!-- Backdrop/overlay for the open mobile menu.
          Reka's modal outside-click handling closes the menu on backdrop click. -->
