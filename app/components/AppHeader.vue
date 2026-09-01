@@ -32,9 +32,7 @@ const pillClass = 'pointer-events-auto bg-muted/80 backdrop-blur-sm rounded-full
 -->
 <template>
   <Teleport to="body">
-    <!-- Backdrop/overlay for the open mobile menu. Matches the Figma Frame 15:
-         bg-elevated/50 (design's --alpha---ui-bg-elevated-50),
-         border-accented (--ui-border-accented), rounded-md.
+    <!-- Backdrop/overlay for the open mobile menu.
          Reka's modal outside-click handling closes the menu on backdrop click. -->
     <Transition
       enter-active-class="transition-opacity duration-150 ease-out"
@@ -44,7 +42,7 @@ const pillClass = 'pointer-events-auto bg-muted/80 backdrop-blur-sm rounded-full
     >
       <div
         v-if="open"
-        class="sm:hidden fixed inset-4 z-[5] pointer-events-auto bg-elevated/50 border border-accented rounded-md"
+        class="sm:hidden fixed inset-4 z-[5] pointer-events-auto bg-slate-100 dark:bg-slate-800 border border-accented rounded-md"
       />
     </Transition>
 

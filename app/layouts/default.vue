@@ -6,9 +6,7 @@
     <UContainer>
       <AppHeader :links="navLinks" />
       <slot />
-    </UContainer>
-    <UContainer>
-      <AppFooter />
+      <AppFooter class="pb-6" />
     </UContainer>
   </div>
 </template>

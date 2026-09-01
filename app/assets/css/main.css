@@ -56,7 +56,6 @@
 }
 
 :root {
-  --ui-container: var(--container-6xl);
   --ui-radius: 0.125rem;
   --ui-bg: oklch(94.4% 0.0035 205.7); /* between mist-100 and mist-200 */
 
