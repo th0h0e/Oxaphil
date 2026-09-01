@@ -12,7 +12,7 @@ defineProps<{
   <UPageHero
     class="bg-(--ui-bg) rounded-lg"
     :ui="{
-      headline: 'flex items-center justify-center',
+      headline: 'flex items-center justify-center pb-4',
       title: 'mx-auto',
       links: 'mt-4 flex-col justify-center items-center'
     }"
@@ -107,7 +107,7 @@ defineProps<{
             :label="page.hero.links.label"
             :icon="page.hero.links.icon"
             :color="page.hero.links.color"
-            size="lg"
+            :size="page.hero.links.size"
             :variant="page.hero.links.variant"
             :to="`mailto:${page.hero.links.email || global.email}`"
           />

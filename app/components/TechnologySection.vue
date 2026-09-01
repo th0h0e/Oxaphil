@@ -18,13 +18,10 @@ defineProps<{
     :title="title"
     :description="description"
     :ui="{
-      container: 'pt-0!',
-      headline: 'justify-start',
-      title: 'text-left',
-      description: 'text-left'
+      title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold',
+      description: 'text-left my-2 text-muted'
     }"
   >
-    <USeparator />
     <MDC
       :value="content"
       class="prose prose-primary dark:prose-invert max-w-none"
@@ -32,7 +29,7 @@ defineProps<{
 
     <div
       v-if="links?.length"
-      class="mt-2 flex flex-wrap gap-3"
+      class="flex flex-wrap gap-3"
     >
       <UButton
         v-for="(link, index) in links"
@@ -41,7 +38,7 @@ defineProps<{
         :to="link.to"
         :icon="link.icon"
         :color="link.color || 'primary'"
-        :variant="link.variant || 'solid'"
+        :variant="link.variant || 'soft'"
       />
     </div>
   </UPageSection>

@@ -25,6 +25,7 @@ usePageSeo(page)
       :title="page.title"
       :description="page.description"
       :ui="{
+        container: 'mb-0!',
         title: 'mx-0! text-left',
         description: 'mx-0! text-left'
       }"
@@ -56,9 +57,8 @@ usePageSeo(page)
       :title="page.team.title"
       :description="page.team.description"
       :ui="{
-        headline: 'justify-start',
-        title: 'text-left',
-        description: 'text-left'
+        title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold',
+        description: 'text-left my-2 text-muted'
       }"
     >
       <UPageGrid>

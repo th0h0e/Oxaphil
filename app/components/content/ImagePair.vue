@@ -18,8 +18,8 @@
  * rounded style of inline prose images on the site.
  */
 const props = defineProps<{
-  left: { src: string; alt: string }
-  right: { src: string; alt: string }
+  left: { src: string, alt: string }
+  right: { src: string, alt: string }
 }>()
 </script>
 

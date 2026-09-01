@@ -35,6 +35,10 @@ withDefaults(defineProps<{
       :description="role"
       :avatar="photoSrc ? { src: photoSrc, alt: photoAlt } : undefined"
       size="xl"
+      :ui="{
+        name: 'text-lg',
+        description: 'text-md'
+      }"
     />
     <div class="flex flex-wrap gap-3 mt-4">
       <UButton
@@ -44,7 +48,6 @@ withDefaults(defineProps<{
         icon="i-lucide-phone"
         :color="buttonColor"
         :variant="buttonVariant"
-        size="sm"
       />
       <UButton
         v-if="email"
@@ -53,7 +56,6 @@ withDefaults(defineProps<{
         icon="i-lucide-mail"
         :color="buttonColor"
         :variant="buttonVariant"
-        size="sm"
       />
     </div>
   </UPageCard>

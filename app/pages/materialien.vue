@@ -49,6 +49,10 @@ usePageSeo(page)
       id="literatur"
       :title="literature.title"
       :description="literature.description"
+      :ui="{
+        title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold',
+        description: 'text-left my-2 text-muted'
+      }"
     >
       <LiteratureList :references="literature.references" />
     </UPageSection>

@@ -16,7 +16,7 @@ export default defineAppConfig({
       tertiary: 'yellow',
       info: 'yellow',
       success: 'green',
-      warning:'yellow',
+      warning: 'yellow',
       error: 'red',
       neutral: 'mist'
     },
@@ -28,21 +28,20 @@ export default defineAppConfig({
     },
     pageHero: {
       slots: {
-        container: 'py-12 sm:py-20 lg:py-28',
+        container: 'mb-0 px-0 sm:px-3 lg:px-4',
         title: 'mx-auto max-w-2xl text-pretty text-3xl sm:text-4xl lg:text-5xl',
         description: 'mt-2 mx-auto max-w-2xl text-pretty text-muted'
       }
     },
     pageSection: {
       slots: {
-        container: 'px-0 sm:px-3 lg:px-4',
-        title: 'text-2xl sm:text-3xl lg:text-4xl text-pretty tracking-tight font-bold text-highlighted'
+        container: 'px-0 sm:px-3 lg:px-4'
       }
     }
   },
   footer: {
     slots: {
-    container: 'py-0 lg:py-0 lg:flex lg:items-center lg:justify-between lg:gap-x-3'
+      container: 'py-0 lg:py-0 lg:flex lg:items-center lg:justify-between lg:gap-x-3'
     },
     credits: `Built by Kontext ${new Date().getFullYear()}`,
     colorMode: false,

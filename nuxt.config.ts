@@ -31,6 +31,12 @@ export default defineNuxtConfig({
     fallback: 'light'
   },
 
+  content: {
+    experimental: {
+      sqliteConnector: 'native'
+    }
+  },
+
   ui: {
     theme: {
       colors: [
@@ -43,23 +49,23 @@ export default defineNuxtConfig({
         'error'
       ]
     },
-    prose: true,
+    prose: true
   },
 
   compatibilityDate: '2026-08-04',
 
   nitro: {
-      preset: 'cloudflare-pages',
-      prerender: {
-        routes: ['/'],
-        crawlLinks: true,
-        autoSubfolderIndex: false
-      },
-      cloudflare: {
-        deployConfig: true,
-        nodeCompat: true
-      }
+    preset: 'cloudflare-pages',
+    prerender: {
+      routes: ['/'],
+      crawlLinks: true,
+      autoSubfolderIndex: false
     },
+    cloudflare: {
+      deployConfig: true,
+      nodeCompat: true
+    }
+  },
 
   eslint: {
     config: {
@@ -67,12 +73,6 @@ export default defineNuxtConfig({
         commaDangle: 'never',
         braceStyle: '1tbs'
       }
-    }
-  },
-
-  content: {
-    experimental: {
-      sqliteConnector: 'native'
     }
   },
 

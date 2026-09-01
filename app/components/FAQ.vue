@@ -30,8 +30,8 @@ const ui = {
     :description="page.faq.description"
     :ui="{
       container: 'px-0 pt-0! gap-4 sm:gap-4',
-      title: 'text-left text-xl sm:text-2xl text-pretty tracking-tight font-bold',
-      description: 'text-left mt-2 text-sm sm:text-md lg:text-sm text-muted'
+      title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold',
+      description: 'text-left my-2 text-muted'
     }"
   >
     <UTabs
@@ -47,7 +47,7 @@ const ui = {
           :unmount-on-hide="false"
           :ui="{
             item: 'border-none',
-            trigger: 'mb-2 border-0 group px-4 transform-gpu rounded-lg bg-elevated/60 will-change-transform hover:bg-muted/50 text-base',
+            trigger: 'mb-2 border-0 group px-4 transform-gpu rounded-lg bg-elevated/60 will-change-transform hover:bg-muted/50',
             trailingIcon: 'group-data-[state=closed]:rotate-0 group-data-[state=open]:rotate-135 text-base text-muted'
           }"
         >

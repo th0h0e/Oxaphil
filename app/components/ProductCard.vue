@@ -25,12 +25,12 @@ defineProps<{
     variant="subtle"
     orientation="horizontal"
     class="bg-(--ui-bg)"
-    :ui="{ title: 'text-xl' }"
+    :ui="{ title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold' }"
     spotlight
     spotlight-color="primary"
   >
     <template #footer>
-      <dl class="grid grid-cols-2 gap-x-6 gap-y-3 text-sm">
+      <dl class="grid grid-cols-2 gap-x-6 gap-y-3">
         <template
           v-for="spec in specs"
           :key="spec.label"

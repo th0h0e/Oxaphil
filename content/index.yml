@@ -43,7 +43,7 @@ hero:
     icon: i-lucide-mail
     color: primary
     size: lg
-    variant: solid
+    variant: soft
     email: erik@oxaphil.com
 press:
   title: Fachbeiträge

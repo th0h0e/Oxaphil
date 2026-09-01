@@ -40,16 +40,13 @@ usePageSeo(page)
     />
     <UPageSection
       v-if="product"
-      :ui="{
-        container: 'pt-0!'
-      }"
     >
       <!-- Headline, intro copy and product card share one frame, so the
            section reads as a single panel rather than three stacked blocks.
            The title lives here instead of on `UPageSection` because that prop
            renders above the default slot, outside the frame. -->
       <PanelFrame>
-        <div class="rounded-lg bg-(--ui-bg) p-6 sm:p-8">
+        <div class="rounded-lg bg-(--ui-bg) px-4 py-6">
           <h2 class="text-2xl sm:text-3xl text-pretty tracking-tight font-bold text-highlighted">
             {{ product.title }}
           </h2>
