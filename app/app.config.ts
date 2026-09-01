@@ -20,6 +20,12 @@ export default defineAppConfig({
       error: 'red',
       neutral: 'mist'
     },
+    navigationMenu: {
+      slots: {
+        root: 'relative flex gap-1.5 items-center [&>div]:min-w-0',
+        list: 'flex items-center'
+      }
+    },
     pageHero: {
       slots: {
         container: 'py-12 sm:py-20 lg:py-28',

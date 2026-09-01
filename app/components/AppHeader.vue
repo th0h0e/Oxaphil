@@ -71,13 +71,14 @@ const pillClass = 'pointer-events-auto bg-muted/80 backdrop-blur-sm rounded-lg s
         :class="open ? 'px-6 sm:px-6 lg:px-8' : 'px-4 sm:px-6 lg:px-8'"
       >
         <UNavigationMenu
-          :class="[pillClass, 'hidden sm:flex px-4']"
+          :class="[pillClass, 'hidden sm:flex px-4 flex-1 justify-center']"
           :items="links"
           variant="link"
           color="neutral"
           :ui="{
             link: 'px-2 py-1',
             linkLeadingIcon: 'hidden'
+
           }"
         >
           <template #list-trailing>
