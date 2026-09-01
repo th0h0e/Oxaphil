@@ -107,14 +107,14 @@ defineProps<{
             :label="page.hero.links.label"
             :icon="page.hero.links.icon"
             :color="page.hero.links.color"
-            size="xl"
+            size="lg"
             :variant="page.hero.links.variant"
             :to="`mailto:${page.hero.links.email || global.email}`"
           />
           <UButton
             :color="global.available ? 'success' : 'error'"
             variant="ghost"
-            size="xl"
+            size="lg"
             class="gap-2 max-w-full text-center"
             :to="global.available ? `mailto:${global.email}` : ''"
             :label="global.available ? 'Wir freuen uns, Sie kennenzulernen' : 'Nicht verfügbar im Moment'"
@@ -169,7 +169,7 @@ defineProps<{
       <Motion
         class="block px-2 pb-2"
         :initial="{
-          scale: 1.1,
+          scale: 1.06,
           opacity: 0,
           filter: 'blur(20px)'
         }"
@@ -180,7 +180,7 @@ defineProps<{
         }"
         :transition="{
           duration: 0.6,
-          delay: 0.7
+          delay: 0.6
         }"
       >
         <VideoEmbed :link="page.video.link" />
