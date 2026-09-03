@@ -59,11 +59,7 @@ function formatDate(dateString: string): string {
         />
       </template>
     </UPageHero>
-    <UPageSection
-      :ui="{
-        container: 'pt-0!'
-      }"
-    >
+    <UPageSection>
       <div
         v-for="(eventsInCategory, category) in groupedEvents"
         :key="category"

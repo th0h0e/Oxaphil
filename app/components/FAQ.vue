@@ -29,7 +29,6 @@ const ui = {
     :title="page.faq.title"
     :description="page.faq.description"
     :ui="{
-      container: 'px-0 pt-0! gap-4 sm:gap-4',
       title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold',
       description: 'text-left my-2 text-muted'
     }"

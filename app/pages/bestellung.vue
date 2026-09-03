@@ -68,11 +68,7 @@ usePageSeo(page)
         />
       </PanelFrame>
     </UPageSection>
-    <UPageSection
-      :ui="{
-        container: 'pt-0!'
-      }"
-    >
+    <UPageSection>
       <ContactCard
         v-if="page.contactCard"
         v-bind="page.contactCard"

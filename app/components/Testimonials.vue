@@ -7,11 +7,7 @@ defineProps<{
 </script>
 
 <template>
-  <UPageSection
-    :ui="{
-      container: 'px-0 pt-0!'
-    }"
-  >
+  <UPageSection>
     <UCarousel
       v-slot="{ item }"
       :items="page.testimonials"

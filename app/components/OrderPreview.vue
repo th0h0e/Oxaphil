@@ -7,9 +7,6 @@ const { data: product } = await useAsyncData('bestellung-preview-product', () =>
 <template>
   <UPageSection
     v-if="product"
-    :ui="{
-      container: 'px-0'
-    }"
   >
     <!-- Headline and product card share one frame, matching /bestellung. The
          title lives here instead of on `UPageSection` because that prop

@@ -18,7 +18,7 @@ if (!posts.value) {
     :title="page.press.title"
     :description="page.press.description"
     :ui="{
-      container: 'px-0 pt-0! sm:gap-6 lg:gap-8',
+      container: 'sm:gap-6 lg:gap-8',
       title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold',
       description: 'text-left mt-2 text-md sm:text-md lg:text-md text-muted'
     }"
