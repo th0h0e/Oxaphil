@@ -23,14 +23,18 @@ defineProps<{
     :title="name"
     :description="chemicalName"
     variant="subtle"
+    reverse
     orientation="horizontal"
     class="bg-(--ui-bg)"
-    :ui="{ title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold' }"
+    :ui="{
+      title: 'pl-0 lg:pl-20 text-left text-xl sm:text-xl lg:text-2xl text-pretty font-bold',
+      description: 'pl-0 lg:pl-20 mb-4'
+    }"
     spotlight
     spotlight-color="primary"
   >
     <template #footer>
-      <dl class="grid grid-cols-2 gap-x-6 gap-y-3">
+      <dl class="pl-0 lg:pl-20 grid grid-cols-2 gap-x-6 gap-y-1">
         <template
           v-for="spec in specs"
           :key="spec.label"
@@ -38,7 +42,7 @@ defineProps<{
           <dt class="text-muted">
             {{ spec.label }}
           </dt>
-          <dd class="text-default font-medium">
+          <dd class="text-default">
             {{ spec.value }}
           </dd>
         </template>
@@ -46,7 +50,7 @@ defineProps<{
 
       <p
         v-if="price"
-        class="mt-6 text-lg font-semibold text-primary"
+        class="mt-12 pl-0 lg:pl-20 text-lg font-bold text-primary"
       >
         {{ price }}
       </p>

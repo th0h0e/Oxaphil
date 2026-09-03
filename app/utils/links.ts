@@ -9,9 +9,9 @@ export const navLinks: NavigationMenuItem[] = [{
   icon: 'i-lucide-users',
   to: '/wir'
 }, {
-  label: 'Neuigkeiten',
+  label: 'Press',
   icon: 'i-lucide-newspaper',
-  to: '/neuigkeiten'
+  to: '/press'
 }, {
   label: 'Materialien',
   icon: 'i-lucide-layers',

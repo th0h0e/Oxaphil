@@ -41,11 +41,7 @@ const imageClass = 'rounded-lg group-hover/blog-post:scale-100'
         description: 'mx-0! text-left'
       }"
     />
-    <UPageSection
-      :ui="{
-        container: 'pt-0!'
-      }"
-    >
+    <UPageSection>
       <UBlogPosts orientation="vertical">
         <Motion
           v-for="(post, index) in posts"

@@ -24,7 +24,7 @@ defineProps<{
 <template>
   <section
     :id="id"
-    class="scroll-mt-24 py-8 sm:py-12"
+    class="scroll-mt-24 py-16 sm:py-24 lg:py-32"
   >
     <UPageGrid class="lg:grid-cols-2">
       <UPageCard

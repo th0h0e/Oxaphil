@@ -10,7 +10,7 @@ defineProps<{
 
 <template>
   <UPageHero
-    class="bg-(--ui-bg) rounded-lg"
+    class="bg-(--ui-bg) rounded-lg shadow-sm shadow-neutral-950/10 dark:shadow-md shadow-950/30"
     :ui="{
       headline: 'flex items-center justify-center pb-4',
       title: 'mx-auto',
@@ -167,7 +167,7 @@ defineProps<{
       #bottom
     >
       <Motion
-        class="block px-2 pb-2"
+        class="block p-2 md:p-4"
         :initial="{
           scale: 1.06,
           opacity: 0,

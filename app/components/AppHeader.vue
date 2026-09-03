@@ -20,7 +20,7 @@ const items = computed<DropdownMenuItem[]>(() =>
   props.links.map(({ label, icon, to }) => ({ label, icon, to }))
 )
 
-const pillClass = 'pointer-events-auto bg-muted/80 backdrop-blur-sm rounded-lg sm:rounded-full border border-muted/50 shadow-lg shadow-neutral-950/5'
+const pillClass = 'pointer-events-auto bg-muted/80 backdrop-blur-xs rounded-lg md:rounded-full border border-muted/50 shadow-lg shadow-neutral-950/5'
 </script>
 
 <!--

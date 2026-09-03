@@ -22,6 +22,7 @@ const { data: product } = await useAsyncData('bestellung-preview-product', () =>
       </div>
 
       <ProductCard
+        class="mt-2"
         :name="product.name"
         :chemical-name="product.chemicalName"
         :specs="product.specs"

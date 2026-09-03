@@ -28,14 +28,14 @@ export default defineAppConfig({
     },
     pageHero: {
       slots: {
-        container: 'mb-0 px-0 sm:px-3 lg:px-4',
+        container: 'mb-0 px-0 py-16 sm:py-20 lg:py-26 sm:px-4 lg:px-4',
         title: 'mx-auto max-w-2xl text-pretty text-3xl sm:text-4xl lg:text-5xl',
         description: 'mt-2 mx-auto max-w-2xl text-pretty text-muted'
       }
     },
     pageSection: {
       slots: {
-        container: 'px-0 sm:px-3 lg:px-4'
+        container: 'px-0 sm:px-4 lg:px-4'
       }
     }
   },
