@@ -6,7 +6,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="rounded-xl bg-slate-100/50 dark:bg-slate-800/50 border border-default mx-4">
+  <div class="rounded-xl bg-slate-100/50 dark:bg-slate-800/50 border border-default md:mx-4">
     <div
       v-if="label || $slots.badge"
       class="flex items-center gap-2 rounded-t-xl border-b border-tertiary/15 bg-slate-100/50 dark:bg-slate-800/50 p-2 "
