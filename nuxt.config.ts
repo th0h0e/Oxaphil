@@ -1,31 +1,39 @@
+import { definePerson } from "nuxt-schema-org/schema";
+import appMeta from "./app/app.meta";
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
-    '@nuxt/eslint',
-    '@nuxt/image',
-    '@nuxt/ui',
-    '@nuxt/content',
-    '@vueuse/nuxt',
-    'nuxt-og-image',
-    'motion-v/nuxt',
-    'nuxt-studio',
-    '@nuxt/hints',
-    '@compodium/nuxt'
+   '@nuxt/eslint',
+   '@nuxt/image',
+   '@nuxt/ui',
+   '@nuxtjs/seo',
+   'nuxt-schema-org',
+   '@nuxt/content',
+   '@vueuse/nuxt',
+   'nuxt-og-image',
+   'motion-v/nuxt',
+   'nuxt-studio',
+   '@nuxt/hints',
+   '@compodium/nuxt'
   ],
 
   devtools: {
     enabled: true
   },
   devServer: {
-		port: 3001,
-	},
+        port: 3001,
+    },
 
   css: ['~/assets/css/main.css'],
 
   site: {
-    url: 'https://oxaphil.pages.dev',
-    name: 'Oxaphil',
+    url: appMeta.url,
+    name: appMeta.name,
+    defaultLocale: "de",
     env: process.env.NODE_ENV === 'production' ? 'production' : 'development'
+  },
+  schemaOrg: {
+      identity: definePerson(appMeta.author),
   },
 
   // Nuxt OG Image reads these to render the OG image in a non-`system` mode.
@@ -52,8 +60,8 @@ export default defineNuxtConfig({
         'error'
       ]
     },
-    prose: true
   },
+
 
   compatibilityDate: '2026-08-04',
 

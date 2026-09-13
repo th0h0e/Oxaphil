@@ -1,0 +1,4 @@
+testFeature:
+  icon: i-mdi-vuejs
+  title: Embedded Vue components
+  description: Edit slots and props inside the visual editor.

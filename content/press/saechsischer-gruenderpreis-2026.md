@@ -11,6 +11,16 @@ image: /img/news-gruenderpreis-banner.jpg
 minRead: 3
 ---
 
+## Test Heading
+
+::test-feature
+#title
+### my mans
+
+#description
+hjh
+::
+
 Wir haben es geschafft: Oxaphil gewinnt den Sächsischen Gründerpreis 2026 in der Kategorie „Newcomer of the Year“! Eine großartige Auszeichnung für unser junges Unternehmen und ein besonderer Moment für unser gesamtes Team.
 
 Dabei konnten wir uns gegen 166 Mitbewerber aus ganz Sachsen durchsetzen. Die Auszeichnung ist für uns eine starke Bestätigung unserer Idee, unseres Geschäftsmodells und vor allem der Arbeit, die wir seit der Gründung von Oxaphil in den Aufbau unseres Unternehmens gesteckt haben.

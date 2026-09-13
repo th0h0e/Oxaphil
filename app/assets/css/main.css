@@ -1,5 +1,6 @@
 @import 'tailwindcss';
 @import '@nuxt/ui';
+@import '~/assets/css/typography.css';
 
 @source "../../../content/**/*";
 /* https://uicolors.app/generate/7650f6 */
@@ -73,14 +74,13 @@
     background-color: #474747;
   }
 }
-/* Global Scrollbar Hiding */
-@layer base {
-  * {
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-  }
 
-  *::-webkit-scrollbar {
-    display: none;
-  }
+* {
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }

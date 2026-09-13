@@ -10,6 +10,7 @@ import { impressumSchema } from './schema/impressum'
 import { datenschutzSchema } from './schema/datenschutz'
 import { wirSchema, wirTechnologySchema } from './schema/wir'
 import { teamSchema } from './schema/team'
+import { testFeatureSchema } from './schema/testFeature'
 
 // Schema definitions live in `./schema/`, one file per content domain.
 // `lockPageMeta()` is shared from `./schema/shared.ts`; every other helper
@@ -63,7 +64,7 @@ export default defineContentConfig({
     }),
     datenschutz: defineCollection({
       type: 'page',
-      source: 'datenschutzerklaerung-2.md',
+      source: 'datenschutzerklaerung.md',
       schema: datenschutzSchema
     }),
     wir: defineCollection({
@@ -90,6 +91,11 @@ export default defineContentConfig({
       type: 'data',
       source: 'materialien/literatur.yml',
       schema: materialienLiteraturSchema
+    }),
+    testFeature: defineCollection({
+      type: 'data',
+      source: 'testFeature.yml',
+      schema: testFeatureSchema
     })
   }
 })

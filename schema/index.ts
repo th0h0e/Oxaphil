@@ -1,5 +1,5 @@
 import { z } from '@nuxt/content'
-import { lockPageMeta } from './shared'
+import { lockPageMeta, seoPageMeta } from './shared'
 
 // Every field carries a German `label` so the Studio form matches the site's
 // editing language (see `studio.i18n.defaultLocale` in nuxt.config.ts).
@@ -41,6 +41,7 @@ const createButtonSchema = () => z.object({
 
 export const indexSchema = z.object({
   ...lockPageMeta(),
+  ...seoPageMeta(),
   hero: z.object({
     links: createButtonSchema()
       .omit({ target: true })

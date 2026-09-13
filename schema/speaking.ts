@@ -1,5 +1,5 @@
 import { z } from '@nuxt/content'
-import { lockPageMeta } from './shared'
+import { lockPageMeta, seoPageMeta } from './shared'
 
 const createButtonSchema = () => z.object({
   label: z.string().editor({ label: 'Beschriftung' }),
@@ -13,6 +13,7 @@ const createButtonSchema = () => z.object({
 
 export const speakingSchema = z.object({
   ...lockPageMeta(),
+  ...seoPageMeta(),
   links: z.array(createButtonSchema()).editor({ label: 'Buttons' }),
   events: z.array(z.object({
     category: z.enum(['Live talk', 'Podcast', 'Conference']).editor({ label: 'Kategorie' }),

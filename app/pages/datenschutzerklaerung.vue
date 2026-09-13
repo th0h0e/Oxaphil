@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('datenschutzerklaerung-2', () => {
+const { data: page } = await useAsyncData('datenschutzerklaerung', () => {
   return queryCollection('datenschutz').first()
 })
 if (!page.value) {

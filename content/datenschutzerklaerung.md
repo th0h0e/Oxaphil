@@ -5,7 +5,60 @@ description: Informationen zum Datenschutz.
 
 ## Datenschutz
 
-1. Datenschutz auf einen Blick
+:test-feature{description="Description Description Description Description Description Description" icon="i-lucide:sprout" title="Title"}
+
+::author-copy
+---
+description: my mind while I am taking a shit. Fond of videogames development.
+  Quantum Computing enthusiast
+name: New Author
+src: /img/author_avatar.jpg
+---
+#actions
+  :::u-button
+  ---
+  color: neutral
+  icon: mdi:youtube
+  target: _blank
+  title: Youtube
+  to: https://www.youtube.com/@matteo-beltrame
+  variant: subtle
+  ---
+  :::
+
+  :::u-button
+  ---
+  color: neutral
+  icon: mdi:instagram
+  target: _blank
+  title: Instagram
+  to: https://www.instagram.com/tratteo
+  variant: subtle
+  ---
+  :::
+
+  :::u-button
+  ---
+  color: neutral
+  icon: mdi:linkedin
+  target: _blank
+  title: LinkedIn
+  to: https://www.linkedin.com/in/matteo-beltrame
+  variant: subtle
+  ---
+  :::
+
+  :::u-button
+  ---
+  color: neutral
+  icon: mdi:github
+  target: _blank
+  title: Github
+  to: https://github.com/tratteo
+  variant: subtle
+  ---
+  :::
+::
 
 Allgemeine Hinweise
 Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.

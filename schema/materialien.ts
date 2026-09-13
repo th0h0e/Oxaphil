@@ -1,5 +1,5 @@
 import { z } from '@nuxt/content'
-import { lockPageMeta } from './shared'
+import { lockPageMeta, seoPageMeta } from './shared'
 
 const createBaseSchema = () => z.object({
   title: z.string().editor({ label: 'Titel' }),
@@ -18,7 +18,8 @@ const createFeatureSchema = () => z.object({
 })
 
 export const materialienSchema = z.object({
-  ...lockPageMeta()
+  ...lockPageMeta(),
+  ...seoPageMeta()
 })
 
 export const materialienSectionsSchema = z.object({

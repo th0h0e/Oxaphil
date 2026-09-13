@@ -1,5 +1,5 @@
 import { property, z } from '@nuxt/content'
-import { lockPageMeta } from './shared'
+import { lockPageMeta, seoPageMeta } from './shared'
 
 const createButtonSchema = () => z.object({
   label: z.string().editor({ label: 'Beschriftung' }),
@@ -18,6 +18,7 @@ const createImageSchema = () => z.object({
 
 export const bestellungSchema = z.object({
   ...lockPageMeta(),
+  ...seoPageMeta(),
   content: z.string().editor({ input: 'textarea', label: 'Einleitungstext' }),
   // `email` renders the button as a mailto: link (falling back to the
   // app-config address when blank), mirroring the hero link on index.yml.

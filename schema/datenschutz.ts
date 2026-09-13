@@ -1,6 +1,7 @@
 import { z } from '@nuxt/content'
-import { lockPageMeta } from './shared'
+import { lockPageMeta, seoPageMeta } from './shared'
 
 export const datenschutzSchema = z.object({
-  ...lockPageMeta()
+  ...lockPageMeta(),
+  ...seoPageMeta()
 })

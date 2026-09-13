@@ -1,5 +1,5 @@
 import { z } from '@nuxt/content'
-import { lockPageMeta } from './shared'
+import { lockPageMeta, seoPageMeta } from './shared'
 
 const createImageSchema = () => z.object({
   src: z.string().editor({ input: 'media', label: 'Bilddatei' }),
@@ -17,6 +17,7 @@ const createAuthorSchema = () => z.object({
 
 export const pressSchema = z.object({
   ...lockPageMeta(),
+  ...seoPageMeta(),
   minRead: z.number().editor({ label: 'Lesedauer', description: 'Geschätzte Lesedauer in Minuten' }),
   date: z.date().editor({ label: 'Datum' }),
   image: z.string().nonempty().editor({ input: 'media', label: 'Titelbild' }),
@@ -24,5 +25,6 @@ export const pressSchema = z.object({
 })
 
 export const pressIndexSchema = z.object({
-  ...lockPageMeta()
+  ...lockPageMeta(),
+  ...seoPageMeta()
 })

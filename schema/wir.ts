@@ -1,5 +1,5 @@
 import { z } from '@nuxt/content'
-import { lockPageMeta } from './shared'
+import { lockPageMeta, seoPageMeta } from './shared'
 
 const createBaseSchema = () => z.object({
   title: z.string().editor({ label: 'Titel' }),
@@ -8,6 +8,7 @@ const createBaseSchema = () => z.object({
 
 export const wirSchema = z.object({
   ...lockPageMeta(),
+  ...seoPageMeta(),
   team: createBaseSchema().editor({ label: 'Team' })
 })
 
