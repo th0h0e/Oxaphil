@@ -60,3 +60,36 @@ const [{ data: navigation }, { data: files }] = await Promise.all([
     </ClientOnly>
   </UApp>
 </template>
+
+
+<style>
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.3s ease;
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+.page-leave-to {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+.layout-enter-active,
+.layout-leave-active {
+  transition: all 0.3s ease;
+}
+
+.layout-enter-from {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+.layout-leave-to {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+</style>

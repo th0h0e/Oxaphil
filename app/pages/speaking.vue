@@ -38,6 +38,12 @@ const groupedEvents = computed((): Record<Event['category'], Event[]> => {
 function formatDate(dateString: string): string {
   return new Date(dateString).toLocaleDateString('en-US', { year: 'numeric', month: 'long' })
 }
+
+definePageMeta({
+
+  pageTransition: { name: 'page', mode: 'out-in' },
+  layoutTransition: { name: 'layout', mode: 'out-in' }
+})
 </script>
 
 <template>

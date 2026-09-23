@@ -11,6 +11,11 @@ if (!page.value) {
 }
 
 usePageSeo(page, { type: 'image', src: '/img/news-oxaphil-logo.png' })
+
+definePageMeta({
+  pageTransition: { name: 'page', mode: 'out-in' },
+  layoutTransition: { name: 'layout', mode: 'out-in' }
+})
 </script>
 
 <!-- <UApp>

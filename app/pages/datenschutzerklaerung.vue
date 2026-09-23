@@ -11,6 +11,11 @@ if (!page.value) {
 }
 
 usePageSeo(page)
+
+definePageMeta({
+  pageTransition: { name: 'page', mode: 'out-in' },
+  layoutTransition: { name: 'layout', mode: 'out-in' }
+})
 </script>
 
 <template>

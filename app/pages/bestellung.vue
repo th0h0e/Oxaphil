@@ -24,6 +24,11 @@ const links = computed(() => (page.value?.links ?? []).map(({ email, ...link }) 
 })))
 
 usePageSeo(page)
+
+definePageMeta({
+  pageTransition: { name: 'page', mode: 'out-in' },
+  layoutTransition: { name: 'layout', mode: 'out-in' }
+})
 </script>
 
 <template>

@@ -59,6 +59,8 @@ const createBaseSchema = () => z.object({
   description: z.string().editor({ label: 'Beschreibung' })
 })
 
+
+
 const createImageSchema = () => z.object({
   src: z.string().editor({ input: 'media', label: 'Bilddatei' }),
   alt: z.string().editor({ label: 'Alternativtext', tooltip: 'Bildbeschreibung für Screenreader und Suchmaschinen' })
@@ -93,7 +95,9 @@ const createFeatureSchema = () => z.object({
   description: z.string().editor({ input: 'textarea', label: 'Beschreibung' }),
   icon: z.string().optional().editor({ input: 'icon', label: 'Symbol' })
 })
-
+//done
+// 
+// 
 // ----------------------------------------------------------------------------
 // Schemas (previously schema/*.ts)
 // ----------------------------------------------------------------------------
