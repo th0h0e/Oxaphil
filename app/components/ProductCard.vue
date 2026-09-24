@@ -25,7 +25,7 @@ defineProps<{
     variant="subtle"
     reverse
     orientation="horizontal"
-    class="bg-(--ui-bg)"
+    class="bg-default"
     :ui="{
       title: 'pl-0 lg:pl-20 text-left text-xl sm:text-xl lg:text-2xl text-pretty font-bold',
       description: 'pl-0 lg:pl-20 mb-4'

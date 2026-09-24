@@ -61,7 +61,6 @@ const [{ data: navigation }, { data: files }] = await Promise.all([
   </UApp>
 </template>
 
-
 <style>
 .page-enter-active,
 .page-leave-active {
