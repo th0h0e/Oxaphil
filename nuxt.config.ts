@@ -1,5 +1,6 @@
-import { defineLocalBusiness } from 'nuxt-schema-org/schema'
 import appMeta from './app/app.meta'
+import { defineLocalBusiness } from 'nuxt-schema-org/schema'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
@@ -21,9 +22,6 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
-  // SEO Config. Testing with curl "http://localhost:3001/__robots__/debug.json?mockProductionEnv=true" &
-  // curl "http://localhost:3001/robots.txt?mockProductionEnv=true"
-  //
   site: {
     url: appMeta.url,
     name: appMeta.name,
@@ -31,13 +29,11 @@ export default defineNuxtConfig({
     env: process.env.NODE_ENV === 'production' ? 'production' : 'development',
     trailingSlash: false
   },
-
   // Nuxt OG Image reads these to render the OG image in a non-`system` mode.
   colorMode: {
     preference: 'system',
     fallback: 'light'
   },
-
   content: {
     experimental: {
       sqliteConnector: 'native'
@@ -60,6 +56,8 @@ export default defineNuxtConfig({
   devServer: {
     port: 3001
   },
+  // SEO Config. Testing with curl "http://localhost:3001/__robots__/debug.json?mockProductionEnv=true" &
+  // curl "http://localhost:3001/robots.txt?mockProductionEnv=true"
 
   compatibilityDate: '2026-08-04',
 
@@ -84,7 +82,6 @@ export default defineNuxtConfig({
       }
     }
   },
-
   ogImage: {
     zeroRuntime: true,
     buildCache: true
@@ -97,7 +94,6 @@ export default defineNuxtConfig({
   schemaOrg: {
     identity: defineLocalBusiness(appMeta.localBusiness)
   },
-
   studio: {
     route: '/admin',
     i18n: {

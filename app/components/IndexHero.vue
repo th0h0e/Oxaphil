@@ -10,7 +10,7 @@ defineProps<{
 
 <template>
   <UPageHero
-    class="bg-(--ui-bg) rounded-lg shadow-sm shadow-neutral-950/10 dark:shadow-md shadow-950/30"
+    class="bg-default rounded-lg shadow-sm shadow-neutral-950/10 dark:shadow-md shadow-950/30"
     :ui="{
       headline: 'flex items-center justify-center pb-4',
       title: 'mx-auto',

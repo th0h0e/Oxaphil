@@ -30,6 +30,7 @@
     "@nuxt/hints": "^1.1.4",
     "@nuxtjs/seo": "^5.3.14",
     "eslint": "^10.8.1",
+    "nuxt-schema-org": "^6.3.2",
     "nuxt-studio": "^1.7.0",
     "nuxtseo-layer-devtools": "^5.3.13",
     "typescript": "^6.0.3",

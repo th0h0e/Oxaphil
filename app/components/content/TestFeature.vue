@@ -25,7 +25,9 @@ withDefaults(defineProps<{
     </div>
     <div class="flex flex-col">
       <h3 class="font-semibold">
-        <slot name="title">{{ title }}</slot>
+        <slot name="title">
+          {{ title }}
+        </slot>
       </h3>
       <span>
         <slot name="description">{{ description }}</slot>

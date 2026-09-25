@@ -71,7 +71,7 @@ const pillClass = 'pointer-events-auto bg-muted/80 backdrop-blur-xs rounded-lg m
          stacks above both the pill and the backdrop. -->
       <div
         class="fixed inset-x-0 top-6 sm:top-4 z-10 w-full max-w-(--ui-container) mx-auto flex justify-center pointer-events-none transition-[padding] duration-200 ease-out"
-        :class="open ? 'px-6 sm:px-6 lg:px-8' : 'px-4 sm:px-6 lg:px-8'"
+        :class="open ? 'px-6 sm:px-6 lg:px-8' : 'px-4 lg:px-8'"
       >
         <UNavigationMenu
           :class="[pillClass, 'hidden sm:flex px-4 flex-1 justify-center']"
