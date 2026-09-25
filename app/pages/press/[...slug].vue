@@ -13,7 +13,7 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () =>
 
 usePageSeo(page, {
   type: 'template',
-  component: 'OgImageArticle',
+  component: 'Article',
   props: {
     thumbnail: page.value?.image,
     title: page.value?.title,

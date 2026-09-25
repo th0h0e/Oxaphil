@@ -1,3 +1,5 @@
+import type { OgImageComponents } from '#og-image/components'
+
 type PageMeta = {
   title?: string
   description?: string
@@ -6,7 +8,7 @@ type PageMeta = {
 
 type OgImageOverride
   = | { type: 'image', src: string }
-    | { type: 'template', component?: string, props?: Record<string, unknown> }
+    | { type: 'template', component?: keyof OgImageComponents, props?: Record<string, unknown> }
 
 /**
  * Sets the HTML head meta tags from a page's title and description, plus an

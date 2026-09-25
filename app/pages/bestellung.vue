@@ -51,7 +51,7 @@ definePageMeta({
            The title lives here instead of on `UPageSection` because that prop
            renders above the default slot, outside the frame. -->
       <PanelFrame>
-        <div class="rounded-lg bg-(--ui-bg) px-4 py-6">
+        <div class="rounded-lg bg-default px-4 py-6">
           <h2 class="text-2xl sm:text-3xl text-pretty tracking-tight font-bold text-highlighted">
             {{ product.title }}
           </h2>
