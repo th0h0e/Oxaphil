@@ -10,7 +10,7 @@ if (!page.value) {
   })
 }
 
-usePageSeo(page, { type: 'image', src: '/img/news-oxaphil-logo.png' })
+usePageSeo(page)
 
 definePageMeta({
   pageTransition: { name: 'page', mode: 'out-in' },
