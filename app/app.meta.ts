@@ -20,7 +20,7 @@ export default {
       'https://de.linkedin.com/company/oxaphil',
       'https://x.com/oxaphil' // matches the 'i-simple-icons-x' link in app.config.ts
     ],
-    logo: '/img/news-oxaphil-logo.png'
+    logo: '/logo.png'
   },
   url: 'https://oxaphil.de',
   icon: '/favicon.ico',

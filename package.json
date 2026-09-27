@@ -35,7 +35,9 @@
     "nuxtseo-layer-devtools": "^5.3.13",
     "typescript": "^6.0.3",
     "vue-tsc": "^3.3.9",
-    "wrangler": "^4.126.0"
+    "wrangler": "^4.126.0",
+    "zod": "3.25.76",
+    "zod-to-json-schema": "^3.25.2"
   },
   "packageManager": "pnpm@12.2.1"
 }

@@ -11,20 +11,7 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () =>
   })
 )
 
-usePageSeo(page, {
-  type: 'template',
-  component: 'Article',
-  props: {
-    thumbnail: page.value?.image,
-    title: page.value?.title,
-    author: page.value?.author
-      ? {
-          image: page.value.author.avatar?.src,
-          name: page.value.author.name
-        }
-      : undefined
-  }
-})
+usePageSeo(page, { type: 'template', component: 'Article' })
 
 const articleLink = computed(() => `${window?.location}`)
 

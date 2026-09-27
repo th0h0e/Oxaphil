@@ -12,6 +12,11 @@ if (!page.value) {
 
 usePageSeo(page)
 
+defineProps<{
+  title?: string
+  thumbnail?: string | undefined
+}>()
+
 definePageMeta({
   pageTransition: { name: 'page', mode: 'out-in' },
   layoutTransition: { name: 'layout', mode: 'out-in' }

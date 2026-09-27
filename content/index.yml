@@ -89,3 +89,4 @@ valueProps:
       icon: i-lucide-factory
 video:
   link: https://www.youtube.com/watch?v=JvMkTvXtqBQ
+navigation: false

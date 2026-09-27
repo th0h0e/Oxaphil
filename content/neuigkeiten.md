@@ -1,6 +1,7 @@
 ---
 title: Neuigkeiten
 description: Aktuelle Meldungen und Neuigkeiten von Oxaphil.
+image: /img/news-oxaphil-logo.png
 ---
 
 ## Oxaphil gewinnt den Sächsischen Gründerpreis 2026

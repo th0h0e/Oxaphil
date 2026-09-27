@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('impressum-de', () => {
+const { data: page } = await useAsyncData('impressum', () => {
   return queryCollection('impressum').first()
 })
 if (!page.value) {

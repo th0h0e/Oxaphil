@@ -4,12 +4,6 @@ import appMeta from '~/app.meta'
 defineProps<{
   title?: string
   thumbnail?: string | undefined
-  author?:
-    | {
-      image: string
-      name: string
-    }
-    | undefined
 }>()
 </script>
 
@@ -18,7 +12,13 @@ defineProps<{
     <div class="w-[60%] h-full">
       <div class="p-12 flex flex-col items-stretch h-full justify-start gap-10">
         <div class="flex flex-row items-center gap-2">
-          <!-- <img :src="appMeta.icon" width="64" height="64" alt="" /> -->
+          <img
+            class="rounded-full"
+            :src="appMeta.localBusiness.logo"
+            width="64"
+            height="64"
+            alt=""
+          >
           <h1 class="text-3xl font-bold text-left m-0 text-[#00dc82]">
             {{ appMeta.name }}
           </h1>
@@ -27,19 +27,16 @@ defineProps<{
           <p class="text-5xl font-bold">
             {{ title }}
           </p>
-          <div
-            v-if="author"
-            class="flex flex-row items-center justify-start gap-3"
-          >
+          <div class="flex flex-row items-center justify-start gap-3">
             <img
               class="rounded-full"
-              :src="author.image"
+              :src="appMeta.localBusiness.logo"
               width="100"
               height="100"
               alt=""
             >
             <p class="font-bold text-2xl opacity-75">
-              {{ author.name }}
+              oxaphil.com
             </p>
           </div>
         </div>
@@ -47,10 +44,8 @@ defineProps<{
     </div>
     <div class="w-[40%] flex flex-col items-center justify-center h-full">
       <div class="flex h-[80%] w-full border-2 border-white/20 rounded-l-2rem overflow-hidden pl-12 py-12 relative">
-        <div class="absolute right-0 top-0 bottom-0 left-0">
-          <!-- <img src="/assets/articles/hero_1.jpeg" class="w-full h-full object-cover" /> -->
-        </div>
         <img
+          v-if="thumbnail"
           :src="thumbnail"
           class="w-full h-full object-cover rounded-l-2rem"
         >

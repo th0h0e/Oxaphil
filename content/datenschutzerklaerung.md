@@ -1,6 +1,7 @@
 ---
 title: Datenschutzerklärung
 description: Informationen zum Datenschutz.
+image: /img/news-oxaphil-logo.png
 ---
 
 ## Datenschutz

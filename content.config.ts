@@ -1,33 +1,6 @@
-import { defineCollection, defineContentConfig, property, z } from '@nuxt/content'
+import { defineCollection, defineContentConfig, property } from '@nuxt/content'
 import { defineRobotsSchema, defineSchemaOrgSchema, defineSitemapSchema } from '@nuxtjs/seo/content'
-
-// Locks down the fields Nuxt Content auto-adds to `page` collections (seo, navigation)
-// so Studio can't expose them for editing. `seo` always falls back to title/description
-// (see app/pages/*.vue), and navigation stays fixed to its default (`true`).
-const lockPageMeta = () => ({
-  seo: z.object({
-    title: z.string().optional(),
-    description: z.string().optional()
-  }).optional().default({}).editor({ hidden: true }),
-  navigation: z.boolean().default(true).editor({ hidden: true })
-})
-
-// Adds the Nuxt SEO module schema fields to a `page` collection so content
-// files can control sitemap + robots per entry (and optionally schema.org).
-//
-// Imported from `@nuxtjs/seo/content` (the meta-module) rather than the
-// individual `@nuxtjs/sitemap` / `@nuxtjs/robots` packages, which are not
-// resolvable standalone in this repo. Pass `{ z }` to each builder so the
-// field types are built with the zod instance `@nuxt/content` exports —
-// `defineSitemapSchema()` otherwise pulls in its own zod 4 copy and
-// `toJSONSchema()` can't read it.
-const seoPageMeta = (opts?: { schemaOrg?: boolean }) => ({
-  sitemap: defineSitemapSchema({ z }),
-  robots: defineRobotsSchema({ z }),
-  ...(opts?.schemaOrg
-    ? { schemaOrg: defineSchemaOrgSchema({ z }) }
-    : {})
-})
+import { z } from 'zod'
 
 // Every field carries a German `label` so the Studio form matches the site's
 // editing language (see `studio.i18n.defaultLocale` in nuxt.config.ts).
@@ -71,6 +44,11 @@ const createTestimonialSchema = () => z.object({
   quote: z.string().editor({ input: 'textarea', label: 'Zitat' }),
   author: createAuthorSchema().editor({ label: 'Person' })
 })
+// Page-level metadata that Studio must not expose for manual editing. `seo`
+// falls back to title/description (see app/pages/*.vue), `navigation` stays
+// fixed to its default (`true`), and sitemap + robots are derived from
+// public/_robots.txt and app/app.meta.ts rather than per-entry frontmatter.
+const hidden = () => ({ hidden: true })
 
 export default defineContentConfig({
   collections: {
@@ -78,8 +56,14 @@ export default defineContentConfig({
       type: 'page',
       source: 'index.yml',
       schema: z.object({
-        ...lockPageMeta(),
-        ...seoPageMeta(),
+        seo: z.object({
+          title: z.string().optional(),
+          description: z.string().optional()
+        }).optional().default({}).editor(hidden()),
+        navigation: z.boolean().default(true).editor(hidden()),
+        sitemap: defineSitemapSchema({ z }).editor(hidden()),
+        robots: defineRobotsSchema({ z }).editor(hidden()),
+        image: z.string().optional().editor({ input: 'media', label: 'Bild', tooltip: 'Wird als Vorschaubild (OG-Bild) auf allen Seiten angezeigt' }),
         hero: z.object({
           links: createButtonSchema()
             .omit({ target: true })
@@ -114,8 +98,13 @@ export default defineContentConfig({
       type: 'page',
       source: 'press/*.md',
       schema: z.object({
-        ...lockPageMeta(),
-        ...seoPageMeta(),
+        seo: z.object({
+          title: z.string().optional(),
+          description: z.string().optional()
+        }).optional().default({}).editor(hidden()),
+        navigation: z.boolean().default(true).editor(hidden()),
+        sitemap: defineSitemapSchema({ z }).editor(hidden()),
+        robots: defineRobotsSchema({ z }).editor(hidden()),
         minRead: z.number().editor({ label: 'Lesedauer', description: 'Geschätzte Lesedauer in Minuten' }),
         date: z.date().editor({ label: 'Datum' }),
         image: z.string().nonempty().editor({ input: 'media', label: 'Titelbild' }),
@@ -126,16 +115,27 @@ export default defineContentConfig({
       type: 'page',
       source: 'press.yml',
       schema: z.object({
-        ...lockPageMeta(),
-        ...seoPageMeta()
+        seo: z.object({
+          title: z.string().optional(),
+          description: z.string().optional()
+        }).optional().default({}).editor(hidden()),
+        navigation: z.boolean().default(true).editor(hidden()),
+        sitemap: defineSitemapSchema({ z }).editor(hidden()),
+        robots: defineRobotsSchema({ z }).editor(hidden())
       })
     }),
     speaking: defineCollection({
       type: 'page',
       source: 'speaking.yml',
       schema: z.object({
-        ...lockPageMeta(),
-        ...seoPageMeta(),
+        seo: z.object({
+          title: z.string().optional(),
+          description: z.string().optional()
+        }).optional().default({}).editor(hidden()),
+        navigation: z.boolean().default(true).editor(hidden()),
+        sitemap: defineSitemapSchema({ z }).editor(hidden()),
+        robots: defineRobotsSchema({ z }).editor(hidden()),
+        image: z.string().optional().editor({ input: 'media', label: 'Bild', tooltip: 'Wird als Vorschaubild (OG-Bild) auf allen Seiten angezeigt' }),
         links: z.array(createButtonSchema()).editor({ label: 'Buttons' }),
         events: z.array(z.object({
           category: z.enum(['Live talk', 'Podcast', 'Conference']).editor({ label: 'Kategorie' }),
@@ -150,24 +150,41 @@ export default defineContentConfig({
       type: 'page',
       source: 'neuigkeiten.md',
       schema: z.object({
-        ...lockPageMeta(),
-        ...seoPageMeta()
+        seo: z.object({
+          title: z.string().optional(),
+          description: z.string().optional()
+        }).optional().default({}).editor(hidden()),
+        navigation: z.boolean().default(true).editor(hidden()),
+        sitemap: defineSitemapSchema({ z }).editor(hidden()),
+        robots: defineRobotsSchema({ z }).editor(hidden()),
+        image: z.string().optional().editor({ input: 'media', label: 'Bild', tooltip: 'Wird als Vorschaubild (OG-Bild) auf allen Seiten angezeigt' }),
       })
     }),
     materialien: defineCollection({
       type: 'page',
       source: 'materialien.yml',
       schema: z.object({
-        ...lockPageMeta(),
-        ...seoPageMeta()
+        seo: z.object({
+          title: z.string().optional(),
+          description: z.string().optional()
+        }).optional().default({}).editor(hidden()),
+        navigation: z.boolean().default(true).editor(hidden()),
+        sitemap: defineSitemapSchema({ z }).editor(hidden()),
+        robots: defineRobotsSchema({ z }).editor(hidden()),
+        image: z.string().optional().editor({ input: 'media', label: 'Bild', tooltip: 'Wird als Vorschaubild (OG-Bild) auf allen Seiten angezeigt' }),
       })
     }),
     bestellung: defineCollection({
       type: 'page',
       source: 'bestellung.yml',
       schema: z.object({
-        ...lockPageMeta(),
-        ...seoPageMeta(),
+        seo: z.object({
+          title: z.string().optional(),
+          description: z.string().optional()
+        }).optional().default({}).editor(hidden()),
+        navigation: z.boolean().default(true).editor(hidden()),
+        sitemap: defineSitemapSchema({ z }).editor(hidden()),
+        robots: defineRobotsSchema({ z }).editor(hidden()),
         content: z.string().editor({ input: 'textarea', label: 'Einleitungstext' }),
         // `email` renders the button as a mailto: link (falling back to the
         // app-config address when blank), mirroring the hero link on index.yml.
@@ -199,26 +216,44 @@ export default defineContentConfig({
     }),
     impressum: defineCollection({
       type: 'page',
-      source: 'impressum-de.md',
+      source: 'impressum.md',
       schema: z.object({
-        ...lockPageMeta(),
-        ...seoPageMeta()
+        seo: z.object({
+          title: z.string().optional(),
+          description: z.string().optional()
+        }).optional().default({}).editor(hidden()),
+        navigation: z.boolean().default(true).editor(hidden()),
+        sitemap: defineSitemapSchema({ z }).editor(hidden()),
+        robots: defineRobotsSchema({ z }).editor(hidden()),
+        image: z.string().optional().editor({ input: 'media', label: 'Bild', tooltip: 'Wird als Vorschaubild (OG-Bild) auf allen Seiten angezeigt' }),
       })
     }),
     datenschutz: defineCollection({
       type: 'page',
       source: 'datenschutzerklaerung.md',
       schema: z.object({
-        ...lockPageMeta(),
-        ...seoPageMeta()
+        seo: z.object({
+          title: z.string().optional(),
+          description: z.string().optional()
+        }).optional().default({}).editor(hidden()),
+        navigation: z.boolean().default(true).editor(hidden()),
+        sitemap: defineSitemapSchema({ z }).editor(hidden()),
+        robots: defineRobotsSchema({ z }).editor(hidden()),
+        image: z.string().optional().editor({ input: 'media', label: 'Bild', tooltip: 'Wird als Vorschaubild (OG-Bild) auf allen Seiten angezeigt' }),
       })
     }),
     wir: defineCollection({
       type: 'page',
       source: 'wir.yml',
       schema: z.object({
-        ...lockPageMeta(),
-        ...seoPageMeta(),
+        seo: z.object({
+          title: z.string().optional(),
+          description: z.string().optional()
+        }).optional().default({}).editor(hidden()),
+        navigation: z.boolean().default(true).editor(hidden()),
+        sitemap: defineSitemapSchema({ z }).editor(hidden()),
+        robots: defineRobotsSchema({ z }).editor(hidden()),
+        image: z.string().optional().editor({ input: 'media', label: 'Bild', tooltip: 'Wird als Vorschaubild (OG-Bild) auf allen Seiten angezeigt' }),
         team: createBaseSchema().editor({ label: 'Team' })
       })
     }),
@@ -280,21 +315,3 @@ export default defineContentConfig({
     })
   }
 })
-
-// Override the auto-generated label
-// title: property(z.string()).editor({ label: 'Page title' })
-
-// Add helper text below the input
-// slug: property(z.string()).editor({ description: 'Used in the URL, e.g. /blog/my-post' })
-
-// Add an info tooltip next to the label
-// role: z.enum(['admin', 'editor']).editor({ tooltip: 'Controls what the user can edit' })
-
-// Icon picker with specific libraries
-// icon: property(z.string()).editor({ input: 'icon', iconLibraries: ['lucide', 'simple-icons'] })
-
-// Media picker
-// image: property(z.string()).editor({ input: 'media' })
-
-// Textarea
-// description: property(z.string()).editor({ input: 'textarea' })
