@@ -121,7 +121,8 @@ export default defineContentConfig({
         }).optional().default({}).editor(hidden()),
         navigation: z.boolean().default(true).editor(hidden()),
         sitemap: defineSitemapSchema({ z }).editor(hidden()),
-        robots: defineRobotsSchema({ z }).editor(hidden())
+        robots: defineRobotsSchema({ z }).editor(hidden()),
+        image: z.string().optional().editor({ input: 'media', label: 'Bild', tooltip: 'Wird als Vorschaubild (OG-Bild) auf allen Seiten angezeigt' }),
       })
     }),
     speaking: defineCollection({

@@ -11,7 +11,7 @@ defineProps<{
   <div class="relative h-full w-full flex flex-row items-start gap-4 bg-slate-900 text-white">
     <div class="w-[60%] h-full">
       <div class="p-12 flex flex-col items-stretch h-full justify-start gap-10">
-        <div class="flex flex-row items-center gap-2">
+        <div class="flex flex-row items-center gap-3">
           <img
             class="rounded-full"
             :src="appMeta.localBusiness.logo"
@@ -43,11 +43,13 @@ defineProps<{
       </div>
     </div>
     <div class="w-[40%] flex flex-col items-center justify-center h-full">
-      <div class="flex h-[80%] w-full border-2 border-white/20 rounded-l-2rem overflow-hidden pl-12 py-12 relative">
+      <div
+        class="flex h-[80%] w-full border-2 border-white/20 rounded-l-[1rem] overflow-hidden pl-12 py-12 relative"
+      >
         <img
           v-if="thumbnail"
           :src="thumbnail"
-          class="w-full h-full object-cover rounded-l-2rem"
+          class="w-full h-full object-cover rounded-l-[1rem]"
         >
       </div>
     </div>
