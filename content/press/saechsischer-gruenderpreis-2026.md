@@ -7,7 +7,7 @@ author:
     alt: Dr. Erik Wegener
 date: 2026-06-17
 description: Oxaphil setzt sich in Dresden gegen 166 Mitbewerber durch und gewinnt den Sächsischen Gründerpreis 2026 in der Kategorie „Newcomer of the Year“.
-image: /img/news-gruenderpreis-banner.jpg
+image: /bilder-aus-video/Oxaphil-Oxaphil-VorstellungIntroduction-[JvMkTvXtqBQ-1776x999-0m14s].png
 minRead: 3
 ---
 

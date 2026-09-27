@@ -6,9 +6,8 @@ author:
     src: /img/team-erik-wegener.jpg
     alt: Dr. Erik Wegener
 date: 2025-06-06
-description: In der ersten Juniwoche war Oxaphil in Berlin, München und Erfurt präsent – mit einer Frage im Gepäck: Welche Anforderungen stellen Entwicklerinnen und Entwickler an neue Materialien?
-image: /img/news-innovationskonferenz-1.jpg
-minRead: 5
+description: "[object Object]"
+image: /bilder-aus-video/Oxaphil-Oxaphil-VorstellungIntroduction-[JvMkTvXtqBQ-1776x999-1m18s].png
 ---
 
 In der ersten Juniwoche war Oxaphil auf drei richtungsweisenden Veranstaltungen präsent. Unser Ziel: herausfinden, welche Anforderungen Entwicklerinnen und Entwickler an neue Materialien stellen, und zeigen, wie POx genau dort neue Wege eröffnen können.

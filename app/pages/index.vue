@@ -21,7 +21,7 @@ definePageMeta({
 <template>
   <UPage v-if="page">
     <HeroFrame
-      label="Poly(2-oxazolin)"
+      label="Poly 2-oxazolin"
       icon="i-lucide-sparkles"
     >
       <IndexHero :page />
