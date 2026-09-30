@@ -115,7 +115,7 @@ Oederaner Str. 6
 01159 Dresden
 
 Telefon: 01741884566
-E-Mail: <erik@oxaphil.com>
+E-Mail: <order@oxaphil.com>
 
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet.
 

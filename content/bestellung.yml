@@ -5,7 +5,7 @@ contactCard:
   photoSrc: /img/erik-wegener-bestellung.jpg
   photoAlt: Dr. Erik Wegener
   phone: +49 155 65330061
-  email: erik@oxaphil.com
+  email: order@oxaphil.com
   buttonColor: primary
   buttonVariant: subtle
   cardVariant: subtle
@@ -14,7 +14,7 @@ content: |
 description: Unsere POx-Materialien direkt anfragen und bestellen.
 links:
   - label: Jetzt anfragen
-    email: erik@oxaphil.com
+    email: order@oxaphil.com
     icon: i-lucide-mail
     color: primary
     size: sm

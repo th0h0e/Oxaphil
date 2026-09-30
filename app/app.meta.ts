@@ -15,7 +15,7 @@ export default {
       addressCountry: 'DE'
     },
     telephone: '+49 155 65330061', // from content/bestellung.yml contactCard
-    email: 'erik@oxaphil.com', // from contactEmail
+    email: 'order@oxaphil.com', // from contactEmail
     sameAs: [
       'https://de.linkedin.com/company/oxaphil',
       'https://x.com/oxaphil' // matches the 'i-simple-icons-x' link in app.config.ts
@@ -24,5 +24,5 @@ export default {
   },
   url: 'https://oxaphil.de',
   icon: '/favicon.ico',
-  contactEmail: 'erik@oxaphil.com'
+  contactEmail: 'order@oxaphil.com'
 }

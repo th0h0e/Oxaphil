@@ -2,11 +2,11 @@
 const route = useRoute()
 
 const { data: page } = await useAsyncData(route.path, () =>
-  queryCollection('press').path(route.path).first()
+  queryCollection('presse').path(route.path).first()
 )
 if (!page.value) throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () =>
-  queryCollectionItemSurroundings('press', route.path, {
+  queryCollectionItemSurroundings('presse', route.path, {
     fields: ['description']
   })
 )
@@ -28,7 +28,7 @@ const formatDate = (dateString: string) => {
   <UMain class="relative min-h-screen">
     <UPage v-if="page">
       <ULink
-        to="/press"
+        to="/presse"
         class="text-sm flex items-center gap-1"
       >
         <UIcon name="lucide:chevron-left" />

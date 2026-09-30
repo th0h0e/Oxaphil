@@ -20,7 +20,13 @@ export default defineNuxtConfig({
     enabled: true
   },
 
+  devServer: {
+    port: 3001
+  },
+
   css: ['~/assets/css/main.css'],
+
+  compatibilityDate: '2026-08-04',
 
   site: {
     url: appMeta.url,
@@ -29,11 +35,12 @@ export default defineNuxtConfig({
     env: process.env.NODE_ENV === 'production' ? 'production' : 'development',
     trailingSlash: false
   },
-  // Nuxt OG Image reads these to render the OG image in a non-`system` mode.
+
   colorMode: {
     preference: 'system',
     fallback: 'light'
   },
+
   content: {
     experimental: {
       sqliteConnector: 'native'
@@ -53,13 +60,6 @@ export default defineNuxtConfig({
       ]
     }
   },
-  devServer: {
-    port: 3001
-  },
-  // SEO Config. Testing with curl "http://localhost:3001/__robots__/debug.json?mockProductionEnv=true" &
-  // curl "http://localhost:3001/robots.txt?mockProductionEnv=true"
-
-  compatibilityDate: '2026-08-04',
 
   nitro: {
     preset: 'cloudflare-pages',
@@ -82,18 +82,22 @@ export default defineNuxtConfig({
       }
     }
   },
+
   ogImage: {
     zeroRuntime: true,
     buildCache: true
   },
+
   robots: {
     blockNonSeoBots: true,
     blockAiBots: true,
     sitemap: ['/sitemap.xml']
   },
+
   schemaOrg: {
     identity: defineLocalBusiness(appMeta.localBusiness)
   },
+
   studio: {
     route: '/admin',
     i18n: {

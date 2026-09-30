@@ -6,7 +6,7 @@ events:
     date: 2025-06-06
     location: Drug Delivery & Formulation Summit 2025, Berlin
   - category: Conference
-    title: "Funktionale Inhaltsstoffe: POx im Gespräch mit der Kosmetikbranche"
+    title: 'Funktionale Inhaltsstoffe: POx im Gespräch mit der Kosmetikbranche'
     date: 2025-06-06
     location: CosmeticBusiness, München
   - category: Conference
@@ -18,16 +18,16 @@ events:
     date: 2025-04-10
     location: in-cosmetics Global, Amsterdam
   - category: Live talk
-    title: "Beispieleintrag: Titel des Vortrags"
+    title: 'Beispieleintrag: Titel des Vortrags'
     date: 2025-05-15
     location: Veranstaltung, Ort
   - category: Podcast
-    title: "Beispieleintrag: Titel der Podcast-Folge"
+    title: 'Beispieleintrag: Titel der Podcast-Folge'
     date: 2025-03-12
     location: Name des Podcasts (Gast)
 links:
   - label: Vortrag anfragen
-    to: mailto:erik@oxaphil.com
+    to: mailto:order@oxaphil.com
     icon: i-lucide-mail
     size: sm
     variant: subtle

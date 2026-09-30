@@ -19,7 +19,7 @@ useSeoMeta({
 const [{ data: navigation }, { data: files }] = await Promise.all([
   useAsyncData('navigation', () => {
     return Promise.all([
-      queryCollectionNavigation('press')
+      queryCollectionNavigation('presse')
     ])
   }, {
     server: false,
@@ -27,7 +27,7 @@ const [{ data: navigation }, { data: files }] = await Promise.all([
   }),
   useLazyAsyncData('search', () => {
     return Promise.all([
-      queryCollectionSearchSections('press')
+      queryCollectionSearchSections('presse')
     ])
   }, {
     server: false,

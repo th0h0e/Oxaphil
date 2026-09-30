@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('press-index', () => {
-  return queryCollection('pressIndex').path('/press').first()
+const { data: page } = await useAsyncData('presse-index', () => {
+  return queryCollection('presseIndex').path('/presse').first()
 })
 if (!page.value) {
   throw createError({
@@ -9,13 +9,13 @@ if (!page.value) {
     fatal: true
   })
 }
-const { data: posts } = await useAsyncData('press-posts', () =>
-  queryCollection('press').order('date', 'DESC').all()
+const { data: posts } = await useAsyncData('presse-posts', () =>
+  queryCollection('presse').order('date', 'DESC').all()
 )
 if (!posts.value) {
   throw createError({
     statusCode: 404,
-    statusMessage: 'press posts not found',
+    statusMessage: 'presseposts not found',
     fatal: true
   })
 }

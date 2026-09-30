@@ -36,6 +36,6 @@ definePageMeta({
     <FAQ :page />
     <OrderPreview />
     <TestimonialsSection :page />
-    <PressSection :page />
+    <presseSection :page />
   </UPage>
 </template>

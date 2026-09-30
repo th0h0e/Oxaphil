@@ -38,4 +38,4 @@ Für LNPs heißt das konkret: Die stabilisierende Schicht wird zu einem Paramete
 
 Ein Austausch der PEG-Komponente ist kein triviales Drop-in. Partikelgröße, Verkapselungseffizienz und Freisetzungsverhalten müssen neu charakterisiert werden. Genau deshalb arbeiten wir eng mit Partnern zusammen, die POx in ihren eigenen Formulierungen erproben – die Rückmeldungen aus realen Anwendungsszenarien sind für uns wertvoller als jede Modellrechnung.
 
-Wenn Sie POx in Ihrer LNP-Formulierung testen möchten, [sprechen Sie uns an](mailto\:erik@oxaphil.com).
+Wenn Sie POx in Ihrer LNP-Formulierung testen möchten, [sprechen Sie uns an](mailto\:order@oxaphil.com).

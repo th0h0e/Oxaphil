@@ -6,7 +6,7 @@ export default defineAppConfig({
       alt: 'Oxaphil Logo'
     },
     meetingLink: 'https://cal.com/',
-    email: 'erik@oxaphil.com',
+    email: 'order@oxaphil.com',
     available: true
   },
   ui: {

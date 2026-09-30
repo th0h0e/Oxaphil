@@ -91,12 +91,12 @@ export default defineContentConfig({
             })).editor({ label: 'Kategorien' })
         }).editor({ label: 'Häufige Fragen' }),
         testimonials: z.array(createTestimonialSchema()).editor({ label: 'Referenzen' }),
-        press: createBaseSchema().editor({ label: 'Fachbeiträge' })
+        presse: createBaseSchema().editor({ label: 'Fachbeiträge' })
       })
     }),
-    press: defineCollection({
+    presse: defineCollection({
       type: 'page',
-      source: 'press/*.md',
+      source: 'presse/*.md',
       schema: z.object({
         seo: z.object({
           title: z.string().optional(),
@@ -111,9 +111,9 @@ export default defineContentConfig({
         author: createAuthorSchema().editor({ label: 'Autor' })
       })
     }),
-    pressIndex: defineCollection({
+    presseIndex: defineCollection({
       type: 'page',
-      source: 'press.yml',
+      source: 'presse.yml',
       schema: z.object({
         seo: z.object({
           title: z.string().optional(),
