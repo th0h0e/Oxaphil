@@ -1,0 +1,132 @@
+artikelnummer;produkt;serie;rueckgrat;architektur;mnKgMol;pn;endgroup;dispersitaet;liefermenge;referenzeinheit;preis;eurProG;staffel;preisstufe
+OX-HE-010-COOH;HydroPOx10-COOH;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;1,0;10;Carbonsäure;≤ 1,15;1 g – 10 kg;1 g;105 €;107;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-010-N3;HydroPOx10-N₃;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;1,0;10;Azid;≤ 1,15;1 g – 10 kg;1 g;115 €;117;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-010-NH2;HydroPOx10-NH₂;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;1,0;10;Amin;≤ 1,15;1 g – 10 kg;1 g;100 €;102;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-010-OH;HydroPOx10-OH;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;1,0;10;Hydroxy;≤ 1,15;1 g – 10 kg;1 kg;135 €;0,137;100 g / 500 g / 1 kg / 5 kg;bulk
+OX-HE-020-ACR;HydroPOx20-Acrylat;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;2,0;20;Acrylat;≤ 1,15;1 g – 10 kg;1 g;145 €;146;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-020-ALK;HydroPOx20-Alkin;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;2,0;20;Propargyl / Alkin;≤ 1,15;1 g – 10 kg;1 g;145 €;146;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-020-BIO;HydroPOx20-Biotin;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;2,0;20;Biotin;≤ 1,15;1 g – 10 kg;1 g;315 €;316;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-020-CHO;HydroPOx20-CHO;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;2,0;20;Aldehyd;≤ 1,15;1 g – 10 kg;1 g;160 €;158;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-020-COOH;HydroPOx20-COOH;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;2,0;20;Carbonsäure;≤ 1,15;1 g – 10 kg;1 g;130 €;128;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-020-DBCO;HydroPOx20-DBCO;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;2,0;20;DBCO;≤ 1,15;1 g – 10 kg;1 g;390 €;389;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-020-MA;HydroPOx20-Methacrylat;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;2,0;20;Methacrylat;≤ 1,15;1 g – 10 kg;1 g;145 €;146;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-020-MAL;HydroPOx20-Maleimid;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;2,0;20;Maleimid;≤ 1,15;1 g – 10 kg;1 g;195 €;194;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-020-N3;HydroPOx20-N₃;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;2,0;20;Azid;≤ 1,15;1 g – 10 kg;1 g;140 €;140;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-020-NH2;HydroPOx20-NH₂;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;2,0;20;Amin;≤ 1,15;1 g – 10 kg;1 g;120 €;121;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-020-NHS;HydroPOx20-NHS;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;2,0;20;NHS-Ester;≤ 1,15;1 g – 10 kg;1 g;180 €;182;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-020-OH;HydroPOx20-OH;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;2,0;20;Hydroxy;≤ 1,15;1 g – 10 kg;1 kg;135 €;0,137;100 g / 500 g / 1 kg / 5 kg;bulk
+OX-HE-020-PIP;HydroPOx20-Piperazin;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;2,0;20;Piperazin;≤ 1,15;1 g – 10 kg;1 g;135 €;134;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-020-SH;HydroPOx20-SH;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;2,0;20;Thiol;≤ 1,15;1 g – 10 kg;1 g;165 €;164;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-020-SIL;HydroPOx20-Silan;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;2,0;20;Triethoxysilan;≤ 1,15;1 g – 10 kg;1 g;170 €;170;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-040-ACR;HydroPOx40-Acrylat;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;4,0;40;Acrylat;≤ 1,15;1 g – 10 kg;1 g;175 €;173;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-040-ALK;HydroPOx40-Alkin;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;4,0;40;Propargyl / Alkin;≤ 1,15;1 g – 10 kg;1 g;175 €;173;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-040-CHO;HydroPOx40-CHO;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;4,0;40;Aldehyd;≤ 1,15;1 g – 10 kg;1 g;190 €;188;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-040-COOH;HydroPOx40-COOH;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;4,0;40;Carbonsäure;≤ 1,15;1 g – 10 kg;1 g;150 €;152;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-040-DBCO;HydroPOx40-DBCO;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;4,0;40;DBCO;≤ 1,15;1 g – 10 kg;1 g;460 €;462;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-040-MA;HydroPOx40-Methacrylat;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;4,0;40;Methacrylat;≤ 1,15;1 g – 10 kg;1 g;175 €;173;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-040-MAL;HydroPOx40-Maleimid;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;4,0;40;Maleimid;≤ 1,15;1 g – 10 kg;1 g;230 €;231;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-040-N3;HydroPOx40-N₃;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;4,0;40;Azid;≤ 1,15;1 g – 10 kg;1 g;165 €;166;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-040-NH2;HydroPOx40-NH₂;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;4,0;40;Amin;≤ 1,15;1 g – 10 kg;1 g;145 €;144;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-040-NHS;HydroPOx40-NHS;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;4,0;40;NHS-Ester;≤ 1,15;1 g – 10 kg;1 g;215 €;217;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-040-OH;HydroPOx40-OH;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;4,0;40;Hydroxy;≤ 1,15;1 g – 10 kg;1 kg;135 €;0,137;100 g / 500 g / 1 kg / 5 kg;bulk
+OX-HE-040-SH;HydroPOx40-SH;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;4,0;40;Thiol;≤ 1,15;1 g – 10 kg;1 g;195 €;195;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-040-SIL;HydroPOx40-Silan;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;4,0;40;Triethoxysilan;≤ 1,15;1 g – 10 kg;1 g;200 €;202;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-050-BIO;HydroPOx50-Biotin;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;5,0;50;Biotin;≤ 1,15;1 g – 10 kg;1 g;395 €;397;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-050-COOH;HydroPOx50-COOH;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;5,0;50;Carbonsäure;≤ 1,15;1 g – 10 kg;1 g;160 €;160;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-050-N3;HydroPOx50-N₃;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;5,0;50;Azid;≤ 1,15;1 g – 10 kg;1 g;175 €;176;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-050-NH2;HydroPOx50-NH₂;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;5,0;50;Amin;≤ 1,15;1 g – 10 kg;1 g;155 €;153;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-050-OH;HydroPOx50-OH;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;5,0;50;Hydroxy;≤ 1,15;1 g – 10 kg;1 kg;135 €;0,137;100 g / 500 g / 1 kg / 5 kg;bulk
+OX-HE-050-PIP;HydroPOx50-Piperazin;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;5,0;50;Piperazin;≤ 1,15;1 g – 10 kg;1 g;170 €;168;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-100-ACR;HydroPOx100-Acrylat;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;9,9;100;Acrylat;≤ 1,15;1 g – 10 kg;1 g;215 €;217;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-100-ALK;HydroPOx100-Alkin;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;9,9;100;Propargyl / Alkin;≤ 1,15;1 g – 10 kg;1 g;215 €;217;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-100-CHO;HydroPOx100-CHO;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;9,9;100;Aldehyd;≤ 1,15;1 g – 10 kg;1 g;235 €;236;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-100-COOH;HydroPOx100-COOH;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;9,9;100;Carbonsäure;≤ 1,15;1 g – 10 kg;1 g;190 €;190;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-100-DBCO;HydroPOx100-DBCO;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;9,9;100;DBCO;≤ 1,15;1 g – 10 kg;1 g;580 €;580;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-100-MA;HydroPOx100-Methacrylat;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;9,9;100;Methacrylat;≤ 1,15;1 g – 10 kg;1 g;215 €;217;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-100-MAL;HydroPOx100-Maleimid;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;9,9;100;Maleimid;≤ 1,15;1 g – 10 kg;1 g;290 €;290;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-100-N3;HydroPOx100-N₃;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;9,9;100;Azid;≤ 1,15;1 g – 10 kg;1 g;210 €;208;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-100-NH2;HydroPOx100-NH₂;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;9,9;100;Amin;≤ 1,15;1 g – 10 kg;1 g;180 €;181;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-100-NHS;HydroPOx100-NHS;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;9,9;100;NHS-Ester;≤ 1,15;1 g – 10 kg;1 g;270 €;272;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-100-OH;HydroPOx100-OH;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;9,9;100;Hydroxy;≤ 1,15;1 g – 10 kg;1 kg;135 €;0,137;100 g / 500 g / 1 kg / 5 kg;bulk
+OX-HE-100-SH;HydroPOx100-SH;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;9,9;100;Thiol;≤ 1,15;1 g – 10 kg;1 g;245 €;245;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-100-SIL;HydroPOx100-Silan;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;9,9;100;Triethoxysilan;≤ 1,15;1 g – 10 kg;1 g;255 €;254;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-200-COOH;HydroPOx200-COOH;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;19,8;200;Carbonsäure;≤ 1,15;1 g – 10 kg;1 g;225 €;226;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-200-N3;HydroPOx200-N₃;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;19,8;200;Azid;≤ 1,15;1 g – 10 kg;1 g;250 €;248;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-200-NH2;HydroPOx200-NH₂;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;19,8;200;Amin;≤ 1,15;1 g – 10 kg;1 g;215 €;215;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-200-OH;HydroPOx200-OH;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;19,8;200;Hydroxy;≤ 1,15;1 g – 10 kg;1 kg;135 €;0,137;100 g / 500 g / 1 kg / 5 kg;bulk
+OX-HM-012-OH;HydroPOx M12-OH;HydroPOx M;Poly(2-methyl-2-oxazolin);monofunktionell;1,0;12;Hydroxy;≤ 1,15;1 g – 10 kg;1 kg;145 €;0,144;100 g / 500 g / 1 kg / 5 kg;bulk
+OX-HM-024-COOH;HydroPOx M24-COOH;HydroPOx M;Poly(2-methyl-2-oxazolin);monofunktionell;2,0;24;Carbonsäure;≤ 1,15;1 g – 10 kg;1 g;135 €;134;100 mg / 1 g / 5 g / 25 g;func
+OX-HM-024-MAL;HydroPOx M24-Maleimid;HydroPOx M;Poly(2-methyl-2-oxazolin);monofunktionell;2,0;24;Maleimid;≤ 1,15;1 g – 10 kg;1 g;205 €;204;100 mg / 1 g / 5 g / 25 g;func
+OX-HM-024-N3;HydroPOx M24-N₃;HydroPOx M;Poly(2-methyl-2-oxazolin);monofunktionell;2,0;24;Azid;≤ 1,15;1 g – 10 kg;1 g;145 €;147;100 mg / 1 g / 5 g / 25 g;func
+OX-HM-024-NH2;HydroPOx M24-NH₂;HydroPOx M;Poly(2-methyl-2-oxazolin);monofunktionell;2,0;24;Amin;≤ 1,15;1 g – 10 kg;1 g;130 €;128;100 mg / 1 g / 5 g / 25 g;func
+OX-HM-024-OH;HydroPOx M24-OH;HydroPOx M;Poly(2-methyl-2-oxazolin);monofunktionell;2,0;24;Hydroxy;≤ 1,15;1 g – 10 kg;1 kg;145 €;0,144;100 g / 500 g / 1 kg / 5 kg;bulk
+OX-HM-059-COOH;HydroPOx M59-COOH;HydroPOx M;Poly(2-methyl-2-oxazolin);monofunktionell;5,0;59;Carbonsäure;≤ 1,15;1 g – 10 kg;1 g;170 €;168;100 mg / 1 g / 5 g / 25 g;func
+OX-HM-059-MAL;HydroPOx M59-Maleimid;HydroPOx M;Poly(2-methyl-2-oxazolin);monofunktionell;5,0;59;Maleimid;≤ 1,15;1 g – 10 kg;1 g;255 €;257;100 mg / 1 g / 5 g / 25 g;func
+OX-HM-059-N3;HydroPOx M59-N₃;HydroPOx M;Poly(2-methyl-2-oxazolin);monofunktionell;5,0;59;Azid;≤ 1,15;1 g – 10 kg;1 g;185 €;184;100 mg / 1 g / 5 g / 25 g;func
+OX-HM-059-NH2;HydroPOx M59-NH₂;HydroPOx M;Poly(2-methyl-2-oxazolin);monofunktionell;5,0;59;Amin;≤ 1,15;1 g – 10 kg;1 g;160 €;160;100 mg / 1 g / 5 g / 25 g;func
+OX-HM-059-OH;HydroPOx M59-OH;HydroPOx M;Poly(2-methyl-2-oxazolin);monofunktionell;5,0;59;Hydroxy;≤ 1,15;1 g – 10 kg;1 kg;145 €;0,144;100 g / 500 g / 1 kg / 5 kg;bulk
+OX-HM-118-COOH;HydroPOx M118-COOH;HydroPOx M;Poly(2-methyl-2-oxazolin);monofunktionell;10,0;118;Carbonsäure;≤ 1,15;1 g – 10 kg;1 g;200 €;200;100 mg / 1 g / 5 g / 25 g;func
+OX-HM-118-MAL;HydroPOx M118-Maleimid;HydroPOx M;Poly(2-methyl-2-oxazolin);monofunktionell;10,0;118;Maleimid;≤ 1,15;1 g – 10 kg;1 g;305 €;305;100 mg / 1 g / 5 g / 25 g;func
+OX-HM-118-N3;HydroPOx M118-N₃;HydroPOx M;Poly(2-methyl-2-oxazolin);monofunktionell;10,0;118;Azid;≤ 1,15;1 g – 10 kg;1 g;220 €;219;100 mg / 1 g / 5 g / 25 g;func
+OX-HM-118-NH2;HydroPOx M118-NH₂;HydroPOx M;Poly(2-methyl-2-oxazolin);monofunktionell;10,0;118;Amin;≤ 1,15;1 g – 10 kg;1 g;190 €;191;100 mg / 1 g / 5 g / 25 g;func
+OX-HM-118-OH;HydroPOx M118-OH;HydroPOx M;Poly(2-methyl-2-oxazolin);monofunktionell;10,0;118;Hydroxy;≤ 1,15;1 g – 10 kg;1 kg;145 €;0,144;100 g / 500 g / 1 kg / 5 kg;bulk
+OX-HM-235-OH;HydroPOx M235-OH;HydroPOx M;Poly(2-methyl-2-oxazolin);monofunktionell;20,0;235;Hydroxy;≤ 1,15;1 g – 10 kg;1 kg;145 €;0,144;100 g / 500 g / 1 kg / 5 kg;bulk
+OX-DE-020-ACR;DuoPOx20-Acrylat₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);2,0;20;Acrylat;≤ 1,20;1 g – 5 kg;1 g;250 €;248;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-020-COOH;DuoPOx20-COOH₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);2,0;20;Carbonsäure;≤ 1,20;1 g – 5 kg;1 g;215 €;217;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-020-MAL;DuoPOx20-Maleimid₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);2,0;20;Maleimid;≤ 1,20;1 g – 5 kg;1 g;330 €;330;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-020-N3;DuoPOx20-N₃₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);2,0;20;Azid;≤ 1,20;1 g – 5 kg;1 g;235 €;237;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-020-NH2;DuoPOx20-NH₂₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);2,0;20;Amin;≤ 1,20;1 g – 5 kg;1 g;205 €;206;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-020-OH;DuoPOx20-OH₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);2,0;20;Hydroxy;≤ 1,20;1 g – 5 kg;1 kg;235 €;0,233;100 g / 500 g / 1 kg / 5 kg;bulk
+OX-DE-040-ACR;DuoPOx40-Acrylat₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);4,0;40;Acrylat;≤ 1,20;1 g – 5 kg;1 g;295 €;295;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-040-COOH;DuoPOx40-COOH₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);4,0;40;Carbonsäure;≤ 1,20;1 g – 5 kg;1 g;260 €;258;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-040-MAL;DuoPOx40-Maleimid₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);4,0;40;Maleimid;≤ 1,20;1 g – 5 kg;1 g;395 €;393;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-040-N3;DuoPOx40-N₃₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);4,0;40;Azid;≤ 1,20;1 g – 5 kg;1 g;280 €;282;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-040-NH2;DuoPOx40-NH₂₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);4,0;40;Amin;≤ 1,20;1 g – 5 kg;1 g;245 €;246;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-040-OH;DuoPOx40-OH₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);4,0;40;Hydroxy;≤ 1,20;1 g – 5 kg;1 kg;235 €;0,233;100 g / 500 g / 1 kg / 5 kg;bulk
+OX-DE-100-ACR;DuoPOx100-Acrylat₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);9,9;100;Acrylat;≤ 1,20;1 g – 5 kg;1 g;370 €;370;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-100-COOH;DuoPOx100-COOH₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);9,9;100;Carbonsäure;≤ 1,20;1 g – 5 kg;1 g;325 €;323;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-100-MAL;DuoPOx100-Maleimid₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);9,9;100;Maleimid;≤ 1,20;1 g – 5 kg;1 g;495 €;493;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-100-N3;DuoPOx100-N₃₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);9,9;100;Azid;≤ 1,20;1 g – 5 kg;1 g;355 €;354;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-100-NH2;DuoPOx100-NH₂₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);9,9;100;Amin;≤ 1,20;1 g – 5 kg;1 g;310 €;308;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-100-OH;DuoPOx100-OH₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);9,9;100;Hydroxy;≤ 1,20;1 g – 5 kg;1 kg;235 €;0,233;100 g / 500 g / 1 kg / 5 kg;bulk
+OX-DE-200-ACR;DuoPOx200-Acrylat₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);19,8;200;Acrylat;≤ 1,20;1 g – 5 kg;1 g;440 €;439;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-200-COOH;DuoPOx200-COOH₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);19,8;200;Carbonsäure;≤ 1,20;1 g – 5 kg;1 g;385 €;385;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-200-MAL;DuoPOx200-Maleimid₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);19,8;200;Maleimid;≤ 1,20;1 g – 5 kg;1 g;585 €;586;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-200-N3;DuoPOx200-N₃₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);19,8;200;Azid;≤ 1,20;1 g – 5 kg;1 g;420 €;421;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-200-NH2;DuoPOx200-NH₂₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);19,8;200;Amin;≤ 1,20;1 g – 5 kg;1 g;365 €;366;100 mg / 1 g / 5 g / 25 g;func
+OX-DE-200-OH;DuoPOx200-OH₂;DuoPOx;Poly(2-ethyl-2-oxazolin);telechelisch (α,ω);19,8;200;Hydroxy;≤ 1,20;1 g – 5 kg;1 kg;235 €;0,233;100 g / 500 g / 1 kg / 5 kg;bulk
+OX-S4-005k-ACR;StarPOx4-5k-Acrylat;StarPOx 4;Poly(2-ethyl-2-oxazolin);4-arm Stern;5,0;13;Acrylat;≤ 1,25;1 g – 1 kg;1 g;440 €;440;100 mg / 1 g / 5 g / 25 g;func
+OX-S4-005k-NH2;StarPOx4-5k-NH₂;StarPOx 4;Poly(2-ethyl-2-oxazolin);4-arm Stern;5,0;13;Amin;≤ 1,25;1 g – 1 kg;1 g;365 €;367;100 mg / 1 g / 5 g / 25 g;func
+OX-S4-005k-OH;StarPOx4-5k-OH;StarPOx 4;Poly(2-ethyl-2-oxazolin);4-arm Stern;5,0;13;Hydroxy;≤ 1,25;1 g – 1 kg;1 g;365 €;367;100 mg / 1 g / 5 g / 25 g;func
+OX-S4-010k-ACR;StarPOx4-10k-Acrylat;StarPOx 4;Poly(2-ethyl-2-oxazolin);4-arm Stern;10,0;25;Acrylat;≤ 1,25;1 g – 1 kg;1 g;525 €;523;100 mg / 1 g / 5 g / 25 g;func
+OX-S4-010k-NH2;StarPOx4-10k-NH₂;StarPOx 4;Poly(2-ethyl-2-oxazolin);4-arm Stern;10,0;25;Amin;≤ 1,25;1 g – 1 kg;1 g;435 €;436;100 mg / 1 g / 5 g / 25 g;func
+OX-S4-010k-OH;StarPOx4-10k-OH;StarPOx 4;Poly(2-ethyl-2-oxazolin);4-arm Stern;10,0;25;Hydroxy;≤ 1,25;1 g – 1 kg;1 g;435 €;436;100 mg / 1 g / 5 g / 25 g;func
+OX-S4-020k-ACR;StarPOx4-20k-Acrylat;StarPOx 4;Poly(2-ethyl-2-oxazolin);4-arm Stern;20,0;50;Acrylat;≤ 1,25;1 g – 1 kg;1 g;620 €;622;100 mg / 1 g / 5 g / 25 g;func
+OX-S4-020k-NH2;StarPOx4-20k-NH₂;StarPOx 4;Poly(2-ethyl-2-oxazolin);4-arm Stern;20,0;50;Amin;≤ 1,25;1 g – 1 kg;1 g;520 €;518;100 mg / 1 g / 5 g / 25 g;func
+OX-S4-020k-OH;StarPOx4-20k-OH;StarPOx 4;Poly(2-ethyl-2-oxazolin);4-arm Stern;20,0;50;Hydroxy;≤ 1,25;1 g – 1 kg;1 g;520 €;518;100 mg / 1 g / 5 g / 25 g;func
+OX-S3-005k-NH2;StarPOx3-5k-NH₂;StarPOx 3;Poly(2-ethyl-2-oxazolin);3-arm Stern;5,0;17;Amin;≤ 1,25;1 g – 1 kg;1 g;335 €;336;100 mg / 1 g / 5 g / 25 g;func
+OX-S3-005k-OH;StarPOx3-5k-OH;StarPOx 3;Poly(2-ethyl-2-oxazolin);3-arm Stern;5,0;17;Hydroxy;≤ 1,25;1 g – 1 kg;1 g;335 €;336;100 mg / 1 g / 5 g / 25 g;func
+OX-S3-010k-NH2;StarPOx3-10k-NH₂;StarPOx 3;Poly(2-ethyl-2-oxazolin);3-arm Stern;10,0;34;Amin;≤ 1,25;1 g – 1 kg;1 g;400 €;400;100 mg / 1 g / 5 g / 25 g;func
+OX-S3-010k-OH;StarPOx3-10k-OH;StarPOx 3;Poly(2-ethyl-2-oxazolin);3-arm Stern;10,0;34;Hydroxy;≤ 1,25;1 g – 1 kg;1 g;400 €;400;100 mg / 1 g / 5 g / 25 g;func
+OX-AP-030020-OH;AmphiPOx30-20-30;AmphiPOx;PMeOx-b-PBuOx-b-PMeOx;Triblock, amphiphil;7,7;80;Hydroxy;≤ 1,25;500 mg – 500 g;1 g;545 €;544;100 mg / 1 g / 5 g / 25 g;func
+OX-AP-037021-OH;AmphiPOx37-21-37;AmphiPOx;PMeOx-b-PBuOx-b-PMeOx;Triblock, amphiphil;9,0;95;Hydroxy;≤ 1,25;500 mg – 500 g;1 g;565 €;566;100 mg / 1 g / 5 g / 25 g;func
+OX-AP-050010-OH;AmphiPOx50-10-50;AmphiPOx;PMeOx-b-PBuOx-b-PMeOx;Triblock, amphiphil;9,8;110;Hydroxy;≤ 1,25;500 mg – 500 g;1 g;580 €;578;100 mg / 1 g / 5 g / 25 g;func
+OX-AP-050020-OH;AmphiPOx50-20-50;AmphiPOx;PMeOx-b-PBuOx-b-PMeOx;Triblock, amphiphil;11,1;120;Hydroxy;≤ 1,25;500 mg – 500 g;1 g;595 €;597;100 mg / 1 g / 5 g / 25 g;func
+OX-LP-020-OH;LipoPOx20;LipoPOx;DSPE-Poly(2-ethyl-2-oxazolin);Lipid-Konjugat;2,7;20;Hydroxy;≤ 1,20;250 mg – 100 g;1 g;590 €;589;100 mg / 1 g / 5 g / 25 g;func
+OX-LP-040-OH;LipoPOx40;LipoPOx;DSPE-Poly(2-ethyl-2-oxazolin);Lipid-Konjugat;4,7;40;Hydroxy;≤ 1,20;250 mg – 100 g;1 g;675 €;677;100 mg / 1 g / 5 g / 25 g;func
+OX-LP-100-OH;LipoPOx100;LipoPOx;DSPE-Poly(2-ethyl-2-oxazolin);Lipid-Konjugat;10,7;100;Hydroxy;≤ 1,20;250 mg – 100 g;1 g;830 €;831;100 mg / 1 g / 5 g / 25 g;func
+OX-OE-005-ALK;OligoPOx5-Alkin;OligoPOx;Poly(2-ethyl-2-oxazolin);definierte Kettenlänge;0,5;5;Propargyl / Alkin;≤ 1,10;500 mg – 1 kg;1 g;195 €;196;100 mg / 1 g / 5 g / 25 g;func
+OX-OE-005-COOH;OligoPOx5-COOH;OligoPOx;Poly(2-ethyl-2-oxazolin);definierte Kettenlänge;0,5;5;Carbonsäure;≤ 1,10;500 mg – 1 kg;1 g;170 €;171;100 mg / 1 g / 5 g / 25 g;func
+OX-OE-005-N3;OligoPOx5-N₃;OligoPOx;Poly(2-ethyl-2-oxazolin);definierte Kettenlänge;0,5;5;Azid;≤ 1,10;500 mg – 1 kg;1 g;190 €;188;100 mg / 1 g / 5 g / 25 g;func
+OX-OE-005-NH2;OligoPOx5-NH₂;OligoPOx;Poly(2-ethyl-2-oxazolin);definierte Kettenlänge;0,5;5;Amin;≤ 1,10;500 mg – 1 kg;1 g;165 €;163;100 mg / 1 g / 5 g / 25 g;func
+OX-OE-005-OH;OligoPOx5-OH;OligoPOx;Poly(2-ethyl-2-oxazolin);definierte Kettenlänge;0,5;5;Hydroxy;≤ 1,10;500 mg – 1 kg;1 g;165 €;163;100 mg / 1 g / 5 g / 25 g;func
+OX-OE-008-ALK;OligoPOx8-Alkin;OligoPOx;Poly(2-ethyl-2-oxazolin);definierte Kettenlänge;0,8;8;Propargyl / Alkin;≤ 1,10;500 mg – 1 kg;1 g;220 €;220;100 mg / 1 g / 5 g / 25 g;func
+OX-OE-008-COOH;OligoPOx8-COOH;OligoPOx;Poly(2-ethyl-2-oxazolin);definierte Kettenlänge;0,8;8;Carbonsäure;≤ 1,10;500 mg – 1 kg;1 g;195 €;193;100 mg / 1 g / 5 g / 25 g;func
+OX-OE-008-N3;OligoPOx8-N₃;OligoPOx;Poly(2-ethyl-2-oxazolin);definierte Kettenlänge;0,8;8;Azid;≤ 1,10;500 mg – 1 kg;1 g;210 €;211;100 mg / 1 g / 5 g / 25 g;func
+OX-OE-008-NH2;OligoPOx8-NH₂;OligoPOx;Poly(2-ethyl-2-oxazolin);definierte Kettenlänge;0,8;8;Amin;≤ 1,10;500 mg – 1 kg;1 g;185 €;184;100 mg / 1 g / 5 g / 25 g;func
+OX-OE-008-OH;OligoPOx8-OH;OligoPOx;Poly(2-ethyl-2-oxazolin);definierte Kettenlänge;0,8;8;Hydroxy;≤ 1,10;500 mg – 1 kg;1 g;185 €;184;100 mg / 1 g / 5 g / 25 g;func
+OX-OE-012-ALK;OligoPOx12-Alkin;OligoPOx;Poly(2-ethyl-2-oxazolin);definierte Kettenlänge;1,2;12;Propargyl / Alkin;≤ 1,10;500 mg – 1 kg;1 g;245 €;244;100 mg / 1 g / 5 g / 25 g;func
+OX-OE-012-COOH;OligoPOx12-COOH;OligoPOx;Poly(2-ethyl-2-oxazolin);definierte Kettenlänge;1,2;12;Carbonsäure;≤ 1,10;500 mg – 1 kg;1 g;215 €;213;100 mg / 1 g / 5 g / 25 g;func
+OX-OE-012-N3;OligoPOx12-N₃;OligoPOx;Poly(2-ethyl-2-oxazolin);definierte Kettenlänge;1,2;12;Azid;≤ 1,10;500 mg – 1 kg;1 g;235 €;234;100 mg / 1 g / 5 g / 25 g;func
+OX-OE-012-NH2;OligoPOx12-NH₂;OligoPOx;Poly(2-ethyl-2-oxazolin);definierte Kettenlänge;1,2;12;Amin;≤ 1,10;500 mg – 1 kg;1 g;205 €;203;100 mg / 1 g / 5 g / 25 g;func
+OX-OE-012-OH;OligoPOx12-OH;OligoPOx;Poly(2-ethyl-2-oxazolin);definierte Kettenlänge;1,2;12;Hydroxy;≤ 1,10;500 mg – 1 kg;1 g;205 €;203;100 mg / 1 g / 5 g / 25 g;func

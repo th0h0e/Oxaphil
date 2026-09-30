@@ -215,6 +215,27 @@ export default defineContentConfig({
         image: createImageSchema().editor({ label: 'Produktbild' })
       })
     }),
+    bestellungKatalog: defineCollection({
+      type: 'data',
+      source: 'bestellung/katalog.csv',   // single file → one item per row
+      schema: z.object({
+        artikelnummer: z.string().editor({ label: 'Artikelnr.' }),
+        produkt: z.string().editor({ label: 'Produkt' }),
+        serie: z.string().editor({ label: 'Serie' }),
+        rueckgrat: z.string().editor({ label: 'Rückgrat' }),
+        architektur: z.string().editor({ label: 'Architektur' }),
+        mnKgMol: z.string().editor({ label: 'Mₙ (kg/mol)' }),
+        pn: z.coerce.number().editor({ label: 'Pₙ' }),
+        endgruppe: z.string().editor({ label: 'Endgruppe' }),
+        dispersitaet: z.string().editor({ label: 'Dispersität (Mw/Mn)' }),
+        liefermenge: z.string().editor({ label: 'Liefermenge' }),
+        referenzeinheit: z.string().editor({ label: 'Referenzeinheit' }),
+        preis: z.string().editor({ label: 'Preis' }),
+        eurProG: z.string().editor({ label: '€/g' }),
+        staffel: z.string().editor({ label: 'Staffel' }),
+        preisstufe: z.enum(['bulk', 'func']).editor({ label: 'Preisstufe' })
+      })
+    }),
     impressum: defineCollection({
       type: 'page',
       source: 'impressum.md',

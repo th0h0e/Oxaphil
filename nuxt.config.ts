@@ -42,6 +42,9 @@ export default defineNuxtConfig({
   },
 
   content: {
+    build: {
+      csv: { delimiter: ';' }
+    },
     experimental: {
       sqliteConnector: 'native'
     }

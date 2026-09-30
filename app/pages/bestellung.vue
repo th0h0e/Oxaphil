@@ -5,6 +5,9 @@ const { data: page } = await useAsyncData('bestellung', () => {
 const { data: product } = await useAsyncData('bestellung-product', () => {
   return queryCollection('bestellungProduct').first()
 })
+const { data: katalog } = await useAsyncData('bestellung-katalog', () =>
+  queryCollection('bestellungKatalog').all()
+)
 if (!page.value) {
   throw createError({
     statusCode: 404,
@@ -72,6 +75,16 @@ definePageMeta({
           :image="product.image"
         />
       </PanelFrame>
+    </UPageSection>
+    <UPageSection
+      v-if="katalog"
+      id="katalog"
+      :ui="{
+        title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold',
+        description: 'text-left my-2 text-muted'
+      }"
+    >
+      <KatalogList :references="katalog" />
     </UPageSection>
     <UPageSection>
       <ContactCard
