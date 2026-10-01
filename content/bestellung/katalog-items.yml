@@ -1,1981 +1,1981 @@
 items:
-  - artikelnummer: "OX-HE-010-COOH"
-    produkt: "HydroPOx10-COOH"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "1,0"
+  - artikelnummer: OX-HE-010-COOH
+    produkt: HydroPOx10-COOH
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 1,0
     pn: 10
-    endgroup: "Carbonsäure"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "105 €"
+    endgroup: Carbonsäure
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 105 €
     eurProG: "199"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-010-COOH"
-    produkt: "Hydra"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "1,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-010-COOH
+    produkt: Hydra b
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 1,0
     pn: 10
-    endgroup: "Carbonsäure"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "105 €"
+    endgroup: Carbonsäure
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 105 €
     eurProG: "199"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-010-N3"
-    produkt: "HydroPOx10-N₃"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "1,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-010-N3
+    produkt: HydroPOx10-N₃
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 1,0
     pn: 10
-    endgroup: "Azid"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "115 €"
+    endgroup: Azid
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 115 €
     eurProG: "117"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-010-NH2"
-    produkt: "HydroPOx10-NH₂"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "1,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-010-NH2
+    produkt: HydroPOx10-NH₂
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 1,0
     pn: 10
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "100 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 100 €
     eurProG: "102"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-010-OH"
-    produkt: "HydroPOx10-OH"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "1,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-010-OH
+    produkt: HydroPOx10-OH
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 1,0
     pn: 10
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 kg"
-    preis: "135 €"
-    eurProG: "0,137"
-    staffel: "100 g / 500 g / 1 kg / 5 kg"
-    preisstufe: "bulk"
-  - artikelnummer: "OX-HE-020-ACR"
-    produkt: "HydroPOx20-Acrylat"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 kg
+    preis: 135 €
+    eurProG: 0,137
+    staffel: 100 g / 500 g / 1 kg / 5 kg
+    preisstufe: bulk
+  - artikelnummer: OX-HE-020-ACR
+    produkt: HydroPOx20-Acrylat
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Acrylat"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "145 €"
+    endgroup: Acrylat
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 145 €
     eurProG: "146"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-020-ALK"
-    produkt: "HydroPOx20-Alkin"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-020-ALK
+    produkt: HydroPOx20-Alkin
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Propargyl / Alkin"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "145 €"
+    endgroup: Propargyl / Alkin
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 145 €
     eurProG: "146"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-020-BIO"
-    produkt: "HydroPOx20-Biotin"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-020-BIO
+    produkt: HydroPOx20-Biotin
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Biotin"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "315 €"
+    endgroup: Biotin
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 315 €
     eurProG: "316"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-020-CHO"
-    produkt: "HydroPOx20-CHO"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-020-CHO
+    produkt: HydroPOx20-CHO
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Aldehyd"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "160 €"
+    endgroup: Aldehyd
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 160 €
     eurProG: "158"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-020-COOH"
-    produkt: "HydroPOx20-COOH"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-020-COOH
+    produkt: HydroPOx20-COOH
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Carbonsäure"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "130 €"
+    endgroup: Carbonsäure
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 130 €
     eurProG: "128"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-020-DBCO"
-    produkt: "HydroPOx20-DBCO"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-020-DBCO
+    produkt: HydroPOx20-DBCO
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "DBCO"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "390 €"
+    endgroup: DBCO
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 390 €
     eurProG: "389"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-020-MA"
-    produkt: "HydroPOx20-Methacrylat"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-020-MA
+    produkt: HydroPOx20-Methacrylat
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Methacrylat"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "145 €"
+    endgroup: Methacrylat
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 145 €
     eurProG: "146"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-020-MAL"
-    produkt: "HydroPOx20-Maleimid"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-020-MAL
+    produkt: HydroPOx20-Maleimid
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Maleimid"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "195 €"
+    endgroup: Maleimid
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 195 €
     eurProG: "194"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-020-N3"
-    produkt: "HydroPOx20-N₃"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-020-N3
+    produkt: HydroPOx20-N₃
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Azid"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "140 €"
+    endgroup: Azid
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 140 €
     eurProG: "140"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-020-NH2"
-    produkt: "HydroPOx20-NH₂"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-020-NH2
+    produkt: HydroPOx20-NH₂
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "120 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 120 €
     eurProG: "121"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-020-NHS"
-    produkt: "HydroPOx20-NHS"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-020-NHS
+    produkt: HydroPOx20-NHS
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "NHS-Ester"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "180 €"
+    endgroup: NHS-Ester
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 180 €
     eurProG: "182"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-020-OH"
-    produkt: "HydroPOx20-OH"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-020-OH
+    produkt: HydroPOx20-OH
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 kg"
-    preis: "135 €"
-    eurProG: "0,137"
-    staffel: "100 g / 500 g / 1 kg / 5 kg"
-    preisstufe: "bulk"
-  - artikelnummer: "OX-HE-020-PIP"
-    produkt: "HydroPOx20-Piperazin"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 kg
+    preis: 135 €
+    eurProG: 0,137
+    staffel: 100 g / 500 g / 1 kg / 5 kg
+    preisstufe: bulk
+  - artikelnummer: OX-HE-020-PIP
+    produkt: HydroPOx20-Piperazin
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Piperazin"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "135 €"
+    endgroup: Piperazin
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 135 €
     eurProG: "134"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-020-SH"
-    produkt: "HydroPOx20-SH"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-020-SH
+    produkt: HydroPOx20-SH
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Thiol"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "165 €"
+    endgroup: Thiol
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 165 €
     eurProG: "164"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-020-SIL"
-    produkt: "HydroPOx20-Silan"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-020-SIL
+    produkt: HydroPOx20-Silan
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Triethoxysilan"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "170 €"
+    endgroup: Triethoxysilan
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 170 €
     eurProG: "170"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-040-ACR"
-    produkt: "HydroPOx40-Acrylat"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "4,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-040-ACR
+    produkt: HydroPOx40-Acrylat
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "Acrylat"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "175 €"
+    endgroup: Acrylat
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 175 €
     eurProG: "173"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-040-ALK"
-    produkt: "HydroPOx40-Alkin"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "4,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-040-ALK
+    produkt: HydroPOx40-Alkin
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "Propargyl / Alkin"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "175 €"
+    endgroup: Propargyl / Alkin
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 175 €
     eurProG: "173"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-040-CHO"
-    produkt: "HydroPOx40-CHO"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "4,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-040-CHO
+    produkt: HydroPOx40-CHO
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "Aldehyd"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "190 €"
+    endgroup: Aldehyd
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 190 €
     eurProG: "188"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-040-COOH"
-    produkt: "HydroPOx40-COOH"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "4,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-040-COOH
+    produkt: HydroPOx40-COOH
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "Carbonsäure"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "150 €"
+    endgroup: Carbonsäure
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 150 €
     eurProG: "152"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-040-DBCO"
-    produkt: "HydroPOx40-DBCO"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "4,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-040-DBCO
+    produkt: HydroPOx40-DBCO
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "DBCO"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "460 €"
+    endgroup: DBCO
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 460 €
     eurProG: "462"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-040-MA"
-    produkt: "HydroPOx40-Methacrylat"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "4,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-040-MA
+    produkt: HydroPOx40-Methacrylat
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "Methacrylat"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "175 €"
+    endgroup: Methacrylat
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 175 €
     eurProG: "173"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-040-MAL"
-    produkt: "HydroPOx40-Maleimid"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "4,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-040-MAL
+    produkt: HydroPOx40-Maleimid
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "Maleimid"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "230 €"
+    endgroup: Maleimid
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 230 €
     eurProG: "231"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-040-N3"
-    produkt: "HydroPOx40-N₃"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "4,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-040-N3
+    produkt: HydroPOx40-N₃
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "Azid"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "165 €"
+    endgroup: Azid
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 165 €
     eurProG: "166"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-040-NH2"
-    produkt: "HydroPOx40-NH₂"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "4,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-040-NH2
+    produkt: HydroPOx40-NH₂
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "145 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 145 €
     eurProG: "144"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-040-NHS"
-    produkt: "HydroPOx40-NHS"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "4,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-040-NHS
+    produkt: HydroPOx40-NHS
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "NHS-Ester"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "215 €"
+    endgroup: NHS-Ester
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 215 €
     eurProG: "217"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-040-OH"
-    produkt: "HydroPOx40-OH"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "4,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-040-OH
+    produkt: HydroPOx40-OH
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 kg"
-    preis: "135 €"
-    eurProG: "0,137"
-    staffel: "100 g / 500 g / 1 kg / 5 kg"
-    preisstufe: "bulk"
-  - artikelnummer: "OX-HE-040-SH"
-    produkt: "HydroPOx40-SH"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "4,0"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 kg
+    preis: 135 €
+    eurProG: 0,137
+    staffel: 100 g / 500 g / 1 kg / 5 kg
+    preisstufe: bulk
+  - artikelnummer: OX-HE-040-SH
+    produkt: HydroPOx40-SH
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "Thiol"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "195 €"
+    endgroup: Thiol
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 195 €
     eurProG: "195"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-040-SIL"
-    produkt: "HydroPOx40-Silan"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "4,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-040-SIL
+    produkt: HydroPOx40-Silan
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "Triethoxysilan"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "200 €"
+    endgroup: Triethoxysilan
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 200 €
     eurProG: "202"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-050-BIO"
-    produkt: "HydroPOx50-Biotin"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "5,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-050-BIO
+    produkt: HydroPOx50-Biotin
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 5,0
     pn: 50
-    endgroup: "Biotin"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "395 €"
+    endgroup: Biotin
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 395 €
     eurProG: "397"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-050-COOH"
-    produkt: "HydroPOx50-COOH"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "5,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-050-COOH
+    produkt: HydroPOx50-COOH
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 5,0
     pn: 50
-    endgroup: "Carbonsäure"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "160 €"
+    endgroup: Carbonsäure
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 160 €
     eurProG: "160"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-050-N3"
-    produkt: "HydroPOx50-N₃"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "5,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-050-N3
+    produkt: HydroPOx50-N₃
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 5,0
     pn: 50
-    endgroup: "Azid"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "175 €"
+    endgroup: Azid
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 175 €
     eurProG: "176"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-050-NH2"
-    produkt: "HydroPOx50-NH₂"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "5,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-050-NH2
+    produkt: HydroPOx50-NH₂
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 5,0
     pn: 50
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "155 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 155 €
     eurProG: "153"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-050-OH"
-    produkt: "HydroPOx50-OH"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "5,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-050-OH
+    produkt: HydroPOx50-OH
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 5,0
     pn: 50
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 kg"
-    preis: "135 €"
-    eurProG: "0,137"
-    staffel: "100 g / 500 g / 1 kg / 5 kg"
-    preisstufe: "bulk"
-  - artikelnummer: "OX-HE-050-PIP"
-    produkt: "HydroPOx50-Piperazin"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "5,0"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 kg
+    preis: 135 €
+    eurProG: 0,137
+    staffel: 100 g / 500 g / 1 kg / 5 kg
+    preisstufe: bulk
+  - artikelnummer: OX-HE-050-PIP
+    produkt: HydroPOx50-Piperazin
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 5,0
     pn: 50
-    endgroup: "Piperazin"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "170 €"
+    endgroup: Piperazin
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 170 €
     eurProG: "168"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-100-ACR"
-    produkt: "HydroPOx100-Acrylat"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "9,9"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-100-ACR
+    produkt: HydroPOx100-Acrylat
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "Acrylat"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "215 €"
+    endgroup: Acrylat
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 215 €
     eurProG: "217"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-100-ALK"
-    produkt: "HydroPOx100-Alkin"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "9,9"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-100-ALK
+    produkt: HydroPOx100-Alkin
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "Propargyl / Alkin"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "215 €"
+    endgroup: Propargyl / Alkin
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 215 €
     eurProG: "217"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-100-CHO"
-    produkt: "HydroPOx100-CHO"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "9,9"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-100-CHO
+    produkt: HydroPOx100-CHO
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "Aldehyd"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "235 €"
+    endgroup: Aldehyd
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 235 €
     eurProG: "236"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-100-COOH"
-    produkt: "HydroPOx100-COOH"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "9,9"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-100-COOH
+    produkt: HydroPOx100-COOH
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "Carbonsäure"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "190 €"
+    endgroup: Carbonsäure
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 190 €
     eurProG: "190"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-100-DBCO"
-    produkt: "HydroPOx100-DBCO"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "9,9"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-100-DBCO
+    produkt: HydroPOx100-DBCO
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "DBCO"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "580 €"
+    endgroup: DBCO
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 580 €
     eurProG: "580"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-100-MA"
-    produkt: "HydroPOx100-Methacrylat"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "9,9"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-100-MA
+    produkt: HydroPOx100-Methacrylat
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "Methacrylat"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "215 €"
+    endgroup: Methacrylat
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 215 €
     eurProG: "217"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-100-MAL"
-    produkt: "HydroPOx100-Maleimid"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "9,9"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-100-MAL
+    produkt: HydroPOx100-Maleimid
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "Maleimid"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "290 €"
+    endgroup: Maleimid
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 290 €
     eurProG: "290"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-100-N3"
-    produkt: "HydroPOx100-N₃"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "9,9"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-100-N3
+    produkt: HydroPOx100-N₃
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "Azid"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "210 €"
+    endgroup: Azid
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 210 €
     eurProG: "208"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-100-NH2"
-    produkt: "HydroPOx100-NH₂"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "9,9"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-100-NH2
+    produkt: HydroPOx100-NH₂
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "180 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 180 €
     eurProG: "181"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-100-NHS"
-    produkt: "HydroPOx100-NHS"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "9,9"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-100-NHS
+    produkt: HydroPOx100-NHS
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "NHS-Ester"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "270 €"
+    endgroup: NHS-Ester
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 270 €
     eurProG: "272"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-100-OH"
-    produkt: "HydroPOx100-OH"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "9,9"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-100-OH
+    produkt: HydroPOx100-OH
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 kg"
-    preis: "135 €"
-    eurProG: "0,137"
-    staffel: "100 g / 500 g / 1 kg / 5 kg"
-    preisstufe: "bulk"
-  - artikelnummer: "OX-HE-100-SH"
-    produkt: "HydroPOx100-SH"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "9,9"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 kg
+    preis: 135 €
+    eurProG: 0,137
+    staffel: 100 g / 500 g / 1 kg / 5 kg
+    preisstufe: bulk
+  - artikelnummer: OX-HE-100-SH
+    produkt: HydroPOx100-SH
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "Thiol"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "245 €"
+    endgroup: Thiol
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 245 €
     eurProG: "245"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-100-SIL"
-    produkt: "HydroPOx100-Silan"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "9,9"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-100-SIL
+    produkt: HydroPOx100-Silan
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "Triethoxysilan"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "255 €"
+    endgroup: Triethoxysilan
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 255 €
     eurProG: "254"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-200-COOH"
-    produkt: "HydroPOx200-COOH"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "19,8"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-200-COOH
+    produkt: HydroPOx200-COOH
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 19,8
     pn: 200
-    endgroup: "Carbonsäure"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "225 €"
+    endgroup: Carbonsäure
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 225 €
     eurProG: "226"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-200-N3"
-    produkt: "HydroPOx200-N₃"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "19,8"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-200-N3
+    produkt: HydroPOx200-N₃
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 19,8
     pn: 200
-    endgroup: "Azid"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "250 €"
+    endgroup: Azid
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 250 €
     eurProG: "248"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-200-NH2"
-    produkt: "HydroPOx200-NH₂"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "19,8"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-200-NH2
+    produkt: HydroPOx200-NH₂
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 19,8
     pn: 200
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "215 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 215 €
     eurProG: "215"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HE-200-OH"
-    produkt: "HydroPOx200-OH"
-    serie: "HydroPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "19,8"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HE-200-OH
+    produkt: HydroPOx200-OH
+    serie: HydroPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 19,8
     pn: 200
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 kg"
-    preis: "135 €"
-    eurProG: "0,137"
-    staffel: "100 g / 500 g / 1 kg / 5 kg"
-    preisstufe: "bulk"
-  - artikelnummer: "OX-HM-012-OH"
-    produkt: "HydroPOx M12-OH"
-    serie: "HydroPOx M"
-    rueckgrat: "Poly(2-methyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "1,0"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 kg
+    preis: 135 €
+    eurProG: 0,137
+    staffel: 100 g / 500 g / 1 kg / 5 kg
+    preisstufe: bulk
+  - artikelnummer: OX-HM-012-OH
+    produkt: HydroPOx M12-OH
+    serie: HydroPOx M
+    rueckgrat: Poly(2-methyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 1,0
     pn: 12
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 kg"
-    preis: "145 €"
-    eurProG: "0,144"
-    staffel: "100 g / 500 g / 1 kg / 5 kg"
-    preisstufe: "bulk"
-  - artikelnummer: "OX-HM-024-COOH"
-    produkt: "HydroPOx M24-COOH"
-    serie: "HydroPOx M"
-    rueckgrat: "Poly(2-methyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 kg
+    preis: 145 €
+    eurProG: 0,144
+    staffel: 100 g / 500 g / 1 kg / 5 kg
+    preisstufe: bulk
+  - artikelnummer: OX-HM-024-COOH
+    produkt: HydroPOx M24-COOH
+    serie: HydroPOx M
+    rueckgrat: Poly(2-methyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 24
-    endgroup: "Carbonsäure"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "135 €"
+    endgroup: Carbonsäure
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 135 €
     eurProG: "134"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HM-024-MAL"
-    produkt: "HydroPOx M24-Maleimid"
-    serie: "HydroPOx M"
-    rueckgrat: "Poly(2-methyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HM-024-MAL
+    produkt: HydroPOx M24-Maleimid
+    serie: HydroPOx M
+    rueckgrat: Poly(2-methyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 24
-    endgroup: "Maleimid"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "205 €"
+    endgroup: Maleimid
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 205 €
     eurProG: "204"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HM-024-N3"
-    produkt: "HydroPOx M24-N₃"
-    serie: "HydroPOx M"
-    rueckgrat: "Poly(2-methyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HM-024-N3
+    produkt: HydroPOx M24-N₃
+    serie: HydroPOx M
+    rueckgrat: Poly(2-methyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 24
-    endgroup: "Azid"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "145 €"
+    endgroup: Azid
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 145 €
     eurProG: "147"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HM-024-NH2"
-    produkt: "HydroPOx M24-NH₂"
-    serie: "HydroPOx M"
-    rueckgrat: "Poly(2-methyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HM-024-NH2
+    produkt: HydroPOx M24-NH₂
+    serie: HydroPOx M
+    rueckgrat: Poly(2-methyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 24
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "130 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 130 €
     eurProG: "128"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HM-024-OH"
-    produkt: "HydroPOx M24-OH"
-    serie: "HydroPOx M"
-    rueckgrat: "Poly(2-methyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HM-024-OH
+    produkt: HydroPOx M24-OH
+    serie: HydroPOx M
+    rueckgrat: Poly(2-methyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 2,0
     pn: 24
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 kg"
-    preis: "145 €"
-    eurProG: "0,144"
-    staffel: "100 g / 500 g / 1 kg / 5 kg"
-    preisstufe: "bulk"
-  - artikelnummer: "OX-HM-059-COOH"
-    produkt: "HydroPOx M59-COOH"
-    serie: "HydroPOx M"
-    rueckgrat: "Poly(2-methyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "5,0"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 kg
+    preis: 145 €
+    eurProG: 0,144
+    staffel: 100 g / 500 g / 1 kg / 5 kg
+    preisstufe: bulk
+  - artikelnummer: OX-HM-059-COOH
+    produkt: HydroPOx M59-COOH
+    serie: HydroPOx M
+    rueckgrat: Poly(2-methyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 5,0
     pn: 59
-    endgroup: "Carbonsäure"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "170 €"
+    endgroup: Carbonsäure
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 170 €
     eurProG: "168"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HM-059-MAL"
-    produkt: "HydroPOx M59-Maleimid"
-    serie: "HydroPOx M"
-    rueckgrat: "Poly(2-methyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "5,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HM-059-MAL
+    produkt: HydroPOx M59-Maleimid
+    serie: HydroPOx M
+    rueckgrat: Poly(2-methyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 5,0
     pn: 59
-    endgroup: "Maleimid"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "255 €"
+    endgroup: Maleimid
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 255 €
     eurProG: "257"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HM-059-N3"
-    produkt: "HydroPOx M59-N₃"
-    serie: "HydroPOx M"
-    rueckgrat: "Poly(2-methyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "5,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HM-059-N3
+    produkt: HydroPOx M59-N₃
+    serie: HydroPOx M
+    rueckgrat: Poly(2-methyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 5,0
     pn: 59
-    endgroup: "Azid"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "185 €"
+    endgroup: Azid
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 185 €
     eurProG: "184"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HM-059-NH2"
-    produkt: "HydroPOx M59-NH₂"
-    serie: "HydroPOx M"
-    rueckgrat: "Poly(2-methyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "5,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HM-059-NH2
+    produkt: HydroPOx M59-NH₂
+    serie: HydroPOx M
+    rueckgrat: Poly(2-methyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 5,0
     pn: 59
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "160 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 160 €
     eurProG: "160"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HM-059-OH"
-    produkt: "HydroPOx M59-OH"
-    serie: "HydroPOx M"
-    rueckgrat: "Poly(2-methyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "5,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HM-059-OH
+    produkt: HydroPOx M59-OH
+    serie: HydroPOx M
+    rueckgrat: Poly(2-methyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 5,0
     pn: 59
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 kg"
-    preis: "145 €"
-    eurProG: "0,144"
-    staffel: "100 g / 500 g / 1 kg / 5 kg"
-    preisstufe: "bulk"
-  - artikelnummer: "OX-HM-118-COOH"
-    produkt: "HydroPOx M118-COOH"
-    serie: "HydroPOx M"
-    rueckgrat: "Poly(2-methyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "10,0"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 kg
+    preis: 145 €
+    eurProG: 0,144
+    staffel: 100 g / 500 g / 1 kg / 5 kg
+    preisstufe: bulk
+  - artikelnummer: OX-HM-118-COOH
+    produkt: HydroPOx M118-COOH
+    serie: HydroPOx M
+    rueckgrat: Poly(2-methyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 10,0
     pn: 118
-    endgroup: "Carbonsäure"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "200 €"
+    endgroup: Carbonsäure
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 200 €
     eurProG: "200"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HM-118-MAL"
-    produkt: "HydroPOx M118-Maleimid"
-    serie: "HydroPOx M"
-    rueckgrat: "Poly(2-methyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "10,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HM-118-MAL
+    produkt: HydroPOx M118-Maleimid
+    serie: HydroPOx M
+    rueckgrat: Poly(2-methyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 10,0
     pn: 118
-    endgroup: "Maleimid"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "305 €"
+    endgroup: Maleimid
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 305 €
     eurProG: "305"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HM-118-N3"
-    produkt: "HydroPOx M118-N₃"
-    serie: "HydroPOx M"
-    rueckgrat: "Poly(2-methyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "10,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HM-118-N3
+    produkt: HydroPOx M118-N₃
+    serie: HydroPOx M
+    rueckgrat: Poly(2-methyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 10,0
     pn: 118
-    endgroup: "Azid"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "220 €"
+    endgroup: Azid
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 220 €
     eurProG: "219"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HM-118-NH2"
-    produkt: "HydroPOx M118-NH₂"
-    serie: "HydroPOx M"
-    rueckgrat: "Poly(2-methyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "10,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HM-118-NH2
+    produkt: HydroPOx M118-NH₂
+    serie: HydroPOx M
+    rueckgrat: Poly(2-methyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 10,0
     pn: 118
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 g"
-    preis: "190 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 g
+    preis: 190 €
     eurProG: "191"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-HM-118-OH"
-    produkt: "HydroPOx M118-OH"
-    serie: "HydroPOx M"
-    rueckgrat: "Poly(2-methyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "10,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-HM-118-OH
+    produkt: HydroPOx M118-OH
+    serie: HydroPOx M
+    rueckgrat: Poly(2-methyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 10,0
     pn: 118
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 kg"
-    preis: "145 €"
-    eurProG: "0,144"
-    staffel: "100 g / 500 g / 1 kg / 5 kg"
-    preisstufe: "bulk"
-  - artikelnummer: "OX-HM-235-OH"
-    produkt: "HydroPOx M235-OH"
-    serie: "HydroPOx M"
-    rueckgrat: "Poly(2-methyl-2-oxazolin)"
-    architektur: "monofunktionell"
-    mnKgMol: "20,0"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 kg
+    preis: 145 €
+    eurProG: 0,144
+    staffel: 100 g / 500 g / 1 kg / 5 kg
+    preisstufe: bulk
+  - artikelnummer: OX-HM-235-OH
+    produkt: HydroPOx M235-OH
+    serie: HydroPOx M
+    rueckgrat: Poly(2-methyl-2-oxazolin)
+    architektur: monofunktionell
+    mnKgMol: 20,0
     pn: 235
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,15"
-    liefermenge: "1 g – 10 kg"
-    referenzeinheit: "1 kg"
-    preis: "145 €"
-    eurProG: "0,144"
-    staffel: "100 g / 500 g / 1 kg / 5 kg"
-    preisstufe: "bulk"
-  - artikelnummer: "OX-DE-020-ACR"
-    produkt: "DuoPOx20-Acrylat₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "2,0"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,15
+    liefermenge: 1 g – 10 kg
+    referenzeinheit: 1 kg
+    preis: 145 €
+    eurProG: 0,144
+    staffel: 100 g / 500 g / 1 kg / 5 kg
+    preisstufe: bulk
+  - artikelnummer: OX-DE-020-ACR
+    produkt: DuoPOx20-Acrylat₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Acrylat"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "250 €"
+    endgroup: Acrylat
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 250 €
     eurProG: "248"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-020-COOH"
-    produkt: "DuoPOx20-COOH₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-020-COOH
+    produkt: DuoPOx20-COOH₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Carbonsäure"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "215 €"
+    endgroup: Carbonsäure
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 215 €
     eurProG: "217"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-020-MAL"
-    produkt: "DuoPOx20-Maleimid₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-020-MAL
+    produkt: DuoPOx20-Maleimid₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Maleimid"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "330 €"
+    endgroup: Maleimid
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 330 €
     eurProG: "330"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-020-N3"
-    produkt: "DuoPOx20-N₃₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-020-N3
+    produkt: DuoPOx20-N₃₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Azid"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "235 €"
+    endgroup: Azid
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 235 €
     eurProG: "237"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-020-NH2"
-    produkt: "DuoPOx20-NH₂₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-020-NH2
+    produkt: DuoPOx20-NH₂₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "205 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 205 €
     eurProG: "206"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-020-OH"
-    produkt: "DuoPOx20-OH₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "2,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-020-OH
+    produkt: DuoPOx20-OH₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 2,0
     pn: 20
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 kg"
-    preis: "235 €"
-    eurProG: "0,233"
-    staffel: "100 g / 500 g / 1 kg / 5 kg"
-    preisstufe: "bulk"
-  - artikelnummer: "OX-DE-040-ACR"
-    produkt: "DuoPOx40-Acrylat₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "4,0"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 kg
+    preis: 235 €
+    eurProG: 0,233
+    staffel: 100 g / 500 g / 1 kg / 5 kg
+    preisstufe: bulk
+  - artikelnummer: OX-DE-040-ACR
+    produkt: DuoPOx40-Acrylat₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "Acrylat"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "295 €"
+    endgroup: Acrylat
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 295 €
     eurProG: "295"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-040-COOH"
-    produkt: "DuoPOx40-COOH₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "4,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-040-COOH
+    produkt: DuoPOx40-COOH₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "Carbonsäure"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "260 €"
+    endgroup: Carbonsäure
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 260 €
     eurProG: "258"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-040-MAL"
-    produkt: "DuoPOx40-Maleimid₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "4,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-040-MAL
+    produkt: DuoPOx40-Maleimid₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "Maleimid"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "395 €"
+    endgroup: Maleimid
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 395 €
     eurProG: "393"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-040-N3"
-    produkt: "DuoPOx40-N₃₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "4,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-040-N3
+    produkt: DuoPOx40-N₃₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "Azid"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "280 €"
+    endgroup: Azid
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 280 €
     eurProG: "282"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-040-NH2"
-    produkt: "DuoPOx40-NH₂₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "4,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-040-NH2
+    produkt: DuoPOx40-NH₂₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "245 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 245 €
     eurProG: "246"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-040-OH"
-    produkt: "DuoPOx40-OH₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "4,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-040-OH
+    produkt: DuoPOx40-OH₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 4,0
     pn: 40
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 kg"
-    preis: "235 €"
-    eurProG: "0,233"
-    staffel: "100 g / 500 g / 1 kg / 5 kg"
-    preisstufe: "bulk"
-  - artikelnummer: "OX-DE-100-ACR"
-    produkt: "DuoPOx100-Acrylat₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "9,9"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 kg
+    preis: 235 €
+    eurProG: 0,233
+    staffel: 100 g / 500 g / 1 kg / 5 kg
+    preisstufe: bulk
+  - artikelnummer: OX-DE-100-ACR
+    produkt: DuoPOx100-Acrylat₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "Acrylat"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "370 €"
+    endgroup: Acrylat
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 370 €
     eurProG: "370"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-100-COOH"
-    produkt: "DuoPOx100-COOH₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "9,9"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-100-COOH
+    produkt: DuoPOx100-COOH₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "Carbonsäure"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "325 €"
+    endgroup: Carbonsäure
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 325 €
     eurProG: "323"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-100-MAL"
-    produkt: "DuoPOx100-Maleimid₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "9,9"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-100-MAL
+    produkt: DuoPOx100-Maleimid₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "Maleimid"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "495 €"
+    endgroup: Maleimid
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 495 €
     eurProG: "493"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-100-N3"
-    produkt: "DuoPOx100-N₃₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "9,9"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-100-N3
+    produkt: DuoPOx100-N₃₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "Azid"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "355 €"
+    endgroup: Azid
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 355 €
     eurProG: "354"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-100-NH2"
-    produkt: "DuoPOx100-NH₂₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "9,9"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-100-NH2
+    produkt: DuoPOx100-NH₂₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "310 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 310 €
     eurProG: "308"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-100-OH"
-    produkt: "DuoPOx100-OH₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "9,9"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-100-OH
+    produkt: DuoPOx100-OH₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 9,9
     pn: 100
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 kg"
-    preis: "235 €"
-    eurProG: "0,233"
-    staffel: "100 g / 500 g / 1 kg / 5 kg"
-    preisstufe: "bulk"
-  - artikelnummer: "OX-DE-200-ACR"
-    produkt: "DuoPOx200-Acrylat₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "19,8"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 kg
+    preis: 235 €
+    eurProG: 0,233
+    staffel: 100 g / 500 g / 1 kg / 5 kg
+    preisstufe: bulk
+  - artikelnummer: OX-DE-200-ACR
+    produkt: DuoPOx200-Acrylat₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 19,8
     pn: 200
-    endgroup: "Acrylat"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "440 €"
+    endgroup: Acrylat
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 440 €
     eurProG: "439"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-200-COOH"
-    produkt: "DuoPOx200-COOH₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "19,8"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-200-COOH
+    produkt: DuoPOx200-COOH₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 19,8
     pn: 200
-    endgroup: "Carbonsäure"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "385 €"
+    endgroup: Carbonsäure
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 385 €
     eurProG: "385"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-200-MAL"
-    produkt: "DuoPOx200-Maleimid₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "19,8"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-200-MAL
+    produkt: DuoPOx200-Maleimid₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 19,8
     pn: 200
-    endgroup: "Maleimid"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "585 €"
+    endgroup: Maleimid
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 585 €
     eurProG: "586"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-200-N3"
-    produkt: "DuoPOx200-N₃₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "19,8"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-200-N3
+    produkt: DuoPOx200-N₃₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 19,8
     pn: 200
-    endgroup: "Azid"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "420 €"
+    endgroup: Azid
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 420 €
     eurProG: "421"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-200-NH2"
-    produkt: "DuoPOx200-NH₂₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "19,8"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-200-NH2
+    produkt: DuoPOx200-NH₂₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 19,8
     pn: 200
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 g"
-    preis: "365 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 g
+    preis: 365 €
     eurProG: "366"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-DE-200-OH"
-    produkt: "DuoPOx200-OH₂"
-    serie: "DuoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "telechelisch (α,ω)"
-    mnKgMol: "19,8"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-DE-200-OH
+    produkt: DuoPOx200-OH₂
+    serie: DuoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: telechelisch (α,ω)
+    mnKgMol: 19,8
     pn: 200
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "1 g – 5 kg"
-    referenzeinheit: "1 kg"
-    preis: "235 €"
-    eurProG: "0,233"
-    staffel: "100 g / 500 g / 1 kg / 5 kg"
-    preisstufe: "bulk"
-  - artikelnummer: "OX-S4-005k-ACR"
-    produkt: "StarPOx4-5k-Acrylat"
-    serie: "StarPOx 4"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "4-arm Stern"
-    mnKgMol: "5,0"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,20
+    liefermenge: 1 g – 5 kg
+    referenzeinheit: 1 kg
+    preis: 235 €
+    eurProG: 0,233
+    staffel: 100 g / 500 g / 1 kg / 5 kg
+    preisstufe: bulk
+  - artikelnummer: OX-S4-005k-ACR
+    produkt: StarPOx4-5k-Acrylat
+    serie: StarPOx 4
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: 4-arm Stern
+    mnKgMol: 5,0
     pn: 13
-    endgroup: "Acrylat"
-    dispersitaet: "≤ 1,25"
-    liefermenge: "1 g – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "440 €"
+    endgroup: Acrylat
+    dispersitaet: ≤ 1,25
+    liefermenge: 1 g – 1 kg
+    referenzeinheit: 1 g
+    preis: 440 €
     eurProG: "440"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-S4-005k-NH2"
-    produkt: "StarPOx4-5k-NH₂"
-    serie: "StarPOx 4"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "4-arm Stern"
-    mnKgMol: "5,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-S4-005k-NH2
+    produkt: StarPOx4-5k-NH₂
+    serie: StarPOx 4
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: 4-arm Stern
+    mnKgMol: 5,0
     pn: 13
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,25"
-    liefermenge: "1 g – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "365 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,25
+    liefermenge: 1 g – 1 kg
+    referenzeinheit: 1 g
+    preis: 365 €
     eurProG: "367"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-S4-005k-OH"
-    produkt: "StarPOx4-5k-OH"
-    serie: "StarPOx 4"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "4-arm Stern"
-    mnKgMol: "5,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-S4-005k-OH
+    produkt: StarPOx4-5k-OH
+    serie: StarPOx 4
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: 4-arm Stern
+    mnKgMol: 5,0
     pn: 13
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,25"
-    liefermenge: "1 g – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "365 €"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,25
+    liefermenge: 1 g – 1 kg
+    referenzeinheit: 1 g
+    preis: 365 €
     eurProG: "367"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-S4-010k-ACR"
-    produkt: "StarPOx4-10k-Acrylat"
-    serie: "StarPOx 4"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "4-arm Stern"
-    mnKgMol: "10,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-S4-010k-ACR
+    produkt: StarPOx4-10k-Acrylat
+    serie: StarPOx 4
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: 4-arm Stern
+    mnKgMol: 10,0
     pn: 25
-    endgroup: "Acrylat"
-    dispersitaet: "≤ 1,25"
-    liefermenge: "1 g – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "525 €"
+    endgroup: Acrylat
+    dispersitaet: ≤ 1,25
+    liefermenge: 1 g – 1 kg
+    referenzeinheit: 1 g
+    preis: 525 €
     eurProG: "523"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-S4-010k-NH2"
-    produkt: "StarPOx4-10k-NH₂"
-    serie: "StarPOx 4"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "4-arm Stern"
-    mnKgMol: "10,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-S4-010k-NH2
+    produkt: StarPOx4-10k-NH₂
+    serie: StarPOx 4
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: 4-arm Stern
+    mnKgMol: 10,0
     pn: 25
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,25"
-    liefermenge: "1 g – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "435 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,25
+    liefermenge: 1 g – 1 kg
+    referenzeinheit: 1 g
+    preis: 435 €
     eurProG: "436"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-S4-010k-OH"
-    produkt: "StarPOx4-10k-OH"
-    serie: "StarPOx 4"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "4-arm Stern"
-    mnKgMol: "10,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-S4-010k-OH
+    produkt: StarPOx4-10k-OH
+    serie: StarPOx 4
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: 4-arm Stern
+    mnKgMol: 10,0
     pn: 25
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,25"
-    liefermenge: "1 g – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "435 €"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,25
+    liefermenge: 1 g – 1 kg
+    referenzeinheit: 1 g
+    preis: 435 €
     eurProG: "436"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-S4-020k-ACR"
-    produkt: "StarPOx4-20k-Acrylat"
-    serie: "StarPOx 4"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "4-arm Stern"
-    mnKgMol: "20,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-S4-020k-ACR
+    produkt: StarPOx4-20k-Acrylat
+    serie: StarPOx 4
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: 4-arm Stern
+    mnKgMol: 20,0
     pn: 50
-    endgroup: "Acrylat"
-    dispersitaet: "≤ 1,25"
-    liefermenge: "1 g – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "620 €"
+    endgroup: Acrylat
+    dispersitaet: ≤ 1,25
+    liefermenge: 1 g – 1 kg
+    referenzeinheit: 1 g
+    preis: 620 €
     eurProG: "622"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-S4-020k-NH2"
-    produkt: "StarPOx4-20k-NH₂"
-    serie: "StarPOx 4"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "4-arm Stern"
-    mnKgMol: "20,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-S4-020k-NH2
+    produkt: StarPOx4-20k-NH₂
+    serie: StarPOx 4
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: 4-arm Stern
+    mnKgMol: 20,0
     pn: 50
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,25"
-    liefermenge: "1 g – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "520 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,25
+    liefermenge: 1 g – 1 kg
+    referenzeinheit: 1 g
+    preis: 520 €
     eurProG: "518"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-S4-020k-OH"
-    produkt: "StarPOx4-20k-OH"
-    serie: "StarPOx 4"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "4-arm Stern"
-    mnKgMol: "20,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-S4-020k-OH
+    produkt: StarPOx4-20k-OH
+    serie: StarPOx 4
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: 4-arm Stern
+    mnKgMol: 20,0
     pn: 50
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,25"
-    liefermenge: "1 g – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "520 €"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,25
+    liefermenge: 1 g – 1 kg
+    referenzeinheit: 1 g
+    preis: 520 €
     eurProG: "518"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-S3-005k-NH2"
-    produkt: "StarPOx3-5k-NH₂"
-    serie: "StarPOx 3"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "3-arm Stern"
-    mnKgMol: "5,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-S3-005k-NH2
+    produkt: StarPOx3-5k-NH₂
+    serie: StarPOx 3
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: 3-arm Stern
+    mnKgMol: 5,0
     pn: 17
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,25"
-    liefermenge: "1 g – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "335 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,25
+    liefermenge: 1 g – 1 kg
+    referenzeinheit: 1 g
+    preis: 335 €
     eurProG: "336"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-S3-005k-OH"
-    produkt: "StarPOx3-5k-OH"
-    serie: "StarPOx 3"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "3-arm Stern"
-    mnKgMol: "5,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-S3-005k-OH
+    produkt: StarPOx3-5k-OH
+    serie: StarPOx 3
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: 3-arm Stern
+    mnKgMol: 5,0
     pn: 17
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,25"
-    liefermenge: "1 g – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "335 €"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,25
+    liefermenge: 1 g – 1 kg
+    referenzeinheit: 1 g
+    preis: 335 €
     eurProG: "336"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-S3-010k-NH2"
-    produkt: "StarPOx3-10k-NH₂"
-    serie: "StarPOx 3"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "3-arm Stern"
-    mnKgMol: "10,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-S3-010k-NH2
+    produkt: StarPOx3-10k-NH₂
+    serie: StarPOx 3
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: 3-arm Stern
+    mnKgMol: 10,0
     pn: 34
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,25"
-    liefermenge: "1 g – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "400 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,25
+    liefermenge: 1 g – 1 kg
+    referenzeinheit: 1 g
+    preis: 400 €
     eurProG: "400"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-S3-010k-OH"
-    produkt: "StarPOx3-10k-OH"
-    serie: "StarPOx 3"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "3-arm Stern"
-    mnKgMol: "10,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-S3-010k-OH
+    produkt: StarPOx3-10k-OH
+    serie: StarPOx 3
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: 3-arm Stern
+    mnKgMol: 10,0
     pn: 34
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,25"
-    liefermenge: "1 g – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "400 €"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,25
+    liefermenge: 1 g – 1 kg
+    referenzeinheit: 1 g
+    preis: 400 €
     eurProG: "400"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-AP-030020-OH"
-    produkt: "AmphiPOx30-20-30"
-    serie: "AmphiPOx"
-    rueckgrat: "PMeOx-b-PBuOx-b-PMeOx"
-    architektur: "Triblock, amphiphil"
-    mnKgMol: "7,7"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-AP-030020-OH
+    produkt: AmphiPOx30-20-30
+    serie: AmphiPOx
+    rueckgrat: PMeOx-b-PBuOx-b-PMeOx
+    architektur: Triblock, amphiphil
+    mnKgMol: 7,7
     pn: 80
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,25"
-    liefermenge: "500 mg – 500 g"
-    referenzeinheit: "1 g"
-    preis: "545 €"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,25
+    liefermenge: 500 mg – 500 g
+    referenzeinheit: 1 g
+    preis: 545 €
     eurProG: "544"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-AP-037021-OH"
-    produkt: "AmphiPOx37-21-37"
-    serie: "AmphiPOx"
-    rueckgrat: "PMeOx-b-PBuOx-b-PMeOx"
-    architektur: "Triblock, amphiphil"
-    mnKgMol: "9,0"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-AP-037021-OH
+    produkt: AmphiPOx37-21-37
+    serie: AmphiPOx
+    rueckgrat: PMeOx-b-PBuOx-b-PMeOx
+    architektur: Triblock, amphiphil
+    mnKgMol: 9,0
     pn: 95
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,25"
-    liefermenge: "500 mg – 500 g"
-    referenzeinheit: "1 g"
-    preis: "565 €"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,25
+    liefermenge: 500 mg – 500 g
+    referenzeinheit: 1 g
+    preis: 565 €
     eurProG: "566"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-AP-050010-OH"
-    produkt: "AmphiPOx50-10-50"
-    serie: "AmphiPOx"
-    rueckgrat: "PMeOx-b-PBuOx-b-PMeOx"
-    architektur: "Triblock, amphiphil"
-    mnKgMol: "9,8"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-AP-050010-OH
+    produkt: AmphiPOx50-10-50
+    serie: AmphiPOx
+    rueckgrat: PMeOx-b-PBuOx-b-PMeOx
+    architektur: Triblock, amphiphil
+    mnKgMol: 9,8
     pn: 110
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,25"
-    liefermenge: "500 mg – 500 g"
-    referenzeinheit: "1 g"
-    preis: "580 €"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,25
+    liefermenge: 500 mg – 500 g
+    referenzeinheit: 1 g
+    preis: 580 €
     eurProG: "578"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-AP-050020-OH"
-    produkt: "AmphiPOx50-20-50"
-    serie: "AmphiPOx"
-    rueckgrat: "PMeOx-b-PBuOx-b-PMeOx"
-    architektur: "Triblock, amphiphil"
-    mnKgMol: "11,1"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-AP-050020-OH
+    produkt: AmphiPOx50-20-50
+    serie: AmphiPOx
+    rueckgrat: PMeOx-b-PBuOx-b-PMeOx
+    architektur: Triblock, amphiphil
+    mnKgMol: 11,1
     pn: 120
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,25"
-    liefermenge: "500 mg – 500 g"
-    referenzeinheit: "1 g"
-    preis: "595 €"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,25
+    liefermenge: 500 mg – 500 g
+    referenzeinheit: 1 g
+    preis: 595 €
     eurProG: "597"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-LP-020-OH"
-    produkt: "LipoPOx20"
-    serie: "LipoPOx"
-    rueckgrat: "DSPE-Poly(2-ethyl-2-oxazolin)"
-    architektur: "Lipid-Konjugat"
-    mnKgMol: "2,7"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-LP-020-OH
+    produkt: LipoPOx20
+    serie: LipoPOx
+    rueckgrat: DSPE-Poly(2-ethyl-2-oxazolin)
+    architektur: Lipid-Konjugat
+    mnKgMol: 2,7
     pn: 20
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "250 mg – 100 g"
-    referenzeinheit: "1 g"
-    preis: "590 €"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,20
+    liefermenge: 250 mg – 100 g
+    referenzeinheit: 1 g
+    preis: 590 €
     eurProG: "589"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-LP-040-OH"
-    produkt: "LipoPOx40"
-    serie: "LipoPOx"
-    rueckgrat: "DSPE-Poly(2-ethyl-2-oxazolin)"
-    architektur: "Lipid-Konjugat"
-    mnKgMol: "4,7"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-LP-040-OH
+    produkt: LipoPOx40
+    serie: LipoPOx
+    rueckgrat: DSPE-Poly(2-ethyl-2-oxazolin)
+    architektur: Lipid-Konjugat
+    mnKgMol: 4,7
     pn: 40
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "250 mg – 100 g"
-    referenzeinheit: "1 g"
-    preis: "675 €"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,20
+    liefermenge: 250 mg – 100 g
+    referenzeinheit: 1 g
+    preis: 675 €
     eurProG: "677"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-LP-100-OH"
-    produkt: "LipoPOx100"
-    serie: "LipoPOx"
-    rueckgrat: "DSPE-Poly(2-ethyl-2-oxazolin)"
-    architektur: "Lipid-Konjugat"
-    mnKgMol: "10,7"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-LP-100-OH
+    produkt: LipoPOx100
+    serie: LipoPOx
+    rueckgrat: DSPE-Poly(2-ethyl-2-oxazolin)
+    architektur: Lipid-Konjugat
+    mnKgMol: 10,7
     pn: 100
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,20"
-    liefermenge: "250 mg – 100 g"
-    referenzeinheit: "1 g"
-    preis: "830 €"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,20
+    liefermenge: 250 mg – 100 g
+    referenzeinheit: 1 g
+    preis: 830 €
     eurProG: "831"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-OE-005-ALK"
-    produkt: "OligoPOx5-Alkin"
-    serie: "OligoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "definierte Kettenlänge"
-    mnKgMol: "0,5"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-OE-005-ALK
+    produkt: OligoPOx5-Alkin
+    serie: OligoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: definierte Kettenlänge
+    mnKgMol: 0,5
     pn: 5
-    endgroup: "Propargyl / Alkin"
-    dispersitaet: "≤ 1,10"
-    liefermenge: "500 mg – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "195 €"
+    endgroup: Propargyl / Alkin
+    dispersitaet: ≤ 1,10
+    liefermenge: 500 mg – 1 kg
+    referenzeinheit: 1 g
+    preis: 195 €
     eurProG: "196"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-OE-005-COOH"
-    produkt: "OligoPOx5-COOH"
-    serie: "OligoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "definierte Kettenlänge"
-    mnKgMol: "0,5"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-OE-005-COOH
+    produkt: OligoPOx5-COOH
+    serie: OligoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: definierte Kettenlänge
+    mnKgMol: 0,5
     pn: 5
-    endgroup: "Carbonsäure"
-    dispersitaet: "≤ 1,10"
-    liefermenge: "500 mg – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "170 €"
+    endgroup: Carbonsäure
+    dispersitaet: ≤ 1,10
+    liefermenge: 500 mg – 1 kg
+    referenzeinheit: 1 g
+    preis: 170 €
     eurProG: "171"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-OE-005-N3"
-    produkt: "OligoPOx5-N₃"
-    serie: "OligoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "definierte Kettenlänge"
-    mnKgMol: "0,5"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-OE-005-N3
+    produkt: OligoPOx5-N₃
+    serie: OligoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: definierte Kettenlänge
+    mnKgMol: 0,5
     pn: 5
-    endgroup: "Azid"
-    dispersitaet: "≤ 1,10"
-    liefermenge: "500 mg – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "190 €"
+    endgroup: Azid
+    dispersitaet: ≤ 1,10
+    liefermenge: 500 mg – 1 kg
+    referenzeinheit: 1 g
+    preis: 190 €
     eurProG: "188"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-OE-005-NH2"
-    produkt: "OligoPOx5-NH₂"
-    serie: "OligoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "definierte Kettenlänge"
-    mnKgMol: "0,5"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-OE-005-NH2
+    produkt: OligoPOx5-NH₂
+    serie: OligoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: definierte Kettenlänge
+    mnKgMol: 0,5
     pn: 5
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,10"
-    liefermenge: "500 mg – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "165 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,10
+    liefermenge: 500 mg – 1 kg
+    referenzeinheit: 1 g
+    preis: 165 €
     eurProG: "163"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-OE-005-OH"
-    produkt: "OligoPOx5-OH"
-    serie: "OligoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "definierte Kettenlänge"
-    mnKgMol: "0,5"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-OE-005-OH
+    produkt: OligoPOx5-OH
+    serie: OligoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: definierte Kettenlänge
+    mnKgMol: 0,5
     pn: 5
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,10"
-    liefermenge: "500 mg – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "165 €"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,10
+    liefermenge: 500 mg – 1 kg
+    referenzeinheit: 1 g
+    preis: 165 €
     eurProG: "163"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-OE-008-ALK"
-    produkt: "OligoPOx8-Alkin"
-    serie: "OligoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "definierte Kettenlänge"
-    mnKgMol: "0,8"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-OE-008-ALK
+    produkt: OligoPOx8-Alkin
+    serie: OligoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: definierte Kettenlänge
+    mnKgMol: 0,8
     pn: 8
-    endgroup: "Propargyl / Alkin"
-    dispersitaet: "≤ 1,10"
-    liefermenge: "500 mg – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "220 €"
+    endgroup: Propargyl / Alkin
+    dispersitaet: ≤ 1,10
+    liefermenge: 500 mg – 1 kg
+    referenzeinheit: 1 g
+    preis: 220 €
     eurProG: "220"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-OE-008-COOH"
-    produkt: "OligoPOx8-COOH"
-    serie: "OligoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "definierte Kettenlänge"
-    mnKgMol: "0,8"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-OE-008-COOH
+    produkt: OligoPOx8-COOH
+    serie: OligoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: definierte Kettenlänge
+    mnKgMol: 0,8
     pn: 8
-    endgroup: "Carbonsäure"
-    dispersitaet: "≤ 1,10"
-    liefermenge: "500 mg – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "195 €"
+    endgroup: Carbonsäure
+    dispersitaet: ≤ 1,10
+    liefermenge: 500 mg – 1 kg
+    referenzeinheit: 1 g
+    preis: 195 €
     eurProG: "193"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-OE-008-N3"
-    produkt: "OligoPOx8-N₃"
-    serie: "OligoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "definierte Kettenlänge"
-    mnKgMol: "0,8"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-OE-008-N3
+    produkt: OligoPOx8-N₃
+    serie: OligoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: definierte Kettenlänge
+    mnKgMol: 0,8
     pn: 8
-    endgroup: "Azid"
-    dispersitaet: "≤ 1,10"
-    liefermenge: "500 mg – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "210 €"
+    endgroup: Azid
+    dispersitaet: ≤ 1,10
+    liefermenge: 500 mg – 1 kg
+    referenzeinheit: 1 g
+    preis: 210 €
     eurProG: "211"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-OE-008-NH2"
-    produkt: "OligoPOx8-NH₂"
-    serie: "OligoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "definierte Kettenlänge"
-    mnKgMol: "0,8"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-OE-008-NH2
+    produkt: OligoPOx8-NH₂
+    serie: OligoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: definierte Kettenlänge
+    mnKgMol: 0,8
     pn: 8
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,10"
-    liefermenge: "500 mg – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "185 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,10
+    liefermenge: 500 mg – 1 kg
+    referenzeinheit: 1 g
+    preis: 185 €
     eurProG: "184"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-OE-008-OH"
-    produkt: "OligoPOx8-OH"
-    serie: "OligoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "definierte Kettenlänge"
-    mnKgMol: "0,8"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-OE-008-OH
+    produkt: OligoPOx8-OH
+    serie: OligoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: definierte Kettenlänge
+    mnKgMol: 0,8
     pn: 8
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,10"
-    liefermenge: "500 mg – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "185 €"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,10
+    liefermenge: 500 mg – 1 kg
+    referenzeinheit: 1 g
+    preis: 185 €
     eurProG: "184"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-OE-012-ALK"
-    produkt: "OligoPOx12-Alkin"
-    serie: "OligoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "definierte Kettenlänge"
-    mnKgMol: "1,2"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-OE-012-ALK
+    produkt: OligoPOx12-Alkin
+    serie: OligoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: definierte Kettenlänge
+    mnKgMol: 1,2
     pn: 12
-    endgroup: "Propargyl / Alkin"
-    dispersitaet: "≤ 1,10"
-    liefermenge: "500 mg – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "245 €"
+    endgroup: Propargyl / Alkin
+    dispersitaet: ≤ 1,10
+    liefermenge: 500 mg – 1 kg
+    referenzeinheit: 1 g
+    preis: 245 €
     eurProG: "244"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-OE-012-COOH"
-    produkt: "OligoPOx12-COOH"
-    serie: "OligoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "definierte Kettenlänge"
-    mnKgMol: "1,2"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-OE-012-COOH
+    produkt: OligoPOx12-COOH
+    serie: OligoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: definierte Kettenlänge
+    mnKgMol: 1,2
     pn: 12
-    endgroup: "Carbonsäure"
-    dispersitaet: "≤ 1,10"
-    liefermenge: "500 mg – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "215 €"
+    endgroup: Carbonsäure
+    dispersitaet: ≤ 1,10
+    liefermenge: 500 mg – 1 kg
+    referenzeinheit: 1 g
+    preis: 215 €
     eurProG: "213"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-OE-012-N3"
-    produkt: "OligoPOx12-N₃"
-    serie: "OligoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "definierte Kettenlänge"
-    mnKgMol: "1,2"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-OE-012-N3
+    produkt: OligoPOx12-N₃
+    serie: OligoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: definierte Kettenlänge
+    mnKgMol: 1,2
     pn: 12
-    endgroup: "Azid"
-    dispersitaet: "≤ 1,10"
-    liefermenge: "500 mg – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "235 €"
+    endgroup: Azid
+    dispersitaet: ≤ 1,10
+    liefermenge: 500 mg – 1 kg
+    referenzeinheit: 1 g
+    preis: 235 €
     eurProG: "234"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-OE-012-NH2"
-    produkt: "OligoPOx12-NH₂"
-    serie: "OligoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "definierte Kettenlänge"
-    mnKgMol: "1,2"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-OE-012-NH2
+    produkt: OligoPOx12-NH₂
+    serie: OligoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: definierte Kettenlänge
+    mnKgMol: 1,2
     pn: 12
-    endgroup: "Amin"
-    dispersitaet: "≤ 1,10"
-    liefermenge: "500 mg – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "205 €"
+    endgroup: Amin
+    dispersitaet: ≤ 1,10
+    liefermenge: 500 mg – 1 kg
+    referenzeinheit: 1 g
+    preis: 205 €
     eurProG: "203"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
-  - artikelnummer: "OX-OE-012-OH"
-    produkt: "OligoPOx12-OH"
-    serie: "OligoPOx"
-    rueckgrat: "Poly(2-ethyl-2-oxazolin)"
-    architektur: "definierte Kettenlänge"
-    mnKgMol: "1,2"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
+  - artikelnummer: OX-OE-012-OH
+    produkt: OligoPOx12-OH
+    serie: OligoPOx
+    rueckgrat: Poly(2-ethyl-2-oxazolin)
+    architektur: definierte Kettenlänge
+    mnKgMol: 1,2
     pn: 12
-    endgroup: "Hydroxy"
-    dispersitaet: "≤ 1,10"
-    liefermenge: "500 mg – 1 kg"
-    referenzeinheit: "1 g"
-    preis: "205 €"
+    endgroup: Hydroxy
+    dispersitaet: ≤ 1,10
+    liefermenge: 500 mg – 1 kg
+    referenzeinheit: 1 g
+    preis: 205 €
     eurProG: "203"
-    staffel: "100 mg / 1 g / 5 g / 25 g"
-    preisstufe: "func"
+    staffel: 100 mg / 1 g / 5 g / 25 g
+    preisstufe: func
