@@ -32,7 +32,8 @@ interface KatalogItem {
   architektur: string
   mnKgMol: string
   pn: number
-  endgruppe: string
+  /** Endgruppe, z. B. "Hydroxy", "Carbonsäure" */
+  endgroup: string
   dispersitaet: string
   liefermenge: string
   referenzeinheit: string
@@ -59,23 +60,39 @@ function parseCsv(text: string, delimiter = ';'): string[][] {
     const c = text[i]
     if (inQuotes) {
       if (c === '"') {
-        if (text[i + 1] === '"') { field += '"'; i++ }
-        else inQuotes = false
-      } else field += c
+        if (text[i + 1] === '"') {
+          field += '"'
+          i++
+        } else {
+          inQuotes = false
+        }
+      } else {
+        field += c
+      }
     } else if (c === '"') {
       inQuotes = true
     } else if (c === delimiter) {
-      row.push(field); field = ''
+      row.push(field)
+      field = ''
     } else if (c === '\n' || c === '\r') {
-      if (c === '\r' && text[i + 1] === '\n') i++
-      row.push(field); field = ''
-      rows.push(row); row = []
-    } else field += c
+      if (c === '\r' && text[i + 1] === '\n') {
+        i++
+      }
+      row.push(field)
+      field = ''
+      rows.push(row)
+      row = []
+    } else {
+      field += c
+    }
   }
-  if (field !== '' || row.length) { row.push(field); rows.push(row) }
+  if (field !== '' || row.length) {
+    row.push(field)
+    rows.push(row)
+  }
   return rows
-    .filter((r) => r.length > 1 || (r[0] && r[0].trim() !== ''))
-    .map((r) => r.map((cell) => cell.trim()))
+    .filter(r => r.length > 1 || (r[0] && r[0].trim() !== ''))
+    .map(r => r.map(cell => cell.trim()))
 }
 
 /** Emit a YAML double-quoted scalar (always quoted → guarantees string type). */
@@ -111,9 +128,11 @@ function rowsToItems(rows: string[][]): KatalogItem[] {
 
   const header = rows[0]
   const idx: Record<string, number> = {}
-  header.forEach((h, i) => { idx[h] = i })
+  for (let i = 0; i < header.length; i++) {
+    idx[header[i]] = i
+  }
 
-  const missing = KEYS.filter((k) => idx[k] === undefined)
+  const missing = KEYS.filter(k => idx[k] === undefined)
   if (missing.length) {
     throw new Error(`Katalog-CSV-Spalten fehlen oder heißen anders: ${missing.join(', ')}`)
   }
@@ -122,7 +141,7 @@ function rowsToItems(rows: string[][]): KatalogItem[] {
   const seen = new Set<string>()
   for (let r = 1; r < rows.length; r++) {
     const row = rows[r]
-    if (row.every((c) => c === '')) continue // skip blank rows
+    if (row.every(c => c === '')) continue // skip blank rows
     const id = row[idx.artikelnummer] ?? ''
     if (!id) {
       console.warn(`[katalog] row ${r}: leere Artikelnummer übersprungen`)

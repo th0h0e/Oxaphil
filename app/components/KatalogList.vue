@@ -1,9 +1,6 @@
 <script setup lang="ts">
 import type { TableColumn } from '@nuxt/ui'
 
-/** Preisstufe: 'bulk' (unfunktionalisiert, in kg) oder 'func' (funktionalisiert, in g) */
-type Preisstufe = 'bulk' | 'func'
-
 interface Reference {
   /** Artikelnummer, z. B. "OX-HE-040-OH" */
   artikelnummer: string
@@ -17,8 +14,8 @@ interface Reference {
   mnKgMol: string
   /** Polymerisationsgrad (ganzzahlig) */
   pn: number
-  /** Endgruppe, z. B. "Hydroxy", "Carbonsäure" (SCII: Endgruppe) */
-  endgruppe: string
+  /** Endgruppe, z. B. "Hydroxy", "Carbonsäure" */
+  endgroup: string
   /** Dispersität Mw/Mn — String, weil Format "≤ 1,20" (≤-Zeichen + Komma) */
   liefermenge: string
   /** Referenzeinheit, z. B. "1 g" oder "1 kg" */

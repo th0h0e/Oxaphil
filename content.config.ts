@@ -232,7 +232,7 @@ export default defineContentConfig({
           architektur: z.string().editor({ label: 'Architektur' }),
           mnKgMol: z.string().editor({ label: 'Mₙ (kg/mol)' }),
           pn: z.coerce.number().editor({ label: 'Pₙ' }),
-          endgruppe: z.string().editor({ label: 'Endgruppe' }),
+          endgroup: z.string().editor({ label: 'Endgruppe' }),
           dispersitaet: z.string().editor({ label: 'Dispersität (Mw/Mn)' }),
           liefermenge: z.string().editor({ label: 'Liefermenge' }),
           referenzeinheit: z.string().editor({ label: 'Referenzeinheit' }),
