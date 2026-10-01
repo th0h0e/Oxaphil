@@ -1,5 +1,4 @@
 title: Anwendungsbeispiele
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 cards:
   - title: Lorem ipsum dolor
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -9,6 +8,8 @@ cards:
     icon: i-lucide-microscope
   - title: Ut enim ad minim
     description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    icon: i-lucide-microscope
   - title: Duis aute irure
     description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     icon: i-lucide-flask-conical
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
