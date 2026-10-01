@@ -8,6 +8,9 @@ const { data: product } = await useAsyncData('bestellung-product', () => {
 const { data: katalog } = await useAsyncData('bestellung-katalog', () =>
   queryCollection('bestellungKatalog').all()
 )
+const { data: faqs } = await useAsyncData('bestellung-faq', () =>
+  queryCollection('bestellungFaq').first()
+)
 if (!page.value) {
   throw createError({
     statusCode: 404,
@@ -85,6 +88,17 @@ definePageMeta({
       }"
     >
       <KatalogList :references="katalog" />
+    </UPageSection>
+    <UPageSection
+      v-if="faqs"
+      id="faq"
+      title="Häufige Fragen zur Bestellung"
+      :ui="{
+        title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold',
+        description: 'text-left my-2 text-muted'
+      }"
+    >
+      <FAQKatalog :items="faqs?.faqs ?? []" />
     </UPageSection>
     <UPageSection>
       <ContactCard

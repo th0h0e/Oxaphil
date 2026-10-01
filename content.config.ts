@@ -236,6 +236,18 @@ export default defineContentConfig({
         preisstufe: z.enum(['bulk', 'func']).editor({ label: 'Preisstufe' })
       })
     }),
+    bestellungFaq: defineCollection({
+      type: 'data',
+      source: 'bestellung/FAQKatalog.yml',
+      schema: z.object({
+        title: z.string().editor({ label: 'Titel' }),
+        description: z.string().editor({ label: 'Beschreibung', input: 'textarea' }),
+        faqs: z.array(z.object({
+          label: z.string().editor({ label: 'Frage' }),
+          content: z.string().editor({ label: 'Antwort', input: 'textarea' })
+        })).editor({ label: 'Häufige Fragen' })
+      })
+    }),
     impressum: defineCollection({
       type: 'page',
       source: 'impressum.md',
@@ -300,7 +312,7 @@ export default defineContentConfig({
     }),
     materialienSections: defineCollection({
       type: 'data',
-      source: { include: 'materialien/*.yml', exclude: ['materialien/literatur.yml'] },
+      source: { include: 'materialien/*.yml', exclude: ['materialien/literatur.yml', 'materialien/faq.yml', 'materialien/cards.yml'] },
       schema: z.object({
         id: z.string().editor({ label: 'ID', tooltip: 'Technische Kennung – nur ändern, wenn nötig' }),
         title: z.string().editor({ label: 'Titel' }),
@@ -322,6 +334,32 @@ export default defineContentConfig({
           volume: z.string().optional().editor({ label: 'Band' }),
           pages: z.string().optional().editor({ label: 'Seiten' })
         })).editor({ label: 'Quellenangaben' })
+      })
+    }),
+    materialienFaq: defineCollection({
+      type: 'data',
+      source: 'materialien/faq.yml',
+      schema: z.object({
+        title: z.string().editor({ label: 'Titel' }),
+        description: z.string().editor({ label: 'Beschreibung', input: 'textarea' }),
+        faqs: z.array(z.object({
+          label: z.string().editor({ label: 'Frage' }),
+          content: z.string().editor({ label: 'Antwort', input: 'textarea' })
+        })).editor({ label: 'Häufige Fragen' })
+      })
+    }),
+    materialienCards: defineCollection({
+      type: 'data',
+      source: 'materialien/cards.yml',
+      schema: z.object({
+        title: z.string().editor({ label: 'Abschnittstitel' }),
+        description: z.string().editor({ label: 'Beschreibung', input: 'textarea' }),
+        cards: z.array(z.object({
+          title: z.string().editor({ label: 'Titel' }),
+          description: z.string().editor({ input: 'textarea', label: 'Beschreibung' }),
+          icon: z.string().optional().editor({ input: 'icon', label: 'Symbol' }),
+          to: z.string().optional().editor({ label: 'Link' })
+        })).editor({ label: 'Karten' })
       })
     }),
     testFeature: defineCollection({

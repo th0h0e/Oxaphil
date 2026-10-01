@@ -8,6 +8,12 @@ const { data: sections } = await useAsyncData('materialien-sections', () => {
 const { data: literature } = await useAsyncData('materialien-literatur', () => {
   return queryCollection('materialienLiteratur').first()
 })
+const { data: cards } = await useAsyncData('materialien-cards', () => {
+  return queryCollection('materialienCards').first()
+})
+const { data: faqs } = await useAsyncData('materialien-faq', () => {
+  return queryCollection('materialienFaq').first()
+})
 if (!page.value) {
   throw createError({
     statusCode: 404,
@@ -60,6 +66,28 @@ definePageMeta({
       }"
     >
       <LiteratureList :references="literature.references" />
+    </UPageSection>
+    <UPageSection
+      v-if="cards"
+      id="anwendungen"
+      :title="cards.title"
+      :description="cards.description"
+      :ui="{
+        title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold',
+        description: 'text-left my-2 text-muted'
+      }"
+    >
+      <CardGrid :cards="cards.cards ?? []" />
+    </UPageSection>
+    <UPageSection
+      v-if="faqs"
+      id="faq"
+      title="Häufige Fragen zu den Materialien"
+      :ui="{
+        title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold'
+      }"
+    >
+      <FAQKatalog :items="faqs?.faqs ?? []" />
     </UPageSection>
   </UPage>
 </template>
