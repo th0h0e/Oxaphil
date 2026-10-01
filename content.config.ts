@@ -122,7 +122,7 @@ export default defineContentConfig({
         navigation: z.boolean().default(true).editor(hidden()),
         sitemap: defineSitemapSchema({ z }).editor(hidden()),
         robots: defineRobotsSchema({ z }).editor(hidden()),
-        image: z.string().optional().editor({ input: 'media', label: 'Bild', tooltip: 'Wird als Vorschaubild (OG-Bild) auf allen Seiten angezeigt' }),
+        image: z.string().optional().editor({ input: 'media', label: 'Bild', tooltip: 'Wird als Vorschaubild (OG-Bild) auf allen Seiten angezeigt' })
       })
     }),
     speaking: defineCollection({
@@ -158,7 +158,7 @@ export default defineContentConfig({
         navigation: z.boolean().default(true).editor(hidden()),
         sitemap: defineSitemapSchema({ z }).editor(hidden()),
         robots: defineRobotsSchema({ z }).editor(hidden()),
-        image: z.string().optional().editor({ input: 'media', label: 'Bild', tooltip: 'Wird als Vorschaubild (OG-Bild) auf allen Seiten angezeigt' }),
+        image: z.string().optional().editor({ input: 'media', label: 'Bild', tooltip: 'Wird als Vorschaubild (OG-Bild) auf allen Seiten angezeigt' })
       })
     }),
     materialien: defineCollection({
@@ -172,7 +172,7 @@ export default defineContentConfig({
         navigation: z.boolean().default(true).editor(hidden()),
         sitemap: defineSitemapSchema({ z }).editor(hidden()),
         robots: defineRobotsSchema({ z }).editor(hidden()),
-        image: z.string().optional().editor({ input: 'media', label: 'Bild', tooltip: 'Wird als Vorschaubild (OG-Bild) auf allen Seiten angezeigt' }),
+        image: z.string().optional().editor({ input: 'media', label: 'Bild', tooltip: 'Wird als Vorschaubild (OG-Bild) auf allen Seiten angezeigt' })
       })
     }),
     bestellung: defineCollection({
@@ -217,7 +217,7 @@ export default defineContentConfig({
     }),
     bestellungKatalog: defineCollection({
       type: 'data',
-      source: 'bestellung/katalog.csv',   // single file → one item per row
+      source: 'bestellung/katalog.csv', // single file → one item per row
       schema: z.object({
         artikelnummer: z.string().editor({ label: 'Artikelnr.' }),
         produkt: z.string().editor({ label: 'Produkt' }),
@@ -259,7 +259,7 @@ export default defineContentConfig({
         navigation: z.boolean().default(true).editor(hidden()),
         sitemap: defineSitemapSchema({ z }).editor(hidden()),
         robots: defineRobotsSchema({ z }).editor(hidden()),
-        image: z.string().optional().editor({ input: 'media', label: 'Bild', tooltip: 'Wird als Vorschaubild (OG-Bild) auf allen Seiten angezeigt' }),
+        image: z.string().optional().editor({ input: 'media', label: 'Bild', tooltip: 'Wird als Vorschaubild (OG-Bild) auf allen Seiten angezeigt' })
       })
     }),
     datenschutz: defineCollection({
@@ -273,7 +273,7 @@ export default defineContentConfig({
         navigation: z.boolean().default(true).editor(hidden()),
         sitemap: defineSitemapSchema({ z }).editor(hidden()),
         robots: defineRobotsSchema({ z }).editor(hidden()),
-        image: z.string().optional().editor({ input: 'media', label: 'Bild', tooltip: 'Wird als Vorschaubild (OG-Bild) auf allen Seiten angezeigt' }),
+        image: z.string().optional().editor({ input: 'media', label: 'Bild', tooltip: 'Wird als Vorschaubild (OG-Bild) auf allen Seiten angezeigt' })
       })
     }),
     wir: defineCollection({

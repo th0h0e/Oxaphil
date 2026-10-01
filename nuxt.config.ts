@@ -20,13 +20,7 @@ export default defineNuxtConfig({
     enabled: true
   },
 
-  devServer: {
-    port: 3001
-  },
-
   css: ['~/assets/css/main.css'],
-
-  compatibilityDate: '2026-08-04',
 
   site: {
     url: appMeta.url,
@@ -63,6 +57,12 @@ export default defineNuxtConfig({
       ]
     }
   },
+
+  devServer: {
+    port: 3001
+  },
+
+  compatibilityDate: '2026-08-04',
 
   nitro: {
     preset: 'cloudflare-pages',
@@ -110,7 +110,7 @@ export default defineNuxtConfig({
       iconLibraries: ['lucide']
     },
     repository: {
-      provider: 'github', // 'github' or 'gitlab'
+      provider: 'github',
       owner: 'th0h0e',
       repo: 'Oxaphil',
       branch: 'main'
