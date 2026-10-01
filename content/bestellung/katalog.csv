@@ -1,5 +1,6 @@
 artikelnummer;produkt;serie;rueckgrat;architektur;mnKgMol;pn;endgroup;dispersitaet;liefermenge;referenzeinheit;preis;eurProG;staffel;preisstufe
 OX-HE-010-COOH;HydroPOx10-COOH;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;1,0;10;Carbonsäure;≤ 1,15;1 g – 10 kg;1 g;105 €;199;100 mg / 1 g / 5 g / 25 g;func
+OX-HE-010-COOH;Hydra;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;1,0;10;Carbonsäure;≤ 1,15;1 g – 10 kg;1 g;105 €;199;100 mg / 1 g / 5 g / 25 g;func
 OX-HE-010-N3;HydroPOx10-N₃;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;1,0;10;Azid;≤ 1,15;1 g – 10 kg;1 g;115 €;117;100 mg / 1 g / 5 g / 25 g;func
 OX-HE-010-NH2;HydroPOx10-NH₂;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;1,0;10;Amin;≤ 1,15;1 g – 10 kg;1 g;100 €;102;100 mg / 1 g / 5 g / 25 g;func
 OX-HE-010-OH;HydroPOx10-OH;HydroPOx;Poly(2-ethyl-2-oxazolin);monofunktionell;1,0;10;Hydroxy;≤ 1,15;1 g – 10 kg;1 kg;135 €;0,137;100 g / 500 g / 1 kg / 5 kg;bulk

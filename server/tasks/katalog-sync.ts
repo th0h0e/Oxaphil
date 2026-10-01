@@ -144,42 +144,59 @@ function rowsToItems(rows: string[][]): KatalogItem[] {
   return items
 }
 
-/**
- * Default paths, resolvable from the dev-server cwd (project root).
- * Overridable via payload for testing.
- */
-function defaultPaths(cwd: string) {
-  return {
-    csvPath: resolve(cwd, 'content/bestellung/katalog.csv'),
-    ymlPath: resolve(cwd, 'content/bestellung/katalog-items.yml')
-  }
-}
-
 export default defineTask({
   meta: {
     name: 'katalog-sync',
     description: 'Regeneriere content/bestellung/katalog-items.yml aus content/bestellung/katalog.csv'
   },
   run({ payload }) {
+    const started = Date.now()
     const p = (payload ?? {}) as Record<string, unknown>
     const cwd = typeof p.cwd === 'string' ? p.cwd : process.cwd()
-    const { csvPath, ymlPath } = {
-      csvPath: (p.csvPath as string | undefined) ?? resolve(cwd, 'content/bestellung/katalog.csv'),
-      ymlPath: (p.ymlPath as string | undefined) ?? resolve(cwd, 'content/bestellung/katalog-items.yml')
-    }
+    const csvPath = (p.csvPath as string | undefined) ?? resolve(cwd, 'content/bestellung/katalog.csv')
+    const ymlPath = (p.ymlPath as string | undefined) ?? resolve(cwd, 'content/bestellung/katalog-items.yml')
     const force = p.force === true
 
-    if (!existsSync(csvPath)) {
-      return { result: `Keine CSV gefunden (${csvPath}) – nichts zu tun` }
-    }
+    // Tracks the current phase so a failure names the step that broke.
+    let stage = 'setup'
+    const log = (msg: string) => console.log(`[katalog-sync] ${stage}: ${msg}`)
 
-    const needsWrite = force || !existsSync(ymlPath) || statSync(csvPath).mtimeMs > statSync(ymlPath).mtimeMs
-    if (!needsWrite) {
-      return { result: 'Keine Aktion – CSV ist nicht neuer als das vorhandene YAML' }
-    }
+    try {
+      log(`payload force=${force} csv=${csvPath} yml=${ymlPath}`)
 
-    const items = rowsToItems(parseCsv(readFileSync(csvPath, 'utf8')))
-    writeFileSync(ymlPath, itemsToYaml(items), 'utf8')
-    return { result: `Katalog aktualisiert: ${items.length} Einträge → ${ymlPath}` }
+      stage = 'csv-check'
+      if (!existsSync(csvPath)) {
+        log('abort: csv nicht gefunden')
+        return { result: `Keine CSV gefunden (${csvPath}) – nichts zu tun` }
+      }
+      const csvIsNewer = !existsSync(ymlPath) || statSync(csvPath).mtimeMs > statSync(ymlPath).mtimeMs
+      if (!force && !csvIsNewer) {
+        log('skip: csv ist nicht neuer als das vorhandene yaml')
+        return { result: 'Keine Aktion – CSV ist nicht neuer als das vorhandene YAML' }
+      }
+
+      stage = 'parse'
+      log('lese und parse csv')
+      const rows = parseCsv(readFileSync(csvPath, 'utf8'))
+      log(`datenzeilen=${Math.max(rows.length - 1, 0)}`)
+
+      stage = 'convert'
+      log('konvertiere zeilen zu items')
+      const items = rowsToItems(rows)
+      log(`einträge=${items.length}`)
+
+      stage = 'write'
+      log('schreibe yaml')
+      writeFileSync(ymlPath, itemsToYaml(items), 'utf8')
+
+      const ms = Date.now() - started
+      log(`fertig in ${ms}ms: ${items.length} einträge → ${ymlPath}`)
+      return { result: `Katalog aktualisiert: ${items.length} Einträge → ${ymlPath} (${ms}ms)` }
+    } catch (err) {
+      const detail = err instanceof Error ? err.message : String(err)
+      console.error(`[katalog-sync] FEHLER in Phase "${stage}": ${detail}`)
+      // Rethrow so the caller (HTTP endpoint / cron) also sees the failure.
+      throw err
+    }
   }
 })
