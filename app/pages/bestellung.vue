@@ -6,7 +6,7 @@ const { data: product } = await useAsyncData('bestellung-product', () => {
   return queryCollection('bestellungProduct').first()
 })
 const { data: katalog } = await useAsyncData('bestellung-katalog', () =>
-  queryCollection('bestellungKatalog').all()
+  queryCollection('bestellungKatalog').first()
 )
 const { data: faqs } = await useAsyncData('bestellung-faq', () =>
   queryCollection('bestellungFaq').first()
@@ -80,14 +80,14 @@ definePageMeta({
       </PanelFrame>
     </UPageSection>
     <UPageSection
-      v-if="katalog"
+      v-if="katalog?.items?.length"
       id="katalog"
       :ui="{
         title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold',
         description: 'text-left my-2 text-muted'
       }"
     >
-      <KatalogList :references="katalog" />
+      <KatalogList :references="katalog?.items ?? []" />
     </UPageSection>
     <UPageSection
       v-if="faqs"
