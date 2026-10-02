@@ -7,7 +7,7 @@ author:
     alt: Leonardo Matassini
 date: 2025-12-05
 description: Zwischen einer funktionierenden Synthese im Kolben und einem Material, das reproduzierbar in größeren Mengen verfügbar ist, liegt mehr als eine Volumenangabe. Ein Blick auf die Fragen, die dabei zu klären sind.
-image: /bilder-aus-video/vorstellung-1m28s.png
+image: /bilder-aus-video/frame-1m28s.png
 minRead: 5
 ---
 
