@@ -7,7 +7,7 @@ author:
     alt: Dr. Laura Fietzke
 date: 2026-01-22
 description: Lipid-Nanopartikel sind das Arbeitspferd der RNA-Therapeutika. Die PEG-Lipid-Komponente ist dabei kleiner als ein Prozent der Formulierung – und trotzdem einer der kritischsten Bestandteile.
-image: /bilder-aus-video/Oxaphil-Oxaphil-VorstellungIntroduction-[JvMkTvXtqBQ-1776x999-0m47s].png
+image: /bilder-aus-video/frame-0m25s.png
 minRead: 7
 ---
 

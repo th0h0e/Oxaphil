@@ -7,7 +7,7 @@ author:
     alt: Dr. Erik Wegener
 date: 2025-06-06
 description: "[object Object]"
-image: /bilder-aus-video/Oxaphil-Oxaphil-VorstellungIntroduction-[JvMkTvXtqBQ-1776x999-1m18s].png
+image: /bilder-aus-video/frame-0m25s.png
 ---
 
 In der ersten Juniwoche war Oxaphil auf drei richtungsweisenden Veranstaltungen präsent. Unser Ziel: herausfinden, welche Anforderungen Entwicklerinnen und Entwickler an neue Materialien stellen, und zeigen, wie POx genau dort neue Wege eröffnen können.

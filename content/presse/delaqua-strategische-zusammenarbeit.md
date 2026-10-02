@@ -7,7 +7,7 @@ author:
     alt: Dr. Erik Wegener
 date: 2026-02-06
 description: Beide Unternehmen weiten den Einsatz von Polyoxazolinen für fortschrittliche Wirkstofftransportsysteme aus – Oxaphils Syntheseexpertise trifft auf DelAQUAs polymere Mizellen-Plattform.
-image: /bilder-aus-video/Oxaphil-Oxaphil-VorstellungIntroduction-[JvMkTvXtqBQ-1776x999-0m25s].png
+image: /bilder-aus-video/frame-0m25s.png
 minRead: 6
 ---
 
