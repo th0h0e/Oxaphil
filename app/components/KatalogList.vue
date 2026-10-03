@@ -2,15 +2,10 @@
 import type { TableColumn } from '@nuxt/ui'
 
 interface Reference {
-  /** Artikelnummer, z. B. "OX-HE-040-OH" */
   artikelnummer: string
-  /** Produktname, z. B. "HydroPOx40-OH" */
   produkt: string
-  /** Serie, z. B. "HydroPOx", "DuoPOx" */
   rueckgrat: string
-  /** Architektur, z. B. "monofunktionell", "telechelisch (α,ω)" */
   architektur: string
-  /** Zahlenmittlere Molmasse in kg/mol — als String, weil "1,0" (Komma als Dezimaltrenner) */
   mnKgMol: string
   /** Polymerisationsgrad (ganzzahlig) */
   pn: number
