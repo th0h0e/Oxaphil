@@ -45,12 +45,7 @@ definePageMeta({
       :key="section.id"
     >
       <PageFeatureSection
-        :id="section.id"
-        :title="section.title"
-        :description="section.description"
-        :icon="section.icon"
-        :image="section.image"
-        :features="section.features"
+        :section="section"
         :reverse="index % 2 === 1"
       />
       <USeparator />
