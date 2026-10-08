@@ -245,7 +245,7 @@ export default defineContentConfig({
     }),
     bestellungFaq: defineCollection({
       type: 'data',
-      source: 'bestellung/FAQKatalog.yml',
+      source: 'bestellung/faq.yml',
       schema: z.object({
         title: z.string().editor({ label: 'Titel' }),
         description: z.string().editor({ label: 'Beschreibung', input: 'textarea' }),

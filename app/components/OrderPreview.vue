@@ -12,7 +12,7 @@ const { data: product } = await useAsyncData('bestellung-preview-product', () =>
          title lives here instead of on `UPageSection` because that prop
          renders above the default slot, outside the frame. -->
     <PanelFrame>
-      <div class="rounded-lg bg-(--ui-bg) px-4 py-6">
+      <div class="rounded-lg bg-default px-4 py-6">
         <h2 class="text-2xl sm:text-3xl text-pretty tracking-tight font-bold text-highlighted">
           {{ product.title }}
         </h2>
@@ -27,7 +27,7 @@ const { data: product } = await useAsyncData('bestellung-preview-product', () =>
         :image="product.image"
       />
 
-      <div class="mt-2 rounded-lg bg-(--ui-bg) p-4 flex flex-col sm:flex-row gap-2">
+      <div class="mt-2 rounded-lg bg-default p-4 flex flex-col sm:flex-row gap-2">
         <UButton
           to="/bestellung"
           label="Bestellen"

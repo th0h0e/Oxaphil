@@ -29,34 +29,36 @@ withDefaults(defineProps<{
 </script>
 
 <template>
-  <UPageCard :variant="cardVariant">
-    <UUser
-      :name="name"
-      :description="role"
-      :avatar="photoSrc ? { src: photoSrc, alt: photoAlt } : undefined"
-      size="xl"
-      :ui="{
-        name: 'text-lg',
-        description: 'text-md'
-      }"
-    />
-    <div class="flex flex-wrap gap-3 mt-4">
-      <UButton
-        v-if="phone"
-        :label="phone"
-        :to="`tel:${phone.replace(/\s/g, '')}`"
-        icon="i-lucide-phone"
-        :color="buttonColor"
-        :variant="buttonVariant"
+  <UPageSection>
+    <UPageCard :variant="cardVariant">
+      <UUser
+        :name="name"
+        :description="role"
+        :avatar="photoSrc ? { src: photoSrc, alt: photoAlt } : undefined"
+        size="xl"
+        :ui="{
+          name: 'text-lg',
+          description: 'text-md'
+        }"
       />
-      <UButton
-        v-if="email"
-        :label="email"
-        :to="`mailto:${email}`"
-        icon="i-lucide-mail"
-        :color="buttonColor"
-        :variant="buttonVariant"
-      />
-    </div>
-  </UPageCard>
+      <div class="flex flex-wrap gap-3 mt-4">
+        <UButton
+          v-if="phone"
+          :label="phone"
+          :to="`tel:${phone.replace(/\s/g, '')}`"
+          icon="i-lucide-phone"
+          :color="buttonColor"
+          :variant="buttonVariant"
+        />
+        <UButton
+          v-if="email"
+          :label="email"
+          :to="`mailto:${email}`"
+          icon="i-lucide-mail"
+          :color="buttonColor"
+          :variant="buttonVariant"
+        />
+      </div>
+    </UPageCard>
+  </UPageSection>
 </template>

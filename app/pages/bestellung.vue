@@ -100,11 +100,9 @@ definePageMeta({
     >
       <FAQKatalog :items="faqs?.faqs ?? []" />
     </UPageSection>
-    <UPageSection>
-      <ContactCard
-        v-if="page.contactCard"
-        v-bind="page.contactCard"
-      />
-    </UPageSection>
+    <ContactCard
+      v-if="page.contactCard"
+      v-bind="page.contactCard"
+    />
   </UPage>
 </template>

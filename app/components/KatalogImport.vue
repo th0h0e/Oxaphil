@@ -98,21 +98,25 @@ async function copyYaml() {
           <UBadge
             v-if="reading"
             color="neutral"
+            size="md"
             icon="i-lucide-loader-circle"
             label="Liest…"
           />
           <UBadge
             v-else-if="itemCount"
-            color="success"
+            color="primary"
+            size="md"
+            variant="soft"
             :icon="copied ? 'i-lucide-check' : 'i-lucide-file-check-2'"
             :label="`${itemCount} Einträge`"
           />
           <UButton
             v-if="yaml"
-            color="primary"
-            variant="solid"
+            color="neutral"
+            size="xs"
+            variant="soft"
             :icon="copied ? 'i-lucide-check' : 'i-lucide-copy'"
-            :label="copied ? 'Kopiert' : 'YAML kopieren'"
+            :label="copied ? 'Kopiert' : 'kopieren'"
             class="shrink-0"
             @click="copyYaml"
           />
@@ -156,7 +160,7 @@ async function copyYaml() {
         readonly
         placeholder="Ziehe eine .csv in das Feld oben, um hier das formatierte YAML zu sehen."
         class="min-h-0 flex-1"
-        :ui="{ base: 'h-full w-full font-mono text-xs' }"
+        :ui="{ base: 'h-full w-full font-mono' }"
       />
     </div>
   </UCard>
