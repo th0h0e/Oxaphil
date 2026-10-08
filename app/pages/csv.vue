@@ -6,5 +6,7 @@ definePageMeta({
 </script>
 
 <template>
-  <KatalogImport class="w-full" />
+  <UPage>
+    <KatalogImport class="w-full" />
+  </UPage>
 </template>

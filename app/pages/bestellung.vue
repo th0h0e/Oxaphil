@@ -79,27 +79,14 @@ definePageMeta({
         />
       </PanelFrame>
     </UPageSection>
-    <UPageSection
-      v-if="katalog?.items?.length"
-      id="katalog"
-      :ui="{
-        title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold',
-        description: 'text-left my-2 text-muted'
-      }"
-    >
-      <KatalogList :references="katalog?.items ?? []" />
-    </UPageSection>
-    <UPageSection
+    <KatalogList
+      v-if="katalog"
+      :katalog="katalog"
+    />
+    <FAQKatalog
       v-if="faqs"
-      id="faq"
-      title="Häufige Fragen zur Bestellung"
-      :ui="{
-        title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold',
-        description: 'text-left my-2 text-muted'
-      }"
-    >
-      <FAQKatalog :items="faqs?.faqs ?? []" />
-    </UPageSection>
+      :faq="faqs"
+    />
     <ContactCard
       v-if="page.contactCard"
       v-bind="page.contactCard"

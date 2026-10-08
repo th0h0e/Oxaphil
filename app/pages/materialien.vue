@@ -55,39 +55,17 @@ definePageMeta({
       />
       <USeparator />
     </template>
-    <UPageSection
+    <LiteratureList
       v-if="literature"
-      id="literatur"
-      :title="literature.title"
-      :description="literature.description"
-      :ui="{
-        title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold',
-        description: 'text-left my-2 text-muted'
-      }"
-    >
-      <LiteratureList :references="literature.references" />
-    </UPageSection>
-    <UPageSection
+      :literature="literature"
+    />
+    <CardGrid
       v-if="cards"
-      id="anwendungen"
-      :title="cards.title"
-      :description="cards.description"
-      :ui="{
-        title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold',
-        description: 'text-left my-2 text-muted'
-      }"
-    >
-      <CardGrid :cards="cards.cards ?? []" />
-    </UPageSection>
-    <UPageSection
+      :cards="cards"
+    />
+    <FAQKatalog
       v-if="faqs"
-      id="faq"
-      title="Häufige Fragen zu den Materialien"
-      :ui="{
-        title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold'
-      }"
-    >
-      <FAQKatalog :items="faqs?.faqs ?? []" />
-    </UPageSection>
+      :faq="faqs"
+    />
   </UPage>
 </template>

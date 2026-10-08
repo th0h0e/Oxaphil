@@ -12,7 +12,12 @@ interface Reference {
 }
 
 const props = defineProps<{
-  references: Reference[]
+  /** Vollständiges `materialienLiteratur`-Dokument (Title/Description/Referenzen) */
+  literature?: {
+    title?: string
+    description?: string
+    references: Reference[]
+  }
 }>()
 
 const container = useTemplateRef('container')
@@ -83,16 +88,27 @@ const columns: TableColumn<Reference>[] = [
 </script>
 
 <template>
-  <div
-    ref="container"
-    class="w-full max-h-125 overflow-auto ring ring-default"
+  <UPageSection
+    v-if="props.literature?.references?.length"
+    id="literatur"
+    :title="props.literature.title"
+    :description="props.literature.description"
+    :ui="{
+      title: 'text-left text-2xl sm:text-2xl lg:text-3xl text-pretty font-bold',
+      description: 'text-left my-2 text-muted'
+    }"
   >
-    <UTable
-      sticky
-      :data="props.references"
-      :columns="columns"
-      :virtualize="{ getScrollElement }"
-      :ui="{ base: 'min-w-[100%] table-fixed', th: 'whitespace-normal break-words' }"
-    />
-  </div>
+    <div
+      ref="container"
+      class="w-full max-h-125 overflow-auto ring ring-default"
+    >
+      <UTable
+        sticky
+        :data="props.literature.references"
+        :columns="columns"
+        :virtualize="{ getScrollElement }"
+        :ui="{ base: 'min-w-[100%] table-fixed', th: 'whitespace-normal break-words' }"
+      />
+    </div>
+  </UPageSection>
 </template>
