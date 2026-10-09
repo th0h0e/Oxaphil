@@ -1,12 +1,11 @@
-title: Häufige Fragen zur Bestellung
+title: Häufige Fragen zur Bestellung & Mustern
 description: Antworten auf häufige Fragen rund um den Bestellprozess bei Oxaphil.
 faqs:
-  - label: Wie kann ich POx-Materialien bestellen?
-    content: |
-      Schreiben Sie uns einfach an <order@oxaphil.com> oder nutzen Sie das Anfrageformular weiter oben auf dieser Seite. Wir bestätigen Ihre Anfrage, prüfen die bei uns verfügbaren Mengen und Spezifikationen und senden Ihnen ein Angebot zu – inklusive der passenden Referenzmengen und Staffelpreise.
-  - label: In welchen Mengen und Verpackungen liefern Sie?
-    content: |
-      Für funktionalisierte Materialien (Preisstufe „func“) liefern wir typischerweise in Staffelmengen ab 100 mg, 1 g, 5 g und 25 g. Unfunktionalisierte Materialien (Preisstufe „bulk“) stellen wir in größeren Mengen im Kilogrammmaßstab her. Welche Referenzmenge für Ihre Anwendung sinnvoll ist, klären wir gemeinsam.
-  - label: Wie lange dauert die Bearbeitung meiner Bestellung?
-    content: |
-      Mustermengen aus unserem Standardprogramm versenden wir in der Regel innerhalb weniger Tage. Bei individuellen Spezifikationen oder größeren Produktionsmengen stimmen wir die Lieferzeit vorab mit Ihnen ab, sodass Sie planbar mit dem Material rechnen können.
+  - label: Kann ich Muster fuer eigene Tests erhalten
+    content: Ja. Seit 2025 liefern wir Proben an Kooperationspartner aus, die POx in realen Anwendungsszenarien erproben – den Anfang machte unser Partner DermaPurge. Wenn Sie POx in Ihrer eigenen Formulierung testen möchten, sprechen Sie uns an.
+  - label: In welchen Mengen ist POx verfügbar?
+    content: Unfunktionalisierte Typen liefern wir von 100 g bis 5 kg, funktionalisierte Typen von 100 mg bis 25 g. Größere Liefermengen stimmen wir individuell ab.
+  - label: Wie kommt ein Angebot zustande?
+    content: Über den Anfragen-Button neben jedem Produkt – darin sind Artikelnummer, Molmasse und Endgruppe bereits eingetragen. Wir klären Menge, Spezifikation und Liefertermin dann individuell mit Ihnen.
+  - label: Beraten Sie auch bei der Formulierung?
+    content: Ja. Aus den Gesprächen auf Fachmessen wie der in-cosmetics Global und dem Drug Delivery & Formulation Summit wissen wir, wie unterschiedlich die Anforderungen an neue Materialien sind. Wir hören zu, verstehen Ihren Bedarf und entwickeln gemeinsam mit Ihnen eine passende Lösung.
