@@ -8,10 +8,10 @@ export default {
     url: 'https://oxaphil.de',
     // '@type': 'Organization', // or a LocalBusiness subtype, e.g. 'ProfessionalService'
     address: {
-      streetAddress: '…',
+      streetAddress: 'Maria-Reiche-Str. 1',
       addressLocality: 'Dresden',
       addressRegion: 'Sachsen',
-      postalCode: '01099', // Update with correct postal code
+      postalCode: '01109', // Update with correct postal code
       addressCountry: 'DE'
     },
     telephone: '+49 155 65330061', // from content/bestellung.yml contactCard
